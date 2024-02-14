@@ -447,7 +447,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data pierwszej emisji"
+            "value" : "Data początku emisji"
           }
         }
       }
@@ -1531,7 +1531,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld read of %2$@ volumes"
+            "value" : "%1$lld przeczytane z %2$@ tomów"
           }
         }
       }
@@ -1594,7 +1594,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld read of %2$@ chapters"
+            "value" : "%1$lld przeczytane z %2$@ rozdziałów"
           }
         }
       }
@@ -1962,7 +1962,7 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "value" : "Popularność",
+            "value" : "Po popularności",
             "state" : "translated"
           }
         }
@@ -2319,7 +2319,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld of %2$lld"
+            "value" : "%1$lld z %2$lld"
           }
         }
       }
@@ -2430,7 +2430,7 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "value" : "Powiadomi to o wydaniu nowych odcinków z sekcji \"Oglądane\" lub o wydaniu nowego odcinka lub filmu z sekcji \"Do obejrzenia\".",
+            "value" : "Powiadomienia o wydaniu nowych odcinków z listy \"Oglądane\" lub o wydaniu nowego odcinka lub filmu z listy \"Do obejrzenia\".",
             "state" : "translated"
           }
         }
@@ -2755,7 +2755,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Transmitowane dnia"
+            "value" : "Transmitowane"
           }
         }
       }
@@ -2966,7 +2966,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld obejrzanych odcinków z  %2$@."
+            "value" : "%1$lld obejrzanych odcinków z %2$@."
           }
         }
       }
@@ -3211,7 +3211,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Moja Ocena"
+            "value" : "Po mojej ocenie"
           }
         }
       }
@@ -3454,7 +3454,7 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Planowane do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy 'Planowane do obejrzenia' do 'Oglądane'",
+            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do \"Oglądane\"",
             "state" : "translated"
           }
         }

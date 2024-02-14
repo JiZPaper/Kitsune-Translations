@@ -3454,7 +3454,7 @@
       "localizations" : {
         "en" : {
           "stringUnit" : {
-            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy 'Planowane do obejrzenia' do 'Oglądane'",
+            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do \"Oglądane\"",
             "state" : "translated"
           }
         }

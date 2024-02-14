@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "pl",
   "strings" : {
-    "(season.title) of (String(year))" : {
-
-    },
     "%@" : {
       "localizations" : {
         "pl" : {
@@ -84,12 +81,25 @@
         }
       }
     },
+    "%@ minutes" : {
+
+    },
     "%@ of %@" : {
       "localizations" : {
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ z %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@ (JST)" : {
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@ (JST)"
           }
         }
       }
@@ -342,8 +352,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do listy \"Oglądane\""
+            "state" : "translated",
+            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.W dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do listy \"Oglądane\""
           }
         }
       }
@@ -393,7 +403,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Adaptacja"
           }
         }
@@ -618,20 +628,20 @@
             "device" : {
               "applevision" : {
                 "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                  "state" : "translated",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
                 }
               },
               "mac" : {
                 "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                  "state" : "translated",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
                 }
               },
               "other" : {
                 "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                  "state" : "translated",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
                 }
               }
             }
@@ -828,7 +838,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Dla dzieci"
           }
         }
@@ -929,7 +939,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Ukończone"
           }
         }
@@ -988,11 +998,10 @@
       }
     },
     "Currently Publishing" : {
-      "comment" : "Publishing Status",
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Obecnie publikowane"
           }
         }
@@ -1328,8 +1337,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.\nTwoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune.\n."
+            "state" : "translated",
+            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.Twoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune."
           }
         }
       }
@@ -1338,7 +1347,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Filtrowanie"
           }
         }
@@ -1409,10 +1418,11 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Zakończono"
           }
         }
+      }
     },
     "Finished Airing" : {
       "comment" : "Airing Status",
@@ -1594,7 +1604,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Wibracje przy dotknięciu (Haptyka)"
           }
         }
@@ -2434,7 +2444,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Polski"
           }
         }
@@ -2464,7 +2474,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Wskaźnik Plakatu"
           }
         }
@@ -2567,8 +2577,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Przedział wiekowy"
+            "state" : "translated",
+            "value" : "Ocena"
           }
         }
       }
@@ -2578,7 +2588,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rating %lld"
+            "value" : "Ocena: %lld"
           }
         }
       }
@@ -2597,7 +2607,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Ocena: %lld"
           }
         }
@@ -2862,7 +2872,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Sezonowe"
           }
         }
@@ -3094,7 +3104,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Specjalny"
           }
         }
@@ -3277,40 +3287,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naciśnij \"Zapisz\", aby zapisać zmiany po ich wprowadzeniu."
-          }
-        }
-      }
-    },
-    "Tap on Poster to Mark Next Episode as Watched" : {
-      "localizations" : {
-        "pl" : {
-          "variations" : {
-            "device" : {
-              "appletv" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
-                }
-              },
-              "applevision" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
-                }
-              },
-              "mac" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "needs_review",
-                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
-                }
-              }
-            }
           }
         }
       }
@@ -3552,7 +3528,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Top Ulubione"
           }
         }
@@ -3622,7 +3598,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Tłumaczenie"
           }
         }
@@ -3817,8 +3793,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
-            "value" : "Bardzo słabe"
+            "state" : "translated",
+            "value" : "Bardzo słab"
           }
         }
       }
@@ -3898,7 +3874,7 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "needs_review",
+            "state" : "translated",
             "value" : "Po włączeniu aplikacja będzie zawsze otwierać wybrany ekran startowy.\nPo wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę."
           }
         }

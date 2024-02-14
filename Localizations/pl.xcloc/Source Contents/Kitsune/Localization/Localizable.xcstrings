@@ -342,8 +342,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do \"Oglądane\""
+            "state" : "needs_review",
+            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.\nZawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do listy \"Oglądane\""
           }
         }
       }
@@ -612,7 +612,32 @@
       }
     },
     "Auto Add to Plan To Watch/Read list when tapping 'Add'." : {
-
+      "localizations" : {
+        "pl" : {
+          "variations" : {
+            "device" : {
+              "applevision" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                }
+              },
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Automatyczne dodawanie do listy \"Do obejrzenia/Przeczytania\" po naciśnięciu przycisku \"Dodaj\"."
+                }
+              }
+            }
+          }
+        }
+      }
     },
     "Auto-fill 'Finish Date' when marking the last episode as watched." : {
       "localizations" : {
@@ -803,8 +828,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Children"
+            "state" : "needs_review",
+            "value" : "Dla dzieci"
           }
         }
       }
@@ -904,8 +929,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Obejrzane"
+            "state" : "needs_review",
+            "value" : "Ukończone"
           }
         }
       }
@@ -963,7 +988,15 @@
       }
     },
     "Currently Publishing" : {
-
+      "comment" : "Publishing Status",
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Obecnie publikowane"
+          }
+        }
+      }
     },
     "Customize" : {
       "localizations" : {
@@ -1295,8 +1328,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.\nTwoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune dla wszystkich.\n."
+            "state" : "needs_review",
+            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.\nTwoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune.\n."
           }
         }
       }
@@ -1305,8 +1338,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Filter"
+            "state" : "needs_review",
+            "value" : "Filtrowanie"
           }
         }
       }
@@ -1373,7 +1406,13 @@
       }
     },
     "Finished" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Zakończono"
+          }
+        }
     },
     "Finished Airing" : {
       "comment" : "Airing Status",
@@ -1555,8 +1594,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Haptic Feedback"
+            "state" : "needs_review",
+            "value" : "Wibracje przy dotknięciu (Haptyka)"
           }
         }
       }
@@ -2392,7 +2431,14 @@
       }
     },
     "Polish" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Polski"
+          }
+        }
+      }
     },
     "Popularity" : {
       "localizations" : {
@@ -2418,8 +2464,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Poster Indicator"
+            "state" : "needs_review",
+            "value" : "Wskaźnik Plakatu"
           }
         }
       }
@@ -2521,8 +2567,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rating"
+            "state" : "needs_review",
+            "value" : "Przedział wiekowy"
           }
         }
       }
@@ -2551,8 +2597,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Rating: %lld"
+            "state" : "needs_review",
+            "value" : "Ocena: %lld"
           }
         }
       }
@@ -2816,8 +2862,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Sezon"
+            "state" : "needs_review",
+            "value" : "Sezonowe"
           }
         }
       }
@@ -3028,7 +3074,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sortuj"
+            "value" : "Sortowanie"
           }
         }
       }
@@ -3048,8 +3094,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Special"
+            "state" : "needs_review",
+            "value" : "Specjalny"
           }
         }
       }
@@ -3231,6 +3277,40 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Naciśnij \"Zapisz\", aby zapisać zmiany po ich wprowadzeniu."
+          }
+        }
+      }
+    },
+    "Tap on Poster to Mark Next Episode as Watched" : {
+      "localizations" : {
+        "pl" : {
+          "variations" : {
+            "device" : {
+              "appletv" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
+                }
+              },
+              "applevision" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
+                }
+              },
+              "mac" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "needs_review",
+                  "value" : "Kliknij na plakat, aby oznaczyć następny odcinek jako obejrzany"
+                }
+              }
+            }
           }
         }
       }
@@ -3472,8 +3552,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Ulubione"
+            "state" : "needs_review",
+            "value" : "Top Ulubione"
           }
         }
       }
@@ -3539,7 +3619,14 @@
       }
     },
     "Translation" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Tłumaczenie"
+          }
+        }
+      }
     },
     "Try again" : {
       "localizations" : {
@@ -3730,8 +3817,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Bardzo złe"
+            "state" : "needs_review",
+            "value" : "Bardzo słabe"
           }
         }
       }
@@ -3811,8 +3898,8 @@
       "localizations" : {
         "pl" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Po włączeniu aplikacja będzie zawsze otwierać wybrany ekran preferowany.\nPo wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę."
+            "state" : "needs_review",
+            "value" : "Po włączeniu aplikacja będzie zawsze otwierać wybrany ekran startowy.\nPo wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę."
           }
         }
       }

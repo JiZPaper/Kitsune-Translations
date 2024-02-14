@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+  <file original="Kitsune/Localization/InfoPlist.xcstrings" source-language="en" target-language="pl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
+    </header>
+    <body>
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
+        <source>Kitsune</source>
+        <note>Bundle display name</note>
+      </trans-unit>
+      <trans-unit id="CFBundleName" xml:space="preserve">
+        <source>Kitsune</source>
+        <note>Bundle name</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Kitsune/Localization/Localizable.xcstrings" source-language="en" target-language="pl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
+    </header>
+    <body>
+      <trans-unit id="%@" xml:space="preserve">
+        <source>%@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ %@" xml:space="preserve">
+        <source>%1$@ %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ %@ • %@" xml:space="preserve">
+        <source>%1$@ %2$@ • %3$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ (JST)" xml:space="preserve">
+        <source>%@ (JST)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ (Local Time)" xml:space="preserve">
+        <source>%@ (Local Time)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ at %@ (Local Time)" xml:space="preserve">
+        <source>%1$@ at %2$@ (Local Time)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ days" xml:space="preserve">
+        <source>%@ days</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ of %@" xml:space="preserve">
+        <source>%1$@ of %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ • %@" xml:space="preserve">
+        <source>%1$@ • %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@'s list is empty or is private." xml:space="preserve">
+        <source>%@'s list is empty or is private.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld" xml:space="preserve">
+        <source>%lld</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld - %@" xml:space="preserve">
+        <source>%1$lld - %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
+        <source>%1$lld episodes watched of %2$@.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld items|==|plural.few" xml:space="preserve">
+        <source>%lld items</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld items|==|plural.many" xml:space="preserve">
+        <source>%lld items</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld items|==|plural.one" xml:space="preserve">
+        <source>%lld item</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
+        <source>%lld items</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld items|==|plural.zero" xml:space="preserve">
+        <source>%lld items</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld line|==|plural.few" xml:space="preserve">
+        <source>%lld lines</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld line|==|plural.many" xml:space="preserve">
+        <source>%lld lines</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld line|==|plural.one" xml:space="preserve">
+        <source>%lld line</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld line|==|plural.other" xml:space="preserve">
+        <source>%lld lines</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld of %lld" xml:space="preserve">
+        <source>%1$lld of %2$lld</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld read of %@ chapters" xml:space="preserve">
+        <source>%1$lld read of %2$@ chapters</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld read of %@ volumes" xml:space="preserve">
+        <source>%1$lld read of %2$@ volumes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld • %@" xml:space="preserve">
+        <source>%1$lld • %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld/%@" xml:space="preserve">
+        <source>%1$lld/%2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld/10" xml:space="preserve">
+        <source>%lld/10</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld/?" xml:space="preserve">
+        <source>%lld/?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="+1" xml:space="preserve">
+        <source>+1</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
+        <source>17+ (Violence &amp; Profanity)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="A new episode is arriving today." xml:space="preserve">
+        <source>A new episode is arriving today.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="About" xml:space="preserve">
+        <source>About</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="About Your Schedule" xml:space="preserve">
+        <source>About Your Schedule</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Accent Color" xml:space="preserve">
+        <source>Accent Color</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Account" xml:space="preserve">
+        <source>Account</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Account - Refresh Token" xml:space="preserve">
+        <source>Account - Refresh Token</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="Account Settings" xml:space="preserve">
+        <source>Account Settings</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Adaptation" xml:space="preserve">
+        <source>Adaptation</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add" xml:space="preserve">
+        <source>Add</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add Comments" xml:space="preserve">
+        <source>Add Comments</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add Finish Date" xml:space="preserve">
+        <source>Add Finish Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Add Start Date" xml:space="preserve">
+        <source>Add Start Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Added" xml:space="preserve">
+        <source>Added</source>
+        <note>Popup Action</note>
+      </trans-unit>
+      <trans-unit id="Adjust multiple settings to better suit your preferences." xml:space="preserve">
+        <source>Adjust multiple settings to better suit your preferences.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Air Date" xml:space="preserve">
+        <source>Air Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="All Ages" xml:space="preserve">
+        <source>All Ages</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Allow Anime Notification" xml:space="preserve">
+        <source>Allow Anime Notification</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Always Show Watching Progress on Posters" xml:space="preserve">
+        <source>Always Show Watching Progress on Posters</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime" xml:space="preserve">
+        <source>Anime</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime Stats (In Days)" xml:space="preserve">
+        <source>Anime Stats (In Days)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime Stats (In Items)" xml:space="preserve">
+        <source>Anime Stats (In Items)</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Animeography" xml:space="preserve">
+        <source>Animeography</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="App Features" xml:space="preserve">
+        <source>App Features</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="App Icon" xml:space="preserve">
+        <source>App Icon</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="App Theme" xml:space="preserve">
+        <source>App Theme</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Appalling" xml:space="preserve">
+        <source>Appalling</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Appearance" xml:space="preserve">
+        <source>Appearance</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Are You Sure?" xml:space="preserve">
+        <source>Are You Sure?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Are you sure?" xml:space="preserve">
+        <source>Are you sure?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.applevision" xml:space="preserve">
+        <source>Auto Add to Plan To Watch/Read list when clicking 'Add'.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.mac" xml:space="preserve">
+        <source>Auto Add to Plan To Watch/Read list when clicking 'Add'.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.other" xml:space="preserve">
+        <source>Auto Add to Plan To Watch/Read list when tapping 'Add'.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto-fill 'Finish Date' when marking the last episode as watched." xml:space="preserve">
+        <source>Auto-fill 'Finish Date' when marking the last episode as watched.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Auto-fill 'Start Date' when marking the first episode as watched" xml:space="preserve">
+        <source>Auto-fill 'Start Date' when marking the first episode as watched.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Automatically fill in the first episode" xml:space="preserve">
+        <source>Automatically fill in the first episode</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Average" xml:space="preserve">
+        <source>Average</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Average Duration" xml:space="preserve">
+        <source>Average Duration</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Bad" xml:space="preserve">
+        <source>Bad</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Behavior" xml:space="preserve">
+        <source>Behavior</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Blue" xml:space="preserve">
+        <source>Blue</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Broadcast" xml:space="preserve">
+        <source>Broadcast</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Brown" xml:space="preserve">
+        <source>Brown</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="By Last Update" xml:space="preserve">
+        <source>By Last Update</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By Score" xml:space="preserve">
+        <source>By Score</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By Start Date" xml:space="preserve">
+        <source>By Start Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By Title" xml:space="preserve">
+        <source>By Title</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Cancel" xml:space="preserve">
+        <source>Cancel</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change List" xml:space="preserve">
+        <source>Change List</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Chapters Read" xml:space="preserve">
+        <source>Chapters Read</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Cherry" xml:space="preserve">
+        <source>Cherry</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Children" xml:space="preserve">
+        <source>Children</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Choose between a list or a rating indicator to display on posters.&#10;My List screen will always show the rating indicator, other screens will respect this setting." xml:space="preserve">
+        <source>Choose between a list or a rating indicator to display on posters.
+My List screen will always show the rating indicator, other screens will respect this setting.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Choose between list and poster style." xml:space="preserve">
+        <source>Choose between list and poster style.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Choose between poster or list style on My List and Your Schedule screens." xml:space="preserve">
+        <source>Choose between poster or list style on My List and Your Schedule screens.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Choose how many lines you want the title to appear on My List." xml:space="preserve">
+        <source>Choose how many lines you want the title to appear on My List.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Clear All Upcoming Notifications" xml:space="preserve">
+        <source>Clear All Upcoming Notifications</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="Clear Cache" xml:space="preserve">
+        <source>Clear Cache</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Close" xml:space="preserve">
+        <source>Close</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Collapse" xml:space="preserve">
+        <source>Collapse</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Comments" xml:space="preserve">
+        <source>Comments</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Completed" xml:space="preserve">
+        <source>Completed</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Confirm" xml:space="preserve">
+        <source>Confirm</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Content Provider" xml:space="preserve">
+        <source>Content Provider</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Copy" xml:space="preserve">
+        <source>Copy</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Coral" xml:space="preserve">
+        <source>Coral</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Currently Airing" xml:space="preserve">
+        <source>Currently Airing</source>
+        <note>Airing Status</note>
+      </trans-unit>
+      <trans-unit id="Customize" xml:space="preserve">
+        <source>Customize</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Cyan" xml:space="preserve">
+        <source>Cyan</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Dark" xml:space="preserve">
+        <source>Dark</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Days" xml:space="preserve">
+        <source>Days</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Default" xml:space="preserve">
+        <source>Default</source>
+        <note>Title Preference</note>
+      </trans-unit>
+      <trans-unit id="Delete Account" xml:space="preserve">
+        <source>Delete Account</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Design" xml:space="preserve">
+        <source>Design</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Developed by Alexandre Madeira" xml:space="preserve">
+        <source>Developed by Alexandre Madeira</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Developer Options" xml:space="preserve">
+        <source>Developer Options</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="Disable Popups" xml:space="preserve">
+        <source>Disable Popups</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Disable Search Filter" xml:space="preserve">
+        <source>Disable Search Filter</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Disable Trailers" xml:space="preserve">
+        <source>Disable Trailers</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Disable Translucent Background" xml:space="preserve">
+        <source>Disable Translucent Background</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dismiss" xml:space="preserve">
+        <source>Dismiss</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Display Preference" xml:space="preserve">
+        <source>Display Preference</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Done" xml:space="preserve">
+        <source>Done</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dropped" xml:space="preserve">
+        <source>Dropped</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Edit" xml:space="preserve">
+        <source>Edit</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enable Preferred Launch Screen" xml:space="preserve">
+        <source>Enable Preferred Launch Screen</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="End Air Date" xml:space="preserve">
+        <source>End Air Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="End Date" xml:space="preserve">
+        <source>End Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="English" xml:space="preserve">
+        <source>English</source>
+        <note>Title Preference</note>
+      </trans-unit>
+      <trans-unit id="English Title" xml:space="preserve">
+        <source>English Title</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enjoying Kitsune?" xml:space="preserve">
+        <source>Enjoying Kitsune?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Failed to update item.&#10;Please try again later." xml:space="preserve">
+        <source>Failed to update item.
+Please try again later.</source>
+        <note>Popup Action</note>
+      </trans-unit>
+      <trans-unit id="Fall" xml:space="preserve">
+        <source>Fall</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Favorites Anime" xml:space="preserve">
+        <source>Favorites Anime</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Favorites Character" xml:space="preserve">
+        <source>Favorites Character</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Favorites Manga" xml:space="preserve">
+        <source>Favorites Manga</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Favorites People" xml:space="preserve">
+        <source>Favorites People</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Feedback" xml:space="preserve">
+        <source>Feedback</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Feedback Sent.&#10;Thank you!" xml:space="preserve">
+        <source>Feedback Sent.
+Thank you!</source>
+        <note>Popup Action</note>
+      </trans-unit>
+      <trans-unit id="Feel free to suggest features, improvements, or report bugs.&#10;Your feedback is crucial to make Kitsune better for everyone." xml:space="preserve">
+        <source>Feel free to suggest features, improvements, or report bugs.
+Your feedback is crucial to make Kitsune better for everyone.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Filter" xml:space="preserve">
+        <source>Filter</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Filter Seasonal" xml:space="preserve">
+        <source>Filter Season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Filter based on what's added to your list, sort by popularity or by your own score." xml:space="preserve">
+        <source>Filter based on what's added to your list, sort by popularity or by your own score.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Filter by added, sort by popularity and more." xml:space="preserve">
+        <source>Filter by added, sort by popularity and more.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Filter your Seasonal" xml:space="preserve">
+        <source>Filter your Season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Fine" xml:space="preserve">
+        <source>Fine</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Finish Date" xml:space="preserve">
+        <source>Finish Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Finished Airing" xml:space="preserve">
+        <source>Finished Airing</source>
+        <note>Airing Status</note>
+      </trans-unit>
+      <trans-unit id="First Air Date" xml:space="preserve">
+        <source>First Air Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Follow Kitsune on X/Twitter" xml:space="preserve">
+        <source>Follow Kitsune on X/Twitter</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Follow Kitsune on X/Twitter to stay updated about new features coming soon or to send your feedback/report via DM." xml:space="preserve">
+        <source>Follow Kitsune on X/Twitter to stay updated about new features coming soon or to send your feedback/report via DM.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="For You" xml:space="preserve">
+        <source>For You</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Friday" xml:space="preserve">
+        <source>Friday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Friends" xml:space="preserve">
+        <source>Friends</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="General" xml:space="preserve">
+        <source>General</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Genres" xml:space="preserve">
+        <source>Genres</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Get Kitsune Premium" xml:space="preserve">
+        <source>Get Kitsune Premium</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Get Kitsune Premium&#10;%@" xml:space="preserve">
+        <source>Get Kitsune Premium
+%@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Get Premium" xml:space="preserve">
+        <source>Get Premium</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Goldenrod" xml:space="preserve">
+        <source>Goldenrod</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Good" xml:space="preserve">
+        <source>Good</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Gray" xml:space="preserve">
+        <source>Gray</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Great" xml:space="preserve">
+        <source>Great</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Green" xml:space="preserve">
+        <source>Green</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Haptic Feedback" xml:space="preserve">
+        <source>Haptic Feedback</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Having trouble signing in?&#10;Send an email to contact@alexandremadeira.dev and we will help you." xml:space="preserve">
+        <source>Having trouble signing in?
+Send an email to contact@alexandremadeira.dev and we will help you.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hentai" xml:space="preserve">
+        <source>Hentai</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hide Added" xml:space="preserve">
+        <source>Hide Added</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hide Previous Days" xml:space="preserve">
+        <source>Hide Previous Days</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Hide Username on Tab Bar" xml:space="preserve">
+        <source>Hide Username on Tab Bar</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Horrible" xml:space="preserve">
+        <source>Horrible</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up." xml:space="preserve">
+        <source>If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Indigo" xml:space="preserve">
+        <source>Indigo</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Is Rewatching" xml:space="preserve">
+        <source>Is Rewatching</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="JST" xml:space="preserve">
+        <source>JST</source>
+        <note>Japan Standard Time, do not need translation.</note>
+      </trans-unit>
+      <trans-unit id="Japanese" xml:space="preserve">
+        <source>Japanese</source>
+        <note>Title Preference</note>
+      </trans-unit>
+      <trans-unit id="Japanese Title" xml:space="preserve">
+        <source>Japanese Title</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Kitsune Premium" xml:space="preserve">
+        <source>Kitsune Premium</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Last Sync on %@" xml:space="preserve">
+        <source>Last Sync on %@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Last updated at %@" xml:space="preserve">
+        <source>Last updated at %@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Launch Screen" xml:space="preserve">
+        <source>Launch Screen</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Lavender" xml:space="preserve">
+        <source>Lavender</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Leave a Review on the App Store!" xml:space="preserve">
+        <source>Leave a Review on the App Store!</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Libraries" xml:space="preserve">
+        <source>Libraries</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Light" xml:space="preserve">
+        <source>Light</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="List" xml:space="preserve">
+        <source>List</source>
+        <note>Poster Indicator</note>
+      </trans-unit>
+      <trans-unit id="List Selection" xml:space="preserve">
+        <source>List Selection</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Loading" xml:space="preserve">
+        <source>Loading</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Local Time" xml:space="preserve">
+        <source>Local Time</source>
+        <note>Time Preference</note>
+      </trans-unit>
+      <trans-unit id="Manga" xml:space="preserve">
+        <source>Manga</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mangaography" xml:space="preserve">
+        <source>Mangaography</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mark Next Chapter as Read" xml:space="preserve">
+        <source>Mark Next Chapter as Read</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mark Next Episode as Watched" xml:space="preserve">
+        <source>Mark Next Episode as Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mark Next Episode of %@ as Watched?" xml:space="preserve">
+        <source>Mark Next Episode of %@ as Watched?</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mark Next Volume as Read" xml:space="preserve">
+        <source>Mark Next Volume as Read</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mark Watched" xml:space="preserve">
+        <source>Mark Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Masterpiece" xml:space="preserve">
+        <source>Masterpiece</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Mean Score" xml:space="preserve">
+        <source>Mean Score</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Media Type" xml:space="preserve">
+        <source>Media Type</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Mint" xml:space="preserve">
+        <source>Mint</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Monday" xml:space="preserve">
+        <source>Monday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="More" xml:space="preserve">
+        <source>More</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Most Popular" xml:space="preserve">
+        <source>Most Popular</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Most Popular Manga" xml:space="preserve">
+        <source>Most Popular Manga</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Movie" xml:space="preserve">
+        <source>Movie</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="Music" xml:space="preserve">
+        <source>Music</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="My %@ List" xml:space="preserve">
+        <source>My %@ List</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="My List" xml:space="preserve">
+        <source>My List</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
+        <source>My List, Edit Status, Add Items and Statics need a MyAnimeList account.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="My Score" xml:space="preserve">
+        <source>My Score</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="MyAnimeList" xml:space="preserve">
+        <source>MyAnimeList</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="MyAnimeList Account" xml:space="preserve">
+        <source>MyAnimeList Account</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No Results for '%@'." xml:space="preserve">
+        <source>No Results for '%@'.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="No subscription required; make one purchase to unlock all current and upcoming premium features.&#10;Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." xml:space="preserve">
+        <source>No subscription required; make one purchase to unlock all current and upcoming premium features.
+Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Not Scored" xml:space="preserve">
+        <source>Not Scored</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Not Yet Aired" xml:space="preserve">
+        <source>Not Yet Aired</source>
+        <note>Airing Status</note>
+      </trans-unit>
+      <trans-unit id="Nothing found here" xml:space="preserve">
+        <source>Nothing found here</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Nothing found here, try again later or change the list." xml:space="preserve">
+        <source>Nothing found here, try again later or change the list.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Nothing found, try again later or change the season/year." xml:space="preserve">
+        <source>Nothing found, try again later or change the season/year.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Nothing found." xml:space="preserve">
+        <source>Nothing found.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Notification Support" xml:space="preserve">
+        <source>Notification Support</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Notification Support needs Background access to work, you can also force the sync." xml:space="preserve">
+        <source>Notification Support needs Background access to work, you can also force the sync.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Notification support requires Kitsune Premium." xml:space="preserve">
+        <source>Notification support requires Kitsune Premium.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Notifications" xml:space="preserve">
+        <source>Notifications</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Number of Chapters" xml:space="preserve">
+        <source>Number of Chapters</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Number of Episodes" xml:space="preserve">
+        <source>Number of Episodes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Number of Volumes" xml:space="preserve">
+        <source>Number of Volumes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="OK" xml:space="preserve">
+        <source>OK</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="ONA" xml:space="preserve">
+        <source>ONA</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="OVA" xml:space="preserve">
+        <source>OVA</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="On Hold" xml:space="preserve">
+        <source>On Hold</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="On Social Media" xml:space="preserve">
+        <source>On Social Media</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="On-Hold" xml:space="preserve">
+        <source>On-Hold</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="One Price, No Sub." xml:space="preserve">
+        <source>One Price, No Sub.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Only use those settings if you're a developer working on this project." xml:space="preserve">
+        <source>Only use those settings if you're a developer working on this project.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Open any anime/manga from MAL directly in the app." xml:space="preserve">
+        <source>Open any anime/manga from MAL directly in the app.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Open on MyAnimeList" xml:space="preserve">
+        <source>Open on MyAnimeList</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Orange" xml:space="preserve">
+        <source>Orange</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Paste MAL URL" xml:space="preserve">
+        <source>Paste MAL URL</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Perform actions like marking the next episode/chapter or open the edit screen." xml:space="preserve">
+        <source>Perform actions like marking the next episode/chapter or open the edit screen.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Personalize the app with themes that match your style." xml:space="preserve">
+        <source>Personalize the app with themes that match your style.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Pink" xml:space="preserve">
+        <source>Pink</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Plan to Read" xml:space="preserve">
+        <source>Plan to Read</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Plan to Watch" xml:space="preserve">
+        <source>Plan to Watch</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Please, note that the app doesn't consider delays." xml:space="preserve">
+        <source>Please, note that the app doesn't consider delays.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Please, try again later." xml:space="preserve">
+        <source>Please, try again later.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Popularity" xml:space="preserve">
+        <source>Popularity</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Poster" xml:space="preserve">
+        <source>Poster</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Poster Indicator" xml:space="preserve">
+        <source>Poster Indicator</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
+        <source>Prefer Manga Volumes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Preferred Screen" xml:space="preserve">
+        <source>Preferred Screen</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Preferred Time Format" xml:space="preserve">
+        <source>Preferred Time Format</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Preferred Title Language" xml:space="preserve">
+        <source>Preferred Title Language</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Print" xml:space="preserve">
+        <source>Print</source>
+        <note>Dev Option, do not need translation.</note>
+      </trans-unit>
+      <trans-unit id="Privacy Policy" xml:space="preserve">
+        <source>Privacy Policy</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Profanity &amp; Mild Nudity" xml:space="preserve">
+        <source>Profanity &amp; Mild Nudity</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Purple" xml:space="preserve">
+        <source>Purple</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Quickly delete any date by swiping or long pressing." xml:space="preserve">
+        <source>Quickly delete any date by swiping or long pressing.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rating" xml:space="preserve">
+        <source>Rating</source>
+        <note>Poster Indicator</note>
+      </trans-unit>
+      <trans-unit id="Rating %lld" xml:space="preserve">
+        <source>Rating %lld</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rating of %lld of 10." xml:space="preserve">
+        <source>Rating of %lld of 10.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rating: %lld" xml:space="preserve">
+        <source>Rating: %lld</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Reading" xml:space="preserve">
+        <source>Reading</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Receive notifications when a new episode is released or when a new anime premieres from your list." xml:space="preserve">
+        <source>Receive notifications when a new episode is released or when a new anime premieres from your list.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recently Completed" xml:space="preserve">
+        <source>Recently Completed</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recommendations" xml:space="preserve">
+        <source>Recommendations</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Red" xml:space="preserve">
+        <source>Red</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Related" xml:space="preserve">
+        <source>Related</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Related Anime" xml:space="preserve">
+        <source>Related Anime</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Reload" xml:space="preserve">
+        <source>Reload</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Remove" xml:space="preserve">
+        <source>Remove</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Removed" xml:space="preserve">
+        <source>Removed</source>
+        <note>Popup Action</note>
+      </trans-unit>
+      <trans-unit id="Requires Kitsune Premium" xml:space="preserve">
+        <source>Requires Kitsune Premium</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Reset Asked for Review" xml:space="preserve">
+        <source>Reset Asked for Review</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="Restore" xml:space="preserve">
+        <source>Restore</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Return to current season" xml:space="preserve">
+        <source>Return to current season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Review Kitsune" xml:space="preserve">
+        <source>Review Kitsune</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rewatched %lld times." xml:space="preserve">
+        <source>Rewatched %lld times.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Rose Gold" xml:space="preserve">
+        <source>Rose Gold</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Saturday" xml:space="preserve">
+        <source>Saturday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Save" xml:space="preserve">
+        <source>Save</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Saved" xml:space="preserve">
+        <source>Saved</source>
+        <note>Popup Action</note>
+      </trans-unit>
+      <trans-unit id="Score" xml:space="preserve">
+        <source>Score</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Search" xml:space="preserve">
+        <source>Search</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Search Suggestions" xml:space="preserve">
+        <source>Search Suggestions</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Searching" xml:space="preserve">
+        <source>Searching</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Season" xml:space="preserve">
+        <source>Season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Seasonal" xml:space="preserve">
+        <source>Season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="See All" xml:space="preserve">
+        <source>See All</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="See your current releases in a timeline with Your Schedule." xml:space="preserve">
+        <source>See your current releases in a timeline with Your Schedule.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Send" xml:space="preserve">
+        <source>Send</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Send Email" xml:space="preserve">
+        <source>Send Email</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Send Feedback" xml:space="preserve">
+        <source>Send Feedback</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Session Expired" xml:space="preserve">
+        <source>Session Expired</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Settings" xml:space="preserve">
+        <source>Settings</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Share" xml:space="preserve">
+        <source>Share</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show 'Last Updated at' On Edit Screens" xml:space="preserve">
+        <source>Show 'Last Updated at' On Edit Screens</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show All" xml:space="preserve">
+        <source>Show All</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show More" xml:space="preserve">
+        <source>Show More</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Only Added" xml:space="preserve">
+        <source>Show Only Added</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Progress Bar for Anime and Manga" xml:space="preserve">
+        <source>Show Progress Bar for Anime and Manga</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
+        <source>Show Time in 'Your Schedule'</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign In" xml:space="preserve">
+        <source>Sign In</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign In into your MyAnimeList account." xml:space="preserve">
+        <source>Sign In into your MyAnimeList account.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sign Out" xml:space="preserve">
+        <source>Sign Out</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Since %@" xml:space="preserve">
+        <source>Since %@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sky Blue" xml:space="preserve">
+        <source>Sky Blue</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Some features requires Kitsune Premium" xml:space="preserve">
+        <source>Some features requires Kitsune Premium</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sort" xml:space="preserve">
+        <source>Sort</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Source" xml:space="preserve">
+        <source>Source</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Special" xml:space="preserve">
+        <source>Special</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="Spring" xml:space="preserve">
+        <source>Spring</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Date" xml:space="preserve">
+        <source>Start Date</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Start Season" xml:space="preserve">
+        <source>Start Season</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Status" xml:space="preserve">
+        <source>Status</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Steel" xml:space="preserve">
+        <source>Steel</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Studios" xml:space="preserve">
+        <source>Studios</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Summer" xml:space="preserve">
+        <source>Summer</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sunday" xml:space="preserve">
+        <source>Sunday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Support &amp; About" xml:space="preserve">
+        <source>Support &amp; About</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Support Kitsune" xml:space="preserve">
+        <source>Support Kitsune</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Support the development of the app, undertaken by a single developer." xml:space="preserve">
+        <source>Support the development of the app, undertaken by a single developer.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Swipe or Hold to access quick actions" xml:space="preserve">
+        <source>Swipe or Hold to access quick actions</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Sync Notifications" xml:space="preserve">
+        <source>Sync Notifications</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Syncing" xml:space="preserve">
+        <source>Syncing</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Synonyms" xml:space="preserve">
+        <source>Synonyms</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Synopsis" xml:space="preserve">
+        <source>Synopsis</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="System" xml:space="preserve">
+        <source>System</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="TV" xml:space="preserve">
+        <source>TV</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="Tap 'Save' to save your changes after writing." xml:space="preserve">
+        <source>Tap 'Save' to save your changes after writing.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.appletv" xml:space="preserve">
+        <source>Click on Poster to Mark Next Episode as Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.applevision" xml:space="preserve">
+        <source>Click on Poster to Mark Next Episode as Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.mac" xml:space="preserve">
+        <source>Click on Poster to Mark Next Episode as Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.other" xml:space="preserve">
+        <source>Tap on Poster to Mark Next Episode as Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Teal" xml:space="preserve">
+        <source>Teal</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Teens 13 and Older" xml:space="preserve">
+        <source>Teens 13 and Older</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Test Notifications" xml:space="preserve">
+        <source>Test Notifications</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="The anime will premiere today." xml:space="preserve">
+        <source>The anime will premiere today.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app couldn't load it right now" xml:space="preserve">
+        <source>The app couldn't load it right now</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app couldn't load the content right now." xml:space="preserve">
+        <source>The app couldn't load the content right now.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app couldn't load the list right now.&#10;Please, try again later." xml:space="preserve">
+        <source>The app couldn't load the list right now.
+Please, try again later.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app couldn't load the season right now.&#10;Please, try again later." xml:space="preserve">
+        <source>The app couldn't load the season right now.
+Please, try again later.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The progress bar and gestures will adapt to this setting." xml:space="preserve">
+        <source>The progress bar and gestures will adapt to this setting.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The service is undergoing maintenance or is currently unavailable. Please try again later." xml:space="preserve">
+        <source>The service is undergoing maintenance or is currently unavailable. Please try again later.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This filter is always disabled on the user's lists." xml:space="preserve">
+        <source>This filter is always disabled on the user's lists.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This option will hide previous days and show only from today up to Sunday." xml:space="preserve">
+        <source>This option will hide previous days and show only from today up to Sunday.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This will adapt the schedule to match your local date and time." xml:space="preserve">
+        <source>This will adapt the schedule to match your local date and time.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This will direct you to the MyAnimeList Account Deletion page." xml:space="preserve">
+        <source>This will direct you to the MyAnimeList Account Deletion page.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'." xml:space="preserve">
+        <source>This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="This will refresh your access token to use the app." xml:space="preserve">
+        <source>This will refresh your access token to use the app.</source>
+        <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="This will remove this item from your list." xml:space="preserve">
+        <source>This will remove this item from your list.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Thursday" xml:space="preserve">
+        <source>Thursday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Time will be shown in Japan Standard Time (JST) by default." xml:space="preserve">
+        <source>Time will be shown in Japan Standard Time (JST) by default.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Title Length" xml:space="preserve">
+        <source>Title Length</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Today" xml:space="preserve">
+        <source>Today</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top Airing" xml:space="preserve">
+        <source>Top Airing</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top All" xml:space="preserve">
+        <source>Top All</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top Favorites" xml:space="preserve">
+        <source>Top Favorites</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top Movie" xml:space="preserve">
+        <source>Top Movie</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top OVA" xml:space="preserve">
+        <source>Top OVA</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top Special" xml:space="preserve">
+        <source>Top Special</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top TV Series" xml:space="preserve">
+        <source>Top TV Series</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Top Upcoming" xml:space="preserve">
+        <source>Top Upcoming</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Trailers" xml:space="preserve">
+        <source>Trailers</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try Again" xml:space="preserve">
+        <source>Try Again</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try Again Later" xml:space="preserve">
+        <source>Try Again Later</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again" xml:space="preserve">
+        <source>Try again</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later or change the list." xml:space="preserve">
+        <source>Try again later or change the list.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later or start watching an anime from this season." xml:space="preserve">
+        <source>Try again later or start watching an anime from this season.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later, change the season/year or go back to current Season." xml:space="preserve">
+        <source>Try again later, change the season/year or go back to current Season.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later, change the season/year/filter or go back to current Season." xml:space="preserve">
+        <source>Try again later, change the season/year/filter or go back to current Season.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later." xml:space="preserve">
+        <source>Try again later.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Tuesday" xml:space="preserve">
+        <source>Tuesday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Turquoise" xml:space="preserve">
+        <source>Turquoise</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Turquoise Blue" xml:space="preserve">
+        <source>Turquoise Blue</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="Unknown" xml:space="preserve">
+        <source>Unknown</source>
+        <note>Anime Media Type</note>
+      </trans-unit>
+      <trans-unit id="Unlock Custom App Themes" xml:space="preserve">
+        <source>Unlock Custom App Themes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Unlock Kitsune Premium and supercharge your experience." xml:space="preserve">
+        <source>Unlock Kitsune Premium and supercharge your experience.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Upcoming" xml:space="preserve">
+        <source>Upcoming</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Upcoming Notifications" xml:space="preserve">
+        <source>Upcoming Notifications</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Version %@ • %@" xml:space="preserve">
+        <source>Version %1$@ • %2$@</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Very Bad" xml:space="preserve">
+        <source>Very Bad</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Very Good" xml:space="preserve">
+        <source>Very Good</source>
+        <note>MAL Score</note>
+      </trans-unit>
+      <trans-unit id="Voice Actors" xml:space="preserve">
+        <source>Voice Actors</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Volumes Read" xml:space="preserve">
+        <source>Volumes Read</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Watched" xml:space="preserve">
+        <source>Watched</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Watching" xml:space="preserve">
+        <source>Watching</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Wednesday" xml:space="preserve">
+        <source>Wednesday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Welcome back, %@!" xml:space="preserve">
+        <source>Welcome back, %@!</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
+        <source>When on, the app will always open your selected Preferred Screen.
+When off, the app will always open the last tab opened.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
+        <source>When switching to the 'Watching' list, automatically mark the first episode as watched.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Winter" xml:space="preserve">
+        <source>Winter</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Write a Review" xml:space="preserve">
+        <source>Write a Review</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="X/Twitter" xml:space="preserve">
+        <source>X/Twitter</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Year" xml:space="preserve">
+        <source>Year</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Yellow" xml:space="preserve">
+        <source>Yellow</source>
+        <note>App Theme Color</note>
+      </trans-unit>
+      <trans-unit id="You need to set the Display Preference to Poster to use this feature" xml:space="preserve">
+        <source>You need to set the Display Preference to Poster to use this feature</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
+        <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You're a Premium user.&#10;Thank you for your support." xml:space="preserve">
+        <source>You're a Premium user.
+Thank you for your support.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your List, Your Way" xml:space="preserve">
+        <source>Your List, Your Way</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your Schedule" xml:space="preserve">
+        <source>Your Schedule</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your Schedule is empty right now." xml:space="preserve">
+        <source>Your Schedule is empty right now.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your session has expired.&#10;Please, sign in again to keep using the app." xml:space="preserve">
+        <source>Your session has expired.
+Please, sign in again to keep using the app.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="about_your_schedule" xml:space="preserve">
+        <source>Your Schedule organizes your currently watching animes by their weekday release, displaying them from Monday to Sunday. 
+It also includes upcoming premieres from your 'Plan to Watch' list for the next 7 days. 
+On premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'."</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="🔨" xml:space="preserve">
+        <source>🔨</source>
+        <note/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

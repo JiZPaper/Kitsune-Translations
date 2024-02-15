@@ -82,7 +82,14 @@
       }
     },
     "%@ minutes" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ minut"
+          }
+        }
+      }
     },
     "%@ of %@" : {
       "localizations" : {
@@ -353,7 +360,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli.Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.W dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do listy \"Oglądane\""
+            "value" : "Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli. Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 7 dni.\nW dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy \"Do obejrzenia\" do listy \"Oglądane\"."
           }
         }
       }
@@ -1338,7 +1345,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.Twoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune."
+            "value" : "Zachęcamy do sugerowania funkcji, ulepszeń lub zgłaszania błędów.\nTwoja opinia ma kluczowe znaczenie dla ulepszenia Kitsune."
           }
         }
       }
@@ -2134,7 +2141,14 @@
       }
     },
     "Not Yet Published" : {
-
+      "localizations" : {
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieopublikowane jeszcze"
+          }
+        }
+      }
     },
     "Nothing found here" : {
       "localizations" : {
@@ -3794,7 +3808,7 @@
         "pl" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bardzo słab"
+            "value" : "Bardzo słabe"
           }
         }
       }

@@ -2,7 +2,7 @@
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
   <file original="Kitsune/Localization/InfoPlist.xcstrings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
@@ -15,11 +15,16 @@
         <target state="new">Kitsune</target>
         <note>Bundle name</note>
       </trans-unit>
+      <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
+        <source>Search and Play the opening and ending theme songs.</source>
+        <target state="new">Search and Play the opening and ending theme songs.</target>
+        <note>Privacy - Media Library Usage Description</note>
+      </trans-unit>
     </body>
   </file>
   <file original="Kitsune/Localization/Localizable.xcstrings" source-language="en" target-language="en" datatype="plaintext">
     <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.2" build-num="15C500b"/>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
       <trans-unit id="%@" xml:space="preserve">
@@ -27,14 +32,26 @@
         <target state="translated">%@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="%@&#10;By: %@" xml:space="preserve">
+        <source>%1$@
+By: %2$@</source>
+        <target state="translated">%1$@
+By: %2$@</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@ %@" xml:space="preserve">
-        <source>%1$@ %2$@</source>
-        <target state="new">%1$@ %2$@</target>
+        <source>%@ %@</source>
+        <target state="translated">%@ %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ %@ • %@" xml:space="preserve">
-        <source>%1$@ %2$@ • %3$@</source>
-        <target state="new">%1$@ %2$@ • %3$@</target>
+        <source>%@ %@ • %@</source>
+        <target state="translated">%@ %@ • %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ (%lld)" xml:space="preserve">
+        <source>%1$@ (%2$lld)</source>
+        <target state="translated">%1$@ (%2$lld)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ (JST)" xml:space="preserve">
@@ -48,13 +65,18 @@
         <note/>
       </trans-unit>
       <trans-unit id="%@ at %@ (Local Time)" xml:space="preserve">
-        <source>%1$@ at %2$@ (Local Time)</source>
-        <target state="new">%1$@ at %2$@ (Local Time)</target>
+        <source>%@ at %@ (Local Time)</source>
+        <target state="translated">%@ at %@ (Local Time)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ days" xml:space="preserve">
         <source>%@ days</source>
         <target state="translated">%@ days</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@ minutes" xml:space="preserve">
+        <source>%@ minutes</source>
+        <target state="translated">%@ minutes</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ of %@" xml:space="preserve">
@@ -63,13 +85,18 @@
         <note/>
       </trans-unit>
       <trans-unit id="%@ • %@" xml:space="preserve">
-        <source>%1$@ • %2$@</source>
-        <target state="new">%1$@ • %2$@</target>
+        <source>%@ • %@</source>
+        <target state="translated">%@ • %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s list is empty or is private." xml:space="preserve">
         <source>%@'s list is empty or is private.</source>
         <target state="translated">%@'s list is empty or is private.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%@, %@ (JST)" xml:space="preserve">
+        <source>%@, %@ (JST)</source>
+        <target state="translated">%@, %@ (JST)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld" xml:space="preserve">
@@ -80,6 +107,11 @@
       <trans-unit id="%lld - %@" xml:space="preserve">
         <source>%1$lld - %2$@</source>
         <target state="translated">%1$lld - %2$@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld animes" xml:space="preserve">
+        <source>%lld animes</source>
+        <target state="translated">%lld animes</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
@@ -110,6 +142,11 @@
       <trans-unit id="%lld line|==|plural.other" xml:space="preserve">
         <source>%lld lines</source>
         <target state="translated">%lld lines</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld mangas" xml:space="preserve">
+        <source>%lld mangas</source>
+        <target state="translated">%lld mangas</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld of %lld" xml:space="preserve">
@@ -152,6 +189,11 @@
         <target state="translated">+1</target>
         <note/>
       </trans-unit>
+      <trans-unit id="+1 (%lld/%@)" xml:space="preserve">
+        <source>+1 (%lld/%@)</source>
+        <target state="new">+1 (%lld/%@)</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
         <source>17+ (Violence &amp; Profanity)</source>
         <target state="translated">17+ (Violence &amp; Profanity)</target>
@@ -168,8 +210,8 @@
         <note/>
       </trans-unit>
       <trans-unit id="About Your Schedule" xml:space="preserve">
-        <source>About Your Schedule</source>
-        <target state="translated">About Your Schedule</target>
+        <source>About Schedule</source>
+        <target state="translated">About Schedule</target>
         <note/>
       </trans-unit>
       <trans-unit id="Accent Color" xml:space="preserve">
@@ -217,10 +259,10 @@
         <target state="translated">Add Start Date</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Added" xml:space="preserve">
-        <source>Added</source>
-        <target state="translated">Added</target>
-        <note>Popup Action</note>
+      <trans-unit id="Add to Library" xml:space="preserve">
+        <source>Add to Library</source>
+        <target state="translated">Add to Library</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Adjust multiple settings to better suit your preferences." xml:space="preserve">
         <source>Adjust multiple settings to better suit your preferences.</source>
@@ -242,29 +284,46 @@
         <target state="translated">Allow Anime Notification</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Always Show Watching Progress on Posters" xml:space="preserve">
-        <source>Always Show Watching Progress on Posters</source>
-        <target state="translated">Always Show Watching Progress on Posters</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Anime" xml:space="preserve">
         <source>Anime</source>
         <target state="translated">Anime</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Anime Stats (In Days)" xml:space="preserve">
-        <source>Anime Stats (In Days)</source>
-        <target state="translated">Anime Stats (In Days)</target>
+      <trans-unit id="Anime &amp; Manga Only" xml:space="preserve">
+        <source>Anime &amp; Manga Only</source>
+        <target state="translated">Anime &amp; Manga Only</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Anime Stats (In Items)" xml:space="preserve">
-        <source>Anime Stats (In Items)</source>
-        <target state="translated">Anime Stats (In Items)</target>
+      <trans-unit id="Anime Staff Positions" xml:space="preserve">
+        <source>Anime Staff Positions</source>
+        <target state="translated">Anime Staff Positions</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime Statistics (In Days)" xml:space="preserve">
+        <source>Anime Statistics (In Days)</source>
+        <target state="translated">Anime Statistics (In Days)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime Statistics (In Items)" xml:space="preserve">
+        <source>Anime Statistics (In Items)</source>
+        <target state="translated">Anime Statistics (In Items)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anime Studios" xml:space="preserve">
+        <source>Anime Studios</source>
+        <target state="translated">Anime Studios</target>
         <note/>
       </trans-unit>
       <trans-unit id="Animeography" xml:space="preserve">
         <source>Animeography</source>
         <target state="translated">Animeography</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.&#10;This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting." xml:space="preserve">
+        <source>Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.
+This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting.</source>
+        <target state="translated">Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.
+This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting.</target>
         <note/>
       </trans-unit>
       <trans-unit id="App Features" xml:space="preserve">
@@ -292,6 +351,23 @@
         <target state="translated">Appearance</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Apple Music" xml:space="preserve">
+        <source>Apple Music</source>
+        <target state="translated">Apple Music</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Apple Music Support" xml:space="preserve">
+        <source>Apple Music Support</source>
+        <target state="translated">Apple Music Support</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Apple Music support is experimental. Report any mismatches using the report button.&#10;Search and matching are automated, mismatches may occur." xml:space="preserve">
+        <source>Apple Music support is experimental. Report any mismatches using the report button.
+Search and matching are automated, mismatches may occur.</source>
+        <target state="translated">Apple Music support is experimental. Report any mismatches using the report button.
+Search and matching are automated, mismatches may occur.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
         <source>Are You Sure?</source>
         <target state="translated">Are You Sure?</target>
@@ -300,6 +376,26 @@
       <trans-unit id="Are you sure?" xml:space="preserve">
         <source>Are you sure?</source>
         <target state="translated">Are you sure?</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Ask for Score After Watching an Anime" xml:space="preserve">
+        <source>Ask for Score After Watching an Anime</source>
+        <target state="translated">Ask for Score After Watching an Anime</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Ask for confirmation to mark the episode as watched." xml:space="preserve">
+        <source>Ask for confirmation to mark the episode as watched.</source>
+        <target state="translated">Ask for confirmation to mark the episode as watched.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Ask you to rate after completing watching an anime." xml:space="preserve">
+        <source>Ask you to rate after completing watching an anime.</source>
+        <target state="translated">Ask you to rate after completing watching an anime.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Asked for Review? %@" xml:space="preserve">
+        <source>Asked for Review? %@</source>
+        <target state="translated">Asked for Review? %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.applevision" xml:space="preserve">
@@ -347,25 +443,40 @@
         <target state="translated">Bad</target>
         <note>MAL Score</note>
       </trans-unit>
+      <trans-unit id="Based on your common genres" xml:space="preserve">
+        <source>Based on your common genres</source>
+        <target state="translated">Based on your common genres</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
         <source>Behavior</source>
         <target state="translated">Behavior</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Blue" xml:space="preserve">
-        <source>Blue</source>
-        <target state="translated">Blue</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Black Opacity" xml:space="preserve">
+        <source>Black Opacity</source>
+        <target state="translated">Black Opacity</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Blur" xml:space="preserve">
+        <source>Blur</source>
+        <target state="translated">Blur</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Blur Mature Content Poster" xml:space="preserve">
+        <source>Blur Mature Content Poster</source>
+        <target state="translated">Blur Mature Content Poster</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Broadcast" xml:space="preserve">
         <source>Broadcast</source>
         <target state="translated">Broadcast</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Brown" xml:space="preserve">
-        <source>Brown</source>
-        <target state="translated">Brown</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Buy (%@)" xml:space="preserve">
+        <source>Buy (%@)</source>
+        <target state="translated">Buy (%@)</target>
+        <note/>
       </trans-unit>
       <trans-unit id="By Last Update" xml:space="preserve">
         <source>By Last Update</source>
@@ -402,31 +513,26 @@
         <target state="translated">Chapters Read</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Cherry" xml:space="preserve">
-        <source>Cherry</source>
-        <target state="translated">Cherry</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Characters" xml:space="preserve">
+        <source>Characters</source>
+        <target state="translated">Characters</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Children" xml:space="preserve">
         <source>Children</source>
         <target state="translated">Children</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Choose between a list or a rating indicator to display on posters.&#10;My List screen will always show the rating indicator, other screens will respect this setting." xml:space="preserve">
-        <source>Choose between a list or a rating indicator to display on posters.
-My List screen will always show the rating indicator, other screens will respect this setting.</source>
-        <target state="translated">Choose between a list or a rating indicator to display on posters.
-My List screen will always show the rating indicator, other screens will respect this setting.</target>
+      <trans-unit id="Choose among four indicators to display on posters.&#10;My List screen will always show the progress and rating indicators; other screens will respect this setting." xml:space="preserve">
+        <source>Choose among four indicators to display on posters.
+My List screen will always show the progress and rating indicators; other screens will respect this setting.</source>
+        <target state="translated">Choose among four indicators to display on posters.
+My List screen will always show the progress and rating indicators; other screens will respect this setting.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Choose between list and poster style." xml:space="preserve">
         <source>Choose between list and poster style.</source>
         <target state="translated">Choose between list and poster style.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Choose between poster or list style on My List and Your Schedule screens." xml:space="preserve">
-        <source>Choose between poster or list style on My List and Your Schedule screens.</source>
-        <target state="translated">Choose between poster or list style on My List and Your Schedule screens.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Choose how many lines you want the title to appear on My List." xml:space="preserve">
@@ -459,7 +565,17 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Comments</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Comments about %@" xml:space="preserve">
+        <source>Comments about %@</source>
+        <target state="translated">Comments about %@</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Completed" xml:space="preserve">
+        <source>Completed</source>
+        <target state="translated">Completed</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Completed_Manga" xml:space="preserve">
         <source>Completed</source>
         <target state="translated">Completed</target>
         <note/>
@@ -469,9 +585,19 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Confirm</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Connected Services" xml:space="preserve">
+        <source>Connected Services</source>
+        <target state="translated">Connected Services</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Content Provider" xml:space="preserve">
         <source>Content Provider</source>
         <target state="translated">Content Provider</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Continuing Series" xml:space="preserve">
+        <source>Continuing Series</source>
+        <target state="translated">Continuing Series</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
@@ -479,34 +605,49 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Copy</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Coral" xml:space="preserve">
-        <source>Coral</source>
-        <target state="translated">Coral</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Copy Song Name" xml:space="preserve">
+        <source>Copy Song Name</source>
+        <target state="translated">Copy Song Name</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Credits" xml:space="preserve">
+        <source>Credits</source>
+        <target state="translated">Credits</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Currently Airing" xml:space="preserve">
         <source>Currently Airing</source>
         <target state="translated">Currently Airing</target>
         <note>Airing Status</note>
       </trans-unit>
+      <trans-unit id="Currently Publishing" xml:space="preserve">
+        <source>Currently Publishing</source>
+        <target state="translated">Currently Publishing</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Customize" xml:space="preserve">
         <source>Customize</source>
         <target state="translated">Customize</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="Cyan" xml:space="preserve">
-        <source>Cyan</source>
-        <target state="translated">Cyan</target>
-        <note>App Theme Color</note>
       </trans-unit>
       <trans-unit id="Dark" xml:space="preserve">
         <source>Dark</source>
         <target state="translated">Dark</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Dates" xml:space="preserve">
+        <source>Dates</source>
+        <target state="translated">Dates</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Days" xml:space="preserve">
         <source>Days</source>
         <target state="translated">Days</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Days Read" xml:space="preserve">
+        <source>Days Read</source>
+        <target state="translated">Days Read</target>
         <note/>
       </trans-unit>
       <trans-unit id="Default" xml:space="preserve">
@@ -519,6 +660,11 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Delete Account</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Demographics" xml:space="preserve">
+        <source>Demographics</source>
+        <target state="translated">Demographics</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Design" xml:space="preserve">
         <source>Design</source>
         <target state="translated">Design</target>
@@ -529,29 +675,34 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Developed by Alexandre Madeira</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Developer" xml:space="preserve">
+        <source>Developer</source>
+        <target state="translated">Developer</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Developer Options" xml:space="preserve">
         <source>Developer Options</source>
         <target state="translated">Developer Options</target>
         <note>Dev Options, do not need translation</note>
       </trans-unit>
-      <trans-unit id="Disable Popups" xml:space="preserve">
-        <source>Disable Popups</source>
-        <target state="translated">Disable Popups</target>
+      <trans-unit id="Disable Anonymous Analytics" xml:space="preserve">
+        <source>Disable Anonymous Analytics</source>
+        <target state="translated">Disable Anonymous Analytics</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Disable Search Filter" xml:space="preserve">
-        <source>Disable Search Filter</source>
-        <target state="translated">Disable Search Filter</target>
+      <trans-unit id="Disable Translucent Background|==|device.mac" xml:space="preserve">
+        <source>Disable Translucent Background (BETA)</source>
+        <target state="translated">Disable Translucent Background (BETA)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Disable Trailers" xml:space="preserve">
-        <source>Disable Trailers</source>
-        <target state="translated">Disable Trailers</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Disable Translucent Background" xml:space="preserve">
+      <trans-unit id="Disable Translucent Background|==|device.other" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Disable Translucent Background</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction." xml:space="preserve">
+        <source>Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction.</source>
+        <target state="translated">Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dismiss" xml:space="preserve">
@@ -564,9 +715,9 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Display Preference</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Done" xml:space="preserve">
-        <source>Done</source>
-        <target state="translated">Done</target>
+      <trans-unit id="Doujinshi" xml:space="preserve">
+        <source>Doujinshi</source>
+        <target state="translated">Doujinshi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dropped" xml:space="preserve">
@@ -579,9 +730,29 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Edit</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Enable Apple Music Support" xml:space="preserve">
+        <source>Enable Apple Music Support</source>
+        <target state="translated">Enable Apple Music Support</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enable Mature Content" xml:space="preserve">
+        <source>Enable Mature Content</source>
+        <target state="translated">Enable Mature Content</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Enable Preferred Launch Screen" xml:space="preserve">
         <source>Enable Preferred Launch Screen</source>
         <target state="translated">Enable Preferred Launch Screen</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enable Recent Searches" xml:space="preserve">
+        <source>Enable Recent Searches</source>
+        <target state="translated">Enable Recent Searches</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enable Trailers" xml:space="preserve">
+        <source>Enable Trailers</source>
+        <target state="translated">Enable Trailers</target>
         <note/>
       </trans-unit>
       <trans-unit id="End Air Date" xml:space="preserve">
@@ -592,6 +763,11 @@ My List screen will always show the rating indicator, other screens will respect
       <trans-unit id="End Date" xml:space="preserve">
         <source>End Date</source>
         <target state="translated">End Date</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Ending" xml:space="preserve">
+        <source>Ending</source>
+        <target state="translated">Ending</target>
         <note/>
       </trans-unit>
       <trans-unit id="English" xml:space="preserve">
@@ -609,55 +785,54 @@ My List screen will always show the rating indicator, other screens will respect
         <target state="translated">Enjoying Kitsune?</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Failed to update item.&#10;Please try again later." xml:space="preserve">
-        <source>Failed to update item.
-Please try again later.</source>
-        <target state="translated">Failed to update item.
-Please try again later.</target>
-        <note>Popup Action</note>
+      <trans-unit id="Episodes Watched" xml:space="preserve">
+        <source>Episodes Watched</source>
+        <target state="translated">Episodes Watched</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Explicit Genres" xml:space="preserve">
+        <source>Explicit Genres</source>
+        <target state="translated">Explicit Genres</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Explore Anime" xml:space="preserve">
+        <source>Explore Anime</source>
+        <target state="translated">Explore Anime</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Explore Manga" xml:space="preserve">
+        <source>Explore Manga</source>
+        <target state="translated">Explore Manga</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="External Links" xml:space="preserve">
+        <source>External Links</source>
+        <target state="translated">External Links</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Fall" xml:space="preserve">
         <source>Fall</source>
         <target state="translated">Fall</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Favorites Anime" xml:space="preserve">
-        <source>Favorites Anime</source>
-        <target state="translated">Favorites Anime</target>
+      <trans-unit id="Favorite Anime" xml:space="preserve">
+        <source>Favorite Anime</source>
+        <target state="translated">Favorite Anime</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Favorites Character" xml:space="preserve">
-        <source>Favorites Character</source>
-        <target state="translated">Favorites Character</target>
+      <trans-unit id="Favorite Characters" xml:space="preserve">
+        <source>Favorite Characters</source>
+        <target state="translated">Favorite Characters</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Favorite People" xml:space="preserve">
+        <source>Favorite People</source>
+        <target state="translated">Favorite People</target>
         <note/>
       </trans-unit>
       <trans-unit id="Favorites Manga" xml:space="preserve">
         <source>Favorites Manga</source>
         <target state="translated">Favorites Manga</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Favorites People" xml:space="preserve">
-        <source>Favorites People</source>
-        <target state="translated">Favorites People</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Feedback" xml:space="preserve">
-        <source>Feedback</source>
-        <target state="translated">Feedback</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Feedback Sent.&#10;Thank you!" xml:space="preserve">
-        <source>Feedback Sent.
-Thank you!</source>
-        <target state="translated">Feedback Sent.
-Thank you!</target>
-        <note>Popup Action</note>
-      </trans-unit>
-      <trans-unit id="Feel free to suggest features, improvements, or report bugs.&#10;Your feedback is crucial to make Kitsune better for everyone." xml:space="preserve">
-        <source>Feel free to suggest features, improvements, or report bugs.
-Your feedback is crucial to make Kitsune better for everyone.</source>
-        <target state="translated">Feel free to suggest features, improvements, or report bugs.
-Your feedback is crucial to make Kitsune better for everyone.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter" xml:space="preserve">
@@ -695,6 +870,11 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
         <target state="translated">Finish Date</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Finished" xml:space="preserve">
+        <source>Finished</source>
+        <target state="translated">Finished</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Finished Airing" xml:space="preserve">
         <source>Finished Airing</source>
         <target state="translated">Finished Airing</target>
@@ -706,13 +886,8 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Follow Kitsune on X/Twitter" xml:space="preserve">
-        <source>Follow Kitsune on X/Twitter</source>
-        <target state="translated">Follow Kitsune on X/Twitter</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Follow Kitsune on X/Twitter to stay updated about new features coming soon or to send your feedback/report via DM." xml:space="preserve">
-        <source>Follow Kitsune on X/Twitter to stay updated about new features coming soon or to send your feedback/report via DM.</source>
-        <target state="translated">Follow Kitsune on X/Twitter to stay updated about new features coming soon or to send your feedback/report via DM.</target>
+        <source>Follow Kitsune on X</source>
+        <target state="translated">Follow Kitsune on X</target>
         <note/>
       </trans-unit>
       <trans-unit id="For You" xml:space="preserve">
@@ -730,6 +905,11 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
         <target state="translated">Friends</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Friends since %@" xml:space="preserve">
+        <source>Friends since %@</source>
+        <target state="translated">Friends since %@</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="General" xml:space="preserve">
         <source>General</source>
         <target state="translated">General</target>
@@ -738,11 +918,6 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
       <trans-unit id="Genres" xml:space="preserve">
         <source>Genres</source>
         <target state="translated">Genres</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Get Kitsune Premium" xml:space="preserve">
-        <source>Get Kitsune Premium</source>
-        <target state="translated">Get Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Get Kitsune Premium&#10;%@" xml:space="preserve">
@@ -757,30 +932,15 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
         <target state="translated">Get Premium</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Goldenrod" xml:space="preserve">
-        <source>Goldenrod</source>
-        <target state="translated">Goldenrod</target>
-        <note>App Theme Color</note>
-      </trans-unit>
       <trans-unit id="Good" xml:space="preserve">
         <source>Good</source>
         <target state="translated">Good</target>
         <note>MAL Score</note>
       </trans-unit>
-      <trans-unit id="Gray" xml:space="preserve">
-        <source>Gray</source>
-        <target state="translated">Gray</target>
-        <note>App Theme Color</note>
-      </trans-unit>
       <trans-unit id="Great" xml:space="preserve">
         <source>Great</source>
         <target state="translated">Great</target>
         <note>MAL Score</note>
-      </trans-unit>
-      <trans-unit id="Green" xml:space="preserve">
-        <source>Green</source>
-        <target state="translated">Green</target>
-        <note>App Theme Color</note>
       </trans-unit>
       <trans-unit id="Haptic Feedback" xml:space="preserve">
         <source>Haptic Feedback</source>
@@ -789,9 +949,14 @@ Your feedback is crucial to make Kitsune better for everyone.</target>
       </trans-unit>
       <trans-unit id="Having trouble signing in?&#10;Send an email to contact@alexandremadeira.dev and we will help you." xml:space="preserve">
         <source>Having trouble signing in?
-Send an email to contact@alexandremadeira.dev and we will help you.</source>
+Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
         <target state="translated">Having trouble signing in?
-Send an email to contact@alexandremadeira.dev and we will help you.</target>
+Send an email to kitsune@alexandremadeira.dev and we will help you.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Help &amp; Feedback" xml:space="preserve">
+        <source>Help &amp; Feedback</source>
+        <target state="translated">Help &amp; Feedback</target>
         <note/>
       </trans-unit>
       <trans-unit id="Hentai" xml:space="preserve">
@@ -820,18 +985,33 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up." xml:space="preserve">
-        <source>If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up.</source>
-        <target state="translated">If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up.</target>
+        <source>If you prefer, you can send an email to kitsune@alexandremadeira.dev using your email client for a faster follow-up.</source>
+        <target state="translated">If you prefer, you can send an email to kitsune@alexandremadeira.dev using your email client for a faster follow-up.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Indigo" xml:space="preserve">
-        <source>Indigo</source>
-        <target state="translated">Indigo</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Information" xml:space="preserve">
+        <source>Information</source>
+        <target state="translated">Information</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Is Premium User" xml:space="preserve">
+        <source>Is Premium User</source>
+        <target state="translated">Is Premium User</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Is Rewatching" xml:space="preserve">
         <source>Is Rewatching</source>
         <target state="translated">Is Rewatching</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Is connected? %@" xml:space="preserve">
+        <source>Is connected? %@</source>
+        <target state="translated">Is connected? %@</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Is refreshing token? %@" xml:space="preserve">
+        <source>Is refreshing token? %@</source>
+        <target state="translated">Is refreshing token? %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="JST" xml:space="preserve">
@@ -869,11 +1049,6 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
         <target state="translated">Launch Screen</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Lavender" xml:space="preserve">
-        <source>Lavender</source>
-        <target state="translated">Lavender</target>
-        <note>App Theme Color</note>
-      </trans-unit>
       <trans-unit id="Leave a Review on the App Store!" xml:space="preserve">
         <source>Leave a Review on the App Store!</source>
         <target state="translated">Leave a Review on the App Store!</target>
@@ -909,14 +1084,54 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
         <target state="translated">Local Time</target>
         <note>Time Preference</note>
       </trans-unit>
+      <trans-unit id="MAL Mean Score" xml:space="preserve">
+        <source>MAL Mean Score</source>
+        <target state="translated">MAL Mean Score</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="MAL Score &amp; Number of Users" xml:space="preserve">
+        <source>MAL Score &amp; Number of Users</source>
+        <target state="translated">MAL Score &amp; Number of Users</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Magazines" xml:space="preserve">
+        <source>Magazines</source>
+        <target state="translated">Magazines</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Manga" xml:space="preserve">
         <source>Manga</source>
         <target state="translated">Manga</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Manga Genres" xml:space="preserve">
+        <source>Manga Genres</source>
+        <target state="translated">Manga Genres</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Manga Magazines" xml:space="preserve">
+        <source>Manga Magazines</source>
+        <target state="translated">Manga Magazines</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Manga Statistics" xml:space="preserve">
+        <source>Manga Statistics</source>
+        <target state="translated">Manga Statistics</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Mangaography" xml:space="preserve">
         <source>Mangaography</source>
         <target state="translated">Mangaography</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Manhua" xml:space="preserve">
+        <source>Manhua</source>
+        <target state="translated">Manhua</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Manhwa" xml:space="preserve">
+        <source>Manhwa</source>
+        <target state="translated">Manhwa</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Next Chapter as Read" xml:space="preserve">
@@ -957,12 +1172,7 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
       <trans-unit id="Media Type" xml:space="preserve">
         <source>Media Type</source>
         <target state="translated">Media Type</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Mint" xml:space="preserve">
-        <source>Mint</source>
-        <target state="translated">Mint</target>
-        <note>App Theme Color</note>
+        <note>Seasonal Organization Type</note>
       </trans-unit>
       <trans-unit id="Monday" xml:space="preserve">
         <source>Monday</source>
@@ -999,6 +1209,11 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
         <target state="translated">My %@ List</target>
         <note/>
       </trans-unit>
+      <trans-unit id="My Anime List" xml:space="preserve">
+        <source>My Anime List</source>
+        <target state="translated">My Anime List</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="My List" xml:space="preserve">
         <source>My List</source>
         <target state="translated">My List</target>
@@ -1007,6 +1222,11 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
         <source>My List, Edit Status, Add Items and Statics need a MyAnimeList account.</source>
         <target state="translated">My List, Edit Status, Add Items and Statics need a MyAnimeList account.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="My Manga List" xml:space="preserve">
+        <source>My Manga List</source>
+        <target state="translated">My Manga List</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Score" xml:space="preserve">
@@ -1019,21 +1239,24 @@ Send an email to contact@alexandremadeira.dev and we will help you.</target>
         <target state="translated">MyAnimeList</target>
         <note/>
       </trans-unit>
-      <trans-unit id="MyAnimeList Account" xml:space="preserve">
-        <source>MyAnimeList Account</source>
-        <target state="translated">MyAnimeList Account</target>
+      <trans-unit id="Network Status" xml:space="preserve">
+        <source>Network Status</source>
+        <target state="translated">Network Status</target>
         <note/>
       </trans-unit>
-      <trans-unit id="No Results for '%@'." xml:space="preserve">
-        <source>No Results for '%@'.</source>
-        <target state="translated">No Results for '%@'.</target>
+      <trans-unit id="New This Season" xml:space="preserve">
+        <source>New This Season</source>
+        <target state="translated">New This Season</target>
         <note/>
       </trans-unit>
       <trans-unit id="No subscription required; make one purchase to unlock all current and upcoming premium features.&#10;Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." xml:space="preserve">
-        <source>No subscription required; make one purchase to unlock all current and upcoming premium features.
-Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing.</source>
-        <target state="translated">No subscription required; make one purchase to unlock all current and upcoming premium features.
-Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing.</target>
+        <source>No subscription required; make one purchase to unlock all current and upcoming premium features.</source>
+        <target state="translated">No subscription required; make one purchase to unlock all current and upcoming premium features.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="None" xml:space="preserve">
+        <source>None</source>
+        <target state="translated">None</target>
         <note/>
       </trans-unit>
       <trans-unit id="Not Scored" xml:space="preserve">
@@ -1046,19 +1269,14 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Not Yet Aired</target>
         <note>Airing Status</note>
       </trans-unit>
+      <trans-unit id="Not Yet Published" xml:space="preserve">
+        <source>Not Yet Published</source>
+        <target state="translated">Not Yet Published</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Nothing found here" xml:space="preserve">
         <source>Nothing found here</source>
         <target state="translated">Nothing found here</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Nothing found here, try again later or change the list." xml:space="preserve">
-        <source>Nothing found here, try again later or change the list.</source>
-        <target state="translated">Nothing found here, try again later or change the list.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Nothing found, try again later or change the season/year." xml:space="preserve">
-        <source>Nothing found, try again later or change the season/year.</source>
-        <target state="translated">Nothing found, try again later or change the season/year.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Nothing found." xml:space="preserve">
@@ -1086,6 +1304,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Notifications</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Novel" xml:space="preserve">
+        <source>Novel</source>
+        <target state="translated">Novel</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Number of Chapters" xml:space="preserve">
         <source>Number of Chapters</source>
         <target state="translated">Number of Chapters</target>
@@ -1094,6 +1317,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Number of Episodes" xml:space="preserve">
         <source>Number of Episodes</source>
         <target state="translated">Number of Episodes</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Number of Members" xml:space="preserve">
+        <source>Number of Members</source>
+        <target state="translated">Number of Members</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Volumes" xml:space="preserve">
@@ -1116,14 +1344,19 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">OVA</target>
         <note>Anime Media Type</note>
       </trans-unit>
+      <trans-unit id="Oel" xml:space="preserve">
+        <source>Oel</source>
+        <target state="translated">Oel</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="On Hold" xml:space="preserve">
         <source>On Hold</source>
         <target state="translated">On Hold</target>
         <note/>
       </trans-unit>
-      <trans-unit id="On Social Media" xml:space="preserve">
-        <source>On Social Media</source>
-        <target state="translated">On Social Media</target>
+      <trans-unit id="On MyAnimeList since %@" xml:space="preserve">
+        <source>On MyAnimeList since %@</source>
+        <target state="translated">On MyAnimeList since %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="On-Hold" xml:space="preserve">
@@ -1136,6 +1369,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">One Price, No Sub.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="One Shot" xml:space="preserve">
+        <source>One Shot</source>
+        <target state="translated">One Shot</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Only use those settings if you're a developer working on this project." xml:space="preserve">
         <source>Only use those settings if you're a developer working on this project.</source>
         <target state="translated">Only use those settings if you're a developer working on this project.</target>
@@ -1146,15 +1384,20 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Open any anime/manga from MAL directly in the app.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Open in Apple Music" xml:space="preserve">
+        <source>Open in Apple Music</source>
+        <target state="translated">Open in Apple Music</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Open on MyAnimeList" xml:space="preserve">
         <source>Open on MyAnimeList</source>
         <target state="translated">Open on MyAnimeList</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Orange" xml:space="preserve">
-        <source>Orange</source>
-        <target state="translated">Orange</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Opening" xml:space="preserve">
+        <source>Opening</source>
+        <target state="translated">Opening</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Paste MAL URL" xml:space="preserve">
         <source>Paste MAL URL</source>
@@ -1166,16 +1409,6 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Perform actions like marking the next episode/chapter or open the edit screen.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Personalize the app with themes that match your style." xml:space="preserve">
-        <source>Personalize the app with themes that match your style.</source>
-        <target state="translated">Personalize the app with themes that match your style.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Pink" xml:space="preserve">
-        <source>Pink</source>
-        <target state="translated">Pink</target>
-        <note>App Theme Color</note>
-      </trans-unit>
       <trans-unit id="Plan to Read" xml:space="preserve">
         <source>Plan to Read</source>
         <target state="translated">Plan to Read</target>
@@ -1184,6 +1417,16 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Plan to Watch" xml:space="preserve">
         <source>Plan to Watch</source>
         <target state="translated">Plan to Watch</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Play the opening and ending themes using your Apple Music subscription" xml:space="preserve">
+        <source>Play the opening and ending themes using your Apple Music subscription</source>
+        <target state="translated">Play the opening and ending themes using your Apple Music subscription</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Play the opening and ending themes using your Apple Music subscription right from the Credits screen." xml:space="preserve">
+        <source>Play the opening and ending themes using your Apple Music subscription right from the Credits screen.</source>
+        <target state="translated">Play the opening and ending themes using your Apple Music subscription right from the Credits screen.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please, note that the app doesn't consider delays." xml:space="preserve">
@@ -1196,9 +1439,9 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Please, try again later.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Popularity" xml:space="preserve">
-        <source>Popularity</source>
-        <target state="translated">Popularity</target>
+      <trans-unit id="Polish" xml:space="preserve">
+        <source>Polish</source>
+        <target state="translated">Polish</target>
         <note/>
       </trans-unit>
       <trans-unit id="Poster" xml:space="preserve">
@@ -1209,6 +1452,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Poster Indicator" xml:space="preserve">
         <source>Poster Indicator</source>
         <target state="translated">Poster Indicator</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Poster Indicator Background" xml:space="preserve">
+        <source>Poster Indicator Background</source>
+        <target state="translated">Poster Indicator Background</target>
         <note/>
       </trans-unit>
       <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
@@ -1233,8 +1481,13 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       </trans-unit>
       <trans-unit id="Print" xml:space="preserve">
         <source>Print</source>
-        <target state="new">Print</target>
+        <target state="translated">Print</target>
         <note>Dev Option, do not need translation.</note>
+      </trans-unit>
+      <trans-unit id="Privacy" xml:space="preserve">
+        <source>Privacy</source>
+        <target state="translated">Privacy</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
         <source>Privacy Policy</source>
@@ -1246,10 +1499,20 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Profanity &amp; Mild Nudity</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Purple" xml:space="preserve">
-        <source>Purple</source>
-        <target state="translated">Purple</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Progress &amp; List" xml:space="preserve">
+        <source>Progress &amp; List</source>
+        <target state="translated">Progress &amp; List</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Progress &amp; Personal Score" xml:space="preserve">
+        <source>Progress &amp; Personal Score</source>
+        <target state="translated">Progress &amp; Personal Score</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Published Manga" xml:space="preserve">
+        <source>Published Manga</source>
+        <target state="translated">Published Manga</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Quickly delete any date by swiping or long pressing." xml:space="preserve">
         <source>Quickly delete any date by swiping or long pressing.</source>
@@ -1286,20 +1549,25 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Receive notifications when a new episode is released or when a new anime premieres from your list.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Recent Searches" xml:space="preserve">
+        <source>Recent Searches</source>
+        <target state="translated">Recent Searches</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Recently Completed" xml:space="preserve">
         <source>Recently Completed</source>
         <target state="translated">Recently Completed</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Recheck Network" xml:space="preserve">
+        <source>Recheck Network</source>
+        <target state="translated">Recheck Network</target>
         <note/>
       </trans-unit>
       <trans-unit id="Recommendations" xml:space="preserve">
         <source>Recommendations</source>
         <target state="translated">Recommendations</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="Red" xml:space="preserve">
-        <source>Red</source>
-        <target state="translated">Red</target>
-        <note>App Theme Color</note>
       </trans-unit>
       <trans-unit id="Related" xml:space="preserve">
         <source>Related</source>
@@ -1321,20 +1589,35 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Remove</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Removed" xml:space="preserve">
-        <source>Removed</source>
-        <target state="translated">Removed</target>
-        <note>Popup Action</note>
+      <trans-unit id="Remove from Recent Viewed" xml:space="preserve">
+        <source>Remove from Recent Viewed</source>
+        <target state="translated">Remove from Recent Viewed</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Report a Problem" xml:space="preserve">
+        <source>Report a Problem</source>
+        <target state="translated">Report a Problem</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Requires Kitsune Premium" xml:space="preserve">
         <source>Requires Kitsune Premium</source>
         <target state="translated">Requires Kitsune Premium</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Reread" xml:space="preserve">
+        <source>Reread</source>
+        <target state="translated">Reread</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Reset Asked for Review" xml:space="preserve">
         <source>Reset Asked for Review</source>
         <target state="translated">Reset Asked for Review</target>
         <note>Dev Options, do not need translation</note>
+      </trans-unit>
+      <trans-unit id="Reset Settings" xml:space="preserve">
+        <source>Reset Settings</source>
+        <target state="translated">Reset Settings</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
         <source>Restore</source>
@@ -1351,15 +1634,20 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Review Kitsune</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Rewatched" xml:space="preserve">
+        <source>Rewatched</source>
+        <target state="translated">Rewatched</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Rewatched %lld times." xml:space="preserve">
         <source>Rewatched %lld times.</source>
         <target state="translated">Rewatched %lld times.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Rose Gold" xml:space="preserve">
-        <source>Rose Gold</source>
-        <target state="translated">Rose Gold</target>
-        <note>App Theme Color</note>
+      <trans-unit id="Russian" xml:space="preserve">
+        <source>Russian</source>
+        <target state="translated">Russian</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Saturday" xml:space="preserve">
         <source>Saturday</source>
@@ -1376,6 +1664,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Saved</target>
         <note>Popup Action</note>
       </trans-unit>
+      <trans-unit id="Schedule" xml:space="preserve">
+        <source>Schedule</source>
+        <target state="translated">Schedule</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Score" xml:space="preserve">
         <source>Score</source>
         <target state="translated">Score</target>
@@ -1384,6 +1677,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Search" xml:space="preserve">
         <source>Search</source>
         <target state="translated">Search</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Search %@ List" xml:space="preserve">
+        <source>Search %@ List</source>
+        <target state="translated">Search %@ List</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search Suggestions" xml:space="preserve">
@@ -1411,14 +1709,14 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">See All</target>
         <note/>
       </trans-unit>
-      <trans-unit id="See your current releases in a timeline with Your Schedule." xml:space="preserve">
-        <source>See your current releases in a timeline with Your Schedule.</source>
-        <target state="translated">See your current releases in a timeline with Your Schedule.</target>
+      <trans-unit id="See Details" xml:space="preserve">
+        <source>See Details</source>
+        <target state="translated">See Details</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Send" xml:space="preserve">
-        <source>Send</source>
-        <target state="translated">Send</target>
+      <trans-unit id="See your current releases in a timeline with Your Schedule." xml:space="preserve">
+        <source>See your current releases in a timeline with Schedule.</source>
+        <target state="translated">See your current releases in a timeline with Schedule.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Send Email" xml:space="preserve">
@@ -1426,9 +1724,9 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Send Email</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Send Feedback" xml:space="preserve">
-        <source>Send Feedback</source>
-        <target state="translated">Send Feedback</target>
+      <trans-unit id="Serialization" xml:space="preserve">
+        <source>Serialization</source>
+        <target state="translated">Serialization</target>
         <note/>
       </trans-unit>
       <trans-unit id="Session Expired" xml:space="preserve">
@@ -1441,19 +1739,14 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Settings</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Share" xml:space="preserve">
-        <source>Share</source>
-        <target state="translated">Share</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Show 'Last Updated at' On Edit Screens" xml:space="preserve">
-        <source>Show 'Last Updated at' On Edit Screens</source>
-        <target state="translated">Show 'Last Updated at' On Edit Screens</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Show All" xml:space="preserve">
         <source>Show All</source>
         <target state="translated">Show All</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Comments" xml:space="preserve">
+        <source>Show Comments</source>
+        <target state="translated">Show Comments</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show More" xml:space="preserve">
@@ -1471,9 +1764,29 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Show Progress Bar for Anime and Manga</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Show Rating View" xml:space="preserve">
+        <source>Show Rating View</source>
+        <target state="translated">Show Rating View</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Score View" xml:space="preserve">
+        <source>Show Score View</source>
+        <target state="translated">Show Score View</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
-        <source>Show Time in 'Your Schedule'</source>
-        <target state="translated">Show Time in 'Your Schedule'</target>
+        <source>Show Time in 'Schedule'</source>
+        <target state="translated">Show Time in 'Schedule'</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show With Apple Music" xml:space="preserve">
+        <source>Show With Apple Music</source>
+        <target state="translated">Show With Apple Music</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Without Apple Music" xml:space="preserve">
+        <source>Show Without Apple Music</source>
+        <target state="translated">Show Without Apple Music</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
@@ -1491,19 +1804,9 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Sign Out</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Since %@" xml:space="preserve">
-        <source>Since %@</source>
-        <target state="translated">Since %@</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Sky Blue" xml:space="preserve">
-        <source>Sky Blue</source>
-        <target state="translated">Sky Blue</target>
-        <note>App Theme Color</note>
-      </trans-unit>
-      <trans-unit id="Some features requires Kitsune Premium" xml:space="preserve">
-        <source>Some features requires Kitsune Premium</source>
-        <target state="translated">Some features requires Kitsune Premium</target>
+      <trans-unit id="Some videos may not play due to region restrictions." xml:space="preserve">
+        <source>Some videos may not play due to region restrictions.</source>
+        <target state="translated">Some videos may not play due to region restrictions.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sort" xml:space="preserve">
@@ -1516,6 +1819,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Source</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Spanish" xml:space="preserve">
+        <source>Spanish</source>
+        <target state="new">Spanish</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Special" xml:space="preserve">
         <source>Special</source>
         <target state="translated">Special</target>
@@ -1524,6 +1832,11 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Spring" xml:space="preserve">
         <source>Spring</source>
         <target state="translated">Spring</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Staff" xml:space="preserve">
+        <source>Staff</source>
+        <target state="translated">Staff</target>
         <note/>
       </trans-unit>
       <trans-unit id="Start Date" xml:space="preserve">
@@ -1540,11 +1853,6 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <source>Status</source>
         <target state="translated">Status</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="Steel" xml:space="preserve">
-        <source>Steel</source>
-        <target state="translated">Steel</target>
-        <note>App Theme Color</note>
       </trans-unit>
       <trans-unit id="Studios" xml:space="preserve">
         <source>Studios</source>
@@ -1564,16 +1872,6 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
       <trans-unit id="Support &amp; About" xml:space="preserve">
         <source>Support &amp; About</source>
         <target state="translated">Support &amp; About</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Support Kitsune" xml:space="preserve">
-        <source>Support Kitsune</source>
-        <target state="translated">Support Kitsune</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Support the development of the app, undertaken by a single developer." xml:space="preserve">
-        <source>Support the development of the app, undertaken by a single developer.</source>
-        <target state="translated">Support the development of the app, undertaken by a single developer.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Swipe or Hold to access quick actions" xml:space="preserve">
@@ -1616,34 +1914,14 @@ Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with
         <target state="translated">Tap 'Save' to save your changes after writing.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.appletv" xml:space="preserve">
-        <source>Click on Poster to Mark Next Episode as Watched</source>
-        <target state="translated">Click on Poster to Mark Next Episode as Watched</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.applevision" xml:space="preserve">
-        <source>Click on Poster to Mark Next Episode as Watched</source>
-        <target state="translated">Click on Poster to Mark Next Episode as Watched</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.mac" xml:space="preserve">
-        <source>Click on Poster to Mark Next Episode as Watched</source>
-        <target state="translated">Click on Poster to Mark Next Episode as Watched</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Tap on Poster to Mark Next Episode as Watched|==|device.other" xml:space="preserve">
-        <source>Tap on Poster to Mark Next Episode as Watched</source>
-        <target state="new">Tap on Poster to Mark Next Episode as Watched</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Teal" xml:space="preserve">
-        <source>Teal</source>
-        <target state="translated">Teal</target>
-        <note>App Theme Color</note>
-      </trans-unit>
       <trans-unit id="Teens 13 and Older" xml:space="preserve">
         <source>Teens 13 and Older</source>
         <target state="translated">Teens 13 and Older</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Terms of Service" xml:space="preserve">
+        <source>Terms of Service</source>
+        <target state="translated">Terms of Service</target>
         <note/>
       </trans-unit>
       <trans-unit id="Test Notifications" xml:space="preserve">
@@ -1690,9 +1968,9 @@ Please, try again later.</target>
         <target state="translated">The service is undergoing maintenance or is currently unavailable. Please try again later.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="This filter is always disabled on the user's lists." xml:space="preserve">
-        <source>This filter is always disabled on the user's lists.</source>
-        <target state="translated">This filter is always disabled on the user's lists.</target>
+      <trans-unit id="Themes" xml:space="preserve">
+        <source>Themes</source>
+        <target state="translated">Themes</target>
         <note/>
       </trans-unit>
       <trans-unit id="This option will hide previous days and show only from today up to Sunday." xml:space="preserve">
@@ -1745,6 +2023,13 @@ Please, try again later.</target>
         <target state="translated">Today</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Toggle this setting to include mature content in search results and recommendations.&#10;User lists are always unrestricted." xml:space="preserve">
+        <source>Toggle this setting to include mature content in search results and recommendations.
+User lists are always unrestricted.</source>
+        <target state="translated">Toggle this setting to include mature content in search results and recommendations.
+User lists are always unrestricted.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Top Airing" xml:space="preserve">
         <source>Top Airing</source>
         <target state="translated">Top Airing</target>
@@ -1785,9 +2070,19 @@ Please, try again later.</target>
         <target state="translated">Top Upcoming</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Touch and hold on the synopsis to copy or share it." xml:space="preserve">
+        <source>Touch and hold on the synopsis to copy or share it.</source>
+        <target state="translated">Touch and hold on the synopsis to copy or share it.</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Trailers" xml:space="preserve">
         <source>Trailers</source>
         <target state="translated">Trailers</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Translation" xml:space="preserve">
+        <source>Translation</source>
+        <target state="translated">Translation</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try Again" xml:space="preserve">
@@ -1803,6 +2098,11 @@ Please, try again later.</target>
       <trans-unit id="Try again" xml:space="preserve">
         <source>Try again</source>
         <target state="translated">Try again</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Try again later" xml:space="preserve">
+        <source>Try again later</source>
+        <target state="translated">Try again later</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later or change the list." xml:space="preserve">
@@ -1825,39 +2125,36 @@ Please, try again later.</target>
         <target state="translated">Try again later, change the season/year/filter or go back to current Season.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Try again later." xml:space="preserve">
-        <source>Try again later.</source>
-        <target state="translated">Try again later.</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Tuesday" xml:space="preserve">
         <source>Tuesday</source>
         <target state="translated">Tuesday</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="Turquoise" xml:space="preserve">
-        <source>Turquoise</source>
-        <target state="translated">Turquoise</target>
-        <note>App Theme Color</note>
-      </trans-unit>
-      <trans-unit id="Turquoise Blue" xml:space="preserve">
-        <source>Turquoise Blue</source>
-        <target state="translated">Turquoise Blue</target>
-        <note>App Theme Color</note>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
         <source>Unknown</source>
         <target state="translated">Unknown</target>
         <note>Anime Media Type</note>
       </trans-unit>
-      <trans-unit id="Unlock Custom App Themes" xml:space="preserve">
-        <source>Unlock Custom App Themes</source>
-        <target state="translated">Unlock Custom App Themes</target>
+      <trans-unit id="Unlock New Features and Customizations" xml:space="preserve">
+        <source>Unlock New Features and Customizations</source>
+        <target state="translated">Unlock New Features and Customizations</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Unlock Kitsune Premium and supercharge your experience." xml:space="preserve">
-        <source>Unlock Kitsune Premium and supercharge your experience.</source>
-        <target state="translated">Unlock Kitsune Premium and supercharge your experience.</target>
+      <trans-unit id="Unlock Your Entire Week with Kitsune Premium" xml:space="preserve">
+        <source>Unlock Your Entire Week with Kitsune Premium</source>
+        <target state="translated">Unlock Your Entire Week with Kitsune Premium</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Unlock app customization and more features with Kitsune Premium.&#10;No Subscription required." xml:space="preserve">
+        <source>Unlock app customization and more features with Kitsune Premium.
+No Subscription required.</source>
+        <target state="translated">Unlock app customization and more features with Kitsune Premium.
+No Subscription required.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Unlock customization and more features with Kitsune Premium" xml:space="preserve">
+        <source>Unlock customization and more features with Kitsune Premium</source>
+        <target state="translated">Unlock customization and more features with Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upcoming" xml:space="preserve">
@@ -1870,9 +2167,14 @@ Please, try again later.</target>
         <target state="translated">Upcoming Notifications</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Upgrade to Kitsune Premium" xml:space="preserve">
+        <source>Upgrade to Kitsune Premium</source>
+        <target state="translated">Upgrade to Kitsune Premium</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Version %@ • %@" xml:space="preserve">
-        <source>Version %1$@ • %2$@</source>
-        <target state="new">Version %1$@ • %2$@</target>
+        <source>Version %@ • %@</source>
+        <target state="translated">Version %@ • %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Very Bad" xml:space="preserve">
@@ -1885,6 +2187,21 @@ Please, try again later.</target>
         <target state="translated">Very Good</target>
         <note>MAL Score</note>
       </trans-unit>
+      <trans-unit id="View Credits" xml:space="preserve">
+        <source>View Credits</source>
+        <target state="translated">View Credits</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="View up to 10 of your most recent search results on the Search page." xml:space="preserve">
+        <source>View up to 10 of your most recent search results on the Search page.</source>
+        <target state="translated">View up to 10 of your most recent search results on the Search page.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Voice Acting Roles" xml:space="preserve">
+        <source>Voice Acting Roles</source>
+        <target state="translated">Voice Acting Roles</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Voice Actors" xml:space="preserve">
         <source>Voice Actors</source>
         <target state="translated">Voice Actors</target>
@@ -1893,6 +2210,13 @@ Please, try again later.</target>
       <trans-unit id="Volumes Read" xml:space="preserve">
         <source>Volumes Read</source>
         <target state="translated">Volumes Read</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Want to bring Kitsune to your language?&#10;You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations" xml:space="preserve">
+        <source>Want to bring Kitsune to your language?
+You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations</source>
+        <target state="new">Want to bring Kitsune to your language?
+You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
         <note/>
       </trans-unit>
       <trans-unit id="Watched" xml:space="preserve">
@@ -1910,9 +2234,9 @@ Please, try again later.</target>
         <target state="translated">Wednesday</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Welcome back, %@!" xml:space="preserve">
-        <source>Welcome back, %@!</source>
-        <target state="translated">Welcome back, %@!</target>
+      <trans-unit id="What's your score?" xml:space="preserve">
+        <source>What's your score?</source>
+        <target state="translated">What's your score?</target>
         <note/>
       </trans-unit>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
@@ -1937,24 +2261,19 @@ When off, the app will always open the last tab opened.</target>
         <target state="translated">Write a Review</target>
         <note/>
       </trans-unit>
-      <trans-unit id="X/Twitter" xml:space="preserve">
-        <source>X/Twitter</source>
-        <target state="translated">X/Twitter</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Year" xml:space="preserve">
         <source>Year</source>
         <target state="translated">Year</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Yellow" xml:space="preserve">
-        <source>Yellow</source>
-        <target state="translated">Yellow</target>
-        <note>App Theme Color</note>
+      <trans-unit id="You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser." xml:space="preserve">
+        <source>You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser.</source>
+        <target state="translated">You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser.</target>
+        <note/>
       </trans-unit>
-      <trans-unit id="You need to set the Display Preference to Poster to use this feature" xml:space="preserve">
-        <source>You need to set the Display Preference to Poster to use this feature</source>
-        <target state="translated">You need to set the Display Preference to Poster to use this feature</target>
+      <trans-unit id="You need Kitsune Premium to change this." xml:space="preserve">
+        <source>You need Kitsune Premium to change this.</source>
+        <target state="translated">You need Kitsune Premium to change this.</target>
         <note/>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
@@ -1969,19 +2288,24 @@ Thank you for your support.</source>
 Thank you for your support.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Your List, Your Way" xml:space="preserve">
-        <source>Your List, Your Way</source>
-        <target state="translated">Your List, Your Way</target>
+      <trans-unit id="YouTube" xml:space="preserve">
+        <source>YouTube</source>
+        <target state="translated">YouTube</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule" xml:space="preserve">
-        <source>Your Schedule</source>
-        <target state="translated">Your Schedule</target>
+        <source>Schedule</source>
+        <target state="translated">Schedule</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
+        <source>Schedule is empty for today.</source>
+        <target state="translated">Schedule is empty for today.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule is empty right now." xml:space="preserve">
-        <source>Your Schedule is empty right now.</source>
-        <target state="translated">Your Schedule is empty right now.</target>
+        <source>Schedule is empty right now.</source>
+        <target state="translated">Schedule is empty right now.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your session has expired.&#10;Please, sign in again to keep using the app." xml:space="preserve">
@@ -1992,11 +2316,11 @@ Please, sign in again to keep using the app.</target>
         <note/>
       </trans-unit>
       <trans-unit id="about_your_schedule" xml:space="preserve">
-        <source>Your Schedule organizes your currently watching animes by their weekday release, displaying them from Monday to Sunday. 
-It also includes upcoming premieres from your 'Plan to Watch' list for the next 7 days. 
+        <source>Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. 
+It also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days. 
 On premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'."</source>
-        <target state="translated">Your Schedule organizes your currently watching animes by their weekday release, displaying them from Monday to Sunday. 
-It also includes upcoming premieres from your 'Plan to Watch' list for the next 7 days. 
+        <target state="translated">Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. 
+It also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days. 
 On premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'."</target>
         <note/>
       </trans-unit>

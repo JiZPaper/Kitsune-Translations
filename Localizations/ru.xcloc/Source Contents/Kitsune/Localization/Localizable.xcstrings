@@ -1,9 +1,9 @@
 {
-  "sourceLanguage" : "en",
+  "sourceLanguage" : "ru",
   "strings" : {
     "%@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -13,17 +13,17 @@
     },
     "%@\nBy: %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@\nBy: %2$@"
+            "value" : "%1$@\nПо: %2$@"
           }
         }
       }
     },
     "%@ (%lld)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ (%2$lld)"
@@ -33,7 +33,7 @@
     },
     "%@ (JST)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ (JST)"
@@ -43,17 +43,17 @@
     },
     "%@ (Local Time)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ (Local Time)"
+            "value" : "%@ (местное время)"
           }
         }
       }
     },
     "%@ %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@"
@@ -63,7 +63,7 @@
     },
     "%@ %@ • %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ %@ • %@"
@@ -73,7 +73,7 @@
     },
     "%@ • %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ • %@"
@@ -83,47 +83,47 @@
     },
     "%@ at %@ (Local Time)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ at %@ (Local Time)"
+            "value" : "%@ в %@ (местное время)"
           }
         }
       }
     },
     "%@ days" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ days"
+            "value" : "%@ дней"
           }
         }
       }
     },
     "%@ minutes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ minutes"
+            "value" : "%@ минут"
           }
         }
       }
     },
     "%@ of %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ of %2$@"
+            "value" : "%1$@  %2$@"
           }
         }
       }
     },
     "%@, %@ (JST)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@, %@ (JST)"
@@ -133,17 +133,17 @@
     },
     "%@'s list is empty or is private." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@'s list is empty or is private."
+            "value" : "список %@ пуст или является частным."
           }
         }
       }
     },
     "%lld" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -153,7 +153,7 @@
     },
     "%lld - %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld - %2$@"
@@ -163,7 +163,7 @@
     },
     "%lld • %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld • %2$@"
@@ -173,45 +173,57 @@
     },
     "%lld animes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld animes"
+            "value" : "%lld Аниме"
           }
         }
       }
     },
     "%lld episodes watched of %@." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld episodes watched of %2$@."
+            "value" : "просмотрено %1$lld эпизодов из %2$@."
           }
         }
       }
     },
     "%lld items" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "variations" : {
             "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемент"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld элемент"
+                }
+              },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld item"
+                  "value" : "%lld элемент"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld items"
+                  "value" : "%lld элемент"
                 }
               },
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld items"
+                  "value" : "%lld элемент"
                 }
               }
             }
@@ -221,19 +233,31 @@
     },
     "%lld line" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "variations" : {
             "plural" : {
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld строчки"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld строчки"
+                }
+              },
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld line"
+                  "value" : "%lld строчка"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld lines"
+                  "value" : "%lld строчки"
                 }
               }
             }
@@ -242,48 +266,41 @@
       }
     },
     "%lld mangas" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mangas"
-          }
-        }
-      }
+
     },
     "%lld of %lld" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld of %2$lld"
+            "value" : "%1$lld из %2$lld"
           }
         }
       }
     },
     "%lld read of %@ chapters" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld read of %2$@ chapters"
+            "value" : "%1$ld прочитал %2$@ главы"
           }
         }
       }
     },
     "%lld read of %@ volumes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld read of %2$@ volumes"
+            "value" : "%1$lld чтение томов %2$@"
           }
         }
       }
     },
     "%lld/?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld/?"
@@ -293,7 +310,7 @@
     },
     "%lld/%@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$@"
@@ -303,7 +320,7 @@
     },
     "%lld/10" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld/10"
@@ -313,7 +330,7 @@
     },
     "+1" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "+1"
@@ -322,11 +339,18 @@
       }
     },
     "+1 (%lld/%@)" : {
-
+      "localizations" : {
+        "ru" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "+1 (%1$lld/%2$@)"
+          }
+        }
+      }
     },
     "🔨" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "🔨"
@@ -336,301 +360,272 @@
     },
     "17+ (Violence & Profanity)" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "17+ (Violence & Profanity)"
+            "value" : "17+ (Насилие и ненормативная лексика)"
           }
         }
       }
     },
     "A new episode is arriving today." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A new episode is arriving today."
+            "value" : "Сегодня выходит новый эпизод."
           }
         }
       }
     },
     "About" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About"
+            "value" : "О приложении"
           }
         }
       }
     },
     "About Your Schedule" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "About Schedule"
+            "value" : "О вашем расписании"
           }
         }
       }
     },
     "about_your_schedule" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. \nIt also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days. \nOn premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'.\""
+            "value" : "Ваше расписание организует просмотр аниме, которое в настоящее время вы смотрите, по дням недели, отображая их с понедельника по воскресенье. Оно также включает предстоящие премьеры из вашего списка \"Планирую посмотреть\" на ближайшие 3 дня. В день премьеры простое свайпание отмечает первую серию как просмотренную, безпрепятственно переводя ее из раздела \"Планирую посмотреть\" в раздел \"Смотрю\"."
           }
         }
       }
     },
     "Accent Color" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Accent Color"
+            "value" : "Акцентный цвет"
           }
         }
       }
     },
     "Account" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Account"
+            "value" : "Профиль"
           }
         }
       }
     },
     "Account - Refresh Token" : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account - Refresh Token"
-          }
-        }
-      }
+      "comment" : "Dev Options, do not need translation"
     },
     "Account Settings" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Account Settings"
+            "value" : "Настройки учетной записи"
           }
         }
       }
     },
     "Adaptation" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adaptation"
+            "value" : "Адаптация"
           }
         }
       }
     },
     "Add" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add"
+            "value" : "Добавить"
           }
         }
       }
     },
     "Add Comments" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add Comments"
+            "value" : "Добавить комментарий"
           }
         }
       }
     },
     "Add Finish Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add Finish Date"
+            "value" : "Добавить дату окончания"
           }
         }
       }
     },
     "Add Start Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add Start Date"
+            "value" : "Добавить дату начала"
           }
         }
       }
     },
     "Add to Library" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Add to Library"
+            "value" : "Добавить в библиотеку"
           }
         }
       }
     },
     "Adjust multiple settings to better suit your preferences." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adjust multiple settings to better suit your preferences."
+            "value" : "Измените параметры так, чтобы оно лучше соответствовали вашим предпочтениям."
           }
         }
       }
     },
     "Air Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Air Date"
+            "value" : "Дата выхода в эфир"
           }
         }
       }
     },
     "All Ages" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "All Ages"
+            "value" : "Все возрасты"
           }
         }
       }
     },
     "Allow Anime Notification" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Allow Anime Notification"
+            "value" : "Разрешить уведомления"
           }
         }
       }
     },
     "Anime" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anime"
+            "value" : "Аниме"
           }
         }
       }
     },
     "Anime & Manga Only" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anime & Manga Only"
+            "value" : "Только аниме и манга"
           }
         }
       }
     },
     "Anime Staff Positions" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anime Staff Positions"
+            "value" : "Должности сотрудников аниме"
           }
         }
       }
     },
     "Anime Statistics (In Days)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anime Statistics (In Days)"
-          }
-        }
-      }
+
     },
     "Anime Statistics (In Items)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anime Statistics (In Items)"
-          }
-        }
-      }
+
     },
     "Anime Studios" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anime Studios"
-          }
-        }
-      }
+
     },
     "Animeography" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Animeography"
+            "value" : "Анимеография"
           }
         }
       }
     },
     "Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.\nThis data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.\nThis data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting."
+            "value" : "Анонимная аналитика отправляется при сбоях в работе или использовании функций и экранов.\nЭти данные полностью анонимны и никоим образом не связаны с вами. Это помогает разработчику определить, какие экраны и функции требуют больше времени на разработку, а также помогает выявлять ошибки без необходимости создания отчетов вручную."
           }
         }
       }
     },
     "App Features" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App Features"
+            "value" : "Функции приложения"
           }
         }
       }
     },
     "App Icon" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App Icon"
+            "value" : "Иконка приложения"
           }
         }
       }
     },
     "App Theme" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "App Theme"
+            "value" : "Тема приложения"
           }
         }
       }
@@ -638,27 +633,27 @@
     "Appalling" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Appalling"
+            "value" : "Хуже некуда"
           }
         }
       }
     },
     "Appearance" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Appearance"
+            "value" : "Тема оформления"
           }
         }
       }
     },
     "Apple Music" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apple Music"
@@ -668,105 +663,98 @@
     },
     "Apple Music Support" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apple Music Support"
+            "value" : "Поддержка Apple Music"
           }
         }
       }
     },
     "Apple Music support is experimental. Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apple Music support is experimental. Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur."
+            "value" : "Поддержка Apple Music является экспериментальной. Сообщайте о любых несоответствиях с помощью кнопки \"Сообщить\".\nПоиск и сопоставление автоматизированы, возможны несовпадения."
           }
         }
       }
     },
     "Are you sure?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Are you sure?"
+            "value" : "Вы уверены?"
           }
         }
       }
     },
     "Are You Sure?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Are You Sure?"
+            "value" : "Вы уверены?"
           }
         }
       }
     },
     "Ask for confirmation to mark the episode as watched." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ask for confirmation to mark the episode as watched."
+            "value" : "Подтверждать просмотр эпизода"
           }
         }
       }
     },
     "Ask for Score After Watching an Anime" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ask for Score After Watching an Anime"
+            "value" : "Спрашивать оценку после просмотра аниме"
           }
         }
       }
     },
     "Ask you to rate after completing watching an anime." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ask you to rate after completing watching an anime."
+            "value" : "Предлагать оценить аниме при завершении просмотра."
           }
         }
       }
     },
     "Asked for Review? %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asked for Review? %@"
-          }
-        }
-      }
+
     },
     "Auto Add to Plan To Watch/Read list when tapping 'Add'." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "variations" : {
             "device" : {
               "applevision" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Auto Add to Plan To Watch/Read list when clicking 'Add'."
+                  "value" : "Автоматическое добавление в список \"Запланировано\" по нажатию кнопки \"Добавить\""
                 }
               },
               "mac" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Auto Add to Plan To Watch/Read list when clicking 'Add'."
+                  "value" : "Автоматическое добавление в список \"Запланировано\" по нажатию кнопки \"Добавить\""
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Auto Add to Plan To Watch/Read list when tapping 'Add'."
+                  "value" : "Автоматическое добавление в список \"Запланировано\" по нажатию кнопки \"Добавить\""
                 }
               }
             }
@@ -776,30 +764,30 @@
     },
     "Auto-fill 'Finish Date' when marking the last episode as watched." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Auto-fill 'Finish Date' when marking the last episode as watched."
+            "value" : "Автоматическое заполнение \"Даты окончания\" при отметке последнего эпизода как просмотренного."
           }
         }
       }
     },
     "Auto-fill 'Start Date' when marking the first episode as watched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Auto-fill 'Start Date' when marking the first episode as watched."
+            "value" : "Автоматическое заполнение \"Даты начала\" при отметке первого эпизода как просмотренного."
           }
         }
       }
     },
     "Automatically fill in the first episode" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Automatically fill in the first episode"
+            "value" : "Указывать первый эпизод просмотренным"
           }
         }
       }
@@ -807,20 +795,20 @@
     "Average" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Average"
+            "value" : "Более-менее"
           }
         }
       }
     },
     "Average Duration" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Average Duration"
+            "value" : "Продолжительность"
           }
         }
       }
@@ -828,352 +816,323 @@
     "Bad" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bad"
+            "value" : "Плохо"
           }
         }
       }
     },
     "Based on your common genres" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Based on your common genres"
+            "value" : "Основываясь на ваших общих жанрах"
           }
         }
       }
     },
     "Behavior" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Behavior"
+            "value" : "Основные"
           }
         }
       }
     },
     "Black Opacity" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Black Opacity"
+            "value" : "Прозрачность"
           }
         }
       }
     },
     "Blur" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Blur"
+            "value" : "Размытие"
           }
         }
       }
     },
     "Blur Mature Content Poster" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Blur Mature Content Poster"
+            "value" : "Размытие постера с \"контентом для взрослых\""
           }
         }
       }
     },
     "Broadcast" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Broadcast"
+            "value" : "Трансляция"
           }
         }
       }
     },
     "Buy (%@)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buy (%@)"
-          }
-        }
-      }
+
     },
     "By Last Update" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "By Last Update"
+            "value" : "По последнему обновлению"
           }
         }
       }
     },
     "By Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "By Score"
+            "value" : "По оценке"
           }
         }
       }
     },
     "By Start Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "By Start Date"
+            "value" : "По дате начала"
           }
         }
       }
     },
     "By Title" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "By Title"
+            "value" : "По названию"
           }
         }
       }
     },
     "Cancel" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cancel"
+            "value" : "Отмена"
           }
         }
       }
     },
     "Change List" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Change List"
+            "value" : "Изменить Список"
           }
         }
       }
     },
     "Chapters Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Chapters Read"
+            "value" : "Главы"
           }
         }
       }
     },
     "Characters" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Characters"
+            "value" : "Персонажи"
           }
         }
       }
     },
     "Children" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Children"
+            "value" : "Дети"
           }
         }
       }
     },
     "Choose among four indicators to display on posters.\nMy List screen will always show the progress and rating indicators; other screens will respect this setting." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose among four indicators to display on posters.\nMy List screen will always show the progress and rating indicators; other screens will respect this setting."
+            "value" : "Выберите один из четырех типов отображения плакатов.\nНа экране \"Мой список\" всегда отображается прогресс и рейтинг; на других экранах эта настройка будет соблюдаться."
           }
         }
       }
     },
     "Choose between list and poster style." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose between list and poster style."
+            "value" : "Выберите удобный стиль"
           }
         }
       }
     },
     "Choose how many lines you want the title to appear on My List." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Choose how many lines you want the title to appear on My List."
+            "value" : "Укажите, сколько строк должно занимать название"
           }
         }
       }
     },
     "Clear All Upcoming Notifications" : {
       "comment" : "Dev Options, do not need translation",
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear All Upcoming Notifications"
-          }
-        }
-      }
+      "extractionState" : "stale"
     },
     "Clear Cache" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear Cache"
-          }
-        }
-      }
+
     },
     "Close" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Close"
+            "value" : "Закрыть"
           }
         }
       }
     },
     "Collapse" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Collapse"
+            "value" : "Свернуть"
           }
         }
       }
     },
     "Comments" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comments"
+            "value" : "Комментарии"
           }
         }
       }
     },
     "Comments about %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Comments about %@"
-          }
-        }
-      }
+
     },
     "Completed" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Completed"
+            "value" : "Просмотрено"
           }
         }
       }
     },
     "Completed_Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Completed"
+            "value" : "Прочитано"
           }
         }
       }
     },
     "Confirm" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Confirm"
+            "value" : "Подтвердите"
           }
         }
       }
     },
     "Connected Services" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Connected Services"
+            "value" : "Подключенные сервисы"
           }
         }
       }
     },
     "Content Provider" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Content Provider"
+            "value" : "Поставщик контента"
           }
         }
       }
     },
     "Continuing Series" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Continuing Series"
+            "value" : "Продолжение серии"
           }
         }
       }
     },
     "Copy" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copy"
+            "value" : "Копировать"
           }
         }
       }
     },
     "Copy Song Name" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copy Song Name"
+            "value" : "Копирование названия песни"
           }
         }
       }
     },
     "Credits" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Credits"
+            "value" : "Авторы"
           }
         }
       }
@@ -1181,70 +1140,70 @@
     "Currently Airing" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Currently Airing"
+            "value" : "Онгоинг"
           }
         }
       }
     },
     "Currently Publishing" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Currently Publishing"
+            "value" : "Выходит"
           }
         }
       }
     },
     "Customize" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Customize"
+            "value" : "Настройте приложение под себя."
           }
         }
       }
     },
     "Dark" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dark"
+            "value" : "Темная"
           }
         }
       }
     },
     "Dates" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dates"
+            "value" : "Даты"
           }
         }
       }
     },
     "Days" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Days"
+            "value" : "Дни"
           }
         }
       }
     },
     "Days Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Days Read"
+            "value" : "Дней чтения"
           }
         }
       }
@@ -1252,100 +1211,85 @@
     "Default" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Default"
+            "value" : "По умолчанию"
           }
         }
       }
     },
     "Delete Account" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Delete Account"
+            "value" : "Удалить аккаунт"
           }
         }
       }
     },
     "Demographics" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Demographics"
+            "value" : "Демография"
           }
         }
       }
     },
     "Design" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Design"
+            "value" : "Дизайн"
           }
         }
       }
     },
     "Developed by Alexandre Madeira" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Developed by Alexandre Madeira"
+            "value" : "Разработано Александром Мадейрой"
           }
         }
       }
     },
     "Developer" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Developer"
-          }
-        }
-      }
+
     },
     "Developer Options" : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Developer Options"
-          }
-        }
-      }
+      "comment" : "Dev Options, do not need translation"
     },
     "Disable Anonymous Analytics" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Disable Anonymous Analytics"
+            "value" : "Отключить анонимную аналитику"
           }
         }
       }
     },
     "Disable Translucent Background" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "variations" : {
             "device" : {
               "mac" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Disable Translucent Background (BETA)"
+                  "value" : "Отключить полупрозрачный фон (BETA)"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Disable Translucent Background"
+                  "value" : "Отключить полупрозрачный фон"
                 }
               }
             }
@@ -1355,37 +1299,37 @@
     },
     "Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction."
+            "value" : "Отключение аналитики может повлиять на скорость исправления ошибок, так как не позволяет отправлять сигналы о сбоях в работе функций."
           }
         }
       }
     },
     "Dismiss" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dismiss"
+            "value" : "Увольте"
           }
         }
       }
     },
     "Display Preference" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Display Preference"
+            "value" : "Параметры отображения"
           }
         }
       }
     },
     "Doujinshi" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doujinshi"
@@ -1395,100 +1339,100 @@
     },
     "Dropped" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dropped"
+            "value" : "Брошено"
           }
         }
       }
     },
     "Edit" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Edit"
+            "value" : "Изменить"
           }
         }
       }
     },
     "Enable Apple Music Support" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enable Apple Music Support"
+            "value" : "Включите поддержку Apple Music"
           }
         }
       }
     },
     "Enable Mature Content" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enable Mature Content"
+            "value" : "Включить \"контент для взрослых\""
           }
         }
       }
     },
     "Enable Preferred Launch Screen" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enable Preferred Launch Screen"
+            "value" : "Предпочитаемый стартовый экран"
           }
         }
       }
     },
     "Enable Recent Searches" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enable Recent Searches"
+            "value" : "Включить последние запросы"
           }
         }
       }
     },
     "Enable Trailers" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enable Trailers"
+            "value" : "Включить трейлеры"
           }
         }
       }
     },
     "End Air Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "End Air Date"
+            "value" : "Дата окончания эфира"
           }
         }
       }
     },
     "End Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "End Date"
+            "value" : "Дата окончания"
           }
         }
       }
     },
     "Ending" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ending"
+            "value" : "Эндинг"
           }
         }
       }
@@ -1496,180 +1440,166 @@
     "English" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "English"
+            "value" : "Английский язык"
           }
         }
       }
     },
     "English Title" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "English Title"
+            "value" : "Английское название"
           }
         }
       }
     },
     "Enjoying Kitsune?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enjoying Kitsune?"
+            "value" : "Нравится Кицунэ?"
           }
         }
       }
     },
     "Episodes Watched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Episodes Watched"
+            "value" : "Просмотренные эпизоды"
           }
         }
       }
     },
     "Explicit Genres" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Explicit Genres"
+            "value" : "Явные жанры"
           }
         }
       }
     },
     "Explore Anime" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Explore Anime"
-          }
-        }
-      }
+
     },
     "Explore Manga" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Explore Manga"
-          }
-        }
-      }
+
     },
     "External Links" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "External Links"
+            "value" : "Внешние ссылки"
           }
         }
       }
     },
     "Fall" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fall"
+            "value" : "Осень"
           }
         }
       }
     },
     "Favorite Anime" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favorite Anime"
+            "value" : "Любимое аниме"
           }
         }
       }
     },
     "Favorite Characters" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favorite Characters"
+            "value" : "Любимые персонажи"
           }
         }
       }
     },
     "Favorite People" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favorite People"
+            "value" : "Любимые люди"
           }
         }
       }
     },
     "Favorites Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favorites Manga"
+            "value" : "Избранная манга"
           }
         }
       }
     },
     "Filter" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filter"
+            "value" : "Фильтр"
           }
         }
       }
     },
     "Filter based on what's added to your list, sort by popularity or by your own score." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filter based on what's added to your list, sort by popularity or by your own score."
+            "value" : "Используйте различные фильтры, сортируйте по популярности или по вашим оценкам."
           }
         }
       }
     },
     "Filter by added, sort by popularity and more." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filter by added, sort by popularity and more."
+            "value" : "Фильтруйте по добавленным, сортируйте по популярности и многое другое."
           }
         }
       }
     },
     "Filter Seasonal" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filter Season"
+            "value" : "Фильтры"
           }
         }
       }
     },
     "Filter your Seasonal" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filter your Season"
+            "value" : "Отфильтруйте свой сезон"
           }
         }
       }
@@ -1677,30 +1607,30 @@
     "Fine" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fine"
+            "value" : "Нормально"
           }
         }
       }
     },
     "Finish Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Finish Date"
+            "value" : "Дата окончания"
           }
         }
       }
     },
     "Finished" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Finished"
+            "value" : "Издано"
           }
         }
       }
@@ -1708,110 +1638,110 @@
     "Finished Airing" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Finished Airing"
+            "value" : "Вышло"
           }
         }
       }
     },
     "First Air Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "First Air Date"
+            "value" : "Первая дата выхода в эфир"
           }
         }
       }
     },
     "Follow Kitsune on X/Twitter" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Follow Kitsune on X"
+            "value" : "Следите за Kitsune в X"
           }
         }
       }
     },
     "For You" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "For You"
+            "value" : "Для тебя"
           }
         }
       }
     },
     "Friday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Friday"
+            "value" : "Пятница"
           }
         }
       }
     },
     "Friends" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Friends"
+            "value" : "Друзья"
           }
         }
       }
     },
     "Friends since %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Friends since %@"
+            "value" : "Друзья с %@"
           }
         }
       }
     },
     "General" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "General"
+            "value" : "Общие"
           }
         }
       }
     },
     "Genres" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Genres"
+            "value" : "Жанры"
           }
         }
       }
     },
     "Get Kitsune Premium\n%@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Get Kitsune Premium\n%@"
+            "value" : "Получить Kitsune Premium\n%@"
           }
         }
       }
     },
     "Get Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Get Premium"
+            "value" : "Получить премию"
           }
         }
       }
@@ -1819,10 +1749,10 @@
     "Good" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Good"
+            "value" : "Хорошо"
           }
         }
       }
@@ -1830,80 +1760,80 @@
     "Great" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Great"
+            "value" : "Великолепно"
           }
         }
       }
     },
     "Haptic Feedback" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Haptic Feedback"
+            "value" : "Тактильная обратная связь"
           }
         }
       }
     },
     "Having trouble signing in?\nSend an email to contact@alexandremadeira.dev and we will help you." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Having trouble signing in?\nSend an email to kitsune@alexandremadeira.dev and we will help you."
+            "value" : "Возникли проблемы с входом в систему?\nОтправьте письмо на kitsune@alexandremadeira.dev, и мы вам поможем."
           }
         }
       }
     },
     "Help & Feedback" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Help & Feedback"
+            "value" : "Помощь и отзывы"
           }
         }
       }
     },
     "Hentai" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hentai"
+            "value" : "Хентай"
           }
         }
       }
     },
     "Hide Added" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide Added"
+            "value" : "Скрыть Добавлено"
           }
         }
       }
     },
     "Hide Previous Days" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide Previous Days"
+            "value" : "Скрыть предыдущие дни"
           }
         }
       }
     },
     "Hide Username on Tab Bar" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hide Username on Tab Bar"
+            "value" : "Скрыть имя пользователя на панели вкладок"
           }
         }
       }
@@ -1911,71 +1841,49 @@
     "Horrible" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Horrible"
+            "value" : "Ужасно"
           }
         }
       }
     },
     "If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "If you prefer, you can send an email to kitsune@alexandremadeira.dev using your email client for a faster follow-up."
+            "value" : "При желании вы можете отправить письмо на адрес kitsune@alexandremadeira.dev с помощью своего почтового клиента, чтобы ускорить последующие действия."
           }
         }
       }
     },
     "Information" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Information"
+            "value" : "Информация"
           }
         }
       }
     },
     "Is connected? %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Is connected? %@"
-          }
-        }
-      }
+
     },
     "Is Premium User" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Is Premium User"
-          }
-        }
-      }
+      "extractionState" : "stale"
     },
     "Is refreshing token? %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Is refreshing token? %@"
-          }
-        }
-      }
+
     },
     "Is Rewatching" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Is Rewatching"
+            "value" : "Пересматривать"
           }
         }
       }
@@ -1983,20 +1891,20 @@
     "Japanese" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Japanese"
+            "value" : "Японский"
           }
         }
       }
     },
     "Japanese Title" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Japanese Title"
+            "value" : "Японское название"
           }
         }
       }
@@ -2004,7 +1912,7 @@
     "JST" : {
       "comment" : "Japan Standard Time, do not need translation.",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "JST"
@@ -2014,70 +1922,70 @@
     },
     "Kitsune Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Kitsune Premium"
+            "value" : "Кицунэ Премиум"
           }
         }
       }
     },
     "Last Sync on %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Last Sync on %@"
+            "value" : "Последняя синхронизация на %@"
           }
         }
       }
     },
     "Last updated at %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Last updated at %@"
+            "value" : "Последнее обновление в %@"
           }
         }
       }
     },
     "Launch Screen" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Launch Screen"
+            "value" : "СТАРТОВЫЙ ЭКРАН"
           }
         }
       }
     },
     "Leave a Review on the App Store!" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Leave a Review on the App Store!"
+            "value" : "Оставьте отзыв в App Store!"
           }
         }
       }
     },
     "Libraries" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Libraries"
+            "value" : "Библиотеки"
           }
         }
       }
     },
     "Light" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Light"
+            "value" : "Светлая"
           }
         }
       }
@@ -2085,30 +1993,30 @@
     "List" : {
       "comment" : "Poster Indicator",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "List"
+            "value" : "Список"
           }
         }
       }
     },
     "List Selection" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "List Selection"
+            "value" : "Выбор списка"
           }
         }
       }
     },
     "Loading" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Loading"
+            "value" : "Загрузка"
           }
         }
       }
@@ -2116,160 +2024,132 @@
     "Local Time" : {
       "comment" : "Time Preference",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Local Time"
+            "value" : "Местное время"
           }
         }
       }
     },
     "Magazines" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Magazines"
-          }
-        }
-      }
+
     },
     "MAL Mean Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "MAL Mean Score"
+            "value" : "Средний балл MAL"
           }
         }
       }
     },
     "MAL Score & Number of Users" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "MAL Score & Number of Users"
+            "value" : "Оценка MAL и количество пользователей"
           }
         }
       }
     },
     "Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Manga"
+            "value" : "Манга"
           }
         }
       }
     },
     "Manga Genres" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manga Genres"
-          }
-        }
-      }
+
     },
     "Manga Magazines" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manga Magazines"
-          }
-        }
-      }
+
     },
     "Manga Statistics" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Manga Statistics"
-          }
-        }
-      }
+
     },
     "Mangaography" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangaography"
+            "value" : "Мангаография"
           }
         }
       }
     },
     "Manhua" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Manhua"
+            "value" : "Мэнхуа"
           }
         }
       }
     },
     "Manhwa" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Manhwa"
+            "value" : "Манхва"
           }
         }
       }
     },
     "Mark Next Chapter as Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mark Next Chapter as Read"
+            "value" : "Отметить следующую главу как прочитанную"
           }
         }
       }
     },
     "Mark Next Episode as Watched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mark Next Episode as Watched"
+            "value" : "Отметить следующую серию как просмотренную"
           }
         }
       }
     },
     "Mark Next Episode of %@ as Watched?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mark Next Episode of %@ as Watched?"
+            "value" : "Отметить следующую серию %@ как просмотренную?"
           }
         }
       }
     },
     "Mark Next Volume as Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mark Next Volume as Read"
+            "value" : "Пометить следующий том как прочитанный"
           }
         }
       }
     },
     "Mark Watched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mark Watched"
+            "value" : "Просмотрено"
           }
         }
       }
@@ -2277,20 +2157,20 @@
     "Masterpiece" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Masterpiece"
+            "value" : "Шедевр"
           }
         }
       }
     },
     "Mean Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mean Score"
+            "value" : "Средний балл"
           }
         }
       }
@@ -2298,50 +2178,50 @@
     "Media Type" : {
       "comment" : "Seasonal Organization Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Media Type"
+            "value" : "Тип"
           }
         }
       }
     },
     "Monday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Monday"
+            "value" : "Понедельник"
           }
         }
       }
     },
     "More" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "More"
+            "value" : "Подробнее"
           }
         }
       }
     },
     "Most Popular" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Most Popular"
+            "value" : "Самые популярные"
           }
         }
       }
     },
     "Most Popular Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Most Popular Manga"
+            "value" : "Самая популярная манга"
           }
         }
       }
@@ -2349,10 +2229,10 @@
     "Movie" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Movie"
+            "value" : "Фильм"
           }
         }
       }
@@ -2360,77 +2240,63 @@
     "Music" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Music"
+            "value" : "Музыка"
           }
         }
       }
     },
     "My %@ List" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "My %@ List"
+            "value" : "Мой список %@"
           }
         }
       }
     },
     "My Anime List" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My Anime List"
-          }
-        }
-      }
+
     },
     "My List" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "My List"
+            "value" : "Мой список"
           }
         }
       }
     },
     "My List, Edit Status, Add Items and Statics need a MyAnimeList account." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "My List, Edit Status, Add Items and Statics need a MyAnimeList account."
+            "value" : "Для работы с разделами \"Мой список\", \"Редактирование статуса\", \"Добавление предметов\" и \"Статика\" необходима учетная запись MyAnimeList."
           }
         }
       }
     },
     "My Manga List" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "My Manga List"
-          }
-        }
-      }
+
     },
     "My Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "My Score"
+            "value" : "Моя оценка"
           }
         }
       }
     },
     "MyAnimeList" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyAnimeList"
@@ -2439,41 +2305,34 @@
       }
     },
     "Network Status" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Network Status"
-          }
-        }
-      }
+
     },
     "New This Season" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "New This Season"
+            "value" : "Новинки этого сезона"
           }
         }
       }
     },
     "No subscription required; make one purchase to unlock all current and upcoming premium features.\nWorks on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "No subscription required; make one purchase to unlock all current and upcoming premium features."
+            "value" : "Подписка не требуется; совершите одну покупку, чтобы разблокировать все текущие и новые премиум- функции."
           }
         }
       }
     },
     "None" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "None"
+            "value" : "Нет"
           }
         }
       }
@@ -2481,10 +2340,10 @@
     "Not Scored" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Not Scored"
+            "value" : "Без оценки"
           }
         }
       }
@@ -2492,137 +2351,137 @@
     "Not Yet Aired" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Not Yet Aired"
+            "value" : "Еще не вышел в эфир"
           }
         }
       }
     },
     "Not Yet Published" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Not Yet Published"
+            "value" : "Еще не опубликовано"
           }
         }
       }
     },
     "Nothing found here" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nothing found here"
+            "value" : "Здесь ничего не найдено"
           }
         }
       }
     },
     "Nothing found." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nothing found."
+            "value" : "Ничего не найдено."
           }
         }
       }
     },
     "Notification Support" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notification Support"
+            "value" : "Поддержка уведомлений"
           }
         }
       }
     },
     "Notification Support needs Background access to work, you can also force the sync." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notification Support needs Background access to work, you can also force the sync."
+            "value" : "Для поддержки уведомлений необходим фоновый доступ, но вы также можете выполнить принудительную синхронизацию."
           }
         }
       }
     },
     "Notification support requires Kitsune Premium." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notification support requires Kitsune Premium."
+            "value" : "Для поддержки уведомлений требуется Kitsune Premium."
           }
         }
       }
     },
     "Notifications" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notifications"
+            "value" : "Уведомления"
           }
         }
       }
     },
     "Novel" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novel"
+            "value" : "Роман"
           }
         }
       }
     },
     "Number of Chapters" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of Chapters"
+            "value" : "Количество глав"
           }
         }
       }
     },
     "Number of Episodes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of Episodes"
+            "value" : "Количество эпизодов"
           }
         }
       }
     },
     "Number of Members" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of Members"
+            "value" : "Количество членов"
           }
         }
       }
     },
     "Number of Volumes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Number of Volumes"
+            "value" : "Количество томов"
           }
         }
       }
     },
     "Oel" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oel"
@@ -2632,7 +2491,7 @@
     },
     "OK" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -2642,30 +2501,30 @@
     },
     "On Hold" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "On Hold"
+            "value" : "Отложено"
           }
         }
       }
     },
     "On MyAnimeList since %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "On MyAnimeList since %@"
+            "value" : "В MyAnimeList с %@"
           }
         }
       }
     },
     "On-Hold" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "On-Hold"
+            "value" : "Отложено"
           }
         }
       }
@@ -2673,7 +2532,7 @@
     "ONA" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ONA"
@@ -2683,70 +2542,63 @@
     },
     "One Price, No Sub." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "One Price, No Sub."
+            "value" : "Одноразовая покупка, без подписки."
           }
         }
       }
     },
     "One Shot" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "One Shot"
+            "value" : "Один выстрел"
           }
         }
       }
     },
     "Only use those settings if you're a developer working on this project." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Only use those settings if you're a developer working on this project."
-          }
-        }
-      }
+
     },
     "Open any anime/manga from MAL directly in the app." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open any anime/manga from MAL directly in the app."
+            "value" : "Открывайте любые аниме/ манги из MAL прямо в приложении."
           }
         }
       }
     },
     "Open in Apple Music" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open in Apple Music"
+            "value" : "Открыть в Apple Music"
           }
         }
       }
     },
     "Open on MyAnimeList" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Open on MyAnimeList"
+            "value" : "Открыть на MyAnimeList"
           }
         }
       }
     },
     "Opening" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opening"
+            "value" : "Опенинг"
           }
         }
       }
@@ -2754,7 +2606,7 @@
     "OVA" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OVA"
@@ -2764,241 +2616,233 @@
     },
     "Paste MAL URL" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Paste MAL URL"
+            "value" : "Вставьте URL-адрес MAL"
           }
         }
       }
     },
     "Perform actions like marking the next episode/chapter or open the edit screen." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Perform actions like marking the next episode/chapter or open the edit screen."
+            "value" : "Выполните такие действия, как пометка следующего эпизода/главы или открытие экрана редактирования."
           }
         }
       }
     },
     "Plan to Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plan to Read"
+            "value" : "Запланировано"
           }
         }
       }
     },
     "Plan to Watch" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Plan to Watch"
+            "value" : "Запланировано"
           }
         }
       }
     },
     "Play the opening and ending themes using your Apple Music subscription" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Play the opening and ending themes using your Apple Music subscription"
+            "value" : "Воспроизводите опенинг и эндинг, используя подписку на Apple Music"
           }
         }
       }
     },
     "Play the opening and ending themes using your Apple Music subscription right from the Credits screen." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Play the opening and ending themes using your Apple Music subscription right from the Credits screen."
+            "value" : "Воспроизводите опенинг и эндинг, используя подписку на Apple Music, прямо из пункта Авторы."
           }
         }
       }
     },
     "Please, note that the app doesn't consider delays." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please, note that the app doesn't consider delays."
+            "value" : "Обратите внимание, что приложение не учитывает задержки."
           }
         }
       }
     },
     "Please, try again later." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Please, try again later."
+            "value" : "Пожалуйста, повторите попытку позже."
           }
         }
       }
     },
     "Polish" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Polish"
+            "value" : "Польша"
           }
         }
       }
     },
     "Poster" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poster"
+            "value" : "Постер"
           }
         }
       }
     },
     "Poster Indicator" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poster Indicator"
+            "value" : "Данные на постере"
           }
         }
       }
     },
     "Poster Indicator Background" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Poster Indicator Background"
+            "value" : "Фон данных на постере"
           }
         }
       }
     },
     "Prefer Manga Volumes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Prefer Manga Volumes"
+            "value" : "Том манги вместо глав"
           }
         }
       }
     },
     "Preferred Screen" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preferred Screen"
+            "value" : "Экран после запуска"
           }
         }
       }
     },
     "Preferred Time Format" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preferred Time Format"
+            "value" : "Предпочитаемый формат времени"
           }
         }
       }
     },
     "Preferred Title Language" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preferred Title Language"
+            "value" : "Предпочитаемый язык названия"
           }
         }
       }
     },
     "Print" : {
-      "comment" : "Dev Option, do not need translation.",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Print"
-          }
-        }
-      }
+      "comment" : "Dev Option, do not need translation."
     },
     "Privacy" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Privacy"
+            "value" : "Конфиденциальность"
           }
         }
       }
     },
     "Privacy Policy" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Privacy Policy"
+            "value" : "Политика конфиденциальности"
           }
         }
       }
     },
     "Profanity & Mild Nudity" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Profanity & Mild Nudity"
+            "value" : "Сквернословие и легкая нагота"
           }
         }
       }
     },
     "Progress & List" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Progress & List"
+            "value" : "Прогресс и список"
           }
         }
       }
     },
     "Progress & Personal Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Progress & Personal Score"
+            "value" : "Прогресс и личная оценка"
           }
         }
       }
     },
     "Published Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Published Manga"
+            "value" : "Опубликованная манга"
           }
         }
       }
     },
     "Quickly delete any date by swiping or long pressing." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quickly delete any date by swiping or long pressing."
+            "value" : "Быстро удалите любую дату, проведя пальцем или долго нажимая."
           }
         }
       }
@@ -3006,282 +2850,252 @@
     "Rating" : {
       "comment" : "Poster Indicator",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rating"
+            "value" : "Рейтинг"
           }
         }
       }
     },
     "Rating %lld" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rating %lld"
+            "value" : "Рейтинг %lld"
           }
         }
       }
     },
     "Rating of %lld of 10." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rating of %lld of 10."
+            "value" : "Рейтинг %lld из 10."
           }
         }
       }
     },
     "Rating: %lld" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rating: %lld"
+            "value" : "Рейтинг: %lld"
           }
         }
       }
     },
     "Reading" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reading"
+            "value" : "Читаю"
           }
         }
       }
     },
     "Receive notifications when a new episode is released or when a new anime premieres from your list." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Receive notifications when a new episode is released or when a new anime premieres from your list."
+            "value" : "Получайте уведомления о выходе нового эпизода или премьере нового аниме из вашего списка."
           }
         }
       }
     },
     "Recent Searches" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recent Searches"
+            "value" : "ПОИСКОВЫЕ ЗАПРОСЫ"
           }
         }
       }
     },
     "Recently Completed" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recently Completed"
+            "value" : "Недавно завершено"
           }
         }
       }
     },
     "Recheck Network" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recheck Network"
-          }
-        }
-      }
+
     },
     "Recommendations" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recommendations"
+            "value" : "Похожее"
           }
         }
       }
     },
     "Related" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Related"
+            "value" : "Связанные"
           }
         }
       }
     },
     "Related Anime" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Related Anime"
+            "value" : "Похожие аниме"
           }
         }
       }
     },
     "Reload" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reload"
+            "value" : "Перезагрузка"
           }
         }
       }
     },
     "Remove" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Remove"
+            "value" : "Удалить"
           }
         }
       }
     },
     "Remove from Recent Viewed" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Remove from Recent Viewed"
+            "value" : "Удалить из недавнего просмотра"
           }
         }
       }
     },
     "Report a Problem" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Report a Problem"
+            "value" : "Сообщить о проблеме"
           }
         }
       }
     },
     "Requires Kitsune Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requires Kitsune Premium"
+            "value" : "Требуется Kitsune Premium"
           }
         }
       }
     },
     "Reread" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reread"
+            "value" : "Перечитано"
           }
         }
       }
     },
     "Reset Asked for Review" : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reset Asked for Review"
-          }
-        }
-      }
+      "comment" : "Dev Options, do not need translation"
     },
     "Reset Settings" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reset Settings"
-          }
-        }
-      }
+      "extractionState" : "stale"
     },
     "Restore" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Restore"
+            "value" : "Восстановить"
           }
         }
       }
     },
     "Return to current season" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Return to current season"
+            "value" : "Вернуться к текущему сезону"
           }
         }
       }
     },
     "Review Kitsune" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Review Kitsune"
+            "value" : "Обзор Kitsune"
           }
         }
       }
     },
     "Rewatched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rewatched"
+            "value" : "Пересмотрено"
           }
         }
       }
     },
     "Rewatched %lld times." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Rewatched %lld times."
+            "value" : "Пересмотрено %lld раз."
           }
         }
       }
     },
     "Russian" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Russian"
-          }
-        }
-      }
+
     },
     "Saturday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saturday"
+            "value" : "Суббота"
           }
         }
       }
     },
     "Save" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Save"
+            "value" : "Сохранить"
           }
         }
       }
@@ -3289,321 +3103,299 @@
     "Saved" : {
       "comment" : "Popup Action",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Saved"
+            "value" : "Сохранено"
           }
         }
       }
     },
     "Schedule" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Расписание"
           }
         }
       }
     },
     "Score" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Score"
+            "value" : "Оценка"
           }
         }
       }
     },
     "Search" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search"
+            "value" : "Поиск"
           }
         }
       }
     },
     "Search %@ List" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search %@ List"
+            "value" : "Поиск %@ Список"
           }
         }
       }
     },
     "Search Suggestions" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Search Suggestions"
+            "value" : "Предложения по поиску"
           }
         }
       }
     },
     "Searching" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Searching"
+            "value" : "Поиск"
           }
         }
       }
     },
     "Season" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Season"
+            "value" : "Сезон"
           }
         }
       }
     },
     "Seasonal" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Season"
+            "value" : "Сезон"
           }
         }
       }
     },
     "See All" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "See All"
+            "value" : "Смотреть все"
           }
         }
       }
     },
     "See Details" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "See Details"
+            "value" : "Подробнее"
           }
         }
       }
     },
     "See your current releases in a timeline with Your Schedule." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "See your current releases in a timeline with Schedule."
+            "value" : "Смотрите график выхода новых серий, используя Расписание."
           }
         }
       }
     },
     "Send Email" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Send Email"
+            "value" : "Отправить электронное письмо"
           }
         }
       }
     },
     "Serialization" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serialization"
+            "value" : "Издатель"
           }
         }
       }
     },
     "Session Expired" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Session Expired"
+            "value" : "Сессия истекла"
           }
         }
       }
     },
     "Settings" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Settings"
+            "value" : "Настройки"
           }
         }
       }
     },
     "Show All" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show All"
+            "value" : "Показать все"
           }
         }
       }
     },
     "Show Comments" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Comments"
-          }
-        }
-      }
+
     },
     "Show More" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show More"
+            "value" : "Показать еще"
           }
         }
       }
     },
     "Show Only Added" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show Only Added"
+            "value" : "Показать только добавленное"
           }
         }
       }
     },
     "Show Progress Bar for Anime and Manga" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show Progress Bar for Anime and Manga"
+            "value" : "Индикатор прогресса для аниме и манги"
           }
         }
       }
     },
     "Show Rating View" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Rating View"
-          }
-        }
-      }
+      "extractionState" : "stale"
     },
     "Show Score View" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Score View"
-          }
-        }
-      }
+
     },
     "Show Time in 'Your Schedule'" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show Time in 'Schedule'"
+            "value" : "Показывать время в \"Расписании\""
           }
         }
       }
     },
     "Show With Apple Music" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show With Apple Music"
+            "value" : "Шоу с Apple Music"
           }
         }
       }
     },
     "Show Without Apple Music" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Show Without Apple Music"
+            "value" : "Шоу без Apple Music"
           }
         }
       }
     },
     "Sign In" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sign In"
+            "value" : "Войти"
           }
         }
       }
     },
     "Sign In into your MyAnimeList account." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sign In into your MyAnimeList account."
+            "value" : "Войдите в свою учетную запись MyAnimeList."
           }
         }
       }
     },
     "Sign Out" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sign Out"
+            "value" : "Выйти"
           }
         }
       }
     },
     "Some videos may not play due to region restrictions." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Some videos may not play due to region restrictions."
+            "value" : "Некоторые видеоролики могут не воспроизводиться из-за региональных ограничений."
           }
         }
       }
     },
     "Sort" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sort"
+            "value" : "Сортировать"
           }
         }
       }
     },
     "Source" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Source"
+            "value" : "Источник"
           }
         }
       }
@@ -3614,592 +3406,576 @@
     "Special" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Special"
+            "value" : "Специальный"
           }
         }
       }
     },
     "Spring" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Spring"
+            "value" : "Весна"
           }
         }
       }
     },
     "Staff" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Staff"
+            "value" : "Создатели"
           }
         }
       }
     },
     "Start Date" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start Date"
+            "value" : "Дата начала"
           }
         }
       }
     },
     "Start Season" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Start Season"
+            "value" : "Начало сезона"
           }
         }
       }
     },
     "Status" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Status"
+            "value" : "Статус"
           }
         }
       }
     },
     "Studios" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Studios"
+            "value" : "Студии"
           }
         }
       }
     },
     "Summer" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Summer"
+            "value" : "Лето"
           }
         }
       }
     },
     "Sunday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sunday"
+            "value" : "Воскресенье"
           }
         }
       }
     },
     "Support & About" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Support & About"
+            "value" : "Поддержка и информация"
           }
         }
       }
     },
     "Swipe or Hold to access quick actions" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Swipe or Hold to access quick actions"
+            "value" : "Проведите пальцем или удерживайте, чтобы получить доступ к быстрым действиям"
           }
         }
       }
     },
     "Sync Notifications" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sync Notifications"
+            "value" : "Синхронизация уведомлений"
           }
         }
       }
     },
     "Syncing" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Syncing"
+            "value" : "Синхронизация"
           }
         }
       }
     },
     "Synonyms" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Synonyms"
+            "value" : "Другие названия"
           }
         }
       }
     },
     "Synopsis" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Synopsis"
+            "value" : "Описание"
           }
         }
       }
     },
     "System" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "System"
+            "value" : "Системная"
           }
         }
       }
     },
     "Tap 'Save' to save your changes after writing." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tap 'Save' to save your changes after writing."
+            "value" : "Нажмите \"Сохранить\", чтобы сохранить изменения после записи.\n"
           }
         }
       }
     },
     "Teens 13 and Older" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Teens 13 and Older"
+            "value" : "Подростки от 13 лет и старше"
           }
         }
       }
     },
     "Terms of Service" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terms of Service"
+            "value" : "Условия предоставления услуг"
           }
         }
       }
     },
     "Test Notifications" : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Test Notifications"
-          }
-        }
-      }
+      "comment" : "Dev Options, do not need translation"
     },
     "The anime will premiere today." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The anime will premiere today."
+            "value" : "Премьера аниме состоится сегодня."
           }
         }
       }
     },
     "The app couldn't load it right now" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The app couldn't load it right now"
+            "value" : "Приложение не может загрузить его прямо сейчас"
           }
         }
       }
     },
     "The app couldn't load the content right now." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The app couldn't load the content right now."
+            "value" : "Приложение не может загрузить содержимое прямо сейчас."
           }
         }
       }
     },
     "The app couldn't load the list right now.\nPlease, try again later." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The app couldn't load the list right now.\nPlease, try again later."
+            "value" : "Приложение не может загрузить список прямо сейчас.\nПожалуйста, повторите попытку позже."
           }
         }
       }
     },
     "The app couldn't load the season right now.\nPlease, try again later." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The app couldn't load the season right now.\nPlease, try again later."
+            "value" : "Приложение не может загрузить сезон прямо сейчас. Пожалуйста, повторите попытку позже."
           }
         }
       }
     },
     "The progress bar and gestures will adapt to this setting." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The progress bar and gestures will adapt to this setting."
+            "value" : "Индикатор прогресса и жесты будут считать тома вместо глав."
           }
         }
       }
     },
     "The service is undergoing maintenance or is currently unavailable. Please try again later." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "The service is undergoing maintenance or is currently unavailable. Please try again later."
+            "value" : "Услуга находится на техническом обслуживании или в настоящее время недоступна. Пожалуйста, повторите попытку позже."
           }
         }
       }
     },
     "Themes" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Themes"
+            "value" : "Темы"
           }
         }
       }
     },
     "This option will hide previous days and show only from today up to Sunday." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This option will hide previous days and show only from today up to Sunday."
+            "value" : "Эта опция скроет предыдущие дни и будет показывать только с сегодняшнего дня по воскресенье."
           }
         }
       }
     },
     "This will adapt the schedule to match your local date and time." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will adapt the schedule to match your local date and time."
+            "value" : "Расписание будет изменено в соответствии с датой и временем в вашем регионе."
           }
         }
       }
     },
     "This will direct you to the MyAnimeList Account Deletion page." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will direct you to the MyAnimeList Account Deletion page."
+            "value" : "Вы перейдете на страницу удаления учетной записи MyAnimeList."
           }
         }
       }
     },
     "This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'."
+            "value" : "Уведомления о новых сериях из списка \"Смотрю\", а также о выходе нового фильма или сериала из списка \"Запланировано\"."
           }
         }
       }
     },
     "This will refresh your access token to use the app." : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "This will refresh your access token to use the app."
-          }
-        }
-      }
+      "comment" : "Dev Options, do not need translation"
     },
     "This will remove this item from your list." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "This will remove this item from your list."
+            "value" : "Это позволит удалить данный элемент из списка."
           }
         }
       }
     },
     "Thursday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Thursday"
+            "value" : "Четверг"
           }
         }
       }
     },
     "Time will be shown in Japan Standard Time (JST) by default." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Time will be shown in Japan Standard Time (JST) by default."
+            "value" : "По умолчанию указывается японское время (JST)"
           }
         }
       }
     },
     "Title Length" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Title Length"
+            "value" : "Показ названия"
           }
         }
       }
     },
     "Today" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Today"
+            "value" : "Сегодня"
           }
         }
       }
     },
     "Toggle this setting to include mature content in search results and recommendations.\nUser lists are always unrestricted." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toggle this setting to include mature content in search results and recommendations.\nUser lists are always unrestricted."
+            "value" : "Включите этот параметр, чтобы в результаты поиска и рекомендации попадал «контент для взрослых».\nСписки пользователей не имеют ограничений."
           }
         }
       }
     },
     "Top Airing" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top Airing"
+            "value" : "Высший пилотаж"
           }
         }
       }
     },
     "Top All" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top All"
+            "value" : "TopAll"
           }
         }
       }
     },
     "Top Favorites" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top Favorites"
+            "value" : "Избранное"
           }
         }
       }
     },
     "Top Movie" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top Movie"
+            "value" : "Топ-фильм"
           }
         }
       }
     },
     "Top OVA" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top OVA"
+            "value" : "Топ OVA"
           }
         }
       }
     },
     "Top Special" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top Special"
+            "value" : "Высший пилотаж"
           }
         }
       }
     },
     "Top TV Series" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top TV Series"
+            "value" : "Лучшие телесериалы"
           }
         }
       }
     },
     "Top Upcoming" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Top Upcoming"
+            "value" : "Топ предстоящих"
           }
         }
       }
     },
     "Touch and hold on the synopsis to copy or share it." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Touch and hold on the synopsis to copy or share it."
+            "value" : "Нажмите и удерживайте конспект, чтобы скопировать его или поделиться им."
           }
         }
       }
     },
     "Trailers" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trailers"
+            "value" : "Трейлеры"
           }
         }
       }
     },
     "Translation" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Translation"
+            "value" : "Перевод"
           }
         }
       }
     },
     "Try again" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again"
+            "value" : "Повторите попытку позже"
           }
         }
       }
     },
     "Try Again" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try Again"
+            "value" : "Повторите попытку позже"
           }
         }
       }
     },
     "Try again later" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again later"
+            "value" : "Повторите попытку позже"
           }
         }
       }
     },
     "Try Again Later" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try Again Later"
+            "value" : "Повторите попытку позже"
           }
         }
       }
     },
     "Try again later or change the list." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again later or change the list."
+            "value" : "Повторите попытку позже или измените список."
           }
         }
       }
     },
     "Try again later or start watching an anime from this season." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again later or start watching an anime from this season."
+            "value" : "Повторите попытку позже или начните смотреть аниме из этого сезона."
           }
         }
       }
     },
     "Try again later, change the season/year or go back to current Season." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again later, change the season/year or go back to current Season."
+            "value" : "Повторите попытку позже, измените сезон/год или вернитесь к текущему сезону."
           }
         }
       }
     },
     "Try again later, change the season/year/filter or go back to current Season." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Try again later, change the season/year/filter or go back to current Season."
+            "value" : "Попробуйте позже, измените сезон/год/фильтр или вернитесь к текущему сезону"
           }
         }
       }
     },
     "Tuesday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tuesday"
+            "value" : "Вторник"
           }
         }
       }
@@ -4207,10 +3983,10 @@
     "TV" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "TV"
+            "value" : "Сериал"
           }
         }
       }
@@ -4218,90 +3994,90 @@
     "Unknown" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unknown"
+            "value" : "Неизвестный"
           }
         }
       }
     },
     "Unlock app customization and more features with Kitsune Premium.\nNo Subscription required." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unlock app customization and more features with Kitsune Premium.\nNo Subscription required."
+            "value" : "Разблокируйте настройки приложения и другие возможности с помощью Kitsune Premium. Подписка не требуется."
           }
         }
       }
     },
     "Unlock customization and more features with Kitsune Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unlock customization and more features with Kitsune Premium"
+            "value" : "Разблокируйте настройки и дополнительные возможности с помощью Kitsune Premium"
           }
         }
       }
     },
     "Unlock New Features and Customizations" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unlock New Features and Customizations"
+            "value" : "Разблокируйте новые функции и настройки"
           }
         }
       }
     },
     "Unlock Your Entire Week with Kitsune Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unlock Your Entire Week with Kitsune Premium"
+            "value" : "Разблокируйте всю неделю с Kitsune Premium"
           }
         }
       }
     },
     "Upcoming" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Upcoming"
+            "value" : "Предстоящий"
           }
         }
       }
     },
     "Upcoming Notifications" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Upcoming Notifications"
+            "value" : "Предстоящие уведомления"
           }
         }
       }
     },
     "Upgrade to Kitsune Premium" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Upgrade to Kitsune Premium"
+            "value" : "Обновление до Kitsune Premium"
           }
         }
       }
     },
     "Version %@ • %@" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Version %@ • %@"
+            "value" : "Версия %@ - %@"
           }
         }
       }
@@ -4309,10 +4085,10 @@
     "Very Bad" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Very Bad"
+            "value" : "Очень плохо"
           }
         }
       }
@@ -4320,60 +4096,60 @@
     "Very Good" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Very Good"
+            "value" : "Отлично"
           }
         }
       }
     },
     "View Credits" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "View Credits"
+            "value" : "Авторы"
           }
         }
       }
     },
     "View up to 10 of your most recent search results on the Search page." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "View up to 10 of your most recent search results on the Search page."
+            "value" : "На странице «Поиск» можно увидеть 10 последних результатов поиска."
           }
         }
       }
     },
     "Voice Acting Roles" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voice Acting Roles"
+            "value" : "Роли актеров озвучивания"
           }
         }
       }
     },
     "Voice Actors" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Voice Actors"
+            "value" : "Актеры озвучивания"
           }
         }
       }
     },
     "Volumes Read" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Volumes Read"
+            "value" : "Тома"
           }
         }
       }
@@ -4383,177 +4159,177 @@
     },
     "Watched" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Watched"
+            "value" : "Эпизоды"
           }
         }
       }
     },
     "Watching" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Watching"
+            "value" : "Смотрю"
           }
         }
       }
     },
     "Wednesday" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Wednesday"
+            "value" : "Среда"
           }
         }
       }
     },
     "What's your score?" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "What's your score?"
+            "value" : "Какой у вас счет?"
           }
         }
       }
     },
     "When on, the app will always open your selected Preferred Screen.\nWhen off, the app will always open the last tab opened." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When on, the app will always open your selected Preferred Screen.\nWhen off, the app will always open the last tab opened."
+            "value" : "При включении приложение будет открывать выбранный экран.\nПри выключении будет открываться последняя вкладка."
           }
         }
       }
     },
     "When switching to the 'Watching' list, automatically mark the first episode as watched." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "When switching to the 'Watching' list, automatically mark the first episode as watched."
+            "value" : "При добавлении аниме в список «Смотрю» первый эпизод будет считаться просмотренным."
           }
         }
       }
     },
     "Winter" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Winter"
+            "value" : "Зима"
           }
         }
       }
     },
     "Write a Review" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Write a Review"
+            "value" : "Написать отзыв"
           }
         }
       }
     },
     "Year" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Year"
+            "value" : "Год"
           }
         }
       }
     },
     "You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser."
+            "value" : "Вы можете создать учетную запись MyAnimeList, зарегистрировавшись на сайте https://myanimelist.net с помощью предпочитаемого браузера."
           }
         }
       }
     },
     "You need Kitsune Premium to change this." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You need Kitsune Premium to change this."
+            "value" : "Чтобы изменить это, вам нужен Kitsune Premium."
           }
         }
       }
     },
     "You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics."
+            "value" : "Вам нужно будет снова войти в систему, если вы хотите использовать Мой список, Редактировать статус, Добавить элемент и Статику."
           }
         }
       }
     },
     "You're a Premium user.\nThank you for your support." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You're a Premium user.\nThank you for your support."
+            "value" : "Вы являетесь пользователем Premium.\nСпасибо за поддержку."
           }
         }
       }
     },
     "Your Schedule" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule"
+            "value" : "Ваше расписание"
           }
         }
       }
     },
     "Your Schedule is empty for today." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Schedule is empty for today."
+            "value" : "Ваше расписание на сегодня пусто."
           }
         }
       }
     },
     "Your Schedule is empty right now." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
-            "state" : "translated",
-            "value" : "Schedule is empty right now."
+            "state" : "needs_review",
+            "value" : "Ваше расписание сейчас пусто."
           }
         }
       }
     },
     "Your session has expired.\nPlease, sign in again to keep using the app." : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Your session has expired.\nPlease, sign in again to keep using the app."
+            "value" : "Срок действия вашей сессии истек.\nПожалуйста, войдите снова, чтобы продолжить пользоваться приложением."
           }
         }
       }
     },
     "YouTube" : {
       "localizations" : {
-        "en" : {
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "YouTube"

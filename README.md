@@ -7,3 +7,5 @@ These are the localization files for Kitsune for MyAnimeList. You can help trans
 - If the language folder you want to add does not exist yet, you can copy an existing one and just changed it to your language code and work from this new folder. If you need help you can send me an email at <a href = "mailto: kitsune@alexandremadeira.dev"> kitsune@alexandremadeira.dev</a> or add me on Discord (alexm0475) and I'll help.
 
 Everyone contributing will be listed on the About screen and can have a link associated with their name (to your own website or preferred social media). Thank you for helping!
+You can send me your link that you want associated with your name and I'll add it in the next update. All the translations changes will also be added on the next update.
+

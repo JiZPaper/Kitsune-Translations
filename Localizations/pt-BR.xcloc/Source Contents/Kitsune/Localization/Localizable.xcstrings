@@ -1,9 +1,30 @@
 {
-  "sourceLanguage" : "pt-BR",
+  "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : ""
+          }
+        }
+      }
+    },
+    " %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " %@"
+          }
+        }
+      }
+    },
     "%@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
@@ -13,17 +34,17 @@
     },
     "%@\nBy: %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@\nPor: %2$@"
+            "value" : "%1$@\nBy: %2$@"
           }
         }
       }
     },
     "%@ (%lld)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$@ (%2$lld)"
@@ -33,117 +54,119 @@
     },
     "%@ (JST)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ (JST)"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ (Local Time)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ (Hora Local)"
+            "value" : "%@ (Local Time)"
           }
         }
       }
     },
     "%@ %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ %2$@"
+            "value" : "%@ %@"
           }
         }
       }
     },
     "%@ %@ • %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ %2$@ • %3$@"
+            "value" : "%@ %@ • %@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ • %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ • %2$@"
+            "value" : "%@ • %@"
           }
         }
       }
     },
     "%@ at %@ (Local Time)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ às %2$@ (Horário Local)"
+            "value" : "%@ at %@ (Local Time)"
           }
         }
       }
     },
     "%@ days" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ dias"
+            "value" : "%@ days"
           }
         }
       }
     },
     "%@ minutes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@ minutos"
+            "value" : "%@ minutes"
           }
         }
       }
     },
     "%@ of %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@ de %2$@"
+            "value" : "%1$@ of %2$@"
           }
         }
       }
     },
     "%@, %@ (JST)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$@, %2$@ (JST)"
+            "value" : "%@, %@ (JST)"
           }
         }
       }
     },
     "%@'s list is empty or is private." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A lista de %@ está vazia ou é particular."
+            "value" : "%@'s list is empty or is private."
           }
         }
       }
     },
     "%lld" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -153,27 +176,49 @@
     },
     "%lld - %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld - %2$@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%lld • %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld • %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%lld actors" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld actors"
+          }
+        }
+      }
+    },
+    "%lld Anime" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Anime"
           }
         }
       }
     },
     "%lld animes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld animes"
@@ -183,29 +228,17 @@
     },
     "%lld episodes watched of %@." : {
       "localizations" : {
-        "pt-BR" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%1$lld episódio assistido de %2$@."
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%1$lld episódios assistidos de %2$@."
-                }
-              }
-            }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld episodes watched of %2$@."
           }
         }
       }
     },
     "%lld items" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -217,13 +250,13 @@
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld itens"
+                  "value" : "%lld items"
                 }
               },
               "zero" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld itens"
+                  "value" : "%lld items"
                 }
               }
             }
@@ -233,81 +266,90 @@
     },
     "%lld line" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "variations" : {
             "plural" : {
               "one" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld linha"
+                  "value" : "%lld line"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "%lld linhas"
+                  "value" : "%lld lines"
                 }
               }
             }
+          }
+        }
+      }
+    },
+    "%lld Manga" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld Manga"
           }
         }
       }
     },
     "%lld mangas" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%lld mangás"
+            "value" : "%lld mangas"
+          }
+        }
+      }
+    },
+    "%lld of %@" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld of %2$@"
           }
         }
       }
     },
     "%lld of %lld" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld de %2$lld"
+            "value" : "%1$lld of %2$lld"
           }
         }
       }
     },
     "%lld read of %@ chapters" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%1$lld lido de %2$@ capítulos"
+            "value" : "%1$lld read of %2$@ chapters"
           }
         }
       }
     },
     "%lld read of %@ volumes" : {
       "localizations" : {
-        "pt-BR" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%1$lld lido de %2$@ volumes"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%1$lld lidos de %2$@ volumes"
-                }
-              }
-            }
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld read of %2$@ volumes"
           }
         }
       }
     },
     "%lld/?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld/?"
@@ -317,7 +359,7 @@
     },
     "%lld/%@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$@"
@@ -327,7 +369,7 @@
     },
     "%lld/10" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld/10"
@@ -337,7 +379,7 @@
     },
     "+1" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "+1"
@@ -347,7 +389,7 @@
     },
     "+1 (%lld/%@)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "+1 (%lld/%@)"
@@ -355,210 +397,242 @@
         }
       }
     },
-    "🔨" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "🔨"
-          }
-        }
-      }
-    },
     "17+ (Violence & Profanity)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "17+ (Violência e Profanidade)"
+            "value" : "17+ (Violence & Profanity)"
           }
         }
       }
     },
     "A new episode is arriving today." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um novo episódio está chegando hoje."
+            "value" : "A new episode is arriving today."
           }
         }
       }
     },
     "About" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sobre"
+            "value" : "About"
           }
         }
       }
     },
     "About Your Schedule" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sobre Estreias"
+            "value" : "About Schedule"
           }
         }
       }
     },
     "about_your_schedule" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estreias organiza os animes que você está assistindo atualmente de acordo com o dia da semana de seu lançamento, exibindo-os de segunda a domingo.\nTambém inclui estreias futuras de sua lista 'Planejo Assistir' para os próximos 3 dias.\nNo dia da estreia, um simples deslize marca o primeiro episódio como assistido, fazendo uma transição suave de 'Planejo Assistir' para 'Assistindo'."
+            "value" : "Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. \nIt also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days. \nOn premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'.\""
           }
         }
       }
     },
     "Accent Color" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cor de Destaque"
+            "value" : "Accent Color"
+          }
+        }
+      }
+    },
+    "Accessibility" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Accessibility"
           }
         }
       }
     },
     "Account" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Conta"
+            "value" : "Account"
           }
         }
       }
     },
     "Account - Refresh Token" : {
       "comment" : "Dev Options, do not need translation",
+      "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Account - Refresh Token"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Account Settings" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurações da Conta"
+            "value" : "Account Settings"
           }
         }
       }
     },
     "Adaptation" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adaptação"
+            "value" : "Adaptation"
           }
         }
       }
     },
     "Add" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adicionar"
+            "value" : "Add"
           }
         }
       }
     },
     "Add Comments" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adicionar Comentários"
+            "value" : "Add Comments"
           }
         }
       }
     },
     "Add Finish Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adicionar Data de Término"
+            "value" : "Add Finish Date"
           }
         }
       }
     },
     "Add Start Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adicionar Data de Início"
+            "value" : "Add Start Date"
           }
         }
       }
     },
     "Add to Library" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adicionar à Biblioteca"
+            "value" : "Add to Library"
           }
         }
       }
     },
     "Adjust multiple settings to better suit your preferences." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuste várias configurações para melhor se adequar às suas preferências."
+            "value" : "Adjust multiple settings to better suit your preferences."
           }
         }
       }
     },
     "Air Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data de Exibição"
+            "value" : "Air Date"
+          }
+        }
+      }
+    },
+    "Aired: Episode %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aired: Episode %lld"
           }
         }
       }
     },
     "All Ages" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Todas as idades"
+            "value" : "All Ages"
           }
         }
       }
     },
-    "Allow Anime Notification" : {
+    "Allow Notifications" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Permitir Notificação de Anime"
+            "value" : "Allow Notifications"
+          }
+        }
+      }
+    },
+    "AniList" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AniList"
+          }
+        }
+      }
+    },
+    "AniList • %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "AniList • %@"
           }
         }
       }
     },
     "Anime" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anime"
@@ -568,100 +642,100 @@
     },
     "Anime & Manga Only" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Apenas Anime e Mangá"
+            "value" : "Anime & Manga Only"
           }
         }
       }
     },
     "Anime Staff Positions" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Posições na Equipe de Produção de Anime"
+            "value" : "Anime Staff Positions"
           }
         }
       }
     },
     "Anime Statistics (In Days)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estatísticas de Anime (em Dias)"
+            "value" : "Anime Statistics (In Days)"
           }
         }
       }
     },
     "Anime Statistics (In Items)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estatísticas de Anime (Em Itens)"
+            "value" : "Anime Statistics (In Items)"
           }
         }
       }
     },
     "Anime Studios" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estúdios de Anime"
+            "value" : "Anime Studios"
           }
         }
       }
     },
     "Animeography" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Animeografia"
+            "value" : "Animeography"
           }
         }
       }
     },
     "Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.\nThis data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "As Análises Anônimas são enviadas quando uma função apresenta mau funcionamento ou quando determinadas telas ou recursos são utilizados. Estes dados são completamente anônimos e não estão vinculados a você de nenhuma forma. Eles ajudam o desenvolvedor a identificar quais telas ou recursos necessitam de mais tempo de desenvolvimento e também auxiliam na identificação de bugs sem a necessidade de relatórios manuais."
+            "value" : "Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.\nThis data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting."
           }
         }
       }
     },
     "App Features" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recursos do Aplicativo"
+            "value" : "App Features"
           }
         }
       }
     },
     "App Icon" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ícone do aplicativo"
+            "value" : "App Icon"
           }
         }
       }
     },
     "App Theme" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tema do aplicativo"
+            "value" : "App Theme"
           }
         }
       }
@@ -669,27 +743,27 @@
     "Appalling" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Horroroso"
+            "value" : "Appalling"
           }
         }
       }
     },
     "Appearance" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Aparência"
+            "value" : "Appearance"
           }
         }
       }
     },
     "Apple Music" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Apple Music"
@@ -699,105 +773,85 @@
     },
     "Apple Music Support" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suporte ao Apple Music"
-          }
-        }
-      }
-    },
-    "Apple Music support is experimental. Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur." : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "O suporte ao Apple Music é experimental. Relate quaisquer divergências usando o botão de relatório. A busca e correspondência são automatizadas, divergências podem ocorrer.\""
+            "value" : "Apple Music Support"
           }
         }
       }
     },
     "Are you sure?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tem certeza?"
+            "value" : "Are you sure?"
           }
         }
       }
     },
     "Are You Sure?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tem certeza?"
+            "value" : "Are You Sure?"
           }
         }
       }
     },
     "Ask for confirmation to mark the episode as watched." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Peça confirmação para marcar o episódio como assistido."
+            "value" : "Ask for confirmation to mark the episode as watched."
           }
         }
       }
     },
     "Ask for Score After Watching an Anime" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedir a Pontuação Após Assistir a um Anime"
+            "value" : "Ask for Score After Watching an Anime"
           }
         }
       }
     },
     "Ask you to rate after completing watching an anime." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pedir para avaliar após terminar de assistir a um anime."
-          }
-        }
-      }
-    },
-    "Asked for Review? %@" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Asked for Review? %@"
+            "value" : "Ask you to rate after completing watching an anime."
           }
         }
       }
     },
     "Auto Add to Plan To Watch/Read list when tapping 'Add'." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "variations" : {
             "device" : {
               "applevision" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Adicionar Automaticamente à lista Plan To Watch/Read ao clicar em 'Adicionar'."
+                  "value" : "Auto Add to Plan To Watch/Read list when clicking 'Add'."
                 }
               },
               "mac" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Adicionar Automaticamente à lista Plan To Watch/Read ao clicar em 'Adicionar'."
+                  "value" : "Auto Add to Plan To Watch/Read list when clicking 'Add'."
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Adicionar automaticamente à lista Plan To Watch/Read ao tocar em 'Adicionar'."
+                  "value" : "Auto Add to Plan To Watch/Read list when tapping 'Add'."
                 }
               }
             }
@@ -805,32 +859,52 @@
         }
       }
     },
-    "Auto-fill 'Finish Date' when marking the last episode as watched." : {
+    "Auto-fill 'Finish Date'" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preencher automaticamente a 'Data de Conclusão' ao marcar o último episódio como assistido"
+            "value" : "Auto-fill 'Finish Date'"
           }
         }
       }
     },
-    "Auto-fill 'Start Date' when marking the first episode as watched" : {
+    "Auto-fill 'Start Date'" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preencher automaticamente 'Data de Início' ao marcar o primeiro episódio como assistido."
+            "value" : "Auto-fill 'Start Date'"
           }
         }
       }
     },
     "Automatically fill in the first episode" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preencher automaticamente o primeiro episódio."
+            "value" : "Automatically fill in the first episode"
+          }
+        }
+      }
+    },
+    "Automatically sync new changes" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically sync new changes"
+          }
+        }
+      }
+    },
+    "Automatically sync your progress with your AniList account." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Automatically sync your progress with your AniList account."
           }
         }
       }
@@ -838,20 +912,20 @@
     "Average" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Média"
+            "value" : "Average"
           }
         }
       }
     },
     "Average Duration" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Duração Média"
+            "value" : "Average Duration"
           }
         }
       }
@@ -859,239 +933,217 @@
     "Bad" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ruim"
-          }
-        }
-      }
-    },
-    "Based on your common genres" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Com base em seus gêneros comuns"
+            "value" : "Bad"
           }
         }
       }
     },
     "Behavior" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comportamento"
+            "value" : "Behavior"
           }
         }
       }
     },
     "Black Opacity" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opacidade Preta"
+            "value" : "Black Opacity"
           }
         }
       }
     },
     "Blur" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desfoque"
+            "value" : "Blur"
           }
         }
       }
     },
     "Blur Mature Content Poster" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pôster de Conteúdo Adulto Desfocado"
+            "value" : "Blur Mature Content Poster"
           }
         }
       }
     },
     "Broadcast" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Transmissão"
+            "value" : "Broadcast"
           }
         }
       }
     },
     "Buy (%@)" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comprar (%@)"
+            "value" : "Buy (%@)"
+          }
+        }
+      }
+    },
+    "Buy • %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buy • %@"
           }
         }
       }
     },
     "By Last Update" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pela Última Atualização"
+            "value" : "By Last Update"
           }
         }
       }
     },
     "By Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por Pontuação"
+            "value" : "By Score"
           }
         }
       }
     },
     "By Start Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por Data de Início"
+            "value" : "By Start Date"
           }
         }
       }
     },
     "By Title" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por Título"
+            "value" : "By Title"
           }
         }
       }
     },
     "Cancel" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Cancelar"
+            "value" : "Cancel"
           }
         }
       }
     },
     "Change List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alterar Lista"
+            "value" : "Change List"
           }
         }
       }
     },
     "Chapters Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Capítulos Lidos"
+            "value" : "Chapters Read"
           }
         }
       }
     },
     "Characters" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Personagens"
+            "value" : "Characters"
           }
         }
       }
     },
     "Children" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Crianças"
+            "value" : "Children"
           }
         }
       }
     },
     "Choose among four indicators to display on posters.\nMy List screen will always show the progress and rating indicators; other screens will respect this setting." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolha entre quatro indicadores para exibir nos pôsteres.\nA tela Minha Lista sempre mostrará os indicadores de progresso e classificação; outras telas respeitarão essa configuração."
+            "value" : "Choose among four indicators to display on posters.\nMy List screen will always show the progress and rating indicators; other screens will respect this setting."
           }
         }
       }
     },
     "Choose between list and poster style." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolha entre lista e estilo de pôster."
+            "value" : "Choose between list and poster style."
           }
         }
       }
     },
     "Choose how many lines you want the title to appear on My List." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escolha quantas linhas você deseja que o título apareça na Minha Lista."
-          }
-        }
-      }
-    },
-    "Clear All Upcoming Notifications" : {
-      "comment" : "Dev Options, do not need translation",
-      "extractionState" : "stale",
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear All Upcoming Notifications"
-          }
-        }
-      }
-    },
-    "Clear Cache" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Clear Cache"
+            "value" : "Choose how many lines you want the title to appear on My List."
           }
         }
       }
     },
     "Close" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fechar"
+            "value" : "Close"
           }
         }
       }
     },
     "Collapse" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Collapse"
@@ -1099,112 +1151,152 @@
         }
       }
     },
-    "Comments" : {
+    "Coming up: Episode %lld" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comentários"
+            "value" : "Coming up: Episode %lld"
+          }
+        }
+      }
+    },
+    "Comments" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comments"
           }
         }
       }
     },
     "Comments about %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comentários sobre %@"
+            "value" : "Comments about %@"
           }
         }
       }
     },
     "Completed" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concluído"
+            "value" : "Completed"
           }
         }
       }
     },
     "Completed_Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concluído"
+            "value" : "Completed"
           }
         }
       }
     },
     "Confirm" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Confirmar"
+            "value" : "Confirm"
+          }
+        }
+      }
+    },
+    "Connect" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect"
+          }
+        }
+      }
+    },
+    "Connect with your AniList account." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect with your AniList account."
+          }
+        }
+      }
+    },
+    "Connect your AniList Account" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Connect your AniList Account"
           }
         }
       }
     },
     "Connected Services" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serviços Conectados"
+            "value" : "Connected Services"
           }
         }
       }
     },
     "Content Provider" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Provedor de Conteúdo"
+            "value" : "Content Provider"
           }
         }
       }
     },
     "Continuing Series" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Continuando"
+            "value" : "Continuing Series"
           }
         }
       }
     },
     "Copy" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copiar"
+            "value" : "Copy"
           }
         }
       }
     },
     "Copy Song Name" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Copiar Nome Da Música"
+            "value" : "Copy Song Name"
           }
         }
       }
     },
     "Credits" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Créditos"
+            "value" : "Credits"
           }
         }
       }
@@ -1212,70 +1304,80 @@
     "Currently Airing" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Atualmente em Exibição"
+            "value" : "Currently Airing"
           }
         }
       }
     },
     "Currently Publishing" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Atualmente Publicando"
+            "value" : "Currently Publishing"
           }
         }
       }
     },
     "Customize" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Personalizar"
+            "value" : "Customize"
           }
         }
       }
     },
     "Dark" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escuro"
+            "value" : "Dark"
+          }
+        }
+      }
+    },
+    "Dark Mode" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dark Mode"
           }
         }
       }
     },
     "Dates" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Datas"
+            "value" : "Dates"
           }
         }
       }
     },
     "Days" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dias"
+            "value" : "Days"
           }
         }
       }
     },
     "Days Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dias Lidos"
+            "value" : "Days Read"
           }
         }
       }
@@ -1283,37 +1385,37 @@
     "Default" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Padrão"
+            "value" : "Default"
           }
         }
       }
     },
     "Delete Account" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Excluir Conta"
+            "value" : "Delete Account"
           }
         }
       }
     },
     "Demographics" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Demografia"
+            "value" : "Demographics"
           }
         }
       }
     },
     "Design" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design"
@@ -1323,53 +1425,61 @@
     },
     "Developed by Alexandre Madeira" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desenvolvido por Alexandre Madeira"
+            "value" : "Developed by Alexandre Madeira"
           }
         }
       }
     },
     "Developer" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developer"
+          }
+        }
+      }
     },
     "Developer Options" : {
       "comment" : "Dev Options, do not need translation",
+      "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Opções do Desenvolvedor"
+            "value" : "Developer Options"
           }
         }
       }
     },
     "Disable Anonymous Analytics" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desativar Análise Anônima"
+            "value" : "Disable Anonymous Analytics"
           }
         }
       }
     },
     "Disable Translucent Background" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "variations" : {
             "device" : {
               "mac" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Desativar Fundo Translúcido (BETA)"
+                  "value" : "Disable Translucent Background (BETA)"
                 }
               },
               "other" : {
                 "stringUnit" : {
                   "state" : "translated",
-                  "value" : "Desativar Fundo Translúcido"
+                  "value" : "Disable Translucent Background"
                 }
               }
             }
@@ -1379,37 +1489,37 @@
     },
     "Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A desativação da análise pode afetar a velocidade das correções de bugs, pois impede o envio de sinais quando as funções funcionam mal."
+            "value" : "Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction."
           }
         }
       }
     },
     "Dismiss" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dispensar"
+            "value" : "Dismiss"
           }
         }
       }
     },
     "Display Preference" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preferência de exibição"
+            "value" : "Display Preference"
           }
         }
       }
     },
     "Doujinshi" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Doujinshi"
@@ -1419,100 +1529,110 @@
     },
     "Dropped" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dropados"
+            "value" : "Dropped"
           }
         }
       }
     },
     "Edit" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Editar"
+            "value" : "Edit"
           }
         }
       }
     },
     "Enable Apple Music Support" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ative o Suporte ao Apple Music"
+            "value" : "Enable Apple Music Support"
           }
         }
       }
     },
     "Enable Mature Content" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ativar Conteúdo Adulto"
+            "value" : "Enable Mature Content"
           }
         }
       }
     },
     "Enable Preferred Launch Screen" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ativar Tela de Lançamento Preferencial"
+            "value" : "Enable Preferred Launch Screen"
           }
         }
       }
     },
     "Enable Recent Searches" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ativar Pesquisas Recentes"
+            "value" : "Enable Recent Searches"
+          }
+        }
+      }
+    },
+    "Enable Spotify Support" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enable Spotify Support"
           }
         }
       }
     },
     "Enable Trailers" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ativar Trailers"
+            "value" : "Enable Trailers"
           }
         }
       }
     },
     "End Air Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data de Fim da Transmissão"
+            "value" : "End Air Date"
           }
         }
       }
     },
     "End Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data de término"
+            "value" : "End Date"
           }
         }
       }
     },
     "Ending" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Encerramento"
+            "value" : "Ending"
           }
         }
       }
@@ -1520,180 +1640,200 @@
     "English" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inglês"
+            "value" : "English"
           }
         }
       }
     },
     "English Title" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Título em Inglês"
+            "value" : "English Title"
+          }
+        }
+      }
+    },
+    "Enhance your experience on Kitsune by connecting your preferred third-party services." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Enhance your experience on Kitsune by connecting your preferred third-party services."
           }
         }
       }
     },
     "Enjoying Kitsune?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gostando do Kitsune?"
+            "value" : "Enjoying Kitsune?"
           }
         }
       }
     },
     "Episodes Watched" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Episódios Assistidos"
+            "value" : "Episodes Watched"
+          }
+        }
+      }
+    },
+    "Every change made on your MAL list on Kitsune will reflect on your AniList lists." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Every change made on your MAL list on Kitsune will reflect on your AniList lists."
           }
         }
       }
     },
     "Explicit Genres" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gêneros Explícitos"
+            "value" : "Explicit Genres"
           }
         }
       }
     },
     "Explore Anime" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Explore Animes"
+            "value" : "Explore Anime"
           }
         }
       }
     },
     "Explore Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Explore Mangás"
+            "value" : "Explore Manga"
           }
         }
       }
     },
     "External Links" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Links Externos"
+            "value" : "External Links"
           }
         }
       }
     },
     "Fall" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Outono"
+            "value" : "Fall"
           }
         }
       }
     },
     "Favorite Anime" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Animes Favoritos"
+            "value" : "Favorite Anime"
           }
         }
       }
     },
     "Favorite Characters" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Personagens Favoritos"
+            "value" : "Favorite Characters"
           }
         }
       }
     },
     "Favorite People" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pessoas Favoritas"
+            "value" : "Favorite People"
           }
         }
       }
     },
     "Favorites Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangás Favoritos"
+            "value" : "Favorites Manga"
           }
         }
       }
     },
     "Filter" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filtro"
+            "value" : "Filter"
           }
         }
       }
     },
     "Filter based on what's added to your list, sort by popularity or by your own score." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filtre com base no que é adicionado à sua lista, classide por popularidade ou por sua própria pontuação."
+            "value" : "Filter based on what's added to your list, sort by popularity or by your own score."
           }
         }
       }
     },
     "Filter by added, sort by popularity and more." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filtre por adicionado, classifique por popularidade e muito mais."
+            "value" : "Filter by added, sort by popularity and more."
           }
         }
       }
     },
     "Filter Seasonal" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filtrar Temporadas"
+            "value" : "Filter Season"
           }
         }
       }
     },
     "Filter your Seasonal" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filtre sua Temporada"
+            "value" : "Filter your Season"
           }
         }
       }
@@ -1701,30 +1841,30 @@
     "Fine" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Regular"
+            "value" : "Fine"
           }
         }
       }
     },
     "Finish Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data de Término"
+            "value" : "Finish Date"
           }
         }
       }
     },
     "Finished" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Finalizado"
+            "value" : "Finished"
           }
         }
       }
@@ -1732,110 +1872,100 @@
     "Finished Airing" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terminado"
+            "value" : "Finished Airing"
           }
         }
       }
     },
     "First Air Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Primeira Data Ao Ar"
-          }
-        }
-      }
-    },
-    "Follow Kitsune on X/Twitter" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Siga Kitsune no X"
+            "value" : "First Air Date"
           }
         }
       }
     },
     "For You" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Para Você"
+            "value" : "For You"
           }
         }
       }
     },
     "Friday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sexta-feira"
+            "value" : "Friday"
           }
         }
       }
     },
     "Friends" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Amigos"
+            "value" : "Friends"
           }
         }
       }
     },
     "Friends since %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Amigos desde %@"
+            "value" : "Friends since %@"
           }
         }
       }
     },
     "General" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Geral"
+            "value" : "General"
           }
         }
       }
     },
     "Genres" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gêneros"
+            "value" : "Genres"
           }
         }
       }
     },
-    "Get Kitsune Premium\n%@" : {
+    "Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Obtenha o Kitsune Premium\n%@"
+            "value" : "Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released."
           }
         }
       }
     },
     "Get Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Obter Premium"
+            "value" : "Get Premium"
           }
         }
       }
@@ -1843,10 +1973,10 @@
     "Good" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bom"
+            "value" : "Good"
           }
         }
       }
@@ -1854,47 +1984,47 @@
     "Great" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ótimo"
+            "value" : "Great"
           }
         }
       }
     },
     "Haptic Feedback" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Feedback Háptico"
+            "value" : "Haptic Feedback"
           }
         }
       }
     },
     "Having trouble signing in?\nSend an email to contact@alexandremadeira.dev and we will help you." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Está tendo problemas para entrar? Envie um e-mail para kitsune@alexandremadeira.dev e nós o ajudaremos."
+            "value" : "Having trouble signing in?\nSend an email to kitsune@alexandremadeira.dev and we will help you."
           }
         }
       }
     },
     "Help & Feedback" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ajuda e Feedback"
+            "value" : "Help & Feedback"
           }
         }
       }
     },
     "Hentai" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hentai"
@@ -1904,30 +2034,30 @@
     },
     "Hide Added" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocultar Adicionado"
+            "value" : "Hide Added"
           }
         }
       }
     },
     "Hide Previous Days" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocultar Dias Anteriores"
+            "value" : "Hide Previous Days"
           }
         }
       }
     },
     "Hide Username on Tab Bar" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ocultar Nome de Usuário na Barra de Abas"
+            "value" : "Hide Username on Tab Bar"
           }
         }
       }
@@ -1935,40 +2065,40 @@
     "Horrible" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Péssimo"
+            "value" : "Horrible"
           }
         }
       }
     },
     "If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Se preferir, você pode enviar um e-mail para kitsune@alexandremadeira.dev usando seu cliente de e-mail para um acompanhamento mais rápido."
+            "value" : "If you prefer, you can send an email to kitsune@alexandremadeira.dev using your email client for a faster follow-up."
+          }
+        }
+      }
+    },
+    "In the Upcoming section, there is no information provided about the broadcast weekday and time." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In the Upcoming section, there is no information provided about the broadcast weekday and time."
           }
         }
       }
     },
     "Information" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Informação"
-          }
-        }
-      }
-    },
-    "Is connected? %@" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Is connected? %@"
+            "value" : "Information"
           }
         }
       }
@@ -1976,17 +2106,19 @@
     "Is Premium User" : {
       "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "MAL Mean Score"
+            "value" : "Is Premium User"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Is refreshing token? %@" : {
+      "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Is refreshing token? %@"
@@ -1996,10 +2128,10 @@
     },
     "Is Rewatching" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Está assistindo novamente"
+            "value" : "Is Rewatching"
           }
         }
       }
@@ -2007,20 +2139,20 @@
     "Japanese" : {
       "comment" : "Title Preference",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Japonês"
+            "value" : "Japanese"
           }
         }
       }
     },
     "Japanese Title" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Título Japonês"
+            "value" : "Japanese Title"
           }
         }
       }
@@ -2028,80 +2160,92 @@
     "JST" : {
       "comment" : "Japan Standard Time, do not need translation.",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "JST"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Kitsune Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kitsune Premium"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Last Sync on %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Última sincronização em %@"
+            "value" : "Last Sync on %@"
           }
         }
       }
     },
     "Last updated at %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Última atualização em %@"
+            "value" : "Last updated at %@"
           }
         }
       }
     },
     "Launch Screen" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tela de Lançamento"
+            "value" : "Launch Screen"
+          }
+        }
+      }
+    },
+    "Learn more about Schedule" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Learn more about Schedule"
           }
         }
       }
     },
     "Leave a Review on the App Store!" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deixe uma avaliação na App Store!"
+            "value" : "Leave a Review on the App Store!"
           }
         }
       }
     },
     "Libraries" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Bibliotecas"
+            "value" : "Libraries"
           }
         }
       }
     },
     "Light" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Claro"
+            "value" : "Light"
           }
         }
       }
@@ -2109,30 +2253,30 @@
     "List" : {
       "comment" : "Poster Indicator",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lista"
+            "value" : "List"
           }
         }
       }
     },
     "List Selection" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Seleção de Lista"
+            "value" : "List Selection"
           }
         }
       }
     },
     "Loading" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Carregando"
+            "value" : "Loading"
           }
         }
       }
@@ -2140,97 +2284,97 @@
     "Local Time" : {
       "comment" : "Time Preference",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hora Local"
+            "value" : "Local Time"
           }
         }
       }
     },
     "Magazines" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Revistas"
+            "value" : "Magazines"
           }
         }
       }
     },
     "MAL Mean Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pontuação Média do MAL"
+            "value" : "MAL Mean Score"
           }
         }
       }
     },
     "MAL Score & Number of Users" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pontuação MAL e Número de Usuários"
+            "value" : "MAL Score & Number of Users"
           }
         }
       }
     },
     "Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangá"
+            "value" : "Manga"
           }
         }
       }
     },
     "Manga Genres" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Gêneros de Mangá"
+            "value" : "Manga Genres"
           }
         }
       }
     },
     "Manga Magazines" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Revistas de Mangá"
+            "value" : "Manga Magazines"
           }
         }
       }
     },
     "Manga Statistics" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estatísticas de Mangá"
+            "value" : "Manga Statistics"
           }
         }
       }
     },
     "Mangaography" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangagrafia"
+            "value" : "Mangaography"
           }
         }
       }
     },
     "Manhua" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manhua"
@@ -2240,7 +2384,7 @@
     },
     "Manhwa" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manhwa"
@@ -2250,50 +2394,50 @@
     },
     "Mark Next Chapter as Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marque o Próximo Capítulo como Lido"
+            "value" : "Mark Next Chapter as Read"
           }
         }
       }
     },
     "Mark Next Episode as Watched" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marque o próximo episódio como assistido"
+            "value" : "Mark Next Episode as Watched"
           }
         }
       }
     },
     "Mark Next Episode of %@ as Watched?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marque o Próximo Episódio de %@ como Assistido?"
+            "value" : "Mark Next Episode of %@ as Watched?"
           }
         }
       }
     },
     "Mark Next Volume as Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marcar Próximo Volume como Lido"
+            "value" : "Mark Next Volume as Read"
           }
         }
       }
     },
     "Mark Watched" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Marcar como Assistido"
+            "value" : "Mark Watched"
           }
         }
       }
@@ -2301,20 +2445,20 @@
     "Masterpiece" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Obra-prima"
+            "value" : "Masterpiece"
           }
         }
       }
     },
     "Mean Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Média de Pontuação"
+            "value" : "Mean Score"
           }
         }
       }
@@ -2322,50 +2466,50 @@
     "Media Type" : {
       "comment" : "Seasonal Organization Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tipo de Mídia"
+            "value" : "Media Type"
           }
         }
       }
     },
     "Monday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Segunda-feira"
+            "value" : "Monday"
           }
         }
       }
     },
     "More" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mais"
+            "value" : "More"
           }
         }
       }
     },
     "Most Popular" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Populares"
+            "value" : "Most Popular"
           }
         }
       }
     },
     "Most Popular Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangás Populares"
+            "value" : "Most Popular Manga"
           }
         }
       }
@@ -2373,10 +2517,10 @@
     "Movie" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filme"
+            "value" : "Movie"
           }
         }
       }
@@ -2384,77 +2528,77 @@
     "Music" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Música"
+            "value" : "Music"
           }
         }
       }
     },
     "My %@ List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha Lista de %@"
+            "value" : "My %@ List"
           }
         }
       }
     },
     "My Anime List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha Lista de Anime"
+            "value" : "My Anime List"
           }
         }
       }
     },
     "My List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha Lista"
+            "value" : "My List"
           }
         }
       }
     },
     "My List, Edit Status, Add Items and Statics need a MyAnimeList account." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha Lista, Editar Status, Adicionar Itens e Estática precisam de uma conta MyAnimeList."
+            "value" : "My List, Edit Status, Add Items and Statics need a MyAnimeList account."
           }
         }
       }
     },
     "My Manga List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha Lista de Mangá"
+            "value" : "My Manga List"
           }
         }
       }
     },
     "My Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Minha pontuação"
+            "value" : "My Score"
           }
         }
       }
     },
     "MyAnimeList" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "MyAnimeList"
@@ -2462,42 +2606,32 @@
         }
       }
     },
-    "Network Status" : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Network Status"
-          }
-        }
-      }
-    },
     "New This Season" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Novo nesta temporada"
+            "value" : "New This Season"
           }
         }
       }
     },
     "No subscription required; make one purchase to unlock all current and upcoming premium features.\nWorks on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nenhuma assinatura é necessária; faça uma compra para desbloquear todos os recursos premium atuais e futuros."
+            "value" : "No subscription required; make one purchase to unlock all current and upcoming premium features."
           }
         }
       }
     },
     "None" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nenhum"
+            "value" : "None"
           }
         }
       }
@@ -2505,10 +2639,10 @@
     "Not Scored" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não Avaliado"
+            "value" : "Not Scored"
           }
         }
       }
@@ -2516,87 +2650,97 @@
     "Not Yet Aired" : {
       "comment" : "Airing Status",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ainda Não Foi Ao Ar"
+            "value" : "Not Yet Aired"
           }
         }
       }
     },
     "Not Yet Published" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ainda não publicado"
+            "value" : "Not Yet Published"
           }
         }
       }
     },
     "Nothing found here" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nada encontrado aqui"
+            "value" : "Nothing found here"
           }
         }
       }
     },
     "Nothing found." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Nada encontrado."
+            "value" : "Nothing found."
+          }
+        }
+      }
+    },
+    "Nothing here" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing here"
           }
         }
       }
     },
     "Notification Support" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suporte de Notificação"
+            "value" : "Notification Support"
           }
         }
       }
     },
     "Notification Support needs Background access to work, you can also force the sync." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O Suporte de Notificação precisa de acesso em segundo plano para trabalhar, você também pode forçar a sincronização."
+            "value" : "Notification Support needs Background access to work, you can also force the sync."
           }
         }
       }
     },
     "Notification support requires Kitsune Premium." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O suporte de notificação requer o Kitsune Premium."
+            "value" : "Notification support requires Kitsune Premium."
           }
         }
       }
     },
     "Notifications" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Notificações"
+            "value" : "Notifications"
           }
         }
       }
     },
     "Novel" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Novel"
@@ -2606,47 +2750,47 @@
     },
     "Number of Chapters" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Número de Capítulos"
+            "value" : "Number of Chapters"
           }
         }
       }
     },
     "Number of Episodes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Número de Episódios"
+            "value" : "Number of Episodes"
           }
         }
       }
     },
     "Number of Members" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Número de Membros"
+            "value" : "Number of Members"
           }
         }
       }
     },
     "Number of Volumes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Número de Volumes"
+            "value" : "Number of Volumes"
           }
         }
       }
     },
     "Oel" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oel"
@@ -2656,7 +2800,7 @@
     },
     "OK" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
@@ -2666,30 +2810,30 @@
     },
     "On Hold" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em Pausa"
+            "value" : "On Hold"
           }
         }
       }
     },
     "On MyAnimeList since %@" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em MyAnimeList desde %@"
+            "value" : "On MyAnimeList since %@"
           }
         }
       }
     },
     "On-Hold" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em Pausa"
+            "value" : "On-Hold"
           }
         }
       }
@@ -2697,7 +2841,7 @@
     "ONA" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ONA"
@@ -2707,17 +2851,17 @@
     },
     "One Price, No Sub." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Um Preço, Sem Assinatura."
+            "value" : "One Price, No Sub."
           }
         }
       }
     },
     "One Shot" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "One Shot"
@@ -2725,52 +2869,52 @@
         }
       }
     },
-    "Only use those settings if you're a developer working on this project." : {
+    "One-Time Purchase, No Subscription" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Only use those settings if you're a developer working on this project."
+            "value" : "One-Time Purchase, No Subscription"
           }
         }
       }
     },
     "Open any anime/manga from MAL directly in the app." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abra qualquer anime/mangá do MAL diretamente no aplicativo."
+            "value" : "Open any anime/manga from MAL directly in the app."
           }
         }
       }
     },
     "Open in Apple Music" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abrir no Apple Music"
+            "value" : "Open in Apple Music"
           }
         }
       }
     },
     "Open on MyAnimeList" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abrir em MyAnimeList"
+            "value" : "Open on MyAnimeList"
           }
         }
       }
     },
     "Opening" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Abertura"
+            "value" : "Opening"
           }
         }
       }
@@ -2778,7 +2922,7 @@
     "OVA" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OVA"
@@ -2788,241 +2932,280 @@
     },
     "Paste MAL URL" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Colar URL do MAL"
+            "value" : "Paste MAL URL"
           }
         }
       }
     },
     "Perform actions like marking the next episode/chapter or open the edit screen." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Execute ações como marcar o próximo episódio/capítulo ou abrir a tela de edição."
+            "value" : "Perform actions like marking the next episode/chapter or open the edit screen."
+          }
+        }
+      }
+    },
+    "Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information."
           }
         }
       }
     },
     "Plan to Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Planejo Ler"
+            "value" : "Plan to Read"
           }
         }
       }
     },
     "Plan to Watch" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Planejo Assistir"
+            "value" : "Plan to Watch"
           }
         }
       }
     },
-    "Play the opening and ending themes using your Apple Music subscription" : {
+    "Play Next" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reproduza os temas de abertura e encerramento usando sua assinatura do Apple Music"
+            "value" : "Play Next"
           }
         }
       }
     },
     "Play the opening and ending themes using your Apple Music subscription right from the Credits screen." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reproduza os temas de abertura e encerramento usando sua assinatura do Apple Music diretamente da tela Créditos."
+            "value" : "Play the opening and ending themes using your Apple Music subscription right from the Credits screen."
+          }
+        }
+      }
+    },
+    "Play the opening and ending themes using your Apple Music subscription." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play the opening and ending themes using your Apple Music subscription."
+          }
+        }
+      }
+    },
+    "Play the opening and ending themes using your Spotify subscription." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play the opening and ending themes using your Spotify subscription."
           }
         }
       }
     },
     "Please, note that the app doesn't consider delays." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por favor, observe que o aplicativo não considera atrasos."
+            "value" : "Please, note that the app doesn't consider delays."
           }
         }
       }
     },
     "Please, try again later." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Por favor, tente novamente mais tarde."
+            "value" : "Please, try again later."
           }
         }
       }
     },
     "Polish" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Polonês"
+            "value" : "Polish"
           }
         }
       }
     },
     "Poster" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pôster"
+            "value" : "Poster"
           }
         }
       }
     },
     "Poster Indicator" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Indicador de Pôster"
+            "value" : "Poster Indicator"
           }
         }
       }
     },
     "Poster Indicator Background" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fundo do Indicador de Pôster"
+            "value" : "Poster Indicator Background"
           }
         }
       }
     },
     "Prefer Manga Volumes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Preferência por Volumes de Mangá"
+            "value" : "Prefer Manga Volumes"
+          }
+        }
+      }
+    },
+    "Preferred Platform" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferred Platform"
           }
         }
       }
     },
     "Preferred Screen" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tela preferida"
+            "value" : "Preferred Screen"
           }
         }
       }
     },
     "Preferred Time Format" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Formato de Horário Preferido"
+            "value" : "Preferred Time Format"
           }
         }
       }
     },
     "Preferred Title Language" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Idioma de Título Preferido"
-          }
-        }
-      }
-    },
-    "Print" : {
-      "comment" : "Dev Option, do not need translation.",
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Print"
+            "value" : "Preferred Title Language"
           }
         }
       }
     },
     "Privacy" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Privacidade"
+            "value" : "Privacy"
           }
         }
       }
     },
     "Privacy Policy" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Política de Privacidade"
+            "value" : "Privacy Policy"
           }
         }
       }
     },
     "Profanity & Mild Nudity" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Palavrões e Nudez Leve"
+            "value" : "Profanity & Mild Nudity"
           }
         }
       }
     },
     "Progress & List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Progresso e Lista"
+            "value" : "Progress & List"
           }
         }
       }
     },
     "Progress & Personal Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Progresso e Pontuação Pessoal"
+            "value" : "Progress & Personal Score"
           }
         }
       }
     },
     "Published Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mangá Publicado"
+            "value" : "Published Manga"
+          }
+        }
+      }
+    },
+    "Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro."
           }
         }
       }
     },
     "Quickly delete any date by swiping or long pressing." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Exclua rapidamente qualquer data deslizando ou pressionando."
+            "value" : "Quickly delete any date by swiping or long pressing."
           }
         }
       }
@@ -3030,229 +3213,217 @@
     "Rating" : {
       "comment" : "Poster Indicator",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Avaliação"
+            "value" : "Rating"
           }
         }
       }
     },
     "Rating %lld" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Classificação %lld"
+            "value" : "Rating %lld"
           }
         }
       }
     },
     "Rating of %lld of 10." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Classificação de %lld de 10."
+            "value" : "Rating of %lld of 10."
           }
         }
       }
     },
     "Rating: %lld" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Classificação %lld"
+            "value" : "Rating: %lld"
           }
         }
       }
     },
     "Reading" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Lendo"
+            "value" : "Reading"
           }
         }
       }
     },
     "Receive notifications when a new episode is released or when a new anime premieres from your list." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Receba notificações quando um novo episódio for lançado ou quando um novo anime for lançado na sua lista."
+            "value" : "Receive notifications when a new episode is released or when a new anime premieres from your list."
           }
         }
       }
     },
     "Recent Searches" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pesquisas Recentes"
+            "value" : "Recent Searches"
           }
         }
       }
     },
     "Recently Completed" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Concluídos Recentemente"
+            "value" : "Recently Completed"
           }
         }
       }
     },
-    "Recheck Network" : {
+    "Recently Viewed" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recheck Network"
+            "value" : "Recently Viewed"
           }
         }
       }
     },
     "Recommendations" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recomendações"
+            "value" : "Recommendations"
           }
         }
       }
     },
     "Related" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Relacionado"
+            "value" : "Related"
           }
         }
       }
     },
     "Related Anime" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anime relacionado"
+            "value" : "Related Anime"
           }
         }
       }
     },
     "Reload" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Recarregar"
+            "value" : "Reload"
           }
         }
       }
     },
     "Remove" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Remover"
+            "value" : "Remove"
           }
         }
       }
     },
     "Remove from Recent Viewed" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Remover de Visualizações Recentes"
+            "value" : "Remove from Recent Viewed"
           }
         }
       }
     },
     "Report a Problem" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Relatar um Problema"
+            "value" : "Report a Problem"
+          }
+        }
+      }
+    },
+    "Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur."
           }
         }
       }
     },
     "Requires Kitsune Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Requer Kitsune Premium"
+            "value" : "Requires Kitsune Premium"
           }
         }
       }
     },
     "Reread" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Relido"
-          }
-        }
-      }
-    },
-    "Reset Asked for Review" : {
-      "comment" : "Dev Options, do not need translation",
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reset Asked for Review"
-          }
-        }
-      }
-    },
-    "Reset Settings" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Reset Settings"
+            "value" : "Reread"
           }
         }
       }
     },
     "Restore" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Restaurar"
+            "value" : "Restore"
           }
         }
       }
     },
     "Return to current season" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Retornar à temporada atual"
+            "value" : "Return to current season"
           }
         }
       }
     },
     "Review Kitsune" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Review Kitsune"
@@ -3262,50 +3433,50 @@
     },
     "Rewatched" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Reassistido"
+            "value" : "Rewatched"
           }
         }
       }
     },
     "Rewatched %lld times." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Revisto %lld vezes."
+            "value" : "Rewatched %lld times."
           }
         }
       }
     },
     "Russian" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Russo"
+            "value" : "Russian"
           }
         }
       }
     },
     "Saturday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sábado"
+            "value" : "Saturday"
           }
         }
       }
     },
     "Save" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Salvar"
+            "value" : "Save"
           }
         }
       }
@@ -3313,367 +3484,469 @@
     "Saved" : {
       "comment" : "Popup Action",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Salvo"
+            "value" : "Saved"
           }
         }
       }
     },
     "Schedule" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estreias"
+            "value" : "Schedule"
           }
         }
       }
     },
     "Score" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Pontuação"
+            "value" : "Score"
           }
         }
       }
     },
     "Search" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Busca"
+            "value" : "Search"
           }
         }
       }
     },
     "Search %@ List" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Procurar na Lista %@"
+            "value" : "Search %@ List"
           }
         }
       }
     },
     "Search Suggestions" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sugestões de Pesquisa"
+            "value" : "Search Suggestions"
           }
         }
       }
     },
     "Searching" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Procurando"
+            "value" : "Searching"
           }
         }
       }
     },
     "Season" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Temporada"
+            "value" : "Season"
           }
         }
       }
     },
     "Seasonal" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Temporada"
+            "value" : "Season"
           }
         }
       }
     },
     "See All" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ver Todos"
+            "value" : "See All"
           }
         }
       }
     },
     "See Details" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ver Detalhes"
+            "value" : "See Details"
           }
         }
       }
     },
     "See your current releases in a timeline with Your Schedule." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Veja seus lançamentos atuais em uma linha do tempo com Estreias."
+            "value" : "See your current releases in a timeline with Schedule."
           }
         }
       }
     },
     "Send Email" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Enviar E-mail"
+            "value" : "Send Email"
+          }
+        }
+      }
+    },
+    "Send Feedback" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Send Feedback"
           }
         }
       }
     },
     "Serialization" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Serialização"
+            "value" : "Serialization"
           }
         }
       }
     },
     "Session Expired" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sessão Expirada"
+            "value" : "Session Expired"
           }
         }
       }
     },
     "Settings" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Configurações"
+            "value" : "Settings"
+          }
+        }
+      }
+    },
+    "Share Profile" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share Profile"
           }
         }
       }
     },
     "Show All" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar tudo"
+            "value" : "Show All"
           }
         }
       }
     },
     "Show Comments" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Comentários"
+            "value" : "Show Comments"
+          }
+        }
+      }
+    },
+    "Show Episode Number" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Episode Number"
+          }
+        }
+      }
+    },
+    "Show Episode Number on Schedule" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Episode Number on Schedule"
           }
         }
       }
     },
     "Show More" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Mais"
+            "value" : "Show More"
           }
         }
       }
     },
     "Show Only Added" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Apenas Adicionado"
+            "value" : "Show Only Added"
           }
         }
       }
     },
     "Show Progress Bar for Anime and Manga" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Barra de Progresso para Anime e Mangá"
+            "value" : "Show Progress Bar for Anime and Manga"
           }
         }
       }
     },
     "Show Rating View" : {
-      "extractionState" : "stale"
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Rating View"
+          }
+        }
+      }
     },
     "Show Score View" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Score View"
+          }
+        }
+      }
     },
     "Show Time in 'Your Schedule'" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Horas em 'Estreias'"
+            "value" : "Show Time in 'Schedule'"
           }
         }
       }
     },
     "Show With Apple Music" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Com Apple Music"
+            "value" : "Show With Apple Music"
+          }
+        }
+      }
+    },
+    "Show With Spotify" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show With Spotify"
           }
         }
       }
     },
     "Show Without Apple Music" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Mostrar Sem Apple Music"
+            "value" : "Show Without Apple Music"
+          }
+        }
+      }
+    },
+    "Show Without Spotify" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Without Spotify"
           }
         }
       }
     },
     "Sign In" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entrar"
+            "value" : "Sign In"
           }
         }
       }
     },
     "Sign In into your MyAnimeList account." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Entre na sua conta MyAnimeList."
+            "value" : "Sign In into your MyAnimeList account."
           }
         }
       }
     },
     "Sign Out" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sair"
+            "value" : "Sign Out"
           }
         }
       }
     },
     "Some videos may not play due to region restrictions." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alguns vídeos podem não ser reproduzidos devido a restrições regionais."
+            "value" : "Some videos may not play due to region restrictions."
           }
         }
       }
     },
     "Sort" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ordenar"
+            "value" : "Sort"
           }
         }
       }
     },
     "Source" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Fonte"
+            "value" : "Source"
           }
         }
       }
     },
     "Spanish" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spanish"
+          }
+        }
+      }
     },
     "Special" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Especial"
+            "value" : "Special"
+          }
+        }
+      }
+    },
+    "Spotify" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spotify"
+          }
+        }
+      }
+    },
+    "Spotify Support" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spotify Support"
           }
         }
       }
     },
     "Spring" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Primavera"
+            "value" : "Spring"
           }
         }
       }
     },
     "Staff" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Equipe"
+            "value" : "Staff"
           }
         }
       }
     },
     "Start Date" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Data de Início"
+            "value" : "Start Date"
           }
         }
       }
     },
     "Start Season" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Temporada Inicial"
+            "value" : "Start Season"
           }
         }
       }
     },
     "Status" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Status"
@@ -3683,188 +3956,220 @@
     },
     "Studios" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estúdios"
+            "value" : "Studios"
           }
         }
       }
     },
     "Summer" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Verão"
+            "value" : "Summer"
           }
         }
       }
     },
     "Sunday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Domingo"
+            "value" : "Sunday"
           }
         }
       }
     },
     "Support & About" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Suporte e Sobre"
+            "value" : "Support & About"
+          }
+        }
+      }
+    },
+    "Support the development of the app" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support the development of the app"
+          }
+        }
+      }
+    },
+    "Support the development of the app created by a solo developer." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support the development of the app created by a solo developer."
           }
         }
       }
     },
     "Swipe or Hold to access quick actions" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Deslize ou segure para acessar ações rápidas"
+            "value" : "Swipe or Hold to access quick actions"
           }
         }
       }
     },
     "Sync Notifications" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sincronizar as Notificações"
+            "value" : "Sync Notifications"
           }
         }
       }
     },
     "Syncing" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sincronizando"
+            "value" : "Syncing"
           }
         }
       }
     },
     "Synonyms" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sinônimos"
+            "value" : "Synonyms"
           }
         }
       }
     },
     "Synopsis" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sinopse"
+            "value" : "Synopsis"
           }
         }
       }
     },
     "System" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sistema"
+            "value" : "System"
           }
         }
       }
     },
     "Tap 'Save' to save your changes after writing." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toque em 'Salvar' para salvar suas alterações após escrever."
+            "value" : "Tap 'Save' to save your changes after writing."
           }
         }
       }
     },
     "Teens 13 and Older" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Adolescentes de 13 anos ou mais"
+            "value" : "Teens 13 and Older"
           }
         }
       }
     },
     "Terms of Service" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Termos de serviço"
+            "value" : "Terms of Service"
           }
         }
       }
     },
     "Test Notifications" : {
       "comment" : "Dev Options, do not need translation",
+      "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Test Notifications"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature."
           }
         }
       }
     },
     "The anime will premiere today." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O anime vai estrear hoje."
+            "value" : "The anime will premiere today."
           }
         }
       }
     },
     "The app couldn't load it right now" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O aplicativo não conseguiu carregá-lo agora"
+            "value" : "The app couldn't load it right now"
           }
         }
       }
     },
     "The app couldn't load the content right now." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O aplicativo não conseguiu carregar o conteúdo no momento."
+            "value" : "The app couldn't load the content right now."
           }
         }
       }
     },
     "The app couldn't load the list right now.\nPlease, try again later." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O aplicativo não conseguiu carregar a lista agora. Por favor, tente novamente mais tarde."
+            "value" : "The app couldn't load the list right now.\nPlease, try again later."
           }
         }
       }
     },
     "The app couldn't load the season right now.\nPlease, try again later." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "The app couldn't load the season right now.\nPlease, try again later."
@@ -3872,200 +4177,202 @@
         }
       }
     },
-    "The progress bar and gestures will adapt to this setting." : {
+    "The episode %lld is airing soon." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "A barra de progresso e os gestos se adaptarão a essa configuração."
+            "value" : "The episode %lld is airing soon."
+          }
+        }
+      }
+    },
+    "The progress bar and gestures will adapt to this setting." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The progress bar and gestures will adapt to this setting."
           }
         }
       }
     },
     "The service is undergoing maintenance or is currently unavailable. Please try again later." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O serviço está passando por manutenção ou não está disponível no momento. Por favor, tente novamente mais tarde."
+            "value" : "The service is undergoing maintenance or is currently unavailable. Please try again later."
           }
         }
       }
     },
     "Themes" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Temas"
+            "value" : "Themes"
           }
         }
       }
     },
     "This option will hide previous days and show only from today up to Sunday." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Esta opção ocultará os dias anteriores e será exibido apenas de hoje até domingo."
+            "value" : "This option will hide previous days and show only from today up to Sunday."
           }
         }
       }
     },
     "This will adapt the schedule to match your local date and time." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Isso adaptará o cronograma para corresponder à sua data e hora locais."
+            "value" : "This will adapt the schedule to match your local date and time."
           }
         }
       }
     },
     "This will direct you to the MyAnimeList Account Deletion page." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Isso o direcionará para a página de Exclusão de Conta MyAnimeList."
-          }
-        }
-      }
-    },
-    "This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'." : {
-      "localizations" : {
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Isso notificará quando novos episódios de 'Assistindo' forem lançados quando uma nova série ou filme for lançado de 'Planejo Assistir'."
+            "value" : "This will direct you to the MyAnimeList Account Deletion page."
           }
         }
       }
     },
     "This will refresh your access token to use the app." : {
       "comment" : "Dev Options, do not need translation",
+      "extractionState" : "stale",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "This will refresh your access token to use the app."
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "This will remove this item from your list." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Isso removerá este item da sua lista."
+            "value" : "This will remove this item from your list."
           }
         }
       }
     },
     "Thursday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quinta-feira"
+            "value" : "Thursday"
           }
         }
       }
     },
     "Time will be shown in Japan Standard Time (JST) by default." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "O tempo será mostrado no Horário Padrão do Japão (JST) por padrão."
+            "value" : "Time will be shown in Japan Standard Time (JST) by default."
           }
         }
       }
     },
     "Title Length" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Comprimento do Título"
+            "value" : "Title Length"
           }
         }
       }
     },
     "Today" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Hoje"
+            "value" : "Today"
           }
         }
       }
     },
     "Toggle this setting to include mature content in search results and recommendations.\nUser lists are always unrestricted." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Alterne essa configuração para incluir conteúdo adulto nos resultados de pesquisa e recomendações.  As listas de usuários são sempre irrestritas."
+            "value" : "Toggle this setting to include mature content in search results and recommendations.\nUser lists are always unrestricted."
           }
         }
       }
     },
     "Top Airing" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Principais em Exibição"
+            "value" : "Top Airing"
           }
         }
       }
     },
     "Top All" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Principais"
+            "value" : "Top All"
           }
         }
       }
     },
     "Top Favorites" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Favoritos"
+            "value" : "Top Favorites"
           }
         }
       }
     },
     "Top Movie" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Filmes"
+            "value" : "Top Movie"
           }
         }
       }
     },
     "Top OVA" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "OVA"
+            "value" : "Top OVA"
           }
         }
       }
     },
     "Top Special" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top Special"
@@ -4075,37 +4382,37 @@
     },
     "Top TV Series" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Principais séries de TV"
+            "value" : "Top TV Series"
           }
         }
       }
     },
     "Top Upcoming" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Os Mais Aguardados"
+            "value" : "Top Upcoming"
           }
         }
       }
     },
     "Touch and hold on the synopsis to copy or share it." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Toque e segure a sinopse para copiá-la ou compartilhá-la."
+            "value" : "Touch and hold on the synopsis to copy or share it."
           }
         }
       }
     },
     "Trailers" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trailers"
@@ -4115,100 +4422,100 @@
     },
     "Translation" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tradução"
+            "value" : "Translation"
           }
         }
       }
     },
     "Try again" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente"
+            "value" : "Try again"
           }
         }
       }
     },
     "Try Again" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente Novamente"
+            "value" : "Try Again"
           }
         }
       }
     },
     "Try again later" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde"
+            "value" : "Try again later"
           }
         }
       }
     },
     "Try Again Later" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde"
+            "value" : "Try Again Later"
           }
         }
       }
     },
     "Try again later or change the list." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde ou altere a lista."
+            "value" : "Try again later or change the list."
           }
         }
       }
     },
     "Try again later or start watching an anime from this season." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde ou comece a assistir a um anime desta temporada."
+            "value" : "Try again later or start watching an anime from this season."
           }
         }
       }
     },
     "Try again later, change the season/year or go back to current Season." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde, mude a temporada/ano ou volte para a temporada atual."
+            "value" : "Try again later, change the season/year or go back to current Season."
           }
         }
       }
     },
     "Try again later, change the season/year/filter or go back to current Season." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Tente novamente mais tarde, altere a temporada/ano/filtro ou volte para a Temporada atual."
+            "value" : "Try again later, change the season/year/filter or go back to current Season."
           }
         }
       }
     },
     "Tuesday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Terça-feira"
+            "value" : "Tuesday"
           }
         }
       }
@@ -4216,7 +4523,7 @@
     "TV" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "TV"
@@ -4227,90 +4534,100 @@
     "Unknown" : {
       "comment" : "Anime Media Type",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desconhecido"
+            "value" : "Unknown"
           }
         }
       }
     },
     "Unlock app customization and more features with Kitsune Premium.\nNo Subscription required." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desbloqueie a personalização do aplicativo e mais recursos com o Kitsune Premium. Não é necessária assinatura."
+            "value" : "Unlock app customization and more features with Kitsune Premium.\nNo Subscription required."
           }
         }
       }
     },
     "Unlock customization and more features with Kitsune Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desbloqueie a personalização e mais recursos com o Kitsune Premium"
+            "value" : "Unlock customization and more features with Kitsune Premium"
           }
         }
       }
     },
     "Unlock New Features and Customizations" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desbloqueie Novos Recursos e Personalizações"
+            "value" : "Unlock New Features and Customizations"
           }
         }
       }
     },
     "Unlock Your Entire Week with Kitsune Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Desbloqueie sua semana inteira com o Kitsune Premium"
+            "value" : "Unlock Your Entire Week with Kitsune Premium"
           }
         }
       }
     },
     "Upcoming" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Em Breve"
+            "value" : "Upcoming"
           }
         }
       }
     },
     "Upcoming Notifications" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Próximas Notificações"
+            "value" : "Upcoming Notifications"
           }
         }
       }
     },
     "Upgrade to Kitsune Premium" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Atualize para Kitsune Premium"
+            "value" : "Upgrade to Kitsune Premium"
           }
         }
       }
     },
-    "Version %@ • %@" : {
+    "Upgrade to Kitsune Premium to view your full weekly schedule." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Versão %1$@ • %2$@"
+            "value" : "Upgrade to Kitsune Premium to view your full weekly schedule."
+          }
+        }
+      }
+    },
+    "Version %@ (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Version %1$@ (%2$@)"
           }
         }
       }
@@ -4318,10 +4635,10 @@
     "Very Bad" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muito Ruim"
+            "value" : "Very Bad"
           }
         }
       }
@@ -4329,240 +4646,307 @@
     "Very Good" : {
       "comment" : "MAL Score",
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Muito Bom"
+            "value" : "Very Good"
           }
         }
       }
     },
     "View Credits" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ver Créditos"
+            "value" : "View Credits"
           }
         }
       }
     },
     "View up to 10 of your most recent search results on the Search page." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Veja até 10 dos seus resultados de pesquisa mais recentes na página de pesquisa."
+            "value" : "View up to 10 of your most recent search results on the Search page."
           }
         }
       }
     },
     "Voice Acting Roles" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Papéis de Dublagem"
+            "value" : "Voice Acting Roles"
           }
         }
       }
     },
     "Voice Actors" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Dubladores"
+            "value" : "Voice Actors"
           }
         }
       }
     },
     "Volumes Read" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Volumes Lidos"
+            "value" : "Volumes Read"
           }
         }
       }
     },
-    "Want to bring Kitsune to your language?\nYou can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations" : {
-
+    "Want to bring Kitsune to your language?\nhttps://github.com/MadeiraAlexandre/Kitsune-Translations" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Want to bring Kitsune to your language?\nhttps://github.com/MadeiraAlexandre/Kitsune-Translations"
+          }
+        }
+      }
+    },
+    "Watch an anime from the current season to use Schedule." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Watch an anime from the current season to use Schedule."
+          }
+        }
+      }
     },
     "Watched" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Assistidos"
+            "value" : "Watched"
           }
         }
       }
     },
     "Watching" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Assistindo"
+            "value" : "Watching"
           }
         }
       }
     },
     "Wednesday" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quarta-feira"
+            "value" : "Wednesday"
           }
         }
       }
     },
     "What's your score?" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Qual é a sua pontuação?"
+            "value" : "What's your score?"
           }
         }
       }
     },
     "When on, the app will always open your selected Preferred Screen.\nWhen off, the app will always open the last tab opened." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Quando ativo, o aplicativo sempre abrirá sua Tela Preferida selecionada. \nQuando desligado, o aplicativo sempre abrirá a última guia aberta."
+            "value" : "When on, the app will always open your selected Preferred Screen.\nWhen off, the app will always open the last tab opened."
           }
         }
       }
     },
     "When switching to the 'Watching' list, automatically mark the first episode as watched." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ao mudar para a lista 'Assistindo', marque automaticamente o primeiro episódio como assistido."
+            "value" : "When switching to the 'Watching' list, automatically mark the first episode as watched."
           }
         }
       }
     },
     "Winter" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Inverno"
+            "value" : "Winter"
+          }
+        }
+      }
+    },
+    "Works on all of your Apple devices" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Works on all of your Apple devices"
           }
         }
       }
     },
     "Write a Review" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Escreva uma resenha"
+            "value" : "Write a Review"
           }
         }
       }
     },
     "Year" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Ano"
+            "value" : "Year"
           }
         }
       }
     },
     "You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você pode criar uma conta MyAnimeList inscrevendo-se em https://myanimelist.net usando seu navegador preferido."
+            "value" : "You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser."
+          }
+        }
+      }
+    },
+    "You can create an AniList account by signing up on https://anilist.co using your preferred browser." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can create an AniList account by signing up on https://anilist.co using your preferred browser."
+          }
+        }
+      }
+    },
+    "You can enable both, but Kitsune can only display one at a time." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You can enable both, but Kitsune can only display one at a time."
           }
         }
       }
     },
     "You need Kitsune Premium to change this." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você precisa do Kitsune Premium para mudar isso."
+            "value" : "You need Kitsune Premium to change this."
+          }
+        }
+      }
+    },
+    "You need the Spotify app installed." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You need the Spotify app installed."
+          }
+        }
+      }
+    },
+    "You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account."
           }
         }
       }
     },
     "You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Será necessário fazer login novamente para usar Minha Lista, Editar Status, Adicionar Item e Estatísticas."
+            "value" : "You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics."
           }
         }
       }
     },
     "You're a Premium user.\nThank you for your support." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Você é um usuário Premium.\nObrigado pelo seu apoio."
+            "value" : "You're a Premium user.\nThank you for your support."
           }
         }
       }
     },
     "Your Schedule" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Estreias "
+            "value" : "Schedule"
           }
         }
       }
     },
     "Your Schedule is empty for today." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Não há anime por hoje."
+            "value" : "Schedule is empty for today."
           }
         }
       }
     },
     "Your Schedule is empty right now." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sem anime para exibir na Estreias agora."
+            "value" : "Schedule is empty right now."
           }
         }
       }
     },
     "Your session has expired.\nPlease, sign in again to keep using the app." : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Sua sessão expirou. Por favor, faça login novamente para continuar usando o aplicativo."
+            "value" : "Your session has expired.\nPlease, sign in again to keep using the app."
           }
         }
       }
     },
     "YouTube" : {
       "localizations" : {
-        "pt-BR" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "YouTube"

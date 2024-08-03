@@ -1,101 +1,134 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Kitsune/Localization/InfoPlist.xcstrings" source-language="pl" target-language="pl" datatype="plaintext">
+  <file original="Kitsune/Localization/dev_options.xcstrings" source-language="en" target-language="pl" datatype="plaintext">
+    <header>
+      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
+    </header>
+    <body>
+      <trans-unit id="Account - Refresh Token" xml:space="preserve">
+        <source>Account - Refresh Token</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+      <trans-unit id="Developer Options" xml:space="preserve">
+        <source>Developer Options</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+      <trans-unit id="Is Premium User" xml:space="preserve">
+        <source>Is Premium User</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+      <trans-unit id="Is refreshing token? %@" xml:space="preserve">
+        <source>Is refreshing token? %@</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+      <trans-unit id="Test Notifications" xml:space="preserve">
+        <source>Test Notifications</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+      <trans-unit id="This will refresh your access token to use the app." xml:space="preserve">
+        <source>This will refresh your access token to use the app.</source>
+        <note>dev options, don't translate</note>
+      </trans-unit>
+    </body>
+  </file>
+  <file original="Kitsune/Localization/InfoPlist.xcstrings" source-language="en" target-language="pl" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>Kitsune</source>
-        <target state="new">Kitsune</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>Kitsune</source>
-        <target state="new">Kitsune</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
         <source>Search and Play the opening and ending theme songs.</source>
-        <target state="new">Search and Play the opening and ending theme songs.</target>
         <note>Privacy - Media Library Usage Description</note>
       </trans-unit>
     </body>
   </file>
-  <file original="Kitsune/Localization/Localizable.xcstrings" source-language="pl" target-language="pl" datatype="plaintext">
+  <file original="Kitsune/Localization/Localizable.xcstrings" source-language="en" target-language="pl" datatype="plaintext">
     <header>
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="15.4" build-num="15F31d"/>
     </header>
     <body>
+      <trans-unit id="" xml:space="preserve">
+        <source/>
+        <note/>
+      </trans-unit>
+      <trans-unit id=" %@" xml:space="preserve">
+        <source> %@</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@" xml:space="preserve">
         <source>%@</source>
         <target state="translated">%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@&#10;By: %@" xml:space="preserve">
-        <source>%@
-By: %@</source>
-        <target state="new">%@
-By: %@</target>
+        <source>%1$@
+By: %2$@</source>
         <note/>
       </trans-unit>
       <trans-unit id="%@ %@" xml:space="preserve">
-        <source>%1$@ %2$@</source>
+        <source>%@ %@</source>
         <target state="translated">%1$@ %2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ %@ • %@" xml:space="preserve">
-        <source>%1$@ %2$@ • %3$@</source>
+      <trans-unit id="%@ %@ • %@" translate="no" xml:space="preserve">
+        <source>%@ %@ • %@</source>
         <target state="translated">%1$@ %2$@ • %3$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ (%lld)" xml:space="preserve">
-        <source>%@ (%lld)</source>
-        <target state="new">%@ (%lld)</target>
+        <source>%1$@ (%2$lld)</source>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (JST)" xml:space="preserve">
+      <trans-unit id="%@ (JST)" translate="no" xml:space="preserve">
         <source>%@ (JST)</source>
         <target state="translated">%@ (JST)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ (Local Time)" xml:space="preserve">
-        <source>%@ (czasu lokalnego)</source>
+        <source>%@ (Local Time)</source>
         <target state="translated">%@ (czasu lokalnego)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ at %@ (Local Time)" xml:space="preserve">
-        <source>%1$@ o godzinie %2$@ (czasu lokalnego)</source>
+        <source>%@ at %@ (Local Time)</source>
         <target state="translated">%1$@ o godzinie %2$@ (czasu lokalnego)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ days" xml:space="preserve">
-        <source>%@ dni</source>
+        <source>%@ days</source>
         <target state="translated">%@ dni</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ minutes" xml:space="preserve">
-        <source>%@ minut</source>
+        <source>%@ minutes</source>
         <target state="translated">%@ minut</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ of %@" xml:space="preserve">
-        <source>%1$@ z %2$@</source>
+        <source>%1$@ of %2$@</source>
         <target state="translated">%1$@ z %2$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ • %@" xml:space="preserve">
-        <source>%1$@ • %2$@</source>
+        <source>%@ • %@</source>
         <target state="translated">%1$@ • %2$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s list is empty or is private." xml:space="preserve">
-        <source>Lista %@ jest pusta lub prywatna.</source>
+        <source>%@'s list is empty or is private.</source>
         <target state="translated">Lista %@ jest pusta lub prywatna.</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
-        <source>%1$@, %2$@ (JST)</source>
+        <source>%@, %@ (JST)</source>
         <target state="translated">%1$@, %2$@ (JST)</target>
         <note/>
       </trans-unit>
@@ -104,87 +137,101 @@ By: %@</target>
         <target state="translated">%lld</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld - %@" xml:space="preserve">
+      <trans-unit id="%lld - %@" translate="no" xml:space="preserve">
         <source>%1$lld - %2$@</source>
         <target state="translated">%1$lld - %2$@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="%lld Anime" xml:space="preserve">
+        <source>%lld Anime</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld Manga" xml:space="preserve">
+        <source>%lld Manga</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld actors" xml:space="preserve">
+        <source>%lld actors</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="%lld animes" xml:space="preserve">
         <source>%lld animes</source>
-        <target state="new">%lld animes</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
-        <source>%1$lld obejrzanych odcinków z %2$@.</source>
+        <source>%1$lld episodes watched of %2$@.</source>
         <target state="translated">%1$lld obejrzanych odcinków z %2$@.</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.few" xml:space="preserve">
-        <source>%lld elementów</source>
+        <source>%lld items</source>
         <target state="translated">%lld elementów</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.many" xml:space="preserve">
-        <source>%lld elementów</source>
+        <source>%lld items</source>
         <target state="translated">%lld elementów</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.one" xml:space="preserve">
-        <source>%lld element</source>
+        <source>%lld item</source>
         <target state="translated">%lld element</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
-        <source>%lld elementów</source>
+        <source>%lld items</source>
         <target state="translated">%lld elementów</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.zero" xml:space="preserve">
-        <source>%lld elementów</source>
+        <source>%lld items</source>
         <target state="translated">%lld elementów</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld line|==|plural.few" xml:space="preserve">
-        <source>%lld wierszy</source>
+        <source>%lld lines</source>
         <target state="translated">%lld wierszy</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld line|==|plural.many" xml:space="preserve">
-        <source>%lld wierszy</source>
+        <source>%lld lines</source>
         <target state="translated">%lld wierszy</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld line|==|plural.one" xml:space="preserve">
-        <source>%lld wiersz</source>
+        <source>%lld line</source>
         <target state="translated">%lld wiersz</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld line|==|plural.other" xml:space="preserve">
-        <source>%lld wierszy</source>
+        <source>%lld lines</source>
         <target state="translated">%lld wierszy</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld mangas" xml:space="preserve">
         <source>%lld mangas</source>
-        <target state="new">%lld mangas</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="%lld of %@" xml:space="preserve">
+        <source>%1$lld of %2$@</source>
         <note/>
       </trans-unit>
       <trans-unit id="%lld of %lld" xml:space="preserve">
-        <source>%1$lld z %2$lld</source>
+        <source>%1$lld of %2$lld</source>
         <target state="translated">%1$lld z %2$lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld read of %@ chapters" xml:space="preserve">
-        <source>%1$lld przeczytane z %2$@ rozdziałów</source>
+        <source>%1$lld read of %2$@ chapters</source>
         <target state="translated">%1$lld przeczytane z %2$@ rozdziałów</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld read of %@ volumes" xml:space="preserve">
-        <source>%1$lld przeczytane z %2$@ tomów</source>
+        <source>%1$lld read of %2$@ volumes</source>
         <target state="translated">%1$lld przeczytane z %2$@ tomów</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld • %@" xml:space="preserve">
+      <trans-unit id="%lld • %@" translate="no" xml:space="preserve">
         <source>%1$lld • %2$@</source>
         <target state="translated">%1$lld • %2$@</target>
         <note/>
@@ -210,98 +257,111 @@ By: %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="+1 (%lld/%@)" xml:space="preserve">
-        <source>+1 (%1$lld/%2$@)</source>
-        <target state="new">+1 (%1$lld/%2$@)</target>
+        <source>+1 (%lld/%@)</source>
         <note/>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
-        <source>17+ (przemoc i wulgaryzmy)</source>
+        <source>17+ (Violence &amp; Profanity)</source>
         <target state="translated">17+ (przemoc i wulgaryzmy)</target>
         <note/>
       </trans-unit>
       <trans-unit id="A new episode is arriving today." xml:space="preserve">
-        <source>Nowy odcinek pojawi się dzisiaj.</source>
+        <source>A new episode is arriving today.</source>
         <target state="translated">Nowy odcinek pojawi się dzisiaj.</target>
         <note/>
       </trans-unit>
       <trans-unit id="About" xml:space="preserve">
-        <source>O aplikacji</source>
+        <source>About</source>
         <target state="translated">O aplikacji</target>
         <note/>
       </trans-unit>
       <trans-unit id="About Your Schedule" xml:space="preserve">
-        <source>Informacje o harmonogramie</source>
-        <target state="needs-review-l10n">Informacje o harmonogramie</target>
+        <source>About Schedule</source>
+        <target state="translated">Informacje o harmonogramie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Accent Color" xml:space="preserve">
-        <source>Akcent kolorystyczny</source>
+        <source>Accent Color</source>
         <target state="translated">Akcent kolorystyczny</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Accessibility" xml:space="preserve">
+        <source>Accessibility</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Account" xml:space="preserve">
-        <source>Konto</source>
+        <source>Account</source>
         <target state="translated">Konto</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Account - Refresh Token" xml:space="preserve">
+      <trans-unit id="Account - Refresh Token" translate="no" xml:space="preserve">
         <source>Account - Refresh Token</source>
         <target state="translated">Account - Refresh Token</target>
         <note>Dev Options, do not need translation</note>
       </trans-unit>
       <trans-unit id="Account Settings" xml:space="preserve">
-        <source>Ustawienia konta</source>
+        <source>Account Settings</source>
         <target state="translated">Ustawienia konta</target>
         <note/>
       </trans-unit>
       <trans-unit id="Adaptation" xml:space="preserve">
-        <source>Adaptacja</source>
+        <source>Adaptation</source>
         <target state="translated">Adaptacja</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add" xml:space="preserve">
-        <source>Dodaj</source>
+        <source>Add</source>
         <target state="translated">Dodaj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add Comments" xml:space="preserve">
-        <source>Dodaj komentarz</source>
+        <source>Add Comments</source>
         <target state="translated">Dodaj komentarz</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add Finish Date" xml:space="preserve">
-        <source>Dodaj datę zakończenia</source>
+        <source>Add Finish Date</source>
         <target state="translated">Dodaj datę zakończenia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add Start Date" xml:space="preserve">
-        <source>Dodaj datę rozpoczęcia</source>
+        <source>Add Start Date</source>
         <target state="translated">Dodaj datę rozpoczęcia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Add to Library" xml:space="preserve">
         <source>Add to Library</source>
-        <target state="new">Add to Library</target>
         <note/>
       </trans-unit>
       <trans-unit id="Adjust multiple settings to better suit your preferences." xml:space="preserve">
-        <source>Dostosuj wiele ustawień, aby lepiej dopasować je do swoich preferencji.</source>
+        <source>Adjust multiple settings to better suit your preferences.</source>
         <target state="translated">Dostosuj wiele ustawień, aby lepiej dopasować je do swoich preferencji.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Air Date" xml:space="preserve">
-        <source>Data emisji</source>
+        <source>Air Date</source>
         <target state="translated">Data emisji</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Aired: Episode %lld" xml:space="preserve">
+        <source>Aired: Episode %lld</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="All Ages" xml:space="preserve">
-        <source>Wszystkie grupy wiekowe</source>
+        <source>All Ages</source>
         <target state="translated">Wszystkie grupy wiekowe</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Allow Anime Notification" xml:space="preserve">
-        <source>Zezwalaj na powiadomienia Anime</source>
-        <target state="translated">Zezwalaj na powiadomienia Anime</target>
+      <trans-unit id="Allow Notifications" xml:space="preserve">
+        <source>Allow Notifications</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="AniList" xml:space="preserve">
+        <source>AniList</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="AniList • %@" xml:space="preserve">
+        <source>AniList • %@</source>
         <note/>
       </trans-unit>
       <trans-unit id="Anime" xml:space="preserve">
@@ -311,378 +371,355 @@ By: %@</target>
       </trans-unit>
       <trans-unit id="Anime &amp; Manga Only" xml:space="preserve">
         <source>Anime &amp; Manga Only</source>
-        <target state="new">Anime &amp; Manga Only</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Staff Positions" xml:space="preserve">
         <source>Anime Staff Positions</source>
-        <target state="new">Anime Staff Positions</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Statistics (In Days)" xml:space="preserve">
         <source>Anime Statistics (In Days)</source>
-        <target state="new">Anime Statistics (In Days)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Statistics (In Items)" xml:space="preserve">
         <source>Anime Statistics (In Items)</source>
-        <target state="new">Anime Statistics (In Items)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Studios" xml:space="preserve">
         <source>Anime Studios</source>
-        <target state="new">Anime Studios</target>
         <note/>
       </trans-unit>
       <trans-unit id="Animeography" xml:space="preserve">
-        <source>Animeografia</source>
+        <source>Animeography</source>
         <target state="translated">Animeografia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.&#10;This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting." xml:space="preserve">
         <source>Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.
 This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting.</source>
-        <target state="new">Anonymous Analytics are sent when a function malfunctions or when certain screens or features are used.
-This data is completely anonymous and not linked to you in any form. It helps the developer to identify which screens or features require more development time and also aids in bug identification without the need for manual reporting.</target>
         <note/>
       </trans-unit>
       <trans-unit id="App Features" xml:space="preserve">
-        <source>Funkcje aplikacji</source>
+        <source>App Features</source>
         <target state="translated">Funkcje aplikacji</target>
         <note/>
       </trans-unit>
       <trans-unit id="App Icon" xml:space="preserve">
-        <source>Ikona aplikacji</source>
+        <source>App Icon</source>
         <target state="translated">Ikona aplikacji</target>
         <note/>
       </trans-unit>
       <trans-unit id="App Theme" xml:space="preserve">
-        <source>Motyw aplikacji</source>
+        <source>App Theme</source>
         <target state="translated">Motyw aplikacji</target>
         <note/>
       </trans-unit>
       <trans-unit id="Appalling" xml:space="preserve">
-        <source>Przerażające</source>
+        <source>Appalling</source>
         <target state="translated">Przerażające</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Appearance" xml:space="preserve">
-        <source>Wygląd</source>
+        <source>Appearance</source>
         <target state="translated">Wygląd</target>
         <note/>
       </trans-unit>
       <trans-unit id="Apple Music" xml:space="preserve">
         <source>Apple Music</source>
-        <target state="new">Apple Music</target>
         <note/>
       </trans-unit>
       <trans-unit id="Apple Music Support" xml:space="preserve">
         <source>Apple Music Support</source>
-        <target state="new">Apple Music Support</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Apple Music support is experimental. Report any mismatches using the report button.&#10;Search and matching are automated, mismatches may occur." xml:space="preserve">
-        <source>Apple Music support is experimental. Report any mismatches using the report button.
-Search and matching are automated, mismatches may occur.</source>
-        <target state="new">Apple Music support is experimental. Report any mismatches using the report button.
-Search and matching are automated, mismatches may occur.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
-        <source>Czy jesteś pewien?</source>
+        <source>Are You Sure?</source>
         <target state="translated">Czy jesteś pewien?</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are you sure?" xml:space="preserve">
-        <source>Jesteś pewien?</source>
+        <source>Are you sure?</source>
         <target state="translated">Jesteś pewien?</target>
         <note/>
       </trans-unit>
       <trans-unit id="Ask for Score After Watching an Anime" xml:space="preserve">
         <source>Ask for Score After Watching an Anime</source>
-        <target state="new">Ask for Score After Watching an Anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Ask for confirmation to mark the episode as watched." xml:space="preserve">
         <source>Ask for confirmation to mark the episode as watched.</source>
-        <target state="new">Ask for confirmation to mark the episode as watched.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Ask you to rate after completing watching an anime." xml:space="preserve">
         <source>Ask you to rate after completing watching an anime.</source>
-        <target state="new">Ask you to rate after completing watching an anime.</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Asked for Review? %@" xml:space="preserve">
-        <source>Asked for Review? %@</source>
-        <target state="new">Asked for Review? %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.applevision" xml:space="preserve">
-        <source>Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</source>
+        <source>Auto Add to Plan To Watch/Read list when clicking 'Add'.</source>
         <target state="translated">Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</target>
         <note/>
       </trans-unit>
       <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.mac" xml:space="preserve">
-        <source>Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</source>
+        <source>Auto Add to Plan To Watch/Read list when clicking 'Add'.</source>
         <target state="translated">Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</target>
         <note/>
       </trans-unit>
       <trans-unit id="Auto Add to Plan To Watch/Read list when tapping 'Add'.|==|device.other" xml:space="preserve">
-        <source>Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</source>
+        <source>Auto Add to Plan To Watch/Read list when tapping 'Add'.</source>
         <target state="translated">Automatyczne dodawanie do listy "Do obejrzenia Przeczytania" po naciśnięciu przycisku "Dodaj".</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Auto-fill 'Finish Date' when marking the last episode as watched." xml:space="preserve">
-        <source>Automatyczne wypełnianie "Daty zakończenia" podczas oznaczania ostatniego odcinka jako obejrzanego.</source>
-        <target state="translated">Automatyczne wypełnianie "Daty zakończenia" podczas oznaczania ostatniego odcinka jako obejrzanego.</target>
+      <trans-unit id="Auto-fill 'Finish Date'" xml:space="preserve">
+        <source>Auto-fill 'Finish Date'</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Auto-fill 'Start Date' when marking the first episode as watched" xml:space="preserve">
-        <source>Automatyczne wypełnianie "Daty rozpoczęcia" podczas oznaczania pierwszego odcinka jako obejrzanego.</source>
-        <target state="translated">Automatyczne wypełnianie "Daty rozpoczęcia" podczas oznaczania pierwszego odcinka jako obejrzanego.</target>
+      <trans-unit id="Auto-fill 'Start Date'" xml:space="preserve">
+        <source>Auto-fill 'Start Date'</source>
         <note/>
       </trans-unit>
       <trans-unit id="Automatically fill in the first episode" xml:space="preserve">
-        <source>Automatycznie uzupełnij pierwszy odcinek</source>
+        <source>Automatically fill in the first episode</source>
         <target state="translated">Automatycznie uzupełnij pierwszy odcinek</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Automatically sync new changes" xml:space="preserve">
+        <source>Automatically sync new changes</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Automatically sync your progress with your AniList account." xml:space="preserve">
+        <source>Automatically sync your progress with your AniList account.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Average" xml:space="preserve">
-        <source>Przeciętne</source>
+        <source>Average</source>
         <target state="translated">Przeciętne</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Average Duration" xml:space="preserve">
-        <source>Średni czas trwania</source>
+        <source>Average Duration</source>
         <target state="translated">Średni czas trwania</target>
         <note/>
       </trans-unit>
       <trans-unit id="Bad" xml:space="preserve">
-        <source>Słabe</source>
+        <source>Bad</source>
         <target state="translated">Słabe</target>
         <note>MAL Score</note>
       </trans-unit>
-      <trans-unit id="Based on your common genres" xml:space="preserve">
-        <source>Based on your common genres</source>
-        <target state="new">Based on your common genres</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Behavior" xml:space="preserve">
-        <source>Zachowanie</source>
+        <source>Behavior</source>
         <target state="translated">Zachowanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Black Opacity" xml:space="preserve">
         <source>Black Opacity</source>
-        <target state="new">Black Opacity</target>
         <note/>
       </trans-unit>
       <trans-unit id="Blur" xml:space="preserve">
         <source>Blur</source>
-        <target state="new">Blur</target>
         <note/>
       </trans-unit>
       <trans-unit id="Blur Mature Content Poster" xml:space="preserve">
         <source>Blur Mature Content Poster</source>
-        <target state="new">Blur Mature Content Poster</target>
         <note/>
       </trans-unit>
       <trans-unit id="Broadcast" xml:space="preserve">
-        <source>Transmitowane</source>
+        <source>Broadcast</source>
         <target state="translated">Transmitowane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Buy (%@)" xml:space="preserve">
         <source>Buy (%@)</source>
-        <target state="new">Buy (%@)</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Buy • %@" xml:space="preserve">
+        <source>Buy • %@</source>
+        <target state="translated">Kupić • %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="By Last Update" xml:space="preserve">
-        <source>Po ostatniej aktualizacji</source>
+        <source>By Last Update</source>
         <target state="translated">Po ostatniej aktualizacji</target>
         <note/>
       </trans-unit>
       <trans-unit id="By Score" xml:space="preserve">
-        <source>Po ocenie</source>
+        <source>By Score</source>
         <target state="translated">Po ocenie</target>
         <note/>
       </trans-unit>
       <trans-unit id="By Start Date" xml:space="preserve">
-        <source>Po dacie rozpoczęcia</source>
+        <source>By Start Date</source>
         <target state="translated">Po dacie rozpoczęcia</target>
         <note/>
       </trans-unit>
       <trans-unit id="By Title" xml:space="preserve">
-        <source>Po tytule</source>
+        <source>By Title</source>
         <target state="translated">Po tytule</target>
         <note/>
       </trans-unit>
       <trans-unit id="Cancel" xml:space="preserve">
-        <source>Anuluj</source>
+        <source>Cancel</source>
         <target state="translated">Anuluj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Change List" xml:space="preserve">
-        <source>Zmień listę</source>
+        <source>Change List</source>
         <target state="translated">Zmień listę</target>
         <note/>
       </trans-unit>
       <trans-unit id="Chapters Read" xml:space="preserve">
-        <source>Przeczytane rozdziały</source>
+        <source>Chapters Read</source>
         <target state="translated">Przeczytane rozdziały</target>
         <note/>
       </trans-unit>
       <trans-unit id="Characters" xml:space="preserve">
         <source>Characters</source>
-        <target state="new">Characters</target>
         <note/>
       </trans-unit>
       <trans-unit id="Children" xml:space="preserve">
-        <source>Dla dzieci</source>
+        <source>Children</source>
         <target state="translated">Dla dzieci</target>
         <note/>
       </trans-unit>
       <trans-unit id="Choose among four indicators to display on posters.&#10;My List screen will always show the progress and rating indicators; other screens will respect this setting." xml:space="preserve">
         <source>Choose among four indicators to display on posters.
 My List screen will always show the progress and rating indicators; other screens will respect this setting.</source>
-        <target state="new">Choose among four indicators to display on posters.
-My List screen will always show the progress and rating indicators; other screens will respect this setting.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Choose between list and poster style." xml:space="preserve">
-        <source>Wybierz styl listy lub plakatu.</source>
+        <source>Choose between list and poster style.</source>
         <target state="translated">Wybierz styl listy lub plakatu.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Choose how many lines you want the title to appear on My List." xml:space="preserve">
-        <source>Wybierz liczbę wierszy, w których tytuł ma być wyświetlany na Mojej liście.</source>
+        <source>Choose how many lines you want the title to appear on My List.</source>
         <target state="translated">Wybierz liczbę wierszy, w których tytuł ma być wyświetlany na Mojej liście.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Clear All Upcoming Notifications" xml:space="preserve">
-        <source>Clear All Upcoming Notifications</source>
-        <target state="translated">Clear All Upcoming Notifications</target>
-        <note>Dev Options, do not need translation</note>
-      </trans-unit>
-      <trans-unit id="Clear Cache" xml:space="preserve">
-        <source>Wyczyść pamięć podręczną</source>
-        <target state="translated">Wyczyść pamięć podręczną</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Close" xml:space="preserve">
-        <source>Zamknij</source>
+        <source>Close</source>
         <target state="translated">Zamknij</target>
         <note/>
       </trans-unit>
       <trans-unit id="Collapse" xml:space="preserve">
-        <source>Zwiń</source>
+        <source>Collapse</source>
         <target state="translated">Zwiń</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Coming up: Episode %lld" xml:space="preserve">
+        <source>Coming up: Episode %lld</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Comments" xml:space="preserve">
-        <source>Komentarze</source>
+        <source>Comments</source>
         <target state="translated">Komentarze</target>
         <note/>
       </trans-unit>
       <trans-unit id="Comments about %@" xml:space="preserve">
         <source>Comments about %@</source>
-        <target state="new">Comments about %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Completed" xml:space="preserve">
-        <source>Ukończone</source>
+        <source>Completed</source>
         <target state="translated">Ukończone</target>
         <note/>
       </trans-unit>
       <trans-unit id="Completed_Manga" xml:space="preserve">
-        <source>Ukończone</source>
+        <source>Completed</source>
         <target state="translated">Ukończone</target>
         <note/>
       </trans-unit>
       <trans-unit id="Confirm" xml:space="preserve">
-        <source>Potwierdź</source>
+        <source>Confirm</source>
         <target state="translated">Potwierdź</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Connect" xml:space="preserve">
+        <source>Connect</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Connect with your AniList account." xml:space="preserve">
+        <source>Connect with your AniList account.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Connect your AniList Account" xml:space="preserve">
+        <source>Connect your AniList Account</source>
         <note/>
       </trans-unit>
       <trans-unit id="Connected Services" xml:space="preserve">
         <source>Connected Services</source>
-        <target state="new">Connected Services</target>
         <note/>
       </trans-unit>
       <trans-unit id="Content Provider" xml:space="preserve">
-        <source>Dostawca treści</source>
+        <source>Content Provider</source>
         <target state="translated">Dostawca treści</target>
         <note/>
       </trans-unit>
       <trans-unit id="Continuing Series" xml:space="preserve">
         <source>Continuing Series</source>
-        <target state="new">Continuing Series</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy" xml:space="preserve">
-        <source>Kopiuj</source>
+        <source>Copy</source>
         <target state="translated">Kopiuj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Copy Song Name" xml:space="preserve">
         <source>Copy Song Name</source>
-        <target state="new">Copy Song Name</target>
         <note/>
       </trans-unit>
       <trans-unit id="Credits" xml:space="preserve">
         <source>Credits</source>
-        <target state="new">Credits</target>
         <note/>
       </trans-unit>
       <trans-unit id="Currently Airing" xml:space="preserve">
-        <source>Obecnie emitowane</source>
+        <source>Currently Airing</source>
         <target state="translated">Obecnie emitowane</target>
         <note>Airing Status</note>
       </trans-unit>
       <trans-unit id="Currently Publishing" xml:space="preserve">
-        <source>Obecnie publikowane</source>
+        <source>Currently Publishing</source>
         <target state="translated">Obecnie publikowane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Customize" xml:space="preserve">
-        <source>Dostosuj</source>
+        <source>Customize</source>
         <target state="translated">Dostosuj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dark" xml:space="preserve">
-        <source>Ciemny</source>
+        <source>Dark</source>
         <target state="translated">Ciemny</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dark Mode" xml:space="preserve">
+        <source>Dark Mode</source>
         <note/>
       </trans-unit>
       <trans-unit id="Dates" xml:space="preserve">
         <source>Dates</source>
-        <target state="new">Dates</target>
         <note/>
       </trans-unit>
       <trans-unit id="Days" xml:space="preserve">
-        <source>Dni</source>
+        <source>Days</source>
         <target state="translated">Dni</target>
         <note/>
       </trans-unit>
       <trans-unit id="Days Read" xml:space="preserve">
         <source>Days Read</source>
-        <target state="new">Days Read</target>
         <note/>
       </trans-unit>
       <trans-unit id="Default" xml:space="preserve">
-        <source>Domyślnie</source>
+        <source>Default</source>
         <target state="translated">Domyślnie</target>
         <note>Title Preference</note>
       </trans-unit>
       <trans-unit id="Delete Account" xml:space="preserve">
-        <source>Usuń konto</source>
+        <source>Delete Account</source>
         <target state="translated">Usuń konto</target>
         <note/>
       </trans-unit>
       <trans-unit id="Demographics" xml:space="preserve">
         <source>Demographics</source>
-        <target state="new">Demographics</target>
         <note/>
       </trans-unit>
       <trans-unit id="Design" xml:space="preserve">
@@ -691,13 +728,12 @@ My List screen will always show the progress and rating indicators; other screen
         <note/>
       </trans-unit>
       <trans-unit id="Developed by Alexandre Madeira" xml:space="preserve">
-        <source>Stworzone przez Alexandre Madeira</source>
+        <source>Developed by Alexandre Madeira</source>
         <target state="translated">Stworzone przez Alexandre Madeira</target>
         <note/>
       </trans-unit>
       <trans-unit id="Developer" xml:space="preserve">
         <source>Developer</source>
-        <target state="new">Developer</target>
         <note/>
       </trans-unit>
       <trans-unit id="Developer Options" xml:space="preserve">
@@ -707,276 +743,262 @@ My List screen will always show the progress and rating indicators; other screen
       </trans-unit>
       <trans-unit id="Disable Anonymous Analytics" xml:space="preserve">
         <source>Disable Anonymous Analytics</source>
-        <target state="new">Disable Anonymous Analytics</target>
         <note/>
       </trans-unit>
       <trans-unit id="Disable Translucent Background|==|device.mac" xml:space="preserve">
-        <source>Wyłącz przezroczyste tło (BETA)</source>
+        <source>Disable Translucent Background (BETA)</source>
         <target state="translated">Wyłącz przezroczyste tło (BETA)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Disable Translucent Background|==|device.other" xml:space="preserve">
-        <source>Wyłącz przezroczyste tło</source>
+        <source>Disable Translucent Background</source>
         <target state="translated">Wyłącz przezroczyste tło</target>
         <note/>
       </trans-unit>
       <trans-unit id="Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction." xml:space="preserve">
         <source>Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction.</source>
-        <target state="new">Disabling analytics may impact the speed of bug fixes as it prevents sending signals when functions malfunction.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dismiss" xml:space="preserve">
-        <source>Ignoruj</source>
+        <source>Dismiss</source>
         <target state="translated">Ignoruj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Display Preference" xml:space="preserve">
-        <source>Preferencje wyświetlania</source>
+        <source>Display Preference</source>
         <target state="translated">Preferencje wyświetlania</target>
         <note/>
       </trans-unit>
       <trans-unit id="Doujinshi" xml:space="preserve">
         <source>Doujinshi</source>
-        <target state="new">Doujinshi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dropped" xml:space="preserve">
-        <source>Porzucone</source>
+        <source>Dropped</source>
         <target state="translated">Porzucone</target>
         <note/>
       </trans-unit>
       <trans-unit id="Edit" xml:space="preserve">
-        <source>Edytuj</source>
+        <source>Edit</source>
         <target state="translated">Edytuj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Apple Music Support" xml:space="preserve">
         <source>Enable Apple Music Support</source>
-        <target state="new">Enable Apple Music Support</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Mature Content" xml:space="preserve">
         <source>Enable Mature Content</source>
-        <target state="new">Enable Mature Content</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Preferred Launch Screen" xml:space="preserve">
-        <source>Włącz preferowany ekran startowy</source>
+        <source>Enable Preferred Launch Screen</source>
         <target state="translated">Włącz preferowany ekran startowy</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Recent Searches" xml:space="preserve">
         <source>Enable Recent Searches</source>
-        <target state="new">Enable Recent Searches</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Enable Spotify Support" xml:space="preserve">
+        <source>Enable Spotify Support</source>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Trailers" xml:space="preserve">
         <source>Enable Trailers</source>
-        <target state="new">Enable Trailers</target>
         <note/>
       </trans-unit>
       <trans-unit id="End Air Date" xml:space="preserve">
-        <source>Data zakończenia emisji</source>
+        <source>End Air Date</source>
         <target state="translated">Data zakończenia emisji</target>
         <note/>
       </trans-unit>
       <trans-unit id="End Date" xml:space="preserve">
-        <source>Data zakończenia</source>
+        <source>End Date</source>
         <target state="translated">Data zakończenia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Ending" xml:space="preserve">
         <source>Ending</source>
-        <target state="new">Ending</target>
         <note/>
       </trans-unit>
       <trans-unit id="English" xml:space="preserve">
-        <source>Angielski</source>
+        <source>English</source>
         <target state="translated">Angielski</target>
         <note>Title Preference</note>
       </trans-unit>
       <trans-unit id="English Title" xml:space="preserve">
-        <source>Tytuł angielski</source>
+        <source>English Title</source>
         <target state="translated">Tytuł angielski</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Enhance your experience on Kitsune by connecting your preferred third-party services." xml:space="preserve">
+        <source>Enhance your experience on Kitsune by connecting your preferred third-party services.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Enjoying Kitsune?" xml:space="preserve">
-        <source>Podoba ci się Kitsune?</source>
+        <source>Enjoying Kitsune?</source>
         <target state="translated">Podoba ci się Kitsune?</target>
         <note/>
       </trans-unit>
       <trans-unit id="Episodes Watched" xml:space="preserve">
         <source>Episodes Watched</source>
-        <target state="new">Episodes Watched</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Every change made on your MAL list on Kitsune will reflect on your AniList lists." xml:space="preserve">
+        <source>Every change made on your MAL list on Kitsune will reflect on your AniList lists.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Explicit Genres" xml:space="preserve">
         <source>Explicit Genres</source>
-        <target state="new">Explicit Genres</target>
         <note/>
       </trans-unit>
       <trans-unit id="Explore Anime" xml:space="preserve">
         <source>Explore Anime</source>
-        <target state="new">Explore Anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Explore Manga" xml:space="preserve">
         <source>Explore Manga</source>
-        <target state="new">Explore Manga</target>
         <note/>
       </trans-unit>
       <trans-unit id="External Links" xml:space="preserve">
         <source>External Links</source>
-        <target state="new">External Links</target>
         <note/>
       </trans-unit>
       <trans-unit id="Fall" xml:space="preserve">
-        <source>Jesień</source>
+        <source>Fall</source>
         <target state="translated">Jesień</target>
         <note/>
       </trans-unit>
       <trans-unit id="Favorite Anime" xml:space="preserve">
         <source>Favorite Anime</source>
-        <target state="new">Favorite Anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Favorite Characters" xml:space="preserve">
         <source>Favorite Characters</source>
-        <target state="new">Favorite Characters</target>
         <note/>
       </trans-unit>
       <trans-unit id="Favorite People" xml:space="preserve">
         <source>Favorite People</source>
-        <target state="new">Favorite People</target>
         <note/>
       </trans-unit>
       <trans-unit id="Favorites Manga" xml:space="preserve">
-        <source>Ulubione mangi</source>
+        <source>Favorites Manga</source>
         <target state="translated">Ulubione mangi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter" xml:space="preserve">
-        <source>Filtrowanie</source>
+        <source>Filter</source>
         <target state="translated">Filtrowanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter Seasonal" xml:space="preserve">
-        <source>Filtruj sezon</source>
+        <source>Filter Season</source>
         <target state="translated">Filtruj sezon</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter based on what's added to your list, sort by popularity or by your own score." xml:space="preserve">
-        <source>Filtruj na podstawie tego, co zostało dodane do Twojej listy, sortuj według popularności lub własnej oceny.</source>
+        <source>Filter based on what's added to your list, sort by popularity or by your own score.</source>
         <target state="translated">Filtruj na podstawie tego, co zostało dodane do Twojej listy, sortuj według popularności lub własnej oceny.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter by added, sort by popularity and more." xml:space="preserve">
-        <source>Filtruj według dodanych, sortuj według popularności i nie tylko.</source>
+        <source>Filter by added, sort by popularity and more.</source>
         <target state="translated">Filtruj według dodanych, sortuj według popularności i nie tylko.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter your Seasonal" xml:space="preserve">
-        <source>Filtruj swój sezon</source>
+        <source>Filter your Season</source>
         <target state="translated">Filtruj swój sezon</target>
         <note/>
       </trans-unit>
       <trans-unit id="Fine" xml:space="preserve">
-        <source>W porządku</source>
+        <source>Fine</source>
         <target state="translated">W porządku</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Finish Date" xml:space="preserve">
-        <source>Data zakończenia</source>
+        <source>Finish Date</source>
         <target state="translated">Data zakończenia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Finished" xml:space="preserve">
-        <source>Zakończono</source>
+        <source>Finished</source>
         <target state="translated">Zakończono</target>
         <note/>
       </trans-unit>
       <trans-unit id="Finished Airing" xml:space="preserve">
-        <source>Zakończono emisję</source>
+        <source>Finished Airing</source>
         <target state="translated">Zakończono emisję</target>
         <note>Airing Status</note>
       </trans-unit>
       <trans-unit id="First Air Date" xml:space="preserve">
-        <source>Data początku emisji</source>
+        <source>First Air Date</source>
         <target state="translated">Data początku emisji</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Follow Kitsune on X/Twitter" xml:space="preserve">
-        <source>Śledź Kitsune na X/Twitterze</source>
-        <target state="needs-review-l10n">Śledź Kitsune na X/Twitterze</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="For You" xml:space="preserve">
-        <source>Dla Ciebie</source>
+        <source>For You</source>
         <target state="translated">Dla Ciebie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Friday" xml:space="preserve">
-        <source>Piątek</source>
+        <source>Friday</source>
         <target state="translated">Piątek</target>
         <note/>
       </trans-unit>
       <trans-unit id="Friends" xml:space="preserve">
-        <source>Znajomi</source>
+        <source>Friends</source>
         <target state="translated">Znajomi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Friends since %@" xml:space="preserve">
         <source>Friends since %@</source>
-        <target state="new">Friends since %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="General" xml:space="preserve">
-        <source>Ogólne</source>
+        <source>General</source>
         <target state="translated">Ogólne</target>
         <note/>
       </trans-unit>
       <trans-unit id="Genres" xml:space="preserve">
-        <source>Gatunki</source>
+        <source>Genres</source>
         <target state="translated">Gatunki</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Get Kitsune Premium&#10;%@" xml:space="preserve">
-        <source>Zdobądź Kitsune Premium
-%@</source>
-        <target state="translated">Zdobądź Kitsune Premium
-%@</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Get Premium" xml:space="preserve">
-        <source>Zdobądź Premium</source>
+        <source>Get Premium</source>
         <target state="translated">Zdobądź Premium</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released." xml:space="preserve">
+        <source>Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Good" xml:space="preserve">
-        <source>Dobre</source>
+        <source>Good</source>
         <target state="translated">Dobre</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Great" xml:space="preserve">
-        <source>Świetne</source>
+        <source>Great</source>
         <target state="translated">Świetne</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Haptic Feedback" xml:space="preserve">
-        <source>Wibracje przy dotknięciu (Haptyka)</source>
+        <source>Haptic Feedback</source>
         <target state="translated">Wibracje przy dotknięciu (Haptyka)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Having trouble signing in?&#10;Send an email to contact@alexandremadeira.dev and we will help you." xml:space="preserve">
-        <source>Masz problemy z logowaniem?
-Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomożemy.</source>
-        <target state="needs-review-l10n">Masz problemy z logowaniem?
-Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomożemy.</target>
+        <source>Having trouble signing in?
+Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
+        <target state="translated">Masz problemy z logowaniem?
+Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomożemy.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Help &amp; Feedback" xml:space="preserve">
         <source>Help &amp; Feedback</source>
-        <target state="new">Help &amp; Feedback</target>
         <note/>
       </trans-unit>
       <trans-unit id="Hentai" xml:space="preserve">
@@ -985,272 +1007,264 @@ Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomoż
         <note/>
       </trans-unit>
       <trans-unit id="Hide Added" xml:space="preserve">
-        <source>Ukryj dodane</source>
+        <source>Hide Added</source>
         <target state="translated">Ukryj dodane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Hide Previous Days" xml:space="preserve">
-        <source>Ukryj poprzednie dni</source>
+        <source>Hide Previous Days</source>
         <target state="translated">Ukryj poprzednie dni</target>
         <note/>
       </trans-unit>
       <trans-unit id="Hide Username on Tab Bar" xml:space="preserve">
-        <source>Ukryj nazwę użytkownika w menu nawigacyjnym</source>
+        <source>Hide Username on Tab Bar</source>
         <target state="translated">Ukryj nazwę użytkownika w menu nawigacyjnym</target>
         <note/>
       </trans-unit>
       <trans-unit id="Horrible" xml:space="preserve">
-        <source>Okropne</source>
+        <source>Horrible</source>
         <target state="translated">Okropne</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="If you prefer, you can send an email to contact@alexandremadeira.dev using your email client for a faster follow-up." xml:space="preserve">
-        <source>Jeśli wolisz, możesz wysłać wiadomość e-mail na adres contact@alexandremadeira.dev za pomocą klienta poczty e-mail, aby szybciej podjąć dalsze działania.</source>
-        <target state="needs-review-l10n">Jeśli wolisz, możesz wysłać wiadomość e-mail na adres contact@alexandremadeira.dev za pomocą klienta poczty e-mail, aby szybciej podjąć dalsze działania.</target>
+        <source>If you prefer, you can send an email to kitsune@alexandremadeira.dev using your email client for a faster follow-up.</source>
+        <target state="translated">Jeśli wolisz, możesz wysłać wiadomość e-mail na adres kitsune@alexandremadeira.dev za pomocą klienta poczty e-mail, aby szybciej podjąć dalsze działania.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="In the Upcoming section, there is no information provided about the broadcast weekday and time." xml:space="preserve">
+        <source>In the Upcoming section, there is no information provided about the broadcast weekday and time.</source>
+        <target state="needs-review-l10n">In the Upcoming section, there is no information provided about the broadcast weekday and time.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Information" xml:space="preserve">
-        <source>Informacje</source>
+        <source>Information</source>
         <target state="translated">Informacje</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Is Premium User" xml:space="preserve">
+      <trans-unit id="Is Premium User" translate="no" xml:space="preserve">
         <source>Is Premium User</source>
-        <target state="new">Is Premium User</target>
         <note/>
       </trans-unit>
       <trans-unit id="Is Rewatching" xml:space="preserve">
-        <source>Ponownie oglądane</source>
+        <source>Is Rewatching</source>
         <target state="translated">Ponownie oglądane</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Is connected? %@" xml:space="preserve">
-        <source>Is connected? %@</source>
-        <target state="new">Is connected? %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Is refreshing token? %@" xml:space="preserve">
         <source>Is refreshing token? %@</source>
-        <target state="new">Is refreshing token? %@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="JST" xml:space="preserve">
+      <trans-unit id="JST" translate="no" xml:space="preserve">
         <source>JST</source>
         <target state="translated">JST</target>
         <note>Japan Standard Time, do not need translation.</note>
       </trans-unit>
       <trans-unit id="Japanese" xml:space="preserve">
-        <source>Japoński</source>
+        <source>Japanese</source>
         <target state="translated">Japoński</target>
         <note>Title Preference</note>
       </trans-unit>
       <trans-unit id="Japanese Title" xml:space="preserve">
-        <source>Tytuł japoński</source>
+        <source>Japanese Title</source>
         <target state="translated">Tytuł japoński</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Kitsune Premium" xml:space="preserve">
+      <trans-unit id="Kitsune Premium" translate="no" xml:space="preserve">
         <source>Kitsune Premium</source>
         <target state="translated">Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Last Sync on %@" xml:space="preserve">
-        <source>Ostatnia synchronizacja w dniu %@</source>
+        <source>Last Sync on %@</source>
         <target state="translated">Ostatnia synchronizacja w dniu %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Last updated at %@" xml:space="preserve">
-        <source>Ostatnia aktualizacja w dniu %@</source>
+        <source>Last updated at %@</source>
         <target state="translated">Ostatnia aktualizacja w dniu %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Launch Screen" xml:space="preserve">
-        <source>Ekran startowy</source>
+        <source>Launch Screen</source>
         <target state="translated">Ekran startowy</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Learn more about Schedule" xml:space="preserve">
+        <source>Learn more about Schedule</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Leave a Review on the App Store!" xml:space="preserve">
-        <source>Zostaw opinię w App Store!</source>
+        <source>Leave a Review on the App Store!</source>
         <target state="translated">Zostaw opinię w App Store!</target>
         <note/>
       </trans-unit>
       <trans-unit id="Libraries" xml:space="preserve">
-        <source>Biblioteki</source>
+        <source>Libraries</source>
         <target state="translated">Biblioteki</target>
         <note/>
       </trans-unit>
       <trans-unit id="Light" xml:space="preserve">
-        <source>Jasny</source>
+        <source>Light</source>
         <target state="translated">Jasny</target>
         <note/>
       </trans-unit>
       <trans-unit id="List" xml:space="preserve">
-        <source>Lista</source>
+        <source>List</source>
         <target state="translated">Lista</target>
         <note>Poster Indicator</note>
       </trans-unit>
       <trans-unit id="List Selection" xml:space="preserve">
-        <source>Wybór listy</source>
+        <source>List Selection</source>
         <target state="translated">Wybór listy</target>
         <note/>
       </trans-unit>
       <trans-unit id="Loading" xml:space="preserve">
-        <source>Ładowanie</source>
+        <source>Loading</source>
         <target state="translated">Ładowanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Local Time" xml:space="preserve">
-        <source>Czas lokalny</source>
+        <source>Local Time</source>
         <target state="translated">Czas lokalny</target>
         <note>Time Preference</note>
       </trans-unit>
       <trans-unit id="MAL Mean Score" xml:space="preserve">
         <source>MAL Mean Score</source>
-        <target state="new">MAL Mean Score</target>
         <note/>
       </trans-unit>
       <trans-unit id="MAL Score &amp; Number of Users" xml:space="preserve">
         <source>MAL Score &amp; Number of Users</source>
-        <target state="new">MAL Score &amp; Number of Users</target>
         <note/>
       </trans-unit>
       <trans-unit id="Magazines" xml:space="preserve">
         <source>Magazines</source>
-        <target state="new">Magazines</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manga" xml:space="preserve">
-        <source>Mang</source>
+        <source>Manga</source>
         <target state="translated">Mang</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manga Genres" xml:space="preserve">
         <source>Manga Genres</source>
-        <target state="new">Manga Genres</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manga Magazines" xml:space="preserve">
         <source>Manga Magazines</source>
-        <target state="new">Manga Magazines</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manga Statistics" xml:space="preserve">
         <source>Manga Statistics</source>
-        <target state="new">Manga Statistics</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mangaography" xml:space="preserve">
-        <source>Mangaografia</source>
+        <source>Mangaography</source>
         <target state="translated">Mangaografia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manhua" xml:space="preserve">
         <source>Manhua</source>
-        <target state="new">Manhua</target>
         <note/>
       </trans-unit>
       <trans-unit id="Manhwa" xml:space="preserve">
         <source>Manhwa</source>
-        <target state="new">Manhwa</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Next Chapter as Read" xml:space="preserve">
-        <source>Oznacz następny rozdział jako przeczytany</source>
+        <source>Mark Next Chapter as Read</source>
         <target state="translated">Oznacz następny rozdział jako przeczytany</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Next Episode as Watched" xml:space="preserve">
-        <source>Oznacz następny odcinek jako obejrzany</source>
+        <source>Mark Next Episode as Watched</source>
         <target state="translated">Oznacz następny odcinek jako obejrzany</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Next Episode of %@ as Watched?" xml:space="preserve">
-        <source>Oznaczyć następny odcinek %@ jako obejrzany?</source>
+        <source>Mark Next Episode of %@ as Watched?</source>
         <target state="translated">Oznaczyć następny odcinek %@ jako obejrzany?</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Next Volume as Read" xml:space="preserve">
-        <source>Oznacz następny tom jako przeczytany</source>
+        <source>Mark Next Volume as Read</source>
         <target state="translated">Oznacz następny tom jako przeczytany</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mark Watched" xml:space="preserve">
-        <source>Oznacz jako obejrzany</source>
+        <source>Mark Watched</source>
         <target state="translated">Oznacz jako obejrzany</target>
         <note/>
       </trans-unit>
       <trans-unit id="Masterpiece" xml:space="preserve">
-        <source>Arcydzieło</source>
+        <source>Masterpiece</source>
         <target state="translated">Arcydzieło</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Mean Score" xml:space="preserve">
-        <source>Średnia ocena</source>
+        <source>Mean Score</source>
         <target state="translated">Średnia ocena</target>
         <note/>
       </trans-unit>
       <trans-unit id="Media Type" xml:space="preserve">
-        <source>Rodzaj mediów</source>
+        <source>Media Type</source>
         <target state="translated">Rodzaj mediów</target>
         <note>Seasonal Organization Type</note>
       </trans-unit>
       <trans-unit id="Monday" xml:space="preserve">
-        <source>Poniedziałek</source>
+        <source>Monday</source>
         <target state="translated">Poniedziałek</target>
         <note/>
       </trans-unit>
       <trans-unit id="More" xml:space="preserve">
-        <source>Więcej</source>
+        <source>More</source>
         <target state="translated">Więcej</target>
         <note/>
       </trans-unit>
       <trans-unit id="Most Popular" xml:space="preserve">
-        <source>Najbardziej popularne</source>
+        <source>Most Popular</source>
         <target state="translated">Najbardziej popularne</target>
         <note/>
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
-        <source>Najbardziej popularna manga</source>
+        <source>Most Popular Manga</source>
         <target state="translated">Najbardziej popularna manga</target>
         <note/>
       </trans-unit>
       <trans-unit id="Movie" xml:space="preserve">
-        <source>Film</source>
+        <source>Movie</source>
         <target state="translated">Film</target>
         <note>Anime Media Type</note>
       </trans-unit>
       <trans-unit id="Music" xml:space="preserve">
-        <source>Muzyka</source>
+        <source>Music</source>
         <target state="translated">Muzyka</target>
         <note>Anime Media Type</note>
       </trans-unit>
       <trans-unit id="My %@ List" xml:space="preserve">
-        <source>Moja Lista %@</source>
+        <source>My %@ List</source>
         <target state="translated">Moja Lista %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Anime List" xml:space="preserve">
         <source>My Anime List</source>
-        <target state="new">My Anime List</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List" xml:space="preserve">
-        <source>Moja Lista</source>
+        <source>My List</source>
         <target state="translated">Moja Lista</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
-        <source>Moja lista, Edytuj status, Dodaj anime/mange i Statystyki wymagają konta MyAnimeList.</source>
+        <source>My List, Edit Status, Add Items and Statics need a MyAnimeList account.</source>
         <target state="translated">Moja lista, Edytuj status, Dodaj anime/mange i Statystyki wymagają konta MyAnimeList.</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Manga List" xml:space="preserve">
         <source>My Manga List</source>
-        <target state="new">My Manga List</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Score" xml:space="preserve">
-        <source>Po mojej ocenie</source>
+        <source>My Score</source>
         <target state="translated">Po mojej ocenie</target>
         <note/>
       </trans-unit>
@@ -1259,98 +1273,93 @@ Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomoż
         <target state="translated">MyAnimeList</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Network Status" xml:space="preserve">
-        <source>Network Status</source>
-        <target state="new">Network Status</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="New This Season" xml:space="preserve">
         <source>New This Season</source>
-        <target state="new">New This Season</target>
         <note/>
       </trans-unit>
       <trans-unit id="No subscription required; make one purchase to unlock all current and upcoming premium features.&#10;Works on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." xml:space="preserve">
-        <source>Nie jest wymagana subskrypcja; wystarczy jeden zakup, aby odblokować wszystkie obecne i nadchodzące funkcje premium.</source>
+        <source>No subscription required; make one purchase to unlock all current and upcoming premium features.</source>
         <target state="translated">Nie jest wymagana subskrypcja; wystarczy jeden zakup, aby odblokować wszystkie obecne i nadchodzące funkcje premium.</target>
         <note/>
       </trans-unit>
       <trans-unit id="None" xml:space="preserve">
         <source>None</source>
-        <target state="new">None</target>
         <note/>
       </trans-unit>
       <trans-unit id="Not Scored" xml:space="preserve">
-        <source>Nie oceniono</source>
+        <source>Not Scored</source>
         <target state="translated">Nie oceniono</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Not Yet Aired" xml:space="preserve">
-        <source>Jeszcze nie emitowane</source>
+        <source>Not Yet Aired</source>
         <target state="translated">Jeszcze nie emitowane</target>
         <note>Airing Status</note>
       </trans-unit>
       <trans-unit id="Not Yet Published" xml:space="preserve">
-        <source>Nieopublikowane jeszcze</source>
+        <source>Not Yet Published</source>
         <target state="translated">Nieopublikowane jeszcze</target>
         <note/>
       </trans-unit>
       <trans-unit id="Nothing found here" xml:space="preserve">
-        <source>Nic tutaj nie znaleziono</source>
+        <source>Nothing found here</source>
         <target state="translated">Nic tutaj nie znaleziono</target>
         <note/>
       </trans-unit>
       <trans-unit id="Nothing found." xml:space="preserve">
-        <source>Nic nie znaleziono.</source>
+        <source>Nothing found.</source>
         <target state="translated">Nic nie znaleziono.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Nothing here" xml:space="preserve">
+        <source>Nothing here</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Notification Support" xml:space="preserve">
-        <source>Obsługa powiadomień</source>
+        <source>Notification Support</source>
         <target state="translated">Obsługa powiadomień</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notification Support needs Background access to work, you can also force the sync." xml:space="preserve">
-        <source>Obsługa powiadomień wymaga "odświeżania w tle" do działania, można również wymusić synchronizację.</source>
+        <source>Notification Support needs Background access to work, you can also force the sync.</source>
         <target state="translated">Obsługa powiadomień wymaga "odświeżania w tle" do działania, można również wymusić synchronizację.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notification support requires Kitsune Premium." xml:space="preserve">
-        <source>Obsługa powiadomień wymaga Kitsune Premium.</source>
+        <source>Notification support requires Kitsune Premium.</source>
         <target state="translated">Obsługa powiadomień wymaga Kitsune Premium.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notifications" xml:space="preserve">
-        <source>Powiadomienia</source>
+        <source>Notifications</source>
         <target state="translated">Powiadomienia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Novel" xml:space="preserve">
         <source>Novel</source>
-        <target state="new">Novel</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Chapters" xml:space="preserve">
-        <source>Liczba rozdziałów</source>
+        <source>Number of Chapters</source>
         <target state="translated">Liczba rozdziałów</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Episodes" xml:space="preserve">
-        <source>Liczba odcinków</source>
+        <source>Number of Episodes</source>
         <target state="translated">Liczba odcinków</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Members" xml:space="preserve">
         <source>Number of Members</source>
-        <target state="new">Number of Members</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Volumes" xml:space="preserve">
-        <source>Liczba tomów</source>
+        <source>Number of Volumes</source>
         <target state="translated">Liczba tomów</target>
         <note/>
       </trans-unit>
       <trans-unit id="OK" xml:space="preserve">
-        <source>Ok</source>
+        <source>OK</source>
         <target state="translated">Ok</target>
         <note/>
       </trans-unit>
@@ -1366,506 +1375,515 @@ Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Oel" xml:space="preserve">
         <source>Oel</source>
-        <target state="new">Oel</target>
         <note/>
       </trans-unit>
       <trans-unit id="On Hold" xml:space="preserve">
-        <source>Wstrzymane</source>
+        <source>On Hold</source>
         <target state="translated">Wstrzymane</target>
         <note/>
       </trans-unit>
       <trans-unit id="On MyAnimeList since %@" xml:space="preserve">
         <source>On MyAnimeList since %@</source>
-        <target state="new">On MyAnimeList since %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="On-Hold" xml:space="preserve">
-        <source>Wstrzymane</source>
+        <source>On-Hold</source>
         <target state="translated">Wstrzymane</target>
         <note/>
       </trans-unit>
       <trans-unit id="One Price, No Sub." xml:space="preserve">
-        <source>Płacisz raz, bez żadnej subskrypcji.</source>
+        <source>One Price, No Sub.</source>
         <target state="translated">Płacisz raz, bez żadnej subskrypcji.</target>
         <note/>
       </trans-unit>
       <trans-unit id="One Shot" xml:space="preserve">
         <source>One Shot</source>
-        <target state="new">One Shot</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Only use those settings if you're a developer working on this project." xml:space="preserve">
-        <source>Only use those settings if you're a developer working on this project.</source>
-        <target state="translated">Only use those settings if you're a developer working on this project.</target>
+      <trans-unit id="One-Time Purchase, No Subscription" xml:space="preserve">
+        <source>One-Time Purchase, No Subscription</source>
         <note/>
       </trans-unit>
       <trans-unit id="Open any anime/manga from MAL directly in the app." xml:space="preserve">
-        <source>Otwieranie dowolnego anime/mangi z MAL bezpośrednio w aplikacji.</source>
+        <source>Open any anime/manga from MAL directly in the app.</source>
         <target state="translated">Otwieranie dowolnego anime/mangi z MAL bezpośrednio w aplikacji.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Open in Apple Music" xml:space="preserve">
         <source>Open in Apple Music</source>
-        <target state="new">Open in Apple Music</target>
         <note/>
       </trans-unit>
       <trans-unit id="Open on MyAnimeList" xml:space="preserve">
-        <source>Otwórz na MyAnimeList</source>
+        <source>Open on MyAnimeList</source>
         <target state="translated">Otwórz na MyAnimeList</target>
         <note/>
       </trans-unit>
       <trans-unit id="Opening" xml:space="preserve">
         <source>Opening</source>
-        <target state="new">Opening</target>
         <note/>
       </trans-unit>
       <trans-unit id="Paste MAL URL" xml:space="preserve">
-        <source>Wklej adres URL MAL</source>
+        <source>Paste MAL URL</source>
         <target state="translated">Wklej adres URL MAL</target>
         <note/>
       </trans-unit>
       <trans-unit id="Perform actions like marking the next episode/chapter or open the edit screen." xml:space="preserve">
-        <source>Wykonywanie czynności, takich jak oznaczanie następnego odcinka/rozdziału lub otwieranie ekranu edycji.</source>
+        <source>Perform actions like marking the next episode/chapter or open the edit screen.</source>
         <target state="translated">Wykonywanie czynności, takich jak oznaczanie następnego odcinka/rozdziału lub otwieranie ekranu edycji.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." xml:space="preserve">
+        <source>Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Plan to Read" xml:space="preserve">
-        <source>Do przeczytania</source>
+        <source>Plan to Read</source>
         <target state="translated">Do przeczytania</target>
         <note/>
       </trans-unit>
       <trans-unit id="Plan to Watch" xml:space="preserve">
-        <source>Do obejrzenia</source>
+        <source>Plan to Watch</source>
         <target state="translated">Do obejrzenia</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Play the opening and ending themes using your Apple Music subscription" xml:space="preserve">
-        <source>Play the opening and ending themes using your Apple Music subscription</source>
-        <target state="new">Play the opening and ending themes using your Apple Music subscription</target>
+      <trans-unit id="Play Next" xml:space="preserve">
+        <source>Play Next</source>
         <note/>
       </trans-unit>
       <trans-unit id="Play the opening and ending themes using your Apple Music subscription right from the Credits screen." xml:space="preserve">
         <source>Play the opening and ending themes using your Apple Music subscription right from the Credits screen.</source>
-        <target state="new">Play the opening and ending themes using your Apple Music subscription right from the Credits screen.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Play the opening and ending themes using your Apple Music subscription." xml:space="preserve">
+        <source>Play the opening and ending themes using your Apple Music subscription.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Play the opening and ending themes using your Spotify subscription." xml:space="preserve">
+        <source>Play the opening and ending themes using your Spotify subscription.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Please, note that the app doesn't consider delays." xml:space="preserve">
-        <source>Należy pamiętać, że aplikacja nie uwzględnia opóźnień.</source>
+        <source>Please, note that the app doesn't consider delays.</source>
         <target state="translated">Należy pamiętać, że aplikacja nie uwzględnia opóźnień.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please, try again later." xml:space="preserve">
-        <source>Spróbuj ponownie później.</source>
+        <source>Please, try again later.</source>
         <target state="translated">Spróbuj ponownie później.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Polish" xml:space="preserve">
-        <source>Polski</source>
+        <source>Polish</source>
         <target state="translated">Polski</target>
         <note/>
       </trans-unit>
       <trans-unit id="Poster" xml:space="preserve">
-        <source>Plakat</source>
+        <source>Poster</source>
         <target state="translated">Plakat</target>
         <note/>
       </trans-unit>
       <trans-unit id="Poster Indicator" xml:space="preserve">
         <source>Poster Indicator</source>
-        <target state="new">Poster Indicator</target>
         <note/>
       </trans-unit>
       <trans-unit id="Poster Indicator Background" xml:space="preserve">
         <source>Poster Indicator Background</source>
-        <target state="new">Poster Indicator Background</target>
         <note/>
       </trans-unit>
       <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
-        <source>Preferuję tomy mangi</source>
+        <source>Prefer Manga Volumes</source>
         <target state="translated">Preferuję tomy mangi</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Preferred Platform" xml:space="preserve">
+        <source>Preferred Platform</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Preferred Screen" xml:space="preserve">
-        <source>Preferowany ekran</source>
+        <source>Preferred Screen</source>
         <target state="translated">Preferowany ekran</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Time Format" xml:space="preserve">
-        <source>Preferowany format czasu</source>
+        <source>Preferred Time Format</source>
         <target state="translated">Preferowany format czasu</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Title Language" xml:space="preserve">
-        <source>Preferowany język tytułu</source>
+        <source>Preferred Title Language</source>
         <target state="translated">Preferowany język tytułu</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Print" xml:space="preserve">
-        <source>Print</source>
-        <target state="translated">Print</target>
-        <note>Dev Option, do not need translation.</note>
-      </trans-unit>
       <trans-unit id="Privacy" xml:space="preserve">
         <source>Privacy</source>
-        <target state="new">Privacy</target>
         <note/>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
-        <source>Polityka prywatności</source>
+        <source>Privacy Policy</source>
         <target state="translated">Polityka prywatności</target>
         <note/>
       </trans-unit>
       <trans-unit id="Profanity &amp; Mild Nudity" xml:space="preserve">
-        <source>Wulgaryzmy i łagodna nagość</source>
+        <source>Profanity &amp; Mild Nudity</source>
         <target state="translated">Wulgaryzmy i łagodna nagość</target>
         <note/>
       </trans-unit>
       <trans-unit id="Progress &amp; List" xml:space="preserve">
         <source>Progress &amp; List</source>
-        <target state="new">Progress &amp; List</target>
         <note/>
       </trans-unit>
       <trans-unit id="Progress &amp; Personal Score" xml:space="preserve">
         <source>Progress &amp; Personal Score</source>
-        <target state="new">Progress &amp; Personal Score</target>
         <note/>
       </trans-unit>
       <trans-unit id="Published Manga" xml:space="preserve">
         <source>Published Manga</source>
-        <target state="new">Published Manga</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro." xml:space="preserve">
+        <source>Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Quickly delete any date by swiping or long pressing." xml:space="preserve">
-        <source>Szybko usuń dowolną datę, przesuwając palcem lub długo naciskając.</source>
+        <source>Quickly delete any date by swiping or long pressing.</source>
         <target state="translated">Szybko usuń dowolną datę, przesuwając palcem lub długo naciskając.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating" xml:space="preserve">
-        <source>Ocena</source>
+        <source>Rating</source>
         <target state="translated">Ocena</target>
         <note>Poster Indicator</note>
       </trans-unit>
       <trans-unit id="Rating %lld" xml:space="preserve">
-        <source>Ocena: %lld</source>
+        <source>Rating %lld</source>
         <target state="translated">Ocena: %lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating of %lld of 10." xml:space="preserve">
-        <source>Ocena %lld z 10.</source>
+        <source>Rating of %lld of 10.</source>
         <target state="translated">Ocena %lld z 10.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating: %lld" xml:space="preserve">
-        <source>Ocena: %lld</source>
+        <source>Rating: %lld</source>
         <target state="translated">Ocena: %lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reading" xml:space="preserve">
-        <source>Czytane</source>
+        <source>Reading</source>
         <target state="translated">Czytane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Receive notifications when a new episode is released or when a new anime premieres from your list." xml:space="preserve">
-        <source>Otrzymuj powiadomienia o wydaniu nowego odcinka lub premierze anime z Twojej listy.</source>
+        <source>Receive notifications when a new episode is released or when a new anime premieres from your list.</source>
         <target state="translated">Otrzymuj powiadomienia o wydaniu nowego odcinka lub premierze anime z Twojej listy.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Recent Searches" xml:space="preserve">
         <source>Recent Searches</source>
-        <target state="new">Recent Searches</target>
         <note/>
       </trans-unit>
       <trans-unit id="Recently Completed" xml:space="preserve">
-        <source>Ostatnio ukończone</source>
+        <source>Recently Completed</source>
         <target state="translated">Ostatnio ukończone</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Recheck Network" xml:space="preserve">
-        <source>Recheck Network</source>
-        <target state="new">Recheck Network</target>
+      <trans-unit id="Recently Viewed" xml:space="preserve">
+        <source>Recently Viewed</source>
         <note/>
       </trans-unit>
       <trans-unit id="Recommendations" xml:space="preserve">
-        <source>Rekomendacje</source>
+        <source>Recommendations</source>
         <target state="translated">Rekomendacje</target>
         <note/>
       </trans-unit>
       <trans-unit id="Related" xml:space="preserve">
-        <source>Powiązane</source>
+        <source>Related</source>
         <target state="translated">Powiązane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Related Anime" xml:space="preserve">
-        <source>Powiązane Anime</source>
+        <source>Related Anime</source>
         <target state="translated">Powiązane Anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
-        <source>Odśwież</source>
+        <source>Reload</source>
         <target state="translated">Odśwież</target>
         <note/>
       </trans-unit>
       <trans-unit id="Remove" xml:space="preserve">
-        <source>Usuń</source>
+        <source>Remove</source>
         <target state="translated">Usuń</target>
         <note/>
       </trans-unit>
       <trans-unit id="Remove from Recent Viewed" xml:space="preserve">
         <source>Remove from Recent Viewed</source>
-        <target state="new">Remove from Recent Viewed</target>
         <note/>
       </trans-unit>
       <trans-unit id="Report a Problem" xml:space="preserve">
         <source>Report a Problem</source>
-        <target state="new">Report a Problem</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Report any mismatches using the report button.&#10;Search and matching are automated, mismatches may occur." xml:space="preserve">
+        <source>Report any mismatches using the report button.
+Search and matching are automated, mismatches may occur.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Requires Kitsune Premium" xml:space="preserve">
-        <source>Wymaga Kitsune Premium</source>
+        <source>Requires Kitsune Premium</source>
         <target state="translated">Wymaga Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reread" xml:space="preserve">
         <source>Reread</source>
-        <target state="new">Reread</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Reset Asked for Review" xml:space="preserve">
-        <source>Reset Asked for Review</source>
-        <target state="translated">Reset Asked for Review</target>
-        <note>Dev Options, do not need translation</note>
-      </trans-unit>
-      <trans-unit id="Reset Settings" xml:space="preserve">
-        <source>Reset Settings</source>
-        <target state="new">Reset Settings</target>
         <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
-        <source>Przywróć</source>
+        <source>Restore</source>
         <target state="translated">Przywróć</target>
         <note/>
       </trans-unit>
       <trans-unit id="Return to current season" xml:space="preserve">
-        <source>Wróć do bieżącego sezonu</source>
+        <source>Return to current season</source>
         <target state="translated">Wróć do bieżącego sezonu</target>
         <note/>
       </trans-unit>
       <trans-unit id="Review Kitsune" xml:space="preserve">
-        <source>Recenzja Kitsune</source>
+        <source>Review Kitsune</source>
         <target state="translated">Recenzja Kitsune</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rewatched" xml:space="preserve">
         <source>Rewatched</source>
-        <target state="new">Rewatched</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rewatched %lld times." xml:space="preserve">
-        <source>Ponownie obejrzano %lld razy.</source>
+        <source>Rewatched %lld times.</source>
         <target state="translated">Ponownie obejrzano %lld razy.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
         <source>Russian</source>
-        <target state="new">Russian</target>
         <note/>
       </trans-unit>
       <trans-unit id="Saturday" xml:space="preserve">
-        <source>Sobota</source>
+        <source>Saturday</source>
         <target state="translated">Sobota</target>
         <note/>
       </trans-unit>
       <trans-unit id="Save" xml:space="preserve">
-        <source>Zapisz</source>
+        <source>Save</source>
         <target state="translated">Zapisz</target>
         <note/>
       </trans-unit>
       <trans-unit id="Saved" xml:space="preserve">
-        <source>Zapisane</source>
+        <source>Saved</source>
         <target state="translated">Zapisane</target>
         <note>Popup Action</note>
       </trans-unit>
       <trans-unit id="Schedule" xml:space="preserve">
         <source>Schedule</source>
-        <target state="new">Schedule</target>
         <note/>
       </trans-unit>
       <trans-unit id="Score" xml:space="preserve">
-        <source>Ocena</source>
+        <source>Score</source>
         <target state="translated">Ocena</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search" xml:space="preserve">
-        <source>Szukaj</source>
+        <source>Search</source>
         <target state="translated">Szukaj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search %@ List" xml:space="preserve">
         <source>Search %@ List</source>
-        <target state="new">Search %@ List</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search Suggestions" xml:space="preserve">
-        <source>Sugestie dotyczące wyszukiwania</source>
+        <source>Search Suggestions</source>
         <target state="translated">Sugestie dotyczące wyszukiwania</target>
         <note/>
       </trans-unit>
       <trans-unit id="Searching" xml:space="preserve">
-        <source>Szukanie</source>
+        <source>Searching</source>
         <target state="translated">Szukanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Season" xml:space="preserve">
-        <source>Sezon</source>
+        <source>Season</source>
         <target state="translated">Sezon</target>
         <note/>
       </trans-unit>
       <trans-unit id="Seasonal" xml:space="preserve">
-        <source>Sezonowe</source>
+        <source>Season</source>
         <target state="translated">Sezonowe</target>
         <note/>
       </trans-unit>
       <trans-unit id="See All" xml:space="preserve">
-        <source>Zobacz wszystkie</source>
+        <source>See All</source>
         <target state="translated">Zobacz wszystkie</target>
         <note/>
       </trans-unit>
       <trans-unit id="See Details" xml:space="preserve">
         <source>See Details</source>
-        <target state="new">See Details</target>
         <note/>
       </trans-unit>
       <trans-unit id="See your current releases in a timeline with Your Schedule." xml:space="preserve">
-        <source>Zobacz swoje bieżące premiery na osi czasu w swoim harmonogramie.</source>
-        <target state="needs-review-l10n">Zobacz swoje bieżące premiery na osi czasu w swoim harmonogramie.</target>
+        <source>See your current releases in a timeline with Schedule.</source>
+        <target state="translated">Zobacz swoje bieżące premiery na osi czasu w swoim harmonogramie.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Send Email" xml:space="preserve">
-        <source>Wyślij email</source>
+        <source>Send Email</source>
         <target state="translated">Wyślij email</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Send Feedback" xml:space="preserve">
+        <source>Send Feedback</source>
         <note/>
       </trans-unit>
       <trans-unit id="Serialization" xml:space="preserve">
         <source>Serialization</source>
-        <target state="new">Serialization</target>
         <note/>
       </trans-unit>
       <trans-unit id="Session Expired" xml:space="preserve">
-        <source>Sesja wygasła</source>
+        <source>Session Expired</source>
         <target state="translated">Sesja wygasła</target>
         <note/>
       </trans-unit>
       <trans-unit id="Settings" xml:space="preserve">
-        <source>Ustawienia</source>
+        <source>Settings</source>
         <target state="translated">Ustawienia</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Share Profile" xml:space="preserve">
+        <source>Share Profile</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show All" xml:space="preserve">
-        <source>Pokaż wszystko</source>
+        <source>Show All</source>
         <target state="translated">Pokaż wszystko</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Comments" xml:space="preserve">
         <source>Show Comments</source>
-        <target state="new">Show Comments</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Episode Number" xml:space="preserve">
+        <source>Show Episode Number</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Episode Number on Schedule" xml:space="preserve">
+        <source>Show Episode Number on Schedule</source>
         <note/>
       </trans-unit>
       <trans-unit id="Show More" xml:space="preserve">
-        <source>Pokaż więcej</source>
+        <source>Show More</source>
         <target state="translated">Pokaż więcej</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Only Added" xml:space="preserve">
-        <source>Pokaż tylko dodane</source>
+        <source>Show Only Added</source>
         <target state="translated">Pokaż tylko dodane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Progress Bar for Anime and Manga" xml:space="preserve">
-        <source>Pokaż pasek postępu dla anime i mangi</source>
+        <source>Show Progress Bar for Anime and Manga</source>
         <target state="translated">Pokaż pasek postępu dla anime i mangi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Rating View" xml:space="preserve">
         <source>Show Rating View</source>
-        <target state="new">Show Rating View</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Score View" xml:space="preserve">
         <source>Show Score View</source>
-        <target state="new">Show Score View</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
-        <source>Wyświetlanie czasu w "Harmonogramie"</source>
-        <target state="needs-review-l10n">Wyświetlanie czasu w "Harmonogramie"</target>
+        <source>Show Time in 'Schedule'</source>
+        <target state="translated">Wyświetlanie czasu w "Harmonogramie"</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show With Apple Music" xml:space="preserve">
         <source>Show With Apple Music</source>
-        <target state="new">Show With Apple Music</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show With Spotify" xml:space="preserve">
+        <source>Show With Spotify</source>
         <note/>
       </trans-unit>
       <trans-unit id="Show Without Apple Music" xml:space="preserve">
         <source>Show Without Apple Music</source>
-        <target state="new">Show Without Apple Music</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Without Spotify" xml:space="preserve">
+        <source>Show Without Spotify</source>
         <note/>
       </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
-        <source>Zaloguj się</source>
+        <source>Sign In</source>
         <target state="translated">Zaloguj się</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sign In into your MyAnimeList account." xml:space="preserve">
-        <source>Zaloguj się na swoje konto MyAnimeList.</source>
+        <source>Sign In into your MyAnimeList account.</source>
         <target state="translated">Zaloguj się na swoje konto MyAnimeList.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sign Out" xml:space="preserve">
-        <source>Wyloguj</source>
+        <source>Sign Out</source>
         <target state="translated">Wyloguj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Some videos may not play due to region restrictions." xml:space="preserve">
         <source>Some videos may not play due to region restrictions.</source>
-        <target state="new">Some videos may not play due to region restrictions.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sort" xml:space="preserve">
-        <source>Sortowanie</source>
+        <source>Sort</source>
         <target state="translated">Sortowanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Source" xml:space="preserve">
-        <source>Źródło</source>
+        <source>Source</source>
         <target state="translated">Źródło</target>
         <note/>
       </trans-unit>
       <trans-unit id="Spanish" xml:space="preserve">
         <source>Spanish</source>
-        <target state="new">Spanish</target>
         <note/>
       </trans-unit>
       <trans-unit id="Special" xml:space="preserve">
-        <source>Specjalny</source>
+        <source>Special</source>
         <target state="translated">Specjalny</target>
         <note>Anime Media Type</note>
       </trans-unit>
+      <trans-unit id="Spotify" xml:space="preserve">
+        <source>Spotify</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Spotify Support" xml:space="preserve">
+        <source>Spotify Support</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Spring" xml:space="preserve">
-        <source>Wiosna</source>
+        <source>Spring</source>
         <target state="translated">Wiosna</target>
         <note/>
       </trans-unit>
       <trans-unit id="Staff" xml:space="preserve">
         <source>Staff</source>
-        <target state="new">Staff</target>
         <note/>
       </trans-unit>
       <trans-unit id="Start Date" xml:space="preserve">
-        <source>Data rozpoczęcia</source>
+        <source>Start Date</source>
         <target state="translated">Data rozpoczęcia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Start Season" xml:space="preserve">
-        <source>Sezon</source>
+        <source>Start Season</source>
         <target state="translated">Sezon</target>
         <note/>
       </trans-unit>
@@ -1875,52 +1893,60 @@ Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomoż
         <note/>
       </trans-unit>
       <trans-unit id="Studios" xml:space="preserve">
-        <source>Studia</source>
+        <source>Studios</source>
         <target state="translated">Studia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">
-        <source>Lato</source>
+        <source>Summer</source>
         <target state="translated">Lato</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sunday" xml:space="preserve">
-        <source>Niedziela</source>
+        <source>Sunday</source>
         <target state="translated">Niedziela</target>
         <note/>
       </trans-unit>
       <trans-unit id="Support &amp; About" xml:space="preserve">
-        <source>Wsparcie i informacje</source>
+        <source>Support &amp; About</source>
         <target state="translated">Wsparcie i informacje</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Support the development of the app" xml:space="preserve">
+        <source>Support the development of the app</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Support the development of the app created by a solo developer." xml:space="preserve">
+        <source>Support the development of the app created by a solo developer.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Swipe or Hold to access quick actions" xml:space="preserve">
-        <source>Przesuń lub Przytrzymaj, aby uzyskać dostęp do szybkich akcji</source>
+        <source>Swipe or Hold to access quick actions</source>
         <target state="translated">Przesuń lub Przytrzymaj, aby uzyskać dostęp do szybkich akcji</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sync Notifications" xml:space="preserve">
-        <source>Synchronizuj powiadomienie</source>
+        <source>Sync Notifications</source>
         <target state="translated">Synchronizuj powiadomienie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Syncing" xml:space="preserve">
-        <source>Synchronizowanie</source>
+        <source>Syncing</source>
         <target state="translated">Synchronizowanie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Synonyms" xml:space="preserve">
-        <source>Synonimy</source>
+        <source>Synonyms</source>
         <target state="translated">Synonimy</target>
         <note/>
       </trans-unit>
       <trans-unit id="Synopsis" xml:space="preserve">
-        <source>Opis</source>
+        <source>Synopsis</source>
         <target state="translated">Opis</target>
         <note/>
       </trans-unit>
       <trans-unit id="System" xml:space="preserve">
-        <source>Systemowy</source>
+        <source>System</source>
         <target state="translated">Systemowy</target>
         <note/>
       </trans-unit>
@@ -1930,143 +1956,143 @@ Wyślij wiadomość e-mail na adres contact@alexandremadeira.dev, a my Ci pomoż
         <note>Anime Media Type</note>
       </trans-unit>
       <trans-unit id="Tap 'Save' to save your changes after writing." xml:space="preserve">
-        <source>Naciśnij "Zapisz", aby zapisać zmiany po ich wprowadzeniu.</source>
+        <source>Tap 'Save' to save your changes after writing.</source>
         <target state="translated">Naciśnij "Zapisz", aby zapisać zmiany po ich wprowadzeniu.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Teens 13 and Older" xml:space="preserve">
-        <source>Nastolatki w wieku 13 lat i starsze</source>
+        <source>Teens 13 and Older</source>
         <target state="translated">Nastolatki w wieku 13 lat i starsze</target>
         <note/>
       </trans-unit>
       <trans-unit id="Terms of Service" xml:space="preserve">
-        <source>Regulamin usługi</source>
+        <source>Terms of Service</source>
         <target state="translated">Regulamin usługi</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Test Notifications" xml:space="preserve">
+      <trans-unit id="Test Notifications" translate="no" xml:space="preserve">
         <source>Test Notifications</source>
         <target state="translated">Test Notifications</target>
         <note>Dev Options, do not need translation</note>
       </trans-unit>
+      <trans-unit id="The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature." xml:space="preserve">
+        <source>The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The anime will premiere today." xml:space="preserve">
-        <source>Premiera anime odbędzie się dzisiaj.</source>
+        <source>The anime will premiere today.</source>
         <target state="translated">Premiera anime odbędzie się dzisiaj.</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app couldn't load it right now" xml:space="preserve">
-        <source>Aplikacja nie może teraz tego załadować</source>
+        <source>The app couldn't load it right now</source>
         <target state="translated">Aplikacja nie może teraz tego załadować</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app couldn't load the content right now." xml:space="preserve">
-        <source>Aplikacja nie może teraz załadować zawartości.</source>
+        <source>The app couldn't load the content right now.</source>
         <target state="translated">Aplikacja nie może teraz załadować zawartości.</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app couldn't load the list right now.&#10;Please, try again later." xml:space="preserve">
-        <source>Aplikacja nie może teraz załadować listy.
-Spróbuj ponownie później.</source>
+        <source>The app couldn't load the list right now.
+Please, try again later.</source>
         <target state="translated">Aplikacja nie może teraz załadować listy.
 Spróbuj ponownie później.</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app couldn't load the season right now.&#10;Please, try again later." xml:space="preserve">
-        <source>Aplikacja nie może teraz załadować sezonu.
-Spróbuj ponownie później</source>
+        <source>The app couldn't load the season right now.
+Please, try again later.</source>
         <target state="translated">Aplikacja nie może teraz załadować sezonu.
 Spróbuj ponownie później</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The episode %lld is airing soon." xml:space="preserve">
+        <source>The episode %lld is airing soon.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The progress bar and gestures will adapt to this setting." xml:space="preserve">
-        <source>Pasek postępu i gesty zostaną dostosowane do tego ustawienia.</source>
+        <source>The progress bar and gestures will adapt to this setting.</source>
         <target state="translated">Pasek postępu i gesty zostaną dostosowane do tego ustawienia.</target>
         <note/>
       </trans-unit>
       <trans-unit id="The service is undergoing maintenance or is currently unavailable. Please try again later." xml:space="preserve">
-        <source>Usługa jest w trakcie konserwacji lub jest obecnie niedostępna. Spróbuj ponownie później.</source>
+        <source>The service is undergoing maintenance or is currently unavailable. Please try again later.</source>
         <target state="translated">Usługa jest w trakcie konserwacji lub jest obecnie niedostępna. Spróbuj ponownie później.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Themes" xml:space="preserve">
         <source>Themes</source>
-        <target state="new">Themes</target>
         <note/>
       </trans-unit>
       <trans-unit id="This option will hide previous days and show only from today up to Sunday." xml:space="preserve">
-        <source>Opcja ta ukryje poprzednie dni i wyświetli tylko od dzisiaj do niedzieli.</source>
+        <source>This option will hide previous days and show only from today up to Sunday.</source>
         <target state="translated">Opcja ta ukryje poprzednie dni i wyświetli tylko od dzisiaj do niedzieli.</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will adapt the schedule to match your local date and time." xml:space="preserve">
-        <source>Spowoduje to dostosowanie harmonogramu do lokalnej daty i godziny.</source>
+        <source>This will adapt the schedule to match your local date and time.</source>
         <target state="translated">Spowoduje to dostosowanie harmonogramu do lokalnej daty i godziny.</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will direct you to the MyAnimeList Account Deletion page." xml:space="preserve">
-        <source>Spowoduje to przekierowanie do strony usuwania konta MyAnimeList.</source>
+        <source>This will direct you to the MyAnimeList Account Deletion page.</source>
         <target state="translated">Spowoduje to przekierowanie do strony usuwania konta MyAnimeList.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="This will notify when new episodes from 'Watching' is released on when a new series or movie is released from 'Plan to Watch'." xml:space="preserve">
-        <source>Powiadomienia o wydaniu nowych odcinków z listy "Oglądane" lub o wydaniu nowego odcinka lub filmu z listy "Do obejrzenia".</source>
-        <target state="translated">Powiadomienia o wydaniu nowych odcinków z listy "Oglądane" lub o wydaniu nowego odcinka lub filmu z listy "Do obejrzenia".</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="This will refresh your access token to use the app." xml:space="preserve">
+      <trans-unit id="This will refresh your access token to use the app." translate="no" xml:space="preserve">
         <source>This will refresh your access token to use the app.</source>
         <target state="translated">This will refresh your access token to use the app.</target>
         <note>Dev Options, do not need translation</note>
       </trans-unit>
       <trans-unit id="This will remove this item from your list." xml:space="preserve">
-        <source>Spowoduje to usunięcie tej pozycji z listy.</source>
+        <source>This will remove this item from your list.</source>
         <target state="translated">Spowoduje to usunięcie tej pozycji z listy.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Thursday" xml:space="preserve">
-        <source>Czwartek</source>
+        <source>Thursday</source>
         <target state="translated">Czwartek</target>
         <note/>
       </trans-unit>
       <trans-unit id="Time will be shown in Japan Standard Time (JST) by default." xml:space="preserve">
-        <source>Czas będzie domyślnie wyświetlany w japońskim czasie standardowym (JST).</source>
+        <source>Time will be shown in Japan Standard Time (JST) by default.</source>
         <target state="translated">Czas będzie domyślnie wyświetlany w japońskim czasie standardowym (JST).</target>
         <note/>
       </trans-unit>
       <trans-unit id="Title Length" xml:space="preserve">
-        <source>Długość tytułu</source>
+        <source>Title Length</source>
         <target state="translated">Długość tytułu</target>
         <note/>
       </trans-unit>
       <trans-unit id="Today" xml:space="preserve">
-        <source>Dzisiaj</source>
+        <source>Today</source>
         <target state="translated">Dzisiaj</target>
         <note/>
       </trans-unit>
       <trans-unit id="Toggle this setting to include mature content in search results and recommendations.&#10;User lists are always unrestricted." xml:space="preserve">
         <source>Toggle this setting to include mature content in search results and recommendations.
 User lists are always unrestricted.</source>
-        <target state="new">Toggle this setting to include mature content in search results and recommendations.
-User lists are always unrestricted.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Airing" xml:space="preserve">
-        <source>Top Wychodzące</source>
+        <source>Top Airing</source>
         <target state="translated">Top Wychodzące</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top All" xml:space="preserve">
-        <source>Top Wszystkie</source>
+        <source>Top All</source>
         <target state="translated">Top Wszystkie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Favorites" xml:space="preserve">
-        <source>Top Ulubione</source>
+        <source>Top Favorites</source>
         <target state="translated">Top Ulubione</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Movie" xml:space="preserve">
-        <source>Top Film</source>
+        <source>Top Movie</source>
         <target state="translated">Top Film</target>
         <note/>
       </trans-unit>
@@ -2076,273 +2102,279 @@ User lists are always unrestricted.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Special" xml:space="preserve">
-        <source>Top Specialne</source>
+        <source>Top Special</source>
         <target state="translated">Top Specialne</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top TV Series" xml:space="preserve">
-        <source>Top Serie TV</source>
+        <source>Top TV Series</source>
         <target state="translated">Top Serie TV</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Upcoming" xml:space="preserve">
-        <source>Top Nadchodzące</source>
+        <source>Top Upcoming</source>
         <target state="translated">Top Nadchodzące</target>
         <note/>
       </trans-unit>
       <trans-unit id="Touch and hold on the synopsis to copy or share it." xml:space="preserve">
         <source>Touch and hold on the synopsis to copy or share it.</source>
-        <target state="new">Touch and hold on the synopsis to copy or share it.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Trailers" xml:space="preserve">
-        <source>Zwiastuny</source>
+        <source>Trailers</source>
         <target state="translated">Zwiastuny</target>
         <note/>
       </trans-unit>
       <trans-unit id="Translation" xml:space="preserve">
-        <source>Tłumaczenie</source>
+        <source>Translation</source>
         <target state="translated">Tłumaczenie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try Again" xml:space="preserve">
-        <source>Spróbuj ponownie</source>
+        <source>Try Again</source>
         <target state="translated">Spróbuj ponownie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try Again Later" xml:space="preserve">
-        <source>Spróbuj ponownie później</source>
+        <source>Try Again Later</source>
         <target state="translated">Spróbuj ponownie później</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again" xml:space="preserve">
-        <source>Spróbuj ponownie</source>
+        <source>Try again</source>
         <target state="translated">Spróbuj ponownie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later" xml:space="preserve">
         <source>Try again later</source>
-        <target state="new">Try again later</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later or change the list." xml:space="preserve">
-        <source>Spróbuj ponownie później lub zmień listę.</source>
+        <source>Try again later or change the list.</source>
         <target state="translated">Spróbuj ponownie później lub zmień listę.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later or start watching an anime from this season." xml:space="preserve">
-        <source>Spróbuj ponownie później lub zacznij oglądać anime z tego sezonu.</source>
+        <source>Try again later or start watching an anime from this season.</source>
         <target state="translated">Spróbuj ponownie później lub zacznij oglądać anime z tego sezonu.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later, change the season/year or go back to current Season." xml:space="preserve">
-        <source>Spróbuj ponownie później, zmień sezon/rok lub wróć do bieżącego sezonu.</source>
+        <source>Try again later, change the season/year or go back to current Season.</source>
         <target state="translated">Spróbuj ponownie później, zmień sezon/rok lub wróć do bieżącego sezonu.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later, change the season/year/filter or go back to current Season." xml:space="preserve">
-        <source>Spróbuj ponownie później, zmień sezon/rok/filtr lub wróć do bieżącego sezonu.</source>
+        <source>Try again later, change the season/year/filter or go back to current Season.</source>
         <target state="translated">Spróbuj ponownie później, zmień sezon/rok/filtr lub wróć do bieżącego sezonu.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Tuesday" xml:space="preserve">
-        <source>Wtorek</source>
+        <source>Tuesday</source>
         <target state="translated">Wtorek</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
-        <source>Nieznane</source>
+        <source>Unknown</source>
         <target state="translated">Nieznane</target>
         <note>Anime Media Type</note>
       </trans-unit>
       <trans-unit id="Unlock New Features and Customizations" xml:space="preserve">
         <source>Unlock New Features and Customizations</source>
-        <target state="new">Unlock New Features and Customizations</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unlock Your Entire Week with Kitsune Premium" xml:space="preserve">
         <source>Unlock Your Entire Week with Kitsune Premium</source>
-        <target state="new">Unlock Your Entire Week with Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unlock app customization and more features with Kitsune Premium.&#10;No Subscription required." xml:space="preserve">
         <source>Unlock app customization and more features with Kitsune Premium.
 No Subscription required.</source>
-        <target state="new">Unlock app customization and more features with Kitsune Premium.
-No Subscription required.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unlock customization and more features with Kitsune Premium" xml:space="preserve">
         <source>Unlock customization and more features with Kitsune Premium</source>
-        <target state="new">Unlock customization and more features with Kitsune Premium</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upcoming" xml:space="preserve">
-        <source>Nadchodzące</source>
+        <source>Upcoming</source>
         <target state="translated">Nadchodzące</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upcoming Notifications" xml:space="preserve">
-        <source>Nadchodzące powiadomienia</source>
+        <source>Upcoming Notifications</source>
         <target state="translated">Nadchodzące powiadomienia</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upgrade to Kitsune Premium" xml:space="preserve">
         <source>Upgrade to Kitsune Premium</source>
-        <target state="new">Upgrade to Kitsune Premium</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Version %@ • %@" xml:space="preserve">
-        <source>Wersja %1$@ • %2$@</source>
-        <target state="translated">Wersja %1$@ • %2$@</target>
+      <trans-unit id="Upgrade to Kitsune Premium to view your full weekly schedule." xml:space="preserve">
+        <source>Upgrade to Kitsune Premium to view your full weekly schedule.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Version %@ (%@)" xml:space="preserve">
+        <source>Version %1$@ (%2$@)</source>
         <note/>
       </trans-unit>
       <trans-unit id="Very Bad" xml:space="preserve">
-        <source>Bardzo słabe</source>
+        <source>Very Bad</source>
         <target state="translated">Bardzo słabe</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="Very Good" xml:space="preserve">
-        <source>Bardzo dobre</source>
+        <source>Very Good</source>
         <target state="translated">Bardzo dobre</target>
         <note>MAL Score</note>
       </trans-unit>
       <trans-unit id="View Credits" xml:space="preserve">
         <source>View Credits</source>
-        <target state="new">View Credits</target>
         <note/>
       </trans-unit>
       <trans-unit id="View up to 10 of your most recent search results on the Search page." xml:space="preserve">
         <source>View up to 10 of your most recent search results on the Search page.</source>
-        <target state="new">View up to 10 of your most recent search results on the Search page.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Voice Acting Roles" xml:space="preserve">
         <source>Voice Acting Roles</source>
-        <target state="new">Voice Acting Roles</target>
         <note/>
       </trans-unit>
       <trans-unit id="Voice Actors" xml:space="preserve">
-        <source>Aktorzy głosowi</source>
+        <source>Voice Actors</source>
         <target state="translated">Aktorzy głosowi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Volumes Read" xml:space="preserve">
-        <source>Przeczytane tomy</source>
+        <source>Volumes Read</source>
         <target state="translated">Przeczytane tomy</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Want to bring Kitsune to your language?&#10;You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations" xml:space="preserve">
+      <trans-unit id="Want to bring Kitsune to your language?&#10;https://github.com/MadeiraAlexandre/Kitsune-Translations" xml:space="preserve">
         <source>Want to bring Kitsune to your language?
-You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations</source>
-        <target state="new">Want to bring Kitsune to your language?
-You can help translating: https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
+https://github.com/MadeiraAlexandre/Kitsune-Translations</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Watch an anime from the current season to use Schedule." xml:space="preserve">
+        <source>Watch an anime from the current season to use Schedule.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Watched" xml:space="preserve">
-        <source>Obejrzane</source>
+        <source>Watched</source>
         <target state="translated">Obejrzane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Watching" xml:space="preserve">
-        <source>Oglądane</source>
+        <source>Watching</source>
         <target state="translated">Oglądane</target>
         <note/>
       </trans-unit>
       <trans-unit id="Wednesday" xml:space="preserve">
-        <source>Środa</source>
+        <source>Wednesday</source>
         <target state="translated">Środa</target>
         <note/>
       </trans-unit>
       <trans-unit id="What's your score?" xml:space="preserve">
         <source>What's your score?</source>
-        <target state="new">What's your score?</target>
         <note/>
       </trans-unit>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
-        <source>Po włączeniu aplikacja będzie zawsze otwierać wybrany ekran startowy.
-Po wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę.</source>
+        <source>When on, the app will always open your selected Preferred Screen.
+When off, the app will always open the last tab opened.</source>
         <target state="translated">Po włączeniu aplikacja będzie zawsze otwierać wybrany ekran startowy.
 Po wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę.</target>
         <note/>
       </trans-unit>
       <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
-        <source>Dodając anime do listy "Oglądane", automatycznie oznacz pierwszy odcinek jako obejrzany.</source>
+        <source>When switching to the 'Watching' list, automatically mark the first episode as watched.</source>
         <target state="translated">Dodając anime do listy "Oglądane", automatycznie oznacz pierwszy odcinek jako obejrzany.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Winter" xml:space="preserve">
-        <source>Zima</source>
+        <source>Winter</source>
         <target state="translated">Zima</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Works on all of your Apple devices" xml:space="preserve">
+        <source>Works on all of your Apple devices</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Write a Review" xml:space="preserve">
-        <source>Napisz opinię</source>
+        <source>Write a Review</source>
         <target state="translated">Napisz opinię</target>
         <note/>
       </trans-unit>
       <trans-unit id="Year" xml:space="preserve">
-        <source>Rok</source>
+        <source>Year</source>
         <target state="translated">Rok</target>
         <note/>
       </trans-unit>
       <trans-unit id="You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser." xml:space="preserve">
         <source>You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser.</source>
-        <target state="new">You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You can create an AniList account by signing up on https://anilist.co using your preferred browser." xml:space="preserve">
+        <source>You can create an AniList account by signing up on https://anilist.co using your preferred browser.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You can enable both, but Kitsune can only display one at a time." xml:space="preserve">
+        <source>You can enable both, but Kitsune can only display one at a time.</source>
         <note/>
       </trans-unit>
       <trans-unit id="You need Kitsune Premium to change this." xml:space="preserve">
         <source>You need Kitsune Premium to change this.</source>
-        <target state="new">You need Kitsune Premium to change this.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You need the Spotify app installed." xml:space="preserve">
+        <source>You need the Spotify app installed.</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account." xml:space="preserve">
+        <source>You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account.</source>
         <note/>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
-        <source>Aby korzystać z funkcji Moja lista, Edytuj status, Dodaj anime/mangę i Statystyki, należy zalogować się ponownie.</source>
+        <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics.</source>
         <target state="translated">Aby korzystać z funkcji Moja lista, Edytuj status, Dodaj anime/mangę i Statystyki, należy zalogować się ponownie.</target>
         <note/>
       </trans-unit>
       <trans-unit id="You're a Premium user.&#10;Thank you for your support." xml:space="preserve">
-        <source>Jesteś użytkownikiem Premium.
-Dziękujemy za wsparcie.</source>
+        <source>You're a Premium user.
+Thank you for your support.</source>
         <target state="translated">Jesteś użytkownikiem Premium.
 Dziękujemy za wsparcie.</target>
         <note/>
       </trans-unit>
       <trans-unit id="YouTube" xml:space="preserve">
         <source>YouTube</source>
-        <target state="new">YouTube</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule" xml:space="preserve">
-        <source>Twój Harmonogram</source>
-        <target state="needs-review-l10n">Twój Harmonogram</target>
+        <source>Schedule</source>
+        <target state="translated">Twój Harmonogram</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
-        <source>Your Schedule is empty for today.</source>
-        <target state="new">Your Schedule is empty for today.</target>
+        <source>Schedule is empty for today.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule is empty right now." xml:space="preserve">
-        <source>Twój Harmonogram jest teraz pusty.</source>
-        <target state="needs-review-l10n">Twój Harmonogram jest teraz pusty.</target>
+        <source>Schedule is empty right now.</source>
+        <target state="translated">Twój Harmonogram jest teraz pusty.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your session has expired.&#10;Please, sign in again to keep using the app." xml:space="preserve">
-        <source>Twoja sesja wygasła.
-Zaloguj się ponownie, aby nadal korzystać z aplikacji.</source>
+        <source>Your session has expired.
+Please, sign in again to keep using the app.</source>
         <target state="translated">Twoja sesja wygasła.
 Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
         <note/>
       </trans-unit>
       <trans-unit id="about_your_schedule" xml:space="preserve">
-        <source>Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli. Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 3 dni. W dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy "Do obejrzenia" do listy "Oglądane".</source>
-        <target state="needs-review-l10n">Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli. Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 3 dni. W dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy "Do obejrzenia" do listy "Oglądane".</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="🔨" xml:space="preserve">
-        <source>🔨</source>
-        <target state="translated">🔨</target>
+        <source>Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. 
+It also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days. 
+On premiere day, a simple swipe marks the first episode as watched, seamlessly transitioning it from 'Plan to Watch' to 'Watching'."</source>
+        <target state="translated">Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli. Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 3 dni. W dniu premiery wystarczy przesunąć palcem, aby oznaczyć pierwszy odcinek jako obejrzany, płynnie przenosząc go z listy "Do obejrzenia" do listy "Oglądane".</target>
         <note/>
       </trans-unit>
     </body>

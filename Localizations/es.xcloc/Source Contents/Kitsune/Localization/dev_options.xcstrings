@@ -1,0 +1,24 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Account - Refresh Token" : {
+      "comment" : "dev options, don't translate"
+    },
+    "Developer Options" : {
+      "comment" : "dev options, don't translate"
+    },
+    "Is Premium User" : {
+      "comment" : "dev options, don't translate"
+    },
+    "Is refreshing token? %@" : {
+      "comment" : "dev options, don't translate"
+    },
+    "Test Notifications" : {
+      "comment" : "dev options, don't translate"
+    },
+    "This will refresh your access token to use the app." : {
+      "comment" : "dev options, don't translate"
+    }
+  },
+  "version" : "1.0"
+}

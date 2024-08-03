@@ -1,11 +1,11 @@
 {
-  "sourceLanguage" : "ru",
+  "sourceLanguage" : "en",
   "strings" : {
     "CFBundleDisplayName" : {
       "comment" : "Bundle display name",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "ru" : {
+        "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Kitsune"
@@ -17,7 +17,7 @@
       "comment" : "Bundle name",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "ru" : {
+        "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Kitsune"
@@ -29,7 +29,7 @@
       "comment" : "Privacy - Media Library Usage Description",
       "extractionState" : "extracted_with_value",
       "localizations" : {
-        "ru" : {
+        "en" : {
           "stringUnit" : {
             "state" : "new",
             "value" : "Search and Play the opening and ending theme songs."

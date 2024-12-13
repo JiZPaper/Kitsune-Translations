@@ -11,6 +11,9 @@
         }
       }
     },
+    "-" : {
+      "extractionState" : "stale"
+    },
     "'For You' shows you a list of suggested anime directly from MAL" : {
       "localizations" : {
         "en" : {
@@ -27,16 +30,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@"
-          }
-        }
-      }
-    },
-    "%@\nBy: %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$@\nBy: %2$@"
           }
         }
       }
@@ -103,6 +96,16 @@
         }
       }
     },
+    "%@ • %@ JST" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ • %2$@ JST"
+          }
+        }
+      }
+    },
     "%@ by %lld users" : {
       "localizations" : {
         "en" : {
@@ -163,12 +166,12 @@
         }
       }
     },
-    "%@'s list is empty or is private." : {
+    "%@'s List" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "%@'s list is empty or is private."
+            "value" : "%@'s List"
           }
         }
       }
@@ -215,22 +218,22 @@
         }
       }
     },
+    "%lld anime" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld anime"
+          }
+        }
+      }
+    },
     "%lld Anime" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Anime"
-          }
-        }
-      }
-    },
-    "%lld animes" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld animes"
           }
         }
       }
@@ -295,24 +298,12 @@
         }
       }
     },
-    "%lld line" : {
+    "%lld manga" : {
       "localizations" : {
         "en" : {
-          "variations" : {
-            "plural" : {
-              "one" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld line"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "%lld lines"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld manga"
           }
         }
       }
@@ -323,16 +314,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld Manga"
-          }
-        }
-      }
-    },
-    "%lld mangas" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld mangas"
           }
         }
       }
@@ -383,6 +364,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%1$lld/%2$@"
+          }
+        }
+      }
+    },
+    "%lld/%lld" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$lld/%2$lld"
           }
         }
       }
@@ -505,16 +497,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Account"
-          }
-        }
-      }
-    },
-    "Account Settings" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Account Settings"
           }
         }
       }
@@ -669,22 +651,12 @@
         }
       }
     },
-    "Anime Statistics (In Days)" : {
+    "Anime Statistics" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Anime Statistics (In Days)"
-          }
-        }
-      }
-    },
-    "Anime Statistics (In Items)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Anime Statistics (In Items)"
+            "value" : "Anime Statistics"
           }
         }
       }
@@ -1202,32 +1174,12 @@
         }
       }
     },
-    "Copy" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Copy"
-          }
-        }
-      }
-    },
     "Copy Song Name" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy Song Name"
-          }
-        }
-      }
-    },
-    "Credits" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Credits"
           }
         }
       }
@@ -1253,12 +1205,22 @@
         }
       }
     },
-    "Customize" : {
+    "Customize Settings" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Customize"
+            "value" : "Customize Settings"
+          }
+        }
+      }
+    },
+    "Customize what you want to see in the Anime and Manga detail page." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Customize what you want to see in the Anime and Manga detail page."
           }
         }
       }
@@ -1313,6 +1275,16 @@
         }
       }
     },
+    "Days Watching" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Days Watching"
+          }
+        }
+      }
+    },
     "Default" : {
       "comment" : "Title Preference",
       "localizations" : {
@@ -1350,6 +1322,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Design"
+          }
+        }
+      }
+    },
+    "Details Page" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details Page"
           }
         }
       }
@@ -1708,22 +1690,22 @@
         }
       }
     },
+    "Favorite Manga" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorite Manga"
+          }
+        }
+      }
+    },
     "Favorite People" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorite People"
-          }
-        }
-      }
-    },
-    "Favorites Manga" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Favorites Manga"
           }
         }
       }
@@ -1896,6 +1878,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Genres"
+          }
+        }
+      }
+    },
+    "Get notified when a new episode or anime premieres from your list." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get notified when a new episode or anime premieres from your list."
           }
         }
       }
@@ -2133,6 +2125,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Light"
+          }
+        }
+      }
+    },
+    "Light Novel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light Novel"
           }
         }
       }
@@ -2381,6 +2383,16 @@
         }
       }
     },
+    "More Options" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More Options"
+          }
+        }
+      }
+    },
     "Most Popular" : {
       "localizations" : {
         "en" : {
@@ -2513,16 +2525,6 @@
         }
       }
     },
-    "No subscription required; make one purchase to unlock all current and upcoming premium features.\nWorks on your iPhone, iPad, Mac (with Apple Silicon), and Apple Vision Pro, with support for Family Sharing." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "No subscription required; make one purchase to unlock all current and upcoming premium features."
-          }
-        }
-      }
-    },
     "None" : {
       "localizations" : {
         "en" : {
@@ -2591,6 +2593,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing here"
+          }
+        }
+      }
+    },
+    "Nothing here yet." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nothing here yet."
           }
         }
       }
@@ -2746,16 +2758,6 @@
         }
       }
     },
-    "One Price, No Sub." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "One Price, No Sub."
-          }
-        }
-      }
-    },
     "One Shot" : {
       "localizations" : {
         "en" : {
@@ -2782,6 +2784,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Open in Apple Music"
+          }
+        }
+      }
+    },
+    "Open Links In-App" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Links In-App"
           }
         }
       }
@@ -2837,6 +2849,16 @@
         }
       }
     },
+    "Pay once and enjoy all these features, no subscription required." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pay once and enjoy all these features, no subscription required."
+          }
+        }
+      }
+    },
     "Perform actions like marking the next episode/chapter or open the edit screen." : {
       "localizations" : {
         "en" : {
@@ -2887,16 +2909,6 @@
         }
       }
     },
-    "Play the opening and ending themes using your Apple Music subscription right from the Credits screen." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Play the opening and ending themes using your Apple Music subscription right from the Credits screen."
-          }
-        }
-      }
-    },
     "Play the opening and ending themes using your Apple Music subscription." : {
       "localizations" : {
         "en" : {
@@ -2907,12 +2919,22 @@
         }
       }
     },
-    "Play the opening and ending themes using your Spotify subscription." : {
+    "Play the opening and ending themes with your Apple Music subscription." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Play the opening and ending themes using your Spotify subscription."
+            "value" : "Play the opening and ending themes with your Apple Music subscription."
+          }
+        }
+      }
+    },
+    "Play the opening and ending themes with your Spotify subscription." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play the opening and ending themes with your Spotify subscription."
           }
         }
       }
@@ -3077,16 +3099,6 @@
         }
       }
     },
-    "Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Purchase it once and use it on your iPhone, iPad, Mac, and Apple Vision Pro."
-          }
-        }
-      }
-    },
     "Quickly delete any date by swiping or long pressing." : {
       "localizations" : {
         "en" : {
@@ -3148,26 +3160,6 @@
         }
       }
     },
-    "Receive notifications when a new episode is released or when a new anime premieres from your list." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Receive notifications when a new episode is released or when a new anime premieres from your list."
-          }
-        }
-      }
-    },
-    "Recently Completed" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Recently Completed"
-          }
-        }
-      }
-    },
     "Recently Viewed" : {
       "localizations" : {
         "en" : {
@@ -3208,12 +3200,12 @@
         }
       }
     },
-    "Related Anime" : {
+    "Release Date" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Related Anime"
+            "value" : "Release Date"
           }
         }
       }
@@ -3264,6 +3256,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Report any mismatches using the report button.\nSearch and matching are automated, mismatches may occur."
+          }
+        }
+      }
+    },
+    "Requires AniList Account Connected" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Requires AniList Account Connected"
           }
         }
       }
@@ -3394,6 +3396,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Russian"
+          }
+        }
+      }
+    },
+    "Sample" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sample"
           }
         }
       }
@@ -3529,32 +3541,12 @@
         }
       }
     },
-    "See All" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "See All"
-          }
-        }
-      }
-    },
     "See Details" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "See Details"
-          }
-        }
-      }
-    },
-    "See your current releases in a timeline with Your Schedule." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "See your current releases in a timeline with Schedule."
           }
         }
       }
@@ -3609,12 +3601,12 @@
         }
       }
     },
-    "Share Profile" : {
+    "Show Adaptation" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Share Profile"
+            "value" : "Show Adaptation"
           }
         }
       }
@@ -3629,12 +3621,52 @@
         }
       }
     },
+    "Show Character List" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Character List"
+          }
+        }
+      }
+    },
+    "Show Endings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Endings"
+          }
+        }
+      }
+    },
     "Show Episodes from Streaming" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Episodes from Streaming"
+          }
+        }
+      }
+    },
+    "Show Episodes List" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Episodes List"
+          }
+        }
+      }
+    },
+    "Show Mean Score on List Style" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Mean Score on List Style"
           }
         }
       }
@@ -3659,12 +3691,42 @@
         }
       }
     },
+    "Show Openings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Openings"
+          }
+        }
+      }
+    },
     "Show Progress Bar for Anime and Manga" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Progress Bar for Anime and Manga"
+          }
+        }
+      }
+    },
+    "Show Recommendations" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Recommendations"
+          }
+        }
+      }
+    },
+    "Show Related Anime" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Related Anime"
           }
         }
       }
@@ -3681,12 +3743,53 @@
       },
       "shouldTranslate" : false
     },
+    "Show Source" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Source"
+          }
+        }
+      }
+    },
+    "Show Staff List" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Staff List"
+          }
+        }
+      }
+    },
     "Show Time in 'Your Schedule'" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Time in 'Schedule'"
+          }
+        }
+      }
+    },
+    "Show Trailer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Trailer"
+          }
+        }
+      }
+    },
+    "Show Your Comment" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show Your Comment"
           }
         }
       }
@@ -3848,6 +3951,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Studios"
+          }
+        }
+      }
+    },
+    "Subtitle Info" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtitle Info"
           }
         }
       }
@@ -4162,16 +4275,6 @@
         }
       }
     },
-    "Title Length" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Title Length"
-          }
-        }
-      }
-    },
     "Today" : {
       "localizations" : {
         "en" : {
@@ -4222,12 +4325,32 @@
         }
       }
     },
-    "Trailers" : {
+    "Total Anime" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Trailers"
+            "value" : "Total Anime"
+          }
+        }
+      }
+    },
+    "Total Manga" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Total Manga"
+          }
+        }
+      }
+    },
+    "Trailer" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trailer"
           }
         }
       }
@@ -4353,6 +4476,9 @@
         }
       }
     },
+    "Ukrainian" : {
+
+    },
     "Unknown" : {
       "comment" : "Anime Media Type",
       "localizations" : {
@@ -4384,12 +4510,12 @@
         }
       }
     },
-    "Unlock New Features and Customizations" : {
+    "Unlock the full week in Schedule." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Unlock New Features and Customizations"
+            "value" : "Unlock the full week in Schedule."
           }
         }
       }
@@ -4450,6 +4576,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Users with this anime in their list"
+          }
+        }
+      }
+    },
+    "Users with this manga in their list" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Users with this manga in their list"
           }
         }
       }
@@ -4576,6 +4712,16 @@
         }
       }
     },
+    "Weekly Schedule" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weekly Schedule"
+          }
+        }
+      }
+    },
     "What's your score?" : {
       "localizations" : {
         "en" : {
@@ -4612,16 +4758,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Winter"
-          }
-        }
-      }
-    },
-    "Works on all of your Apple devices" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Works on all of your Apple devices"
           }
         }
       }
@@ -4716,12 +4852,23 @@
         }
       }
     },
-    "You're a Premium user.\nThank you for your support." : {
+    "You're a Premium user.\n Thank you for your support!" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "You're a Premium user.\nThank you for your support."
+            "value" : "You're a Premium user.\nThank you for your support!"
+          }
+        }
+      }
+    },
+    "Your Comment" : {
+      "extractionState" : "stale",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your Comment"
           }
         }
       }

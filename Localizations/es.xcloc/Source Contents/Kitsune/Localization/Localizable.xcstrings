@@ -157,6 +157,16 @@
         }
       }
     },
+    "%@, %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@, %2$@"
+          }
+        }
+      }
+    },
     "%@, %@ (JST)" : {
       "localizations" : {
         "en" : {
@@ -910,6 +920,16 @@
         }
       }
     },
+    "Broadcast (Local Time)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Broadcast (Local Time)"
+          }
+        }
+      }
+    },
     "Buy (%@)" : {
       "localizations" : {
         "en" : {
@@ -1403,6 +1423,16 @@
       }
     },
     "Dropped" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dropped"
+          }
+        }
+      }
+    },
+    "Dropped_Manga" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {

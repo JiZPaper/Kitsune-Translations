@@ -128,6 +128,11 @@
         <target state="translated">%@さんのリスト</target>
         <note/>
       </trans-unit>
+      <trans-unit id="%@, %@" xml:space="preserve">
+        <source>%1$@, %2$@</source>
+        <target state="translated">%1$@, %2$@年</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
         <target state="translated">%@, %@ (JST)</target>
@@ -144,52 +149,52 @@
       </trans-unit>
       <trans-unit id="%lld Anime" xml:space="preserve">
         <source>%lld Anime</source>
-        <target state="translated">%lld アニメ</target>
+        <target state="translated">%lld本のアニメ </target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld Manga" xml:space="preserve">
         <source>%lld Manga</source>
-        <target state="translated">%lld 漫画</target>
+        <target state="translated">%lld冊の漫画</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld actors" xml:space="preserve">
         <source>%lld actors</source>
-        <target state="translated">%lld 登場人物</target>
+        <target state="translated">%lld人</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld anime" xml:space="preserve">
         <source>%lld anime</source>
-        <target state="translated">%lld アニメ</target>
+        <target state="translated">%lld本のアニメ </target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
         <source>%1$lld episodes watched of %2$@.</source>
-        <target state="translated">%2$@話中%1$lld話視聴済み</target>
+        <target state="translated">%2$@話中%1$lld話視聴済み。</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld お気に入り</target>
+        <target state="translated">%lld個のお気に入り</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld 項目</target>
+        <target state="translated">%lld個の項目</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.zero" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld 項目</target>
+        <target state="translated">%lld個の項目</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld manga" xml:space="preserve">
         <source>%lld manga</source>
-        <target state="translated">%lld 漫画</target>
+        <target state="translated">%lld冊の漫画</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld of %lld" xml:space="preserve">
         <source>%1$lld of %2$lld</source>
-        <target state="translated">%2$lldから%1$lld </target>
+        <target state="translated">%2$lld年の%1$lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld read of %@ chapters" xml:space="preserve">
@@ -223,7 +228,7 @@
       </trans-unit>
       <trans-unit id="'For You' shows you a list of suggested anime directly from MAL" xml:space="preserve">
         <source>'For You' shows you a list of suggested anime directly from MAL</source>
-        <target state="translated">「あなたにおすすめ」では、MALからのおすすめの項目が表示されます。</target>
+        <target state="translated">「あなたにおすすめ」では、MALからのおすすめの項目が表示されます</target>
         <note/>
       </trans-unit>
       <trans-unit id="+1" translate="no" xml:space="preserve">
@@ -401,7 +406,7 @@
       </trans-unit>
       <trans-unit id="Ask for Score After Watching an Anime" xml:space="preserve">
         <source>Ask for Score After Watching an Anime</source>
-        <target state="translated">アニメを視聴後、評価を尋ねる</target>
+        <target state="translated">アニメを視聴後評価を尋ねる</target>
         <note/>
       </trans-unit>
       <trans-unit id="Ask for confirmation to mark the episode as watched." xml:space="preserve">
@@ -456,7 +461,7 @@
       </trans-unit>
       <trans-unit id="Black Opacity" xml:space="preserve">
         <source>Black Opacity</source>
-        <target state="translated">黒色の不透明度</target>
+        <target state="translated">半透明の黒色</target>
         <note/>
       </trans-unit>
       <trans-unit id="Blur" xml:space="preserve">
@@ -472,6 +477,11 @@
       <trans-unit id="Broadcast" xml:space="preserve">
         <source>Broadcast</source>
         <target state="translated">放送</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Broadcast (Local Time)" xml:space="preserve">
+        <source>Broadcast (Local Time)</source>
+        <target state="translated">放送時間 (現地時間)</target>
         <note/>
       </trans-unit>
       <trans-unit id="Buy (%@)" xml:space="preserve">
@@ -516,7 +526,7 @@
       </trans-unit>
       <trans-unit id="Change List" xml:space="preserve">
         <source>Change List</source>
-        <target state="translated">リストを切り替える</target>
+        <target state="translated">別のリストへ移動</target>
         <note/>
       </trans-unit>
       <trans-unit id="Change the behavior when you tap the My List tab when its already open." xml:space="preserve">
@@ -724,6 +734,11 @@
         <target state="translated">中途で視聴中止</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Dropped_Manga" xml:space="preserve">
+        <source>Dropped</source>
+        <target state="translated">中途で読書中止</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Edit" xml:space="preserve">
         <source>Edit</source>
         <target state="translated">編集</target>
@@ -761,7 +776,7 @@
       </trans-unit>
       <trans-unit id="Enable Trailers" xml:space="preserve">
         <source>Enable Trailers</source>
-        <target state="translated">予告編の表示を有効にする</target>
+        <target state="translated">PV</target>
         <note/>
       </trans-unit>
       <trans-unit id="End Air Date" xml:space="preserve">
@@ -916,7 +931,7 @@
       </trans-unit>
       <trans-unit id="For better compatibility with iOS 18, please reset the icon" xml:space="preserve">
         <source>For better compatibility with iOS 18, please reset the icon</source>
-        <target state="translated">iOS 18との相性度を改良するために、アプリのアイコンをリセットしてください。</target>
+        <target state="translated">iOS 18との相性度を改良するために、アプリのアイコンをリセットしてください</target>
         <note/>
       </trans-unit>
       <trans-unit id="Friday" xml:space="preserve">
@@ -1196,7 +1211,7 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       </trans-unit>
       <trans-unit id="Most Popular" xml:space="preserve">
         <source>Most Popular</source>
-        <target state="translated">最も人気の高いもの</target>
+        <target state="translated">最も人気の高いアニメ</target>
         <note/>
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
@@ -1281,7 +1296,7 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       </trans-unit>
       <trans-unit id="Nothing found here" xml:space="preserve">
         <source>Nothing found here</source>
-        <target state="translated">該当する項目は見つかりません。</target>
+        <target state="translated">該当する項目は見つかりません</target>
         <note/>
       </trans-unit>
       <trans-unit id="Nothing found." xml:space="preserve">
@@ -1291,7 +1306,7 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       </trans-unit>
       <trans-unit id="Nothing here" xml:space="preserve">
         <source>Nothing here</source>
-        <target state="translated">空っぽです。</target>
+        <target state="translated">空っぽです</target>
         <note/>
       </trans-unit>
       <trans-unit id="Nothing here yet." xml:space="preserve">
@@ -1551,17 +1566,17 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       </trans-unit>
       <trans-unit id="Rating" xml:space="preserve">
         <source>Rating</source>
-        <target state="translated">評価</target>
+        <target state="translated">年齢制限</target>
         <note>Poster Indicator</note>
       </trans-unit>
       <trans-unit id="Rating %lld" xml:space="preserve">
         <source>Rating %lld</source>
-        <target state="translated">%lldの評価</target>
+        <target state="translated">%lld点の評価</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating of %lld of 10." xml:space="preserve">
         <source>Rating of %lld of 10.</source>
-        <target state="translated">10中の%lldの評価.</target>
+        <target state="translated">10点中の%lld点の評価。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating: %lld" xml:space="preserve">
@@ -1698,7 +1713,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sample" xml:space="preserve">
         <source>Sample</source>
-        <target state="translated">サンプル</target>
+        <target state="translated">プレビュー</target>
         <note/>
       </trans-unit>
       <trans-unit id="Saturday" xml:space="preserve">
@@ -1738,7 +1753,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Search %@ List" xml:space="preserve">
         <source>Search %@ List</source>
-        <target state="translated">%@さんのリストで検索</target>
+        <target state="translated">%@リストで検索</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search Suggestions" xml:space="preserve">
@@ -1878,7 +1893,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Trailer" xml:space="preserve">
         <source>Show Trailer</source>
-        <target state="translated">予告編を表示</target>
+        <target state="translated">PV</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
@@ -1963,7 +1978,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Subtitle Info" xml:space="preserve">
         <source>Subtitle Info</source>
-        <target state="translated">字幕に関する情報</target>
+        <target state="translated">サブタイトルで表示される情報</target>
         <note/>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">
@@ -2169,7 +2184,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Trailer" xml:space="preserve">
         <source>Trailer</source>
-        <target state="translated">予告編</target>
+        <target state="translated">PV</target>
         <note/>
       </trans-unit>
       <trans-unit id="Translate" xml:space="preserve">
@@ -2184,7 +2199,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Try Again" xml:space="preserve">
         <source>Try Again</source>
-        <target state="translated">再試行してください。</target>
+        <target state="translated">再試行</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try Again Later" xml:space="preserve">
@@ -2194,7 +2209,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Try again" xml:space="preserve">
         <source>Try again</source>
-        <target state="translated">再試行してください。</target>
+        <target state="translated">再試行</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later" xml:space="preserve">
@@ -2239,7 +2254,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Unlock Your Entire Week with Kitsune Premium" xml:space="preserve">
         <source>Unlock Your Entire Week with Kitsune Premium</source>
-        <target state="translated">Kitsuneプレミアムでスケジュールでの制限を解除する。</target>
+        <target state="translated">Kitsuneプレミアムでスケジュールでの制限を解除しましょう。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unlock app customization and more features with Kitsune Premium.&#10;No Subscription required." xml:space="preserve">

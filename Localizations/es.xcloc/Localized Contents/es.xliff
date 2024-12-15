@@ -125,6 +125,10 @@
         <source>%@'s List</source>
         <note/>
       </trans-unit>
+      <trans-unit id="%@, %@" xml:space="preserve">
+        <source>%1$@, %2$@</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
         <target state="translated">%@, %@ (JST)</target>
@@ -466,6 +470,10 @@
         <target state="translated">Difusión</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Broadcast (Local Time)" xml:space="preserve">
+        <source>Broadcast (Local Time)</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Buy (%@)" xml:space="preserve">
         <source>Buy (%@)</source>
         <note/>
@@ -697,6 +705,11 @@
         <note/>
       </trans-unit>
       <trans-unit id="Dropped" xml:space="preserve">
+        <source>Dropped</source>
+        <target state="translated">Abandonado</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dropped_Manga" xml:space="preserve">
         <source>Dropped</source>
         <target state="translated">Abandonado</target>
         <note/>

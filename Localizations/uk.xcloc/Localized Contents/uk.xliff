@@ -128,6 +128,10 @@
         <target state="translated">Список %@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="%@, %@" xml:space="preserve">
+        <source>%1$@, %2$@</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
         <target state="translated">%@, %@ (JST)</target>
@@ -149,12 +153,12 @@
       </trans-unit>
       <trans-unit id="%lld Manga" xml:space="preserve">
         <source>%lld Manga</source>
-        <target state="translated">%lld манґа</target>
+        <target state="translated">%lld манґ(а/и)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld actors" xml:space="preserve">
         <source>%lld actors</source>
-        <target state="translated">%lld актори</target>
+        <target state="translated">%lld ос.</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld anime" xml:space="preserve">
@@ -169,52 +173,52 @@
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.few" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld Улюблені</target>
+        <target state="translated">%lld улюблених</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.many" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld Улюблені</target>
+        <target state="translated">%lld улюблених</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.one" xml:space="preserve">
         <source>%lld Favorite</source>
-        <target state="translated">%lld Улюблене</target>
+        <target state="translated">%lld улюблених</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld Улюблені</target>
+        <target state="translated">%lld улюблених</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.few" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld елемент</target>
+        <target state="translated">%lld елемент(и/ів)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.many" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld елемент</target>
+        <target state="translated">%lld елемент(и/ів)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.one" xml:space="preserve">
         <source>%lld item</source>
-        <target state="translated">%lld елемент</target>
+        <target state="translated">%lld елемент(и/ів)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld елемент</target>
+        <target state="translated">%lld елемент(и/ів)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.zero" xml:space="preserve">
         <source>%lld items</source>
-        <target state="translated">%lld елемент</target>
+        <target state="translated">%lld елемент(и/ів)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld manga" xml:space="preserve">
         <source>%lld manga</source>
-        <target state="translated">%lld манґа</target>
+        <target state="translated">%lld манґ(а/и)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld of %lld" xml:space="preserve">
@@ -504,6 +508,11 @@
         <target state="translated">Трансляція</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Broadcast (Local Time)" xml:space="preserve">
+        <source>Broadcast (Local Time)</source>
+        <target state="translated">Трансляція (за місцевим часом)</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Buy (%@)" xml:space="preserve">
         <source>Buy (%@)</source>
         <target state="translated">Придбати (%@)</target>
@@ -755,6 +764,11 @@
         <note/>
       </trans-unit>
       <trans-unit id="Dropped" xml:space="preserve">
+        <source>Dropped</source>
+        <target state="translated">Закинуто</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Dropped_Manga" xml:space="preserve">
         <source>Dropped</source>
         <target state="translated">Закинуто</target>
         <note/>
@@ -1586,7 +1600,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Rating" xml:space="preserve">
         <source>Rating</source>
-        <target state="translated">Оцінка</target>
+        <target state="translated">Вікові обмеження</target>
         <note>Poster Indicator</note>
       </trans-unit>
       <trans-unit id="Rating %lld" xml:space="preserve">
@@ -1733,7 +1747,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sample" xml:space="preserve">
         <source>Sample</source>
-        <target state="translated">Зразок</target>
+        <target state="translated">прев'ю</target>
         <note/>
       </trans-unit>
       <trans-unit id="Saturday" xml:space="preserve">
@@ -1998,7 +2012,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Subtitle Info" xml:space="preserve">
         <source>Subtitle Info</source>
-        <target state="translated">Інформація щодо субтитрів</target>
+        <target state="translated">Інформація у підзаголовку</target>
         <note/>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">

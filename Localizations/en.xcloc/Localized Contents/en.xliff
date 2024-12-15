@@ -714,11 +714,6 @@
         <target state="translated">Developed by Alexandre Madeira</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Developer" xml:space="preserve">
-        <source>Developer</source>
-        <target state="translated">Developer</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Disable Translucent Background</target>
@@ -1891,11 +1886,6 @@ Search and matching are automated, mismatches may occur.</target>
       <trans-unit id="Show Related Anime" xml:space="preserve">
         <source>Show Related Anime</source>
         <target state="translated">Show Related Anime</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Show Score View" translate="no" xml:space="preserve">
-        <source>Show Score View</source>
-        <target state="translated">Show Score View</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">

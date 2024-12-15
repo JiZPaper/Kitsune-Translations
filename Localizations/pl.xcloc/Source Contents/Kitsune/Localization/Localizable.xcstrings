@@ -1342,17 +1342,6 @@
         }
       }
     },
-    "Developer" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Developer"
-          }
-        }
-      }
-    },
     "Disable Translucent Background" : {
       "localizations" : {
         "en" : {
@@ -3714,18 +3703,6 @@
           }
         }
       }
-    },
-    "Show Score View" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Score View"
-          }
-        }
-      },
-      "shouldTranslate" : false
     },
     "Show Source" : {
       "localizations" : {

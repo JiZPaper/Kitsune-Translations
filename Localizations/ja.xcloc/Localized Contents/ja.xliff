@@ -689,11 +689,6 @@
         <target state="translated">開発者：アレクサンダー・マデイラ</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Developer" xml:space="preserve">
-        <source>Developer</source>
-        <target state="translated">デベロッパー</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">半透明の背景を無効にする</target>
@@ -1864,10 +1859,6 @@ Search and matching are automated, mismatches may occur.</source>
       <trans-unit id="Show Related Anime" xml:space="preserve">
         <source>Show Related Anime</source>
         <target state="translated">関連のアニメを表示</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Show Score View" translate="no" xml:space="preserve">
-        <source>Show Score View</source>
         <note/>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">

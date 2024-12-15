@@ -105,7 +105,7 @@
       </trans-unit>
       <trans-unit id="%@ minutes" xml:space="preserve">
         <source>%@ minutes</source>
-        <target state="translated">%@ минут</target>
+        <target state="translated">%@ хвилин</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ of %@" xml:space="preserve">
@@ -125,6 +125,7 @@
       </trans-unit>
       <trans-unit id="%@'s List" xml:space="preserve">
         <source>%@'s List</source>
+        <target state="translated">Список %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
@@ -143,7 +144,7 @@
       </trans-unit>
       <trans-unit id="%lld Anime" xml:space="preserve">
         <source>%lld Anime</source>
-        <target state="translated">%lld Anime</target>
+        <target state="translated">%lld аніме</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld Manga" xml:space="preserve">
@@ -153,11 +154,12 @@
       </trans-unit>
       <trans-unit id="%lld actors" xml:space="preserve">
         <source>%lld actors</source>
+        <target state="translated">%lld актори</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld anime" xml:space="preserve">
         <source>%lld anime</source>
-        <target state="translated">%lld anime</target>
+        <target state="translated">%lld аніме</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
@@ -374,6 +376,7 @@
       </trans-unit>
       <trans-unit id="Anime Statistics" xml:space="preserve">
         <source>Anime Statistics</source>
+        <target state="translated">Статистика щодо аніме</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Studios" xml:space="preserve">
@@ -483,12 +486,12 @@
       </trans-unit>
       <trans-unit id="Black Opacity" xml:space="preserve">
         <source>Black Opacity</source>
-        <target state="translated">Прозорість</target>
+        <target state="translated">Прозорий</target>
         <note/>
       </trans-unit>
       <trans-unit id="Blur" xml:space="preserve">
         <source>Blur</source>
-        <target state="translated">Розмиття</target>
+        <target state="translated">Розмитий</target>
         <note/>
       </trans-unit>
       <trans-unit id="Blur Mature Content Poster" xml:space="preserve">
@@ -543,7 +546,7 @@
       </trans-unit>
       <trans-unit id="Change List" xml:space="preserve">
         <source>Change List</source>
-        <target state="translated">Переключити список</target>
+        <target state="translated">Перенести у список</target>
         <note/>
       </trans-unit>
       <trans-unit id="Change the behavior when you tap the My List tab when its already open." xml:space="preserve">
@@ -648,10 +651,12 @@
       </trans-unit>
       <trans-unit id="Customize Settings" xml:space="preserve">
         <source>Customize Settings</source>
+        <target state="translated">Персанольні налаштування</target>
         <note/>
       </trans-unit>
       <trans-unit id="Customize what you want to see in the Anime and Manga detail page." xml:space="preserve">
         <source>Customize what you want to see in the Anime and Manga detail page.</source>
+        <target state="translated">Налаштуйте те, що ви хотіли б бачити на сторінці з подробицями щодо аніме й манґи.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dark" xml:space="preserve">
@@ -681,6 +686,7 @@
       </trans-unit>
       <trans-unit id="Days Watching" xml:space="preserve">
         <source>Days Watching</source>
+        <target state="translated">Днів перегляду</target>
         <note/>
       </trans-unit>
       <trans-unit id="Default" xml:space="preserve">
@@ -705,6 +711,7 @@
       </trans-unit>
       <trans-unit id="Details Page" xml:space="preserve">
         <source>Details Page</source>
+        <target state="translated">Подробиці</target>
         <note/>
       </trans-unit>
       <trans-unit id="Developed by Alexandre Madeira" xml:space="preserve">
@@ -712,12 +719,12 @@
         <target state="translated">Розроблено Олександром Мадейрою</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Developer" xml:space="preserve">
-        <source>Developer</source>
-        <target state="translated">Для розробників</target>
+      <trans-unit id="Disable Translucent Background|==|device.mac" xml:space="preserve">
+        <source>Disable Translucent Background</source>
+        <target state="translated">Вимкнути напівпрозорий фон</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Disable Translucent Background" xml:space="preserve">
+      <trans-unit id="Disable Translucent Background|==|device.other" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Вимкнути напівпрозорий фон</target>
         <note/>
@@ -899,7 +906,7 @@
       </trans-unit>
       <trans-unit id="Filter based on what's added to your list, sort by popularity or by your own score." xml:space="preserve">
         <source>Filter based on what's added to your list, sort by popularity or by your own score.</source>
-        <target state="translated">Используйте различные фильтры, сортируйте по популярности или по вашим оценкам.</target>
+        <target state="translated">Фільтруйте на основі доданих елементів у вашому списку, сортуйте за популярністю чи за оцінкою.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Filter by added, sort by popularity and more." xml:space="preserve">
@@ -979,6 +986,7 @@
       </trans-unit>
       <trans-unit id="Get notified when a new episode or anime premieres from your list." xml:space="preserve">
         <source>Get notified when a new episode or anime premieres from your list.</source>
+        <target state="translated">Отримуйте повідомлення, коли виходить нова серія або відбувається прем'єра аніме з вашого списку.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released." xml:space="preserve">
@@ -1044,7 +1052,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Japanese" xml:space="preserve">
         <source>Japanese</source>
-        <target state="translated">Японський</target>
+        <target state="translated">Японська</target>
         <note>Title Preference</note>
       </trans-unit>
       <trans-unit id="Japanese Title" xml:space="preserve">
@@ -1093,6 +1101,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Light Novel" xml:space="preserve">
         <source>Light Novel</source>
+        <target state="translated">Новела</target>
         <note/>
       </trans-unit>
       <trans-unit id="List" xml:space="preserve">
@@ -1117,7 +1126,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="MAL Mean Score" xml:space="preserve">
         <source>MAL Mean Score</source>
-        <target state="translated">Середня оцінка на MAL</target>
+        <target state="translated">За середньою оцінкою на MAL</target>
         <note/>
       </trans-unit>
       <trans-unit id="MAL Score &amp; Number of Users" xml:space="preserve">
@@ -1217,6 +1226,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="More Options" xml:space="preserve">
         <source>More Options</source>
+        <target state="translated">Інші опції</target>
         <note/>
       </trans-unit>
       <trans-unit id="Most Popular" xml:space="preserve">
@@ -1241,7 +1251,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="My %@ List" xml:space="preserve">
         <source>My %@ List</source>
-        <target state="translated">Мій список %@</target>
+        <target state="translated">Мій список (%@)</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Anime List" xml:space="preserve">
@@ -1271,7 +1281,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="My Score" xml:space="preserve">
         <source>My Score</source>
-        <target state="translated">Моя оцінка</target>
+        <target state="translated">За моєю оцінкою</target>
         <note/>
       </trans-unit>
       <trans-unit id="MyAnimeList" xml:space="preserve">
@@ -1321,6 +1331,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Nothing here yet." xml:space="preserve">
         <source>Nothing here yet.</source>
+        <target state="translated">Поки що тут нічого немає.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notification Support" xml:space="preserve">
@@ -1345,7 +1356,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Novel" xml:space="preserve">
         <source>Novel</source>
-        <target state="translated">Новела</target>
+        <target state="translated">Роман</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Chapters" xml:space="preserve">
@@ -1360,7 +1371,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Number of Members" xml:space="preserve">
         <source>Number of Members</source>
-        <target state="translated">Кількість користувачів</target>
+        <target state="translated">За кількістю користувачів</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Volumes" xml:space="preserve">
@@ -1410,11 +1421,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="One-Time Purchase, No Subscription" xml:space="preserve">
         <source>One-Time Purchase, No Subscription</source>
-        <target state="translated">Придбайте лише раз – ніякої підписки.</target>
+        <target state="translated">Придбайте лише раз – ніякої підписки</target>
         <note/>
       </trans-unit>
       <trans-unit id="Open Links In-App" xml:space="preserve">
         <source>Open Links In-App</source>
+        <target state="translated">Відкривати посилання в застосунку</target>
         <note/>
       </trans-unit>
       <trans-unit id="Open in Apple Music" xml:space="preserve">
@@ -1444,11 +1456,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Pay once and enjoy all these features, no subscription required." xml:space="preserve">
         <source>Pay once and enjoy all these features, no subscription required.</source>
+        <target state="translated">Придбайте лише раз й насолоджуйтеся усіма цими функціями. Підписка не потрібна.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Perform actions like marking the next episode/chapter or open the edit screen." xml:space="preserve">
         <source>Perform actions like marking the next episode/chapter or open the edit screen.</source>
-        <target state="translated">Виконайте наступні дії: промаркуйте наступну серію/главу або перейдіть на сторінку редагування.</target>
+        <target state="translated">Виконуйте наступні дії: маркуйте наступну серію/главу або перейдіть на сторінку редагування.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." xml:space="preserve">
@@ -1568,7 +1581,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Quickly delete any date by swiping or long pressing." xml:space="preserve">
         <source>Quickly delete any date by swiping or long pressing.</source>
-        <target state="translated">Проведіть пальцем або натисніть, щоб швидко видалити будь-яку дату.</target>
+        <target state="translated">Проведіть пальцем або натисніть й утримуйте, щоб швидко видалити будь-яку дату.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating" xml:space="preserve">
@@ -1608,7 +1621,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Refresh" xml:space="preserve">
         <source>Refresh</source>
-        <target state="translated">Обновити</target>
+        <target state="translated">Оновити</target>
         <note/>
       </trans-unit>
       <trans-unit id="Related" xml:space="preserve">
@@ -1618,6 +1631,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Release Date" xml:space="preserve">
         <source>Release Date</source>
+        <target state="translated">Дата релізу</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reload" xml:space="preserve">
@@ -1649,6 +1663,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Requires AniList Account Connected" xml:space="preserve">
         <source>Requires AniList Account Connected</source>
+        <target state="translated">Обліковий запис на AniList має бути під'єднаним</target>
         <note/>
       </trans-unit>
       <trans-unit id="Requires Kitsune Premium" xml:space="preserve">
@@ -1718,6 +1733,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sample" xml:space="preserve">
         <source>Sample</source>
+        <target state="translated">Зразок</target>
         <note/>
       </trans-unit>
       <trans-unit id="Saturday" xml:space="preserve">
@@ -1817,6 +1833,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Adaptation" xml:space="preserve">
         <source>Show Adaptation</source>
+        <target state="translated">Показувати адаптацію</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show All" xml:space="preserve">
@@ -1826,27 +1843,32 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Character List" xml:space="preserve">
         <source>Show Character List</source>
+        <target state="translated">Показувати список персонажів</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Endings" xml:space="preserve">
         <source>Show Endings</source>
+        <target state="translated">Показувати ендінги</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Episodes List" xml:space="preserve">
         <source>Show Episodes List</source>
+        <target state="translated">Показувати список серій</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Episodes from Streaming" xml:space="preserve">
         <source>Show Episodes from Streaming</source>
-        <target state="translated">Показати серії з трансляції</target>
+        <target state="translated">Показувати серії з трансляції</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Mean Score on List Style" xml:space="preserve">
         <source>Show Mean Score on List Style</source>
+        <target state="translated">Показувати середню оцінку в стилі списку</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show More" xml:space="preserve">
         <source>Show More</source>
+        <target state="translated">Показати більше</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Only Added" xml:space="preserve">
@@ -1856,6 +1878,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Openings" xml:space="preserve">
         <source>Show Openings</source>
+        <target state="translated">Показувати опенінги</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Progress Bar for Anime and Manga" xml:space="preserve">
@@ -1865,30 +1888,32 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Recommendations" xml:space="preserve">
         <source>Show Recommendations</source>
+        <target state="translated">Показувати рекомендації</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Related Anime" xml:space="preserve">
         <source>Show Related Anime</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Show Score View" translate="no" xml:space="preserve">
-        <source>Show Score View</source>
+        <target state="translated">Показувати пов'язані аніме</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">
         <source>Show Source</source>
+        <target state="translated">Показувати першоджерело адаптації</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Staff List" xml:space="preserve">
         <source>Show Staff List</source>
+        <target state="translated">Показувати список персоналу</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
         <source>Show Time in 'Schedule'</source>
+        <target state="translated">Показувати час у розкладі</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Trailer" xml:space="preserve">
         <source>Show Trailer</source>
+        <target state="translated">Показувати трейлери</target>
         <note/>
       </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
@@ -1918,7 +1943,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Source" xml:space="preserve">
         <source>Source</source>
-        <target state="translated">Джерело</target>
+        <target state="translated">Першоджерело адаптації</target>
         <note/>
       </trans-unit>
       <trans-unit id="Spanish" xml:space="preserve">
@@ -1973,6 +1998,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Subtitle Info" xml:space="preserve">
         <source>Subtitle Info</source>
+        <target state="translated">Інформація щодо субтитрів</target>
         <note/>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">
@@ -2062,7 +2088,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature." xml:space="preserve">
         <source>The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature.</source>
-        <target state="translated">Функція синхронізації з AniList наразі знаходиться на початковому етапу розробки. Єдина доступна на даний момент функціональність – одностороння синхронізація, завдяки якій ваші списки аніме й манґи будуть автоматично оновлюватися на AniList при внесенні будь-яких змін у застосунку. Ваш зворотний зв'язок необхідний для поліпшення та розширення можливостей цієї функції синхронізації.</target>
+        <target state="translated">Функція синхронізації з AniList наразі знаходиться на початковому етапу розробки. Єдина доступна на даний момент функціональність – одностороння синхронізація, завдяки якій ваші списки аніме й манґи будуть автоматично оновлюватися на AniList при внесенні будь-яких змін у застосунку. Ваш зворотний зв'язок необхідний для поліпшення та розширення можливостей цієї функції.</target>
         <note/>
       </trans-unit>
       <trans-unit id="The anime will premiere today." xml:space="preserve">
@@ -2168,10 +2194,12 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Total Anime" xml:space="preserve">
         <source>Total Anime</source>
+        <target state="translated">Аніме загалом</target>
         <note/>
       </trans-unit>
       <trans-unit id="Total Manga" xml:space="preserve">
         <source>Total Manga</source>
+        <target state="translated">Манґи загалом</target>
         <note/>
       </trans-unit>
       <trans-unit id="Trailer" xml:space="preserve">
@@ -2236,6 +2264,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Ukrainian" xml:space="preserve">
         <source>Ukrainian</source>
+        <target state="translated">Українська</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
@@ -2262,7 +2291,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Unlock the full week in Schedule." xml:space="preserve">
         <source>Unlock the full week in Schedule.</source>
-        <target state="translated">Розблокуйте весь тиждень з Kitsune Premium</target>
+        <target state="translated">Розблокуйте весь тиждень з Kitsune Premium.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upcoming" xml:space="preserve">
@@ -2282,6 +2311,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Upgrade to Kitsune Premium to view your full weekly schedule." xml:space="preserve">
         <source>Upgrade to Kitsune Premium to view your full weekly schedule.</source>
+        <target state="translated">Придбайте Kitsune Premium, щоб подивитися ваш розклад на тиждень у повному обсязі.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Users with this anime in their list" xml:space="preserve">
@@ -2358,6 +2388,7 @@ https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
       </trans-unit>
       <trans-unit id="Weekly Schedule" xml:space="preserve">
         <source>Weekly Schedule</source>
+        <target state="translated">Розклад на тиждень</target>
         <note/>
       </trans-unit>
       <trans-unit id="What's your score?" xml:space="preserve">
@@ -2368,8 +2399,8 @@ https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
         <source>When on, the app will always open your selected Preferred Screen.
 When off, the app will always open the last tab opened.</source>
-        <target state="translated">Во включённом положении приложение всегда будет открываться на предпочитаемой вкладке.
-В выключенном положении приложение всегда будет открываться на последней открытой вкладке.</target>
+        <target state="translated">У ввімкненому положенні застосунок завжди відкриватиметься на вкладці за стандартним налаштуванням.
+У ввімкненому положенні застосунок завжди відкриватиметься на останній відкритій вкладці.</target>
         <note/>
       </trans-unit>
       <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
@@ -2431,7 +2462,7 @@ When off, the app will always open the last tab opened.</source>
         <source>You're a Premium user.
 Thank you for your support!</source>
         <target state="translated">Ви – premium-користувач.
-Дякуємо за підтримку.</target>
+Дякуємо за підтримку!</target>
         <note/>
       </trans-unit>
       <trans-unit id="YouTube" xml:space="preserve">

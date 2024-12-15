@@ -669,10 +669,6 @@
         <target state="translated">Stworzone przez Alexandre Madeira</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Developer" xml:space="preserve">
-        <source>Developer</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Wyłącz przezroczyste tło</target>
@@ -1745,10 +1741,6 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Related Anime" xml:space="preserve">
         <source>Show Related Anime</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Show Score View" translate="no" xml:space="preserve">
-        <source>Show Score View</source>
         <note/>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">

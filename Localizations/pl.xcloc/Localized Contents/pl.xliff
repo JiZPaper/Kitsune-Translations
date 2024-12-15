@@ -59,12 +59,12 @@
         <source> %@</source>
         <note/>
       </trans-unit>
-      <trans-unit id="%@" xml:space="preserve">
+      <trans-unit id="%@" translate="no" xml:space="preserve">
         <source>%@</source>
         <target state="translated">%@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ %@" xml:space="preserve">
+      <trans-unit id="%@ %@" translate="no" xml:space="preserve">
         <source>%@ %@</source>
         <target state="translated">%1$@ %2$@</target>
         <note/>
@@ -74,7 +74,7 @@
         <target state="translated">%1$@ %2$@ • %3$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (%lld)" xml:space="preserve">
+      <trans-unit id="%@ (%lld)" translate="no" xml:space="preserve">
         <source>%1$@ (%2$lld)</source>
         <note/>
       </trans-unit>
@@ -111,7 +111,7 @@
         <target state="translated">%1$@ z %2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ • %@" xml:space="preserve">
+      <trans-unit id="%@ • %@" translate="no" xml:space="preserve">
         <source>%@ • %@</source>
         <target state="translated">%1$@ • %2$@</target>
         <note/>
@@ -225,21 +225,17 @@
         <target state="translated">%1$lld • %2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/%@" xml:space="preserve">
+      <trans-unit id="%lld/%@" translate="no" xml:space="preserve">
         <source>%1$lld/%2$@</source>
         <target state="translated">%1$lld/%2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/%lld" xml:space="preserve">
-        <source>%1$lld/%2$lld</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="%lld/10" xml:space="preserve">
+      <trans-unit id="%lld/10" translate="no" xml:space="preserve">
         <source>%lld/10</source>
         <target state="translated">%lld/10</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/?" xml:space="preserve">
+      <trans-unit id="%lld/?" translate="no" xml:space="preserve">
         <source>%lld/?</source>
         <target state="translated">%lld/?</target>
         <note/>
@@ -255,10 +251,6 @@
       </trans-unit>
       <trans-unit id="+1 (%lld/%@)" translate="no" xml:space="preserve">
         <source>+1 (%lld/%@)</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="-" xml:space="preserve">
-        <source>-</source>
         <note/>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
@@ -343,11 +335,11 @@
         <source>Allow Notifications</source>
         <note/>
       </trans-unit>
-      <trans-unit id="AniList" xml:space="preserve">
+      <trans-unit id="AniList" translate="no" xml:space="preserve">
         <source>AniList</source>
         <note/>
       </trans-unit>
-      <trans-unit id="AniList • %@" xml:space="preserve">
+      <trans-unit id="AniList • %@" translate="no" xml:space="preserve">
         <source>AniList • %@</source>
         <note/>
       </trans-unit>
@@ -681,12 +673,7 @@
         <source>Developer</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Disable Translucent Background|==|device.mac" xml:space="preserve">
-        <source>Disable Translucent Background</source>
-        <target state="translated">Wyłącz przezroczyste tło</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Disable Translucent Background|==|device.other" xml:space="preserve">
+      <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Wyłącz przezroczyste tło</target>
         <note/>
@@ -1781,10 +1768,6 @@ Search and matching are automated, mismatches may occur.</source>
         <source>Show Trailer</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Show Your Comment" xml:space="preserve">
-        <source>Show Your Comment</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
         <source>Sign In</source>
         <target state="translated">Zaloguj się</target>
@@ -2290,10 +2273,6 @@ Thank you for your support!</source>
         <source>YouTube</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Your Comment" xml:space="preserve">
-        <source>Your Comment</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Your Schedule" xml:space="preserve">
         <source>Schedule</source>
         <target state="translated">Twój Harmonogram</target>
@@ -2321,7 +2300,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <target state="translated">Twój Harmonogram porządkuje aktualnie oglądane anime według ich premier w dni powszednie, wyświetlając je od poniedziałku do niedzieli. Zawiera również nadchodzące premiery z listy 'Do obejrzenia' na następne 3 dni.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="• (%lld)" xml:space="preserve">
+      <trans-unit id="• (%lld)" translate="no" xml:space="preserve">
         <source>• (%lld)</source>
         <note/>
       </trans-unit>

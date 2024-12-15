@@ -11,9 +11,6 @@
         }
       }
     },
-    "-" : {
-      "extractionState" : "stale"
-    },
     "'For You' shows you a list of suggested anime directly from MAL" : {
       "localizations" : {
         "en" : {
@@ -32,7 +29,8 @@
             "value" : "%@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ (%lld)" : {
       "localizations" : {
@@ -42,7 +40,8 @@
             "value" : "%1$@ (%2$lld)"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ (JST)" : {
       "localizations" : {
@@ -73,7 +72,8 @@
             "value" : "%@ %@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ %@ • %@" : {
       "localizations" : {
@@ -94,7 +94,8 @@
             "value" : "%@ • %@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%@ • %@ JST" : {
       "localizations" : {
@@ -356,7 +357,8 @@
             "value" : "%lld/?"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%lld/%@" : {
       "localizations" : {
@@ -366,18 +368,8 @@
             "value" : "%1$lld/%2$@"
           }
         }
-      }
-    },
-    "%lld/%lld" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%1$lld/%2$lld"
-          }
-        }
-      }
+      },
+      "shouldTranslate" : false
     },
     "%lld/10" : {
       "localizations" : {
@@ -387,7 +379,8 @@
             "value" : "%lld/10"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "• (%lld)" : {
       "localizations" : {
@@ -397,7 +390,8 @@
             "value" : "• (%lld)"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "+1" : {
       "localizations" : {
@@ -609,7 +603,8 @@
             "value" : "AniList"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "AniList • %@" : {
       "localizations" : {
@@ -619,7 +614,8 @@
             "value" : "AniList • %@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Anime" : {
       "localizations" : {
@@ -1360,21 +1356,9 @@
     "Disable Translucent Background" : {
       "localizations" : {
         "en" : {
-          "variations" : {
-            "device" : {
-              "mac" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Disable Translucent Background"
-                }
-              },
-              "other" : {
-                "stringUnit" : {
-                  "state" : "translated",
-                  "value" : "Disable Translucent Background"
-                }
-              }
-            }
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Disable Translucent Background"
           }
         }
       }
@@ -3783,17 +3767,6 @@
         }
       }
     },
-    "Show Your Comment" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Show Your Comment"
-          }
-        }
-      }
-    },
     "Sign In" : {
       "localizations" : {
         "en" : {
@@ -4477,7 +4450,14 @@
       }
     },
     "Ukrainian" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ukrainian"
+          }
+        }
+      }
     },
     "Unknown" : {
       "comment" : "Anime Media Type",
@@ -4858,17 +4838,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You're a Premium user.\nThank you for your support!"
-          }
-        }
-      }
-    },
-    "Your Comment" : {
-      "extractionState" : "stale",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Your Comment"
           }
         }
       }

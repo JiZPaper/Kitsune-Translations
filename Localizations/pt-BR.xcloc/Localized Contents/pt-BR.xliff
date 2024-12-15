@@ -60,12 +60,12 @@
         <target state="translated"> %@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@" xml:space="preserve">
+      <trans-unit id="%@" translate="no" xml:space="preserve">
         <source>%@</source>
         <target state="translated">%@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ %@" xml:space="preserve">
+      <trans-unit id="%@ %@" translate="no" xml:space="preserve">
         <source>%@ %@</source>
         <target state="translated">%1$@ %2$@</target>
         <note/>
@@ -75,7 +75,7 @@
         <target state="translated">%1$@ %2$@ • %3$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (%lld)" xml:space="preserve">
+      <trans-unit id="%@ (%lld)" translate="no" xml:space="preserve">
         <source>%1$@ (%2$lld)</source>
         <target state="translated">%1$@ (%2$lld)</target>
         <note/>
@@ -115,7 +115,7 @@
         <target state="translated">%1$@ de %2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ • %@" xml:space="preserve">
+      <trans-unit id="%@ • %@" translate="no" xml:space="preserve">
         <source>%@ • %@</source>
         <target state="translated">%1$@ • %2$@</target>
         <note/>
@@ -230,22 +230,17 @@
         <target state="translated">%1$lld • %2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/%@" xml:space="preserve">
+      <trans-unit id="%lld/%@" translate="no" xml:space="preserve">
         <source>%1$lld/%2$@</source>
         <target state="translated">%1$lld/%2$@</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/%lld" xml:space="preserve">
-        <source>%1$lld/%2$lld</source>
-        <target state="translated">%1$lld/%2$lld</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="%lld/10" xml:space="preserve">
+      <trans-unit id="%lld/10" translate="no" xml:space="preserve">
         <source>%lld/10</source>
         <target state="translated">%lld/10</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld/?" xml:space="preserve">
+      <trans-unit id="%lld/?" translate="no" xml:space="preserve">
         <source>%lld/?</source>
         <target state="translated">%lld/?</target>
         <note/>
@@ -263,10 +258,6 @@
       <trans-unit id="+1 (%lld/%@)" translate="no" xml:space="preserve">
         <source>+1 (%lld/%@)</source>
         <target state="translated">+1 (%lld/%@)</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="-" xml:space="preserve">
-        <source>-</source>
         <note/>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
@@ -354,12 +345,12 @@
         <target state="translated">Permitir Notificações</target>
         <note/>
       </trans-unit>
-      <trans-unit id="AniList" xml:space="preserve">
+      <trans-unit id="AniList" translate="no" xml:space="preserve">
         <source>AniList</source>
         <target state="translated">AniList</target>
         <note/>
       </trans-unit>
-      <trans-unit id="AniList • %@" xml:space="preserve">
+      <trans-unit id="AniList • %@" translate="no" xml:space="preserve">
         <source>AniList • %@</source>
         <target state="translated">AniList • %@</target>
         <note/>
@@ -729,12 +720,7 @@
         <target state="translated">Desenvolvedor</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Disable Translucent Background|==|device.mac" xml:space="preserve">
-        <source>Disable Translucent Background</source>
-        <target state="translated">Desativar Fundo Translúcido</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Disable Translucent Background|==|device.other" xml:space="preserve">
+      <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Desativar Fundo Translúcido</target>
         <note/>
@@ -1930,10 +1916,6 @@ Search and matching are automated, mismatches may occur.</source>
         <target state="translated">Mostrar Trailer</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Show Your Comment" xml:space="preserve">
-        <source>Show Your Comment</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
         <source>Sign In</source>
         <target state="translated">Entrar</target>
@@ -2016,7 +1998,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Subtitle Info" xml:space="preserve">
         <source>Subtitle Info</source>
-        <target state="translated">Subtitle Info</target>
+        <target state="translated">Informação da Legenda</target>
         <note/>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">
@@ -2280,6 +2262,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Ukrainian" xml:space="preserve">
         <source>Ukrainian</source>
+        <target state="translated">Ucraniano</target>
         <note/>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
@@ -2482,10 +2465,6 @@ Thank you for your support!</source>
         <target state="translated">YouTube</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Your Comment" xml:space="preserve">
-        <source>Your Comment</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Your Schedule" xml:space="preserve">
         <source>Schedule</source>
         <target state="translated">Estreias </target>
@@ -2514,7 +2493,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
 Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximos 3 dias.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="• (%lld)" xml:space="preserve">
+      <trans-unit id="• (%lld)" translate="no" xml:space="preserve">
         <source>• (%lld)</source>
         <target state="translated">• (%lld)</target>
         <note/>

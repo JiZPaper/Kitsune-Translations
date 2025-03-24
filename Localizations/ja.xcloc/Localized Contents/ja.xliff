@@ -55,6 +55,10 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
+      <trans-unit id="" xml:space="preserve">
+        <source/>
+        <note/>
+      </trans-unit>
       <trans-unit id=" %@" xml:space="preserve">
         <source> %@</source>
         <target state="translated"> %@</target>
@@ -138,7 +142,7 @@
         <target state="translated">%@, %@ (JST)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%lld" xml:space="preserve">
+      <trans-unit id="%lld" translate="no" xml:space="preserve">
         <source>%lld</source>
         <target state="translated">%lld</target>
         <note/>
@@ -362,6 +366,10 @@
       <trans-unit id="Animeography" xml:space="preserve">
         <source>Animeography</source>
         <target state="translated">アニメオグラフィー</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="App Features" xml:space="preserve">
+        <source>App Features</source>
         <note/>
       </trans-unit>
       <trans-unit id="App Icon" xml:space="preserve">
@@ -614,6 +622,21 @@
         <target state="translated">前期から続行中のシリーズ</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Copy English Title" xml:space="preserve">
+        <source>Copy English Title</source>
+        <target state="translated">英語タイトルをコピー</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Copy Japanese Title" xml:space="preserve">
+        <source>Copy Japanese Title</source>
+        <target state="translated">日本語タイトルをコピー</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Copy Romaji Title" xml:space="preserve">
+        <source>Copy Romaji Title</source>
+        <target state="translated">ローマ字タイトルをコピー</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Copy Song Name" xml:space="preserve">
         <source>Copy Song Name</source>
         <target state="translated">曲名をコピー</target>
@@ -697,6 +720,10 @@
       <trans-unit id="Developed by Alexandre Madeira" xml:space="preserve">
         <source>Developed by Alexandre Madeira</source>
         <target state="translated">開発者：アレクサンダー・マデイラ</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Developer" translate="no" xml:space="preserve">
+        <source>Developer</source>
         <note/>
       </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
@@ -889,16 +916,6 @@
         <target state="translated">追加済みの項目をもとにフィルターし、人気度や評価で並べ替えることができます。</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Filter by added, sort by popularity and more." xml:space="preserve">
-        <source>Filter by added, sort by popularity and more.</source>
-        <target state="translated">追加済みの項目をもとにフィルターをかけるとか、人気度によって並べ替えるとか、様々な機能があります。</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Filter your Seasonal" xml:space="preserve">
-        <source>Filter your Season</source>
-        <target state="translated">期をフィルター</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Fine" xml:space="preserve">
         <source>Fine</source>
         <target state="translated">悪くはない</target>
@@ -929,11 +946,6 @@
         <target state="translated">あなたにおすすめ</target>
         <note/>
       </trans-unit>
-      <trans-unit id="For better compatibility with iOS 18, please reset the icon" xml:space="preserve">
-        <source>For better compatibility with iOS 18, please reset the icon</source>
-        <target state="translated">iOS 18との相性度を改良するために、アプリのアイコンをリセットしてください</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Friday" xml:space="preserve">
         <source>Friday</source>
         <target state="translated">金曜日</target>
@@ -957,6 +969,10 @@
       <trans-unit id="Genres" xml:space="preserve">
         <source>Genres</source>
         <target state="translated">ジャンル</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="German" xml:space="preserve">
+        <source>German</source>
         <note/>
       </trans-unit>
       <trans-unit id="Get Premium" xml:space="preserve">
@@ -1014,6 +1030,11 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       <trans-unit id="In the Upcoming section, there is no information provided about the broadcast weekday and time." xml:space="preserve">
         <source>In the Upcoming section, there is no information provided about the broadcast weekday and time.</source>
         <target state="translated">「今後」のセクションでは、放送の曜日や時間に関する情報は記載してありません。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="In-App" xml:space="preserve">
+        <source>In-App</source>
+        <target state="translated">アプリ内</target>
         <note/>
       </trans-unit>
       <trans-unit id="Information" xml:space="preserve">
@@ -1250,8 +1271,8 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
-        <source>My List, Edit Status, Add Items and Statics need a MyAnimeList account.</source>
-        <target state="translated">リストを使用したり項目を追加したり統計を観覧したりするにはMyAnimeListアカウントが必要です。</target>
+        <source>My List, Edit Status, Add Items and Statistics need a MyAnimeList account.</source>
+        <target state="needs-review-l10n">リストを使用したり項目を追加したり統計を観覧したりするにはMyAnimeListアカウントが必要です。</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Manga List" xml:space="preserve">
@@ -1264,7 +1285,7 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
         <target state="translated">私の評価</target>
         <note/>
       </trans-unit>
-      <trans-unit id="MyAnimeList" xml:space="preserve">
+      <trans-unit id="MyAnimeList" translate="no" xml:space="preserve">
         <source>MyAnimeList</source>
         <target state="translated">MyAnimeList</target>
         <note/>
@@ -1439,11 +1460,6 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
         <target state="translated">一回だけ払い、これらの機能を全部楽しめます。サブスクリプションは無用。</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Perform actions like marking the next episode/chapter or open the edit screen." xml:space="preserve">
-        <source>Perform actions like marking the next episode/chapter or open the edit screen.</source>
-        <target state="translated">次の挿話や章をマークするとか、編集画面を開くなどのアクションが使用できます。</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." xml:space="preserve">
         <source>Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information.</source>
         <target state="translated">リストのタブでリストの外観をパーソナライズし、アニメや漫画に関する情報を編集する時のアプリの振る舞い方を調整しましょう。</target>
@@ -1457,6 +1473,10 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       <trans-unit id="Plan to Watch" xml:space="preserve">
         <source>Plan to Watch</source>
         <target state="translated">視聴予定</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Play Later" xml:space="preserve">
+        <source>Play Later</source>
         <note/>
       </trans-unit>
       <trans-unit id="Play Next" xml:space="preserve">
@@ -1514,6 +1534,11 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
         <target state="translated">章より巻を優先</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Preferred Apple Music Player" xml:space="preserve">
+        <source>Preferred Apple Music Player</source>
+        <target state="translated">優先するApple Musicプレイヤー</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Preferred Platform" xml:space="preserve">
         <source>Preferred Platform</source>
         <target state="translated">優先のプラットフォーム</target>
@@ -1557,11 +1582,6 @@ kitsune@alexandremadeira.devで連絡すればお手伝いします。</target>
       <trans-unit id="Published Manga" xml:space="preserve">
         <source>Published Manga</source>
         <target state="translated">出版完了の漫画</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Quickly delete any date by swiping or long pressing." xml:space="preserve">
-        <source>Quickly delete any date by swiping or long pressing.</source>
-        <target state="translated">スワイプ、もしくは長押しすることで日付を素早く削除できます。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rating" xml:space="preserve">
@@ -1654,11 +1674,6 @@ Search and matching are automated, mismatches may occur.</source>
       <trans-unit id="Reread" xml:space="preserve">
         <source>Reread</source>
         <target state="translated">再完読</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Reset App Icon" xml:space="preserve">
-        <source>Reset App Icon</source>
-        <target state="translated">アプリのアイコンをリセット</target>
         <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
@@ -1936,7 +1951,7 @@ Search and matching are automated, mismatches may occur.</source>
         <target state="translated">スペシャル</target>
         <note>Anime Media Type</note>
       </trans-unit>
-      <trans-unit id="Spotify" xml:space="preserve">
+      <trans-unit id="Spotify" translate="no" xml:space="preserve">
         <source>Spotify</source>
         <target state="translated">Spotify</target>
         <note/>
@@ -1999,11 +2014,6 @@ Search and matching are automated, mismatches may occur.</source>
       <trans-unit id="Support the development of the app created by a solo developer." xml:space="preserve">
         <source>Support the development of the app created by a solo developer.</source>
         <target state="translated">ソロデベロッパーによるアプリの開発を支援しましょう。</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Swipe or Hold to access quick actions" xml:space="preserve">
-        <source>Swipe or Hold to access quick actions</source>
-        <target state="translated">スワイプか、長押ししてクイックアクションにアクセス</target>
         <note/>
       </trans-unit>
       <trans-unit id="Switch Lists" xml:space="preserve">
@@ -2319,11 +2329,6 @@ No Subscription required.</source>
         <target state="translated">最高に良い</target>
         <note>MAL Score</note>
       </trans-unit>
-      <trans-unit id="View up to 10 of your most recent search results on the Search page." xml:space="preserve">
-        <source>View up to 10 of your most recent search results on the Search page.</source>
-        <target state="translated">検索のタブで最近の検索結果を10個まで閲覧できます。</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Voice Acting Roles" xml:space="preserve">
         <source>Voice Acting Roles</source>
         <target state="translated">声優の役割</target>
@@ -2434,8 +2439,8 @@ When off, the app will always open the last tab opened.</source>
         <note/>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
-        <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics.</source>
-        <target state="translated">リストを使用したり、ステータスを編集したり、統計を観覧したりするにはログインし直す必要があります。</target>
+        <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statistics.</source>
+        <target state="needs-review-l10n">リストを使用したり、ステータスを編集したり、統計を観覧したりするにはログインし直す必要があります。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You're a Premium user.&#10; Thank you for your support!" xml:space="preserve">
@@ -2445,7 +2450,7 @@ Thank you for your support!</source>
 ご支援ありがとうございます！</target>
         <note/>
       </trans-unit>
-      <trans-unit id="YouTube" xml:space="preserve">
+      <trans-unit id="YouTube" translate="no" xml:space="preserve">
         <source>YouTube</source>
         <target state="translated">YouTube</target>
         <note/>

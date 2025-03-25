@@ -64,11 +64,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="" xml:space="preserve">
-        <source/>
-        <target state="new"/>
-        <note/>
-      </trans-unit>
       <trans-unit id=" %@" xml:space="preserve">
         <source> %@</source>
         <target state="translated"> %@</target>
@@ -94,7 +89,7 @@
         <target state="translated">%1$@ (%2$lld)</target>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (JST)" translate="no" xml:space="preserve">
+      <trans-unit id="%@ (JST)" xml:space="preserve">
         <source>%@ (JST)</source>
         <target state="translated">%@ (JST)</target>
         <note/>
@@ -582,6 +577,11 @@
       <trans-unit id="Children" xml:space="preserve">
         <source>Children</source>
         <target state="translated">Children</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Chinese" xml:space="preserve">
+        <source>Chinese</source>
+        <target state="new">Chinese</target>
         <note/>
       </trans-unit>
       <trans-unit id="Clear Cache" xml:space="preserve">
@@ -1076,7 +1076,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</target>
         <target state="translated">Is Rewatching</target>
         <note/>
       </trans-unit>
-      <trans-unit id="JST" translate="no" xml:space="preserve">
+      <trans-unit id="JST" xml:space="preserve">
         <source>JST</source>
         <target state="translated">JST</target>
         <note>Japan Standard Time, do not need translation.</note>
@@ -1091,7 +1091,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</target>
         <target state="translated">Japanese Title</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Kitsune Premium" translate="no" xml:space="preserve">
+      <trans-unit id="Kitsune Premium" xml:space="preserve">
         <source>Kitsune Premium</source>
         <target state="translated">Kitsune Premium</target>
         <note/>

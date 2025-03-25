@@ -1,7 +1,7 @@
 {
   "developmentRegion" : "en",
   "project" : "Kitsune.xcodeproj",
-  "targetLocale" : "en",
+  "targetLocale" : "zh-Hans",
   "toolInfo" : {
     "toolBuildNumber" : "16C5032a",
     "toolID" : "com.apple.dt.xcode",

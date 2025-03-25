@@ -1,9 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-      "extractionState" : "stale"
-    },
     " %@" : {
       "localizations" : {
         "en" : {
@@ -54,8 +51,7 @@
             "value" : "%@ (JST)"
           }
         }
-      },
-      "shouldTranslate" : false
+      }
     },
     "%@ (Local Time)" : {
       "localizations" : {
@@ -1067,6 +1063,9 @@
         }
       }
     },
+    "Chinese" : {
+
+    },
     "Clear Cache" : {
       "localizations" : {
         "en" : {
@@ -2064,8 +2063,7 @@
             "value" : "JST"
           }
         }
-      },
-      "shouldTranslate" : false
+      }
     },
     "Kitsune Premium" : {
       "localizations" : {
@@ -2075,8 +2073,7 @@
             "value" : "Kitsune Premium"
           }
         }
-      },
-      "shouldTranslate" : false
+      }
     },
     "Last Sync on %@" : {
       "localizations" : {

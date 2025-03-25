@@ -55,10 +55,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.2" build-num="16C5032a"/>
     </header>
     <body>
-      <trans-unit id="" xml:space="preserve">
-        <source/>
-        <note/>
-      </trans-unit>
       <trans-unit id=" %@" xml:space="preserve">
         <source> %@</source>
         <note/>
@@ -82,7 +78,7 @@
         <source>%1$@ (%2$lld)</source>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (JST)" translate="no" xml:space="preserve">
+      <trans-unit id="%@ (JST)" xml:space="preserve">
         <source>%@ (JST)</source>
         <target state="translated">%@ (JST)</target>
         <note/>
@@ -550,6 +546,10 @@
         <target state="translated">Dla dzieci</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Chinese" xml:space="preserve">
+        <source>Chinese</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Clear Cache" xml:space="preserve">
         <source>Clear Cache</source>
         <note/>
@@ -996,7 +996,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
         <target state="translated">Ponownie oglądane</target>
         <note/>
       </trans-unit>
-      <trans-unit id="JST" translate="no" xml:space="preserve">
+      <trans-unit id="JST" xml:space="preserve">
         <source>JST</source>
         <target state="translated">JST</target>
         <note>Japan Standard Time, do not need translation.</note>
@@ -1011,7 +1011,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
         <target state="translated">Tytuł japoński</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Kitsune Premium" translate="no" xml:space="preserve">
+      <trans-unit id="Kitsune Premium" xml:space="preserve">
         <source>Kitsune Premium</source>
         <target state="translated">Kitsune Premium</target>
         <note/>

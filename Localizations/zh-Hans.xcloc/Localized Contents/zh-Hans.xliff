@@ -82,7 +82,7 @@
       </trans-unit>
       <trans-unit id="%@ (Local Time)" xml:space="preserve">
         <source>%@ (Local Time)</source>
-        <target state="translated">%@（本地时间)</target>
+        <target state="translated">%@（本地时间）</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ by %lld users" xml:space="preserve">
@@ -116,7 +116,7 @@
       <target/></trans-unit>
       <trans-unit id="%@ • %@ JST" xml:space="preserve">
         <source>%1$@ • %2$@ JST</source>
-        <target state="translated">%1$@ • %2$@ (日本标准时间）</target>
+        <target state="translated">%1$@ • %2$@ 日本标准时间</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s List" xml:space="preserve">
@@ -131,7 +131,7 @@
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
-        <target state="translated">%1$@ • %2$@ 日本标准时间</target>
+        <target state="translated">%1$@ • %2$@ （日本标准时间）</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld" translate="no" xml:space="preserve">
@@ -169,7 +169,7 @@
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld个最爱</target>
+        <target state="translated">%lld个喜爱</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
@@ -233,7 +233,7 @@
       <target/></trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
         <source>17+ (Violence &amp; Profanity)</source>
-        <target state="translated">17+ (暴力和亵渎)</target>
+        <target state="translated">17+（暴力和亵渎）</target>
         <note/>
       </trans-unit>
       <trans-unit id="A new episode is arriving today." xml:space="preserve">
@@ -336,7 +336,7 @@
       </trans-unit>
       <trans-unit id="Anime Staff Positions" xml:space="preserve">
         <source>Anime Staff Positions</source>
-        <target state="translated">动漫工作人员职位</target>
+        <target state="translated">制作人员任职动画</target>
         <note/>
       </trans-unit>
       <trans-unit id="Anime Statistics" xml:space="preserve">
@@ -385,7 +385,7 @@
       </trans-unit>
       <trans-unit id="Apple Music Support" xml:space="preserve">
         <source>Apple Music Support</source>
-        <target state="translated">Apple Music 支持</target>
+        <target state="translated">Apple Music支持</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
@@ -405,7 +405,7 @@
       </trans-unit>
       <trans-unit id="Ask for confirmation to mark the episode as watched." xml:space="preserve">
         <source>Ask for confirmation to mark the episode as watched.</source>
-        <target state="translated">将一话标记为已观看前要求确认。</target>
+        <target state="translated">标记已观看前要求确认</target>
         <note/>
       </trans-unit>
       <trans-unit id="Auto-fill 'Finish Date'" xml:space="preserve">
@@ -599,7 +599,7 @@
       </trans-unit>
       <trans-unit id="Connected Services" xml:space="preserve">
         <source>Connected Services</source>
-        <target state="translated">已连接的服务</target>
+        <target state="translated">连接服务</target>
         <note/>
       </trans-unit>
       <trans-unit id="Content Provider" xml:space="preserve">
@@ -1006,7 +1006,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Hide Username on Tab Bar" xml:space="preserve">
         <source>Hide Username on Tab Bar</source>
-        <target state="translated">不在导航栏中显示用户名</target>
+        <target state="translated">在导航栏中隐藏用户名</target>
         <note/>
       </trans-unit>
       <trans-unit id="Horrible" xml:space="preserve">
@@ -1384,7 +1384,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Oel" xml:space="preserve">
         <source>Oel</source>
-        <target state="translated">Oel</target>
+        <target state="translated">非日系</target>
         <note/>
       </trans-unit>
       <trans-unit id="On Hold" xml:space="preserve">
@@ -2116,17 +2116,17 @@ Please, try again later.</source>
       </trans-unit>
       <trans-unit id="This will adapt the schedule to match your local date and time." xml:space="preserve">
         <source>This will adapt the schedule to match your local date and time.</source>
-        <target state="translated">这将调整时间表以匹配您的当地日期和时间。</target>
+        <target state="translated">选择是否调整时间表以匹配您的当地日期和时间。</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will direct you to the MyAnimeList Account Deletion page." xml:space="preserve">
         <source>This will direct you to the MyAnimeList Account Deletion page.</source>
-        <target state="translated">这将让您进入MyAnimeList账户删除页面。</target>
+        <target state="translated">进入MyAnimeList账户删除页面。</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will remove this item from your list." xml:space="preserve">
         <source>This will remove this item from your list.</source>
-        <target state="translated">这将从您的列表中移除此项目。</target>
+        <target state="translated">从您的列表中移除此项目。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Thursday" xml:space="preserve">
@@ -2362,14 +2362,14 @@ https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
       </trans-unit>
       <trans-unit id="What's your score?" xml:space="preserve">
         <source>What's your score?</source>
-        <target state="translated">您的评分是</target>
+        <target state="translated">您的评分是？</target>
         <note/>
       </trans-unit>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
         <source>When on, the app will always open your selected Preferred Screen.
 When off, the app will always open the last tab opened.</source>
-        <target state="translated">启用后，App将始终打开您选择的首选启动页面。
-关闭后，App将始终打开您最后打开的选项卡。</target>
+        <target state="translated">启用后App将打开您指定的启动页面。
+否则App将打开您最后停留的选项卡。</target>
         <note/>
       </trans-unit>
       <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
@@ -2384,7 +2384,7 @@ When off, the app will always open the last tab opened.</source>
       </trans-unit>
       <trans-unit id="Write a Review" xml:space="preserve">
         <source>Write a Review</source>
-        <target state="translated">写评论</target>
+        <target state="translated">撰写评论</target>
         <note/>
       </trans-unit>
       <trans-unit id="Year" xml:space="preserve">

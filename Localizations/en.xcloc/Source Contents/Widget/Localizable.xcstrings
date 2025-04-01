@@ -1,0 +1,366 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ minutes" : {
+
+    },
+    "%@ of %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ of %2$@"
+          }
+        }
+      }
+    },
+    "%@, %@ (JST)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@ (JST)"
+          }
+        }
+      }
+    },
+    "%lld/%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$@"
+          }
+        }
+      }
+    },
+    "+1" : {
+
+    },
+    "17+ (Violence & Profanity)" : {
+
+    },
+    "Account" : {
+
+    },
+    "All Ages" : {
+
+    },
+    "Anime" : {
+
+    },
+    "Anime ID" : {
+
+    },
+    "Apple Music" : {
+
+    },
+    "Black Opacity" : {
+
+    },
+    "Blur" : {
+
+    },
+    "By Last Update" : {
+
+    },
+    "By Score" : {
+
+    },
+    "By Start Date" : {
+
+    },
+    "By Title" : {
+
+    },
+    "Children" : {
+
+    },
+    "Comments" : {
+
+    },
+    "Completed" : {
+
+    },
+    "Completed_Manga" : {
+
+    },
+    "Current Chapter Count" : {
+
+    },
+    "Current Episode Count" : {
+
+    },
+    "Current Volume Count" : {
+
+    },
+    "Currently Airing" : {
+
+    },
+    "Currently Publishing" : {
+
+    },
+    "Dark" : {
+
+    },
+    "Doujinshi" : {
+
+    },
+    "Dropped" : {
+
+    },
+    "Dropped_Manga" : {
+
+    },
+    "Edit" : {
+
+    },
+    "English" : {
+
+    },
+    "Fall" : {
+
+    },
+    "Finished" : {
+
+    },
+    "Finished Airing" : {
+
+    },
+    "Friday" : {
+
+    },
+    "Hentai" : {
+
+    },
+    "In-App" : {
+
+    },
+    "Increment Episode by One" : {
+
+    },
+    "Increment Volume or Chapter by One based on User Settings" : {
+
+    },
+    "Japanese" : {
+
+    },
+    "JST" : {
+
+    },
+    "Last Updated Anime" : {
+
+    },
+    "Last Updated Manga" : {
+
+    },
+    "Light" : {
+
+    },
+    "Light Novel" : {
+
+    },
+    "List" : {
+
+    },
+    "Local Time" : {
+
+    },
+    "MAL Score & Number of Users" : {
+
+    },
+    "Manga" : {
+
+    },
+    "Manga ID" : {
+
+    },
+    "Manhua" : {
+
+    },
+    "Manhwa" : {
+
+    },
+    "Mark Next Episode/Chapter/Volume" : {
+
+    },
+    "Monday" : {
+
+    },
+    "Most Popular" : {
+
+    },
+    "Movie" : {
+
+    },
+    "Music" : {
+
+    },
+    "My Anime List" : {
+
+    },
+    "My List" : {
+
+    },
+    "My Manga List" : {
+
+    },
+    "None" : {
+
+    },
+    "Not Yet Aired" : {
+
+    },
+    "Not Yet Published" : {
+
+    },
+    "Novel" : {
+
+    },
+    "Oel" : {
+
+    },
+    "On Hold" : {
+
+    },
+    "On-Hold" : {
+
+    },
+    "ONA" : {
+
+    },
+    "One Shot" : {
+
+    },
+    "Open App" : {
+
+    },
+    "OVA" : {
+
+    },
+    "Plan to Read" : {
+
+    },
+    "Plan to Watch" : {
+
+    },
+    "Poster" : {
+
+    },
+    "Profanity & Mild Nudity" : {
+
+    },
+    "Progress & List" : {
+
+    },
+    "Progress & Personal Score" : {
+
+    },
+    "Reading" : {
+
+    },
+    "Refresh" : {
+
+    },
+    "Release Date" : {
+
+    },
+    "Romaji" : {
+
+    },
+    "Saturday" : {
+
+    },
+    "Scroll to Top" : {
+
+    },
+    "Search" : {
+
+    },
+    "Season" : {
+
+    },
+    "Seasonal" : {
+
+    },
+    "Sign In into your MyAnimeList account." : {
+
+    },
+    "Special" : {
+
+    },
+    "Spotify" : {
+
+    },
+    "Spring" : {
+
+    },
+    "Status" : {
+
+    },
+    "Summer" : {
+
+    },
+    "Sunday" : {
+
+    },
+    "Switch Lists" : {
+
+    },
+    "System" : {
+
+    },
+    "Teens 13 and Older" : {
+
+    },
+    "The Current Score Value" : {
+
+    },
+    "The total number of chapters of the title" : {
+
+    },
+    "The total number of episodes of the show" : {
+
+    },
+    "The total number of volume of the title" : {
+
+    },
+    "This widget need a MyAnimeList account." : {
+
+    },
+    "Thursday" : {
+
+    },
+    "Top All" : {
+
+    },
+    "Top Upcoming" : {
+
+    },
+    "Tuesday" : {
+
+    },
+    "TV" : {
+
+    },
+    "Unknown" : {
+
+    },
+    "View and update your progress." : {
+
+    },
+    "Watching" : {
+
+    },
+    "Wednesday" : {
+
+    },
+    "Winter" : {
+
+    },
+    "Your Schedule" : {
+
+    }
+  },
+  "version" : "1.0"
+}

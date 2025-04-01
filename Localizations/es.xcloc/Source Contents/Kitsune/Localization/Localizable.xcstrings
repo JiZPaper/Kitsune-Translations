@@ -688,7 +688,14 @@
       }
     },
     "App Features" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "App Features"
+          }
+        }
+      }
     },
     "App Icon" : {
       "localizations" : {
@@ -1062,9 +1069,6 @@
           }
         }
       }
-    },
-    "Chinese" : {
-
     },
     "Clear Cache" : {
       "localizations" : {
@@ -1895,7 +1899,14 @@
       }
     },
     "German" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "German"
+          }
+        }
+      }
     },
     "Get notified when a new episode or anime premieres from your list." : {
       "localizations" : {
@@ -2011,7 +2022,14 @@
       }
     },
     "In-App" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-App"
+          }
+        }
+      }
     },
     "Information" : {
       "localizations" : {
@@ -2090,7 +2108,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Last updated at %@"
+            "value" : "Last update: %@"
           }
         }
       }
@@ -2323,6 +2341,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mark Next Episode of %@ as Watched?"
+          }
+        }
+      }
+    },
+    "Mark Next Episode/Chapter/Volume" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark Next Episode/Chapter/Volume"
           }
         }
       }
@@ -2907,7 +2935,14 @@
       }
     },
     "Play Later" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Play Later"
+          }
+        }
+      }
     },
     "Play Next" : {
       "localizations" : {
@@ -3020,7 +3055,14 @@
       }
     },
     "Preferred Apple Music Player" : {
-
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferred Apple Music Player"
+          }
+        }
+      }
     },
     "Preferred Platform" : {
       "localizations" : {
@@ -3794,6 +3836,16 @@
         }
       }
     },
+    "Simplified Chinese" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simplified Chinese"
+          }
+        }
+      }
+    },
     "Some videos may not play due to region restrictions." : {
       "localizations" : {
         "en" : {
@@ -4272,6 +4324,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top All"
+          }
+        }
+      }
+    },
+    "Top Poster Action" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Poster Action"
           }
         }
       }

@@ -505,6 +505,17 @@
         }
       }
     },
+    "Action" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Action"
+          }
+        }
+      }
+    },
     "Adaptation" : {
       "localizations" : {
         "en" : {
@@ -575,6 +586,28 @@
         }
       }
     },
+    "Adult Cast" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adult Cast"
+          }
+        }
+      }
+    },
+    "Adventure" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adventure"
+          }
+        }
+      }
+    },
     "Air Date" : {
       "localizations" : {
         "en" : {
@@ -584,6 +617,10 @@
           }
         }
       }
+    },
+    "All" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
     },
     "All Ages" : {
       "localizations" : {
@@ -616,17 +653,6 @@
       },
       "shouldTranslate" : false
     },
-    "AniList • %@" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "AniList • %@"
-          }
-        }
-      },
-      "shouldTranslate" : false
-    },
     "Anime" : {
       "localizations" : {
         "en" : {
@@ -643,6 +669,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anime & Manga Only"
+          }
+        }
+      }
+    },
+    "Anime Ranking" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anime Ranking"
           }
         }
       }
@@ -683,6 +719,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Animeography"
+          }
+        }
+      }
+    },
+    "Anthropomorphic" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anthropomorphic"
           }
         }
       }
@@ -848,6 +895,17 @@
         }
       }
     },
+    "Avant Garde" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avant Garde"
+          }
+        }
+      }
+    },
     "Average" : {
       "comment" : "MAL Score",
       "localizations" : {
@@ -865,6 +923,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Average Duration"
+          }
+        }
+      }
+    },
+    "Award Winning" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Award Winning"
           }
         }
       }
@@ -916,6 +985,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Blur Mature Content Poster"
+          }
+        }
+      }
+    },
+    "Boys Love" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boys Love"
           }
         }
       }
@@ -1020,6 +1100,17 @@
         }
       }
     },
+    "CGDCT" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "CGDCT"
+          }
+        }
+      }
+    },
     "Change List" : {
       "localizations" : {
         "en" : {
@@ -1060,6 +1151,17 @@
         }
       }
     },
+    "Childcare" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Childcare"
+          }
+        }
+      }
+    },
     "Children" : {
       "localizations" : {
         "en" : {
@@ -1096,6 +1198,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Collapse"
+          }
+        }
+      }
+    },
+    "Combat Sports" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Combat Sports"
+          }
+        }
+      }
+    },
+    "Comedy" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Comedy"
           }
         }
       }
@@ -1156,16 +1280,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Connect with your AniList account."
-          }
-        }
-      }
-    },
-    "Connect your AniList Account" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Connect your AniList Account"
           }
         }
       }
@@ -1236,6 +1350,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Copy Song Name"
+          }
+        }
+      }
+    },
+    "Crossdressing" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Crossdressing"
           }
         }
       }
@@ -1362,6 +1487,17 @@
         }
       }
     },
+    "Delinquents" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delinquents"
+          }
+        }
+      }
+    },
     "Demographics" : {
       "localizations" : {
         "en" : {
@@ -1392,6 +1528,17 @@
         }
       }
     },
+    "Detective" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Detective"
+          }
+        }
+      }
+    },
     "Developed by Alexandre Madeira" : {
       "localizations" : {
         "en" : {
@@ -1403,7 +1550,14 @@
       }
     },
     "Developer" : {
-      "shouldTranslate" : false
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Developer"
+          }
+        }
+      }
     },
     "Disable Translucent Background" : {
       "localizations" : {
@@ -1465,6 +1619,17 @@
         }
       }
     },
+    "Drama" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Drama"
+          }
+        }
+      }
+    },
     "Dropped" : {
       "localizations" : {
         "en" : {
@@ -1485,12 +1650,34 @@
         }
       }
     },
+    "Ecchi" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ecchi"
+          }
+        }
+      }
+    },
     "Edit" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Edit"
+          }
+        }
+      }
+    },
+    "Educational" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Educational"
           }
         }
       }
@@ -1656,6 +1843,17 @@
         }
       }
     },
+    "Erotica" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erotica"
+          }
+        }
+      }
+    },
     "Every change made on your MAL list on Kitsune will reflect on your AniList lists." : {
       "localizations" : {
         "en" : {
@@ -1712,6 +1910,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fall"
+          }
+        }
+      }
+    },
+    "Fantasy" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fantasy"
           }
         }
       }
@@ -1878,6 +2087,17 @@
         }
       }
     },
+    "Gag Humor" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gag Humor"
+          }
+        }
+      }
+    },
     "General" : {
       "localizations" : {
         "en" : {
@@ -1938,6 +2158,17 @@
         }
       }
     },
+    "Girls Love" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Girls Love"
+          }
+        }
+      }
+    },
     "Good" : {
       "comment" : "MAL Score",
       "localizations" : {
@@ -1945,6 +2176,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Good"
+          }
+        }
+      }
+    },
+    "Gore" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gore"
+          }
+        }
+      }
+    },
+    "Gourmet" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gourmet"
           }
         }
       }
@@ -1960,6 +2213,17 @@
         }
       }
     },
+    "Harem" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Harem"
+          }
+        }
+      }
+    },
     "Having trouble signing in?\nSend an email to contact@alexandremadeira.dev and we will help you." : {
       "localizations" : {
         "en" : {
@@ -1971,6 +2235,7 @@
       }
     },
     "Hentai" : {
+      "comment" : "Genre",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2000,6 +2265,28 @@
         }
       }
     },
+    "High Stakes Game" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "High Stakes Game"
+          }
+        }
+      }
+    },
+    "Historical" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Historical"
+          }
+        }
+      }
+    },
     "Horrible" : {
       "comment" : "MAL Score",
       "localizations" : {
@@ -2007,6 +2294,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Horrible"
+          }
+        }
+      }
+    },
+    "Horror" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Horror"
+          }
+        }
+      }
+    },
+    "Idols (Female)" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idols (Female)"
+          }
+        }
+      }
+    },
+    "Idols (Male)" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Idols (Male)"
           }
         }
       }
@@ -2051,6 +2371,28 @@
         }
       }
     },
+    "Isekai" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Isekai"
+          }
+        }
+      }
+    },
+    "Iyashikei" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Iyashikei"
+          }
+        }
+      }
+    },
     "Japanese" : {
       "comment" : "Title Preference",
       "localizations" : {
@@ -2072,6 +2414,17 @@
         }
       }
     },
+    "Josei" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Josei"
+          }
+        }
+      }
+    },
     "JST" : {
       "comment" : "Japan Standard Time, do not need translation.",
       "localizations" : {
@@ -2079,6 +2432,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "JST"
+          }
+        }
+      }
+    },
+    "Kids" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kids"
           }
         }
       }
@@ -2215,12 +2579,56 @@
         }
       }
     },
+    "Love Polygon" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Love Polygon"
+          }
+        }
+      }
+    },
+    "Love Status Quo" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Love Status Quo"
+          }
+        }
+      }
+    },
     "Magazines" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Magazines"
+          }
+        }
+      }
+    },
+    "Magical Sex Shift" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Magical Sex Shift"
+          }
+        }
+      }
+    },
+    "Mahou Shoujo" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mahou Shoujo"
           }
         }
       }
@@ -2271,6 +2679,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Manga Magazines"
+          }
+        }
+      }
+    },
+    "Manga Ranking" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manga Ranking"
           }
         }
       }
@@ -2375,6 +2793,17 @@
         }
       }
     },
+    "Martial Arts" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Martial Arts"
+          }
+        }
+      }
+    },
     "Masterpiece" : {
       "comment" : "MAL Score",
       "localizations" : {
@@ -2396,6 +2825,17 @@
         }
       }
     },
+    "Mecha" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mecha"
+          }
+        }
+      }
+    },
     "Media Type" : {
       "comment" : "Seasonal Organization Type",
       "localizations" : {
@@ -2403,6 +2843,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Media Type"
+          }
+        }
+      }
+    },
+    "Medical" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Medical"
+          }
+        }
+      }
+    },
+    "Military" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Military"
           }
         }
       }
@@ -2437,7 +2899,18 @@
         }
       }
     },
+    "Most Favorited" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Most Favorited"
+          }
+        }
+      }
+    },
     "Most Popular" : {
+      "comment" : "Anime Rank",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2469,7 +2942,7 @@
       }
     },
     "Music" : {
-      "comment" : "Anime Media Type",
+      "comment" : "Genre",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -2549,16 +3022,27 @@
         }
       }
     },
-    "MyAnimeList" : {
+    "Mystery" : {
+      "comment" : "Genre",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "MyAnimeList"
+            "value" : "Mystery"
           }
         }
-      },
-      "shouldTranslate" : false
+      }
+    },
+    "Mythology" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mythology"
+          }
+        }
+      }
     },
     "New This Season" : {
       "localizations" : {
@@ -2873,6 +3357,28 @@
         }
       }
     },
+    "Organized Crime" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Organized Crime"
+          }
+        }
+      }
+    },
+    "Otaku Culture" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otaku Culture"
+          }
+        }
+      }
+    },
     "OVA" : {
       "comment" : "Anime Media Type",
       "localizations" : {
@@ -2880,6 +3386,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OVA"
+          }
+        }
+      }
+    },
+    "Parody" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Parody"
           }
         }
       }
@@ -2904,12 +3421,34 @@
         }
       }
     },
+    "Performing Arts" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Performing Arts"
+          }
+        }
+      }
+    },
     "Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information."
+          }
+        }
+      }
+    },
+    "Pets" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pets"
           }
         }
       }
@@ -3144,12 +3683,44 @@
         }
       }
     },
+    "Psychological" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Psychological"
+          }
+        }
+      }
+    },
     "Published Manga" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Published Manga"
+          }
+        }
+      }
+    },
+    "Racing" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Racing"
+          }
+        }
+      }
+    },
+    "Rank" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rank"
           }
         }
       }
@@ -3231,6 +3802,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Refresh"
+          }
+        }
+      }
+    },
+    "Reincarnation" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reincarnation"
           }
         }
       }
@@ -3355,6 +3937,17 @@
         }
       }
     },
+    "Reverse Harem" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reverse Harem"
+          }
+        }
+      }
+    },
     "Rewatched" : {
       "localizations" : {
         "en" : {
@@ -3425,6 +4018,17 @@
         }
       }
     },
+    "Romance" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Romance"
+          }
+        }
+      }
+    },
     "Russian" : {
       "localizations" : {
         "en" : {
@@ -3441,6 +4045,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sample"
+          }
+        }
+      }
+    },
+    "Samurai" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Samurai"
           }
         }
       }
@@ -3482,6 +4097,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Schedule"
+          }
+        }
+      }
+    },
+    "School" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "School"
+          }
+        }
+      }
+    },
+    "Sci-Fi" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sci-Fi"
           }
         }
       }
@@ -3586,6 +4223,17 @@
         }
       }
     },
+    "Seinen" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seinen"
+          }
+        }
+      }
+    },
     "Send Email" : {
       "localizations" : {
         "en" : {
@@ -3632,6 +4280,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
+          }
+        }
+      }
+    },
+    "Shoujo" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shoujo"
+          }
+        }
+      }
+    },
+    "Shounen" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Shounen"
           }
         }
       }
@@ -3806,6 +4476,17 @@
         }
       }
     },
+    "Showbiz" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Showbiz"
+          }
+        }
+      }
+    },
     "Sign In" : {
       "localizations" : {
         "en" : {
@@ -3846,6 +4527,17 @@
         }
       }
     },
+    "Slice of Life" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slice of Life"
+          }
+        }
+      }
+    },
     "Some videos may not play due to region restrictions." : {
       "localizations" : {
         "en" : {
@@ -3876,6 +4568,17 @@
         }
       }
     },
+    "Space" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Space"
+          }
+        }
+      }
+    },
     "Spanish" : {
       "localizations" : {
         "en" : {
@@ -3893,6 +4596,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Special"
+          }
+        }
+      }
+    },
+    "Sports" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sports"
           }
         }
       }
@@ -3968,6 +4682,17 @@
         }
       }
     },
+    "Strategy Game" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strategy Game"
+          }
+        }
+      }
+    },
     "Studios" : {
       "localizations" : {
         "en" : {
@@ -4008,6 +4733,28 @@
         }
       }
     },
+    "Super Power" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Super Power"
+          }
+        }
+      }
+    },
+    "Supernatural" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supernatural"
+          }
+        }
+      }
+    },
     "Support the development of the app" : {
       "localizations" : {
         "en" : {
@@ -4024,6 +4771,28 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support the development of the app created by a solo developer."
+          }
+        }
+      }
+    },
+    "Survival" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Survival"
+          }
+        }
+      }
+    },
+    "Suspense" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suspense"
           }
         }
       }
@@ -4114,6 +4883,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tap 'Save' to save your changes after writing."
+          }
+        }
+      }
+    },
+    "Team Sports" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Team Sports"
           }
         }
       }
@@ -4278,6 +5058,17 @@
         }
       }
     },
+    "Time Travel" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Time Travel"
+          }
+        }
+      }
+    },
     "Time will be shown in Japan Standard Time (JST) by default." : {
       "localizations" : {
         "en" : {
@@ -4318,12 +5109,145 @@
         }
       }
     },
+    "Top Airing" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Airing"
+          }
+        }
+      }
+    },
     "Top All" : {
+      "comment" : "Anime Rank",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Top All"
+          }
+        }
+      }
+    },
+    "Top Anime Movies" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Anime Movies"
+          }
+        }
+      }
+    },
+    "Top Anime OVA Series" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Anime OVA Series"
+          }
+        }
+      }
+    },
+    "Top Anime Specials" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Anime Specials"
+          }
+        }
+      }
+    },
+    "Top Anime TV Series" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Anime TV Series"
+          }
+        }
+      }
+    },
+    "Top Doujinshi" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Doujinshi"
+          }
+        }
+      }
+    },
+    "Top Favorited Anime" : {
+      "comment" : "Anime Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Favorited Anime"
+          }
+        }
+      }
+    },
+    "Top Manga" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Manga"
+          }
+        }
+      }
+    },
+    "Top Manhua" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Manhua"
+          }
+        }
+      }
+    },
+    "Top Manhwa" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Manhwa"
+          }
+        }
+      }
+    },
+    "Top Novels" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top Novels"
+          }
+        }
+      }
+    },
+    "Top One-shots" : {
+      "comment" : "Manga Rank",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Top One-shots"
           }
         }
       }
@@ -4339,6 +5263,7 @@
       }
     },
     "Top Upcoming" : {
+      "comment" : "Anime Rank",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4600,6 +5525,17 @@
         }
       }
     },
+    "Urban Fantasy" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Urban Fantasy"
+          }
+        }
+      }
+    },
     "Users with this anime in their list" : {
       "localizations" : {
         "en" : {
@@ -4616,6 +5552,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Users with this manga in their list"
+          }
+        }
+      }
+    },
+    "Vampire" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vampire"
           }
         }
       }
@@ -4648,6 +5595,39 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Very Good"
+          }
+        }
+      }
+    },
+    "Video Game" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Video Game"
+          }
+        }
+      }
+    },
+    "Villainess" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Villainess"
+          }
+        }
+      }
+    },
+    "Visual Arts" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Visual Arts"
           }
         }
       }
@@ -4778,6 +5758,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Winter"
+          }
+        }
+      }
+    },
+    "Workplace" : {
+      "comment" : "Genre",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Workplace"
           }
         }
       }

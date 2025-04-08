@@ -58,10 +58,6 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
-    "All" : {
-      "comment" : "Manga Rank",
-      "shouldTranslate" : false
-    },
     "All Ages" : {
       "shouldTranslate" : false
     },
@@ -461,13 +457,13 @@
       "shouldTranslate" : false
     },
     "My Anime List" : {
-
+      "shouldTranslate" : false
     },
     "My List" : {
       "shouldTranslate" : false
     },
     "My Manga List" : {
-
+      "shouldTranslate" : false
     },
     "Mystery" : {
       "comment" : "Genre",
@@ -592,6 +588,9 @@
       "shouldTranslate" : false
     },
     "Saturday" : {
+      "shouldTranslate" : false
+    },
+    "Schedule" : {
       "shouldTranslate" : false
     },
     "School" : {
@@ -785,7 +784,7 @@
       "shouldTranslate" : false
     },
     "Top All" : {
-      "comment" : "Anime Rank",
+      "comment" : "Anime Rank\nManga Rank",
       "shouldTranslate" : false
     },
     "Top Anime Movies" : {
@@ -897,9 +896,6 @@
           }
         }
       }
-    },
-    "Your Schedule" : {
-      "shouldTranslate" : false
     }
   },
   "version" : "1.0"

@@ -53,8 +53,8 @@
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
-        <source>Search and Play the opening and ending theme songs.</source>
-        <target state="new">Search and Play the opening and ending theme songs.</target>
+        <source>Play the opening and ending themes using your Apple Music subscription.</source>
+        <target state="new">Play the opening and ending themes using your Apple Music subscription.</target>
         <note>Privacy - Media Library Usage Description</note>
       </trans-unit>
     </body>
@@ -82,11 +82,6 @@
       <trans-unit id="%@ %@ • %@" translate="no" xml:space="preserve">
         <source>%@ %@ • %@</source>
         <target state="translated">%@ %@ • %@</target>
-        <note/>
-      </trans-unit>
-      <trans-unit id="%@ (%lld)" translate="no" xml:space="preserve">
-        <source>%1$@ (%2$lld)</source>
-        <target state="translated">%1$@ (%2$lld)</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ (JST)" xml:space="preserve">
@@ -353,11 +348,6 @@
         <source>Air Date</source>
         <target state="translated">Air Date</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="All" translate="no" xml:space="preserve">
-        <source>All</source>
-        <target state="new">All</target>
-        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" xml:space="preserve">
         <source>All Ages</source>
@@ -2313,7 +2303,7 @@ Search and matching are automated, mismatches may occur.</target>
         <target state="translated">Sports</target>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Spotify" translate="no" xml:space="preserve">
+      <trans-unit id="Spotify" xml:space="preserve">
         <source>Spotify</source>
         <target state="translated">Spotify</target>
         <note/>
@@ -2577,7 +2567,8 @@ User lists are always unrestricted.</target>
       <trans-unit id="Top All" xml:space="preserve">
         <source>Top All</source>
         <target state="translated">Top All</target>
-        <note>Anime Rank</note>
+        <note>Anime Rank
+Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -2643,6 +2634,11 @@ User lists are always unrestricted.</target>
         <source>Top Upcoming</source>
         <target state="translated">Top Upcoming</target>
         <note>Anime Rank</note>
+      </trans-unit>
+      <trans-unit id="TopUpcoming_Search" xml:space="preserve">
+        <source>Top Upcoming</source>
+        <target state="translated">Top Upcoming</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Total Anime" xml:space="preserve">
         <source>Total Anime</source>
@@ -2947,11 +2943,6 @@ Thank you for your support!</target>
         <target state="translated">YouTube</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Your Schedule" xml:space="preserve">
-        <source>Schedule</source>
-        <target state="translated">Schedule</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
         <source>Schedule is empty for today.</source>
         <target state="translated">Schedule is empty for today.</target>
@@ -3059,11 +3050,6 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <source>Adventure</source>
         <target state="new">Adventure</target>
         <note>Genre</note>
-      </trans-unit>
-      <trans-unit id="All" translate="no" xml:space="preserve">
-        <source>All</source>
-        <target state="new">All</target>
-        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" translate="no" xml:space="preserve">
         <source>All Ages</source>
@@ -3515,7 +3501,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <target state="new">Music</target>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="My Anime List" xml:space="preserve">
+      <trans-unit id="My Anime List" translate="no" xml:space="preserve">
         <source>My Anime List</source>
         <target state="new">My Anime List</target>
         <note/>
@@ -3525,7 +3511,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <target state="new">My List</target>
         <note/>
       </trans-unit>
-      <trans-unit id="My Manga List" xml:space="preserve">
+      <trans-unit id="My Manga List" translate="no" xml:space="preserve">
         <source>My Manga List</source>
         <target state="new">My Manga List</target>
         <note/>
@@ -3703,6 +3689,11 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       <trans-unit id="Saturday" translate="no" xml:space="preserve">
         <source>Saturday</source>
         <target state="new">Saturday</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Schedule" translate="no" xml:space="preserve">
+        <source>Schedule</source>
+        <target state="new">Schedule</target>
         <note/>
       </trans-unit>
       <trans-unit id="School" translate="no" xml:space="preserve">
@@ -3908,7 +3899,8 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       <trans-unit id="Top All" translate="no" xml:space="preserve">
         <source>Top All</source>
         <target state="new">Top All</target>
-        <note>Anime Rank</note>
+        <note>Anime Rank
+Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" translate="no" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -4029,11 +4021,6 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <source>Workplace</source>
         <target state="new">Workplace</target>
         <note>Genre</note>
-      </trans-unit>
-      <trans-unit id="Your Schedule" translate="no" xml:space="preserve">
-        <source>Your Schedule</source>
-        <target state="new">Your Schedule</target>
-        <note/>
       </trans-unit>
       <trans-unit id="Your list is empty." xml:space="preserve">
         <source>Your list is empty.</source>

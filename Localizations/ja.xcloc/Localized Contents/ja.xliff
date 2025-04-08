@@ -74,11 +74,6 @@
         <source>%@ %@ • %@</source>
         <note/>
       </trans-unit>
-      <trans-unit id="%@ (%lld)" translate="no" xml:space="preserve">
-        <source>%1$@ (%2$lld)</source>
-        <target state="translated">%1$@ (%2$lld)</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="%@ (JST)" xml:space="preserve">
         <source>%@ (JST)</source>
         <note/>
@@ -325,10 +320,6 @@
         <source>Air Date</source>
         <target state="translated">放送日時</target>
         <note/>
-      </trans-unit>
-      <trans-unit id="All" translate="no" xml:space="preserve">
-        <source>All</source>
-        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" xml:space="preserve">
         <source>All Ages</source>
@@ -2212,7 +2203,7 @@ Search and matching are automated, mismatches may occur.</source>
         <source>Sports</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Spotify" translate="no" xml:space="preserve">
+      <trans-unit id="Spotify" xml:space="preserve">
         <source>Spotify</source>
         <target state="translated">Spotify</target>
         <note/>
@@ -2468,7 +2459,8 @@ User lists are always unrestricted.</source>
       <trans-unit id="Top All" xml:space="preserve">
         <source>Top All</source>
         <target state="translated">トップ (歴代)</target>
-        <note>Anime Rank</note>
+        <note>Anime Rank
+Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -2522,6 +2514,11 @@ User lists are always unrestricted.</source>
         <source>Top Upcoming</source>
         <target state="translated">トップ (今後)</target>
         <note>Anime Rank</note>
+      </trans-unit>
+      <trans-unit id="TopUpcoming_Search" xml:space="preserve">
+        <source>Top Upcoming</source>
+        <target state="translated">トップ (今後)</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Total Anime" xml:space="preserve">
         <source>Total Anime</source>
@@ -2820,11 +2817,6 @@ Thank you for your support!</source>
         <target state="translated">YouTube</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Your Schedule" xml:space="preserve">
-        <source>Schedule</source>
-        <target state="translated">スケジュール</target>
-        <note/>
-      </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
         <source>Schedule is empty for today.</source>
         <target state="translated">本日のスケジュールは空っぽです。</target>
@@ -2919,10 +2911,6 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       <trans-unit id="Adventure" translate="no" xml:space="preserve">
         <source>Adventure</source>
         <note>Genre</note>
-      </trans-unit>
-      <trans-unit id="All" translate="no" xml:space="preserve">
-        <source>All</source>
-        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" translate="no" xml:space="preserve">
         <source>All Ages</source>
@@ -3284,7 +3272,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <source>Music</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="My Anime List" xml:space="preserve">
+      <trans-unit id="My Anime List" translate="no" xml:space="preserve">
         <source>My Anime List</source>
         <note/>
       </trans-unit>
@@ -3292,7 +3280,7 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
         <source>My List</source>
         <note/>
       </trans-unit>
-      <trans-unit id="My Manga List" xml:space="preserve">
+      <trans-unit id="My Manga List" translate="no" xml:space="preserve">
         <source>My Manga List</source>
         <note/>
       </trans-unit>
@@ -3434,6 +3422,10 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       </trans-unit>
       <trans-unit id="Saturday" translate="no" xml:space="preserve">
         <source>Saturday</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Schedule" translate="no" xml:space="preserve">
+        <source>Schedule</source>
         <note/>
       </trans-unit>
       <trans-unit id="School" translate="no" xml:space="preserve">
@@ -3598,7 +3590,8 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       </trans-unit>
       <trans-unit id="Top All" translate="no" xml:space="preserve">
         <source>Top All</source>
-        <note>Anime Rank</note>
+        <note>Anime Rank
+Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" translate="no" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -3695,10 +3688,6 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       <trans-unit id="Workplace" translate="no" xml:space="preserve">
         <source>Workplace</source>
         <note>Genre</note>
-      </trans-unit>
-      <trans-unit id="Your Schedule" translate="no" xml:space="preserve">
-        <source>Your Schedule</source>
-        <note/>
       </trans-unit>
       <trans-unit id="Your list is empty." xml:space="preserve">
         <source>Your list is empty.</source>

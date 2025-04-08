@@ -32,6 +32,17 @@
       },
       "shouldTranslate" : false
     },
+    "%@ (%lld)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$lld)"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
     "%@ (JST)" : {
       "localizations" : {
         "en" : {
@@ -606,6 +617,10 @@
           }
         }
       }
+    },
+    "All" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
     },
     "All Ages" : {
       "localizations" : {
@@ -4604,7 +4619,8 @@
             "value" : "Spotify"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Spotify Support" : {
       "localizations" : {
@@ -5105,7 +5121,7 @@
       }
     },
     "Top All" : {
-      "comment" : "Anime Rank\nManga Rank",
+      "comment" : "Anime Rank",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5248,16 +5264,6 @@
     },
     "Top Upcoming" : {
       "comment" : "Anime Rank",
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Top Upcoming"
-          }
-        }
-      }
-    },
-    "TopUpcoming_Search" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -5863,6 +5869,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "You're a Premium user.\nThank you for your support!"
+          }
+        }
+      }
+    },
+    "Your Schedule" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schedule"
           }
         }
       }

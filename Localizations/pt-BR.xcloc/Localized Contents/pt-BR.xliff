@@ -75,6 +75,11 @@
         <target state="translated">%1$@ %2$@ • %3$@</target>
         <note/>
       </trans-unit>
+      <trans-unit id="%@ (%lld)" translate="no" xml:space="preserve">
+        <source>%1$@ (%2$lld)</source>
+        <target state="translated">%1$@ (%2$lld)</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="%@ (JST)" xml:space="preserve">
         <source>%@ (JST)</source>
         <target state="translated">%@ (JST)</target>
@@ -349,6 +354,11 @@
         <source>Air Date</source>
         <target state="translated">Data de Exibição</target>
         <note/>
+      </trans-unit>
+      <trans-unit id="All" translate="no" xml:space="preserve">
+        <source>All</source>
+        <target state="translated">Todos</target>
+        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" xml:space="preserve">
         <source>All Ages</source>
@@ -1253,7 +1263,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Last updated at %@" xml:space="preserve">
         <source>Last update: %@</source>
-        <target state="translated">Última atualização em %@</target>
+        <target state="needs-review-l10n">Última atualização em %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Launch Screen" xml:space="preserve">
@@ -1508,7 +1518,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
         <source>My List, Edit Status, Add Items and Statistics need a MyAnimeList account.</source>
-        <target state="translated">Minha Lista, Editar Status, Adicionar Itens e Estatísticas precisam de uma conta MyAnimeList.</target>
+        <target state="needs-review-l10n">Minha Lista, Editar Status, Adicionar Itens e Estática precisam de uma conta MyAnimeList.</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Manga List" xml:space="preserve">
@@ -2302,7 +2312,7 @@ Search and matching are automated, mismatches may occur.</source>
         <target state="translated">Esportes</target>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Spotify" xml:space="preserve">
+      <trans-unit id="Spotify" translate="no" xml:space="preserve">
         <source>Spotify</source>
         <target state="translated">Spotify</target>
         <note/>
@@ -2564,8 +2574,7 @@ User lists are always unrestricted.</source>
       <trans-unit id="Top All" xml:space="preserve">
         <source>Top All</source>
         <target state="translated">Principais</target>
-        <note>Anime Rank
-Manga Rank</note>
+        <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -2631,11 +2640,6 @@ Manga Rank</note>
         <source>Top Upcoming</source>
         <target state="translated">Os Mais Aguardados</target>
         <note>Anime Rank</note>
-      </trans-unit>
-      <trans-unit id="TopUpcoming_Search" xml:space="preserve">
-        <source>Top Upcoming</source>
-        <target state="translated">Os Mais Aguardados</target>
-        <note/>
       </trans-unit>
       <trans-unit id="Total Anime" xml:space="preserve">
         <source>Total Anime</source>
@@ -2923,7 +2927,7 @@ Quando desligado, o aplicativo sempre abrirá a última guia aberta.</target>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
         <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statistics.</source>
-        <target state="translated">Será necessário fazer login novamente para usar Minha Lista, Editar Status, Adicionar Item e Estatísticas.</target>
+        <target state="needs-review-l10n">Será necessário fazer login novamente para usar Minha Lista, Editar Status, Adicionar Item e Estatísticas.</target>
         <note/>
       </trans-unit>
       <trans-unit id="You're a Premium user.&#10; Thank you for your support!" xml:space="preserve">
@@ -2935,6 +2939,11 @@ Thank you for your support!</source>
       <trans-unit id="YouTube" translate="no" xml:space="preserve">
         <source>YouTube</source>
         <target state="translated">YouTube</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Your Schedule" xml:space="preserve">
+        <source>Schedule</source>
+        <target state="translated">Estreias </target>
         <note/>
       </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
@@ -3030,6 +3039,10 @@ Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximo
       <trans-unit id="Adventure" translate="no" xml:space="preserve">
         <source>Adventure</source>
         <note>Genre</note>
+      </trans-unit>
+      <trans-unit id="All" translate="no" xml:space="preserve">
+        <source>All</source>
+        <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="All Ages" translate="no" xml:space="preserve">
         <source>All Ages</source>
@@ -3400,7 +3413,7 @@ Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximo
         <source>Music</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="My Anime List" translate="no" xml:space="preserve">
+      <trans-unit id="My Anime List" xml:space="preserve">
         <source>My Anime List</source>
         <note/>
       </trans-unit>
@@ -3408,7 +3421,7 @@ Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximo
         <source>My List</source>
         <note/>
       </trans-unit>
-      <trans-unit id="My Manga List" translate="no" xml:space="preserve">
+      <trans-unit id="My Manga List" xml:space="preserve">
         <source>My Manga List</source>
         <note/>
       </trans-unit>
@@ -3551,10 +3564,6 @@ Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximo
       </trans-unit>
       <trans-unit id="Saturday" translate="no" xml:space="preserve">
         <source>Saturday</source>
-        <note/>
-      </trans-unit>
-      <trans-unit id="Schedule" translate="no" xml:space="preserve">
-        <source>Schedule</source>
         <note/>
       </trans-unit>
       <trans-unit id="School" translate="no" xml:space="preserve">
@@ -3727,8 +3736,7 @@ Também inclui estreias futuras de sua lista 'Planejo Assistir' para os próximo
       </trans-unit>
       <trans-unit id="Top All" translate="no" xml:space="preserve">
         <source>Top All</source>
-        <note>Anime Rank
-Manga Rank</note>
+        <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" translate="no" xml:space="preserve">
         <source>Top Anime Movies</source>
@@ -3826,6 +3834,10 @@ Manga Rank</note>
       <trans-unit id="Workplace" translate="no" xml:space="preserve">
         <source>Workplace</source>
         <note>Genre</note>
+      </trans-unit>
+      <trans-unit id="Your Schedule" translate="no" xml:space="preserve">
+        <source>Your Schedule</source>
+        <note/>
       </trans-unit>
       <trans-unit id="Your list is empty." xml:space="preserve">
         <source>Your list is empty.</source>

@@ -40,6 +40,10 @@
     "+1" : {
       "shouldTranslate" : false
     },
+    "2nd Key Animation" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "17+ (Violence & Profanity)" : {
       "shouldTranslate" : false
     },
@@ -50,6 +54,10 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "ADR Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Adult Cast" : {
       "comment" : "Genre",
       "shouldTranslate" : false
@@ -58,7 +66,14 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "All" : {
+      "shouldTranslate" : false
+    },
     "All Ages" : {
+      "shouldTranslate" : false
+    },
+    "Animation Director" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Anime" : {
@@ -79,6 +94,14 @@
       "shouldTranslate" : false
     },
     "Apple Music" : {
+      "shouldTranslate" : false
+    },
+    "Art Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Assistant Animation Director" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Avant Garde" : {
@@ -123,11 +146,26 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "Character Design" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Characters" : {
+      "shouldTranslate" : false
+    },
+    "Chief Animation Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Childcare" : {
       "comment" : "Genre",
       "shouldTranslate" : false
     },
     "Children" : {
+      "shouldTranslate" : false
+    },
+    "Color Design" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Combat Sports" : {
@@ -198,6 +236,14 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Director of Photography" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Doujinshi" : {
       "shouldTranslate" : false
     },
@@ -225,8 +271,16 @@
     "English" : {
       "shouldTranslate" : false
     },
+    "Episode Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Erotica" : {
       "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Executive Producer" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Fall" : {
@@ -292,6 +346,10 @@
     "In-App" : {
       "shouldTranslate" : false
     },
+    "In-Between Animation" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Increment Episode by One" : {
       "localizations" : {
         "en" : {
@@ -312,6 +370,12 @@
         }
       }
     },
+    "Is Rereading" : {
+
+    },
+    "Is Rewatching" : {
+
+    },
     "Isekai" : {
       "comment" : "Genre",
       "shouldTranslate" : false
@@ -328,6 +392,10 @@
       "shouldTranslate" : false
     },
     "JST" : {
+      "shouldTranslate" : false
+    },
+    "Key Animation" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Kids" : {
@@ -453,7 +521,7 @@
       "shouldTranslate" : false
     },
     "Music" : {
-      "comment" : "Genre",
+      "comment" : "Anime Position\nGenre",
       "shouldTranslate" : false
     },
     "My Anime List" : {
@@ -485,6 +553,12 @@
     "Novel" : {
       "shouldTranslate" : false
     },
+    "Number of Time Reread" : {
+
+    },
+    "Number of Time Rewatched" : {
+
+    },
     "Oel" : {
       "shouldTranslate" : false
     },
@@ -507,6 +581,10 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "Original Creator" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Otaku Culture" : {
       "comment" : "Genre",
       "shouldTranslate" : false
@@ -516,6 +594,9 @@
     },
     "Parody" : {
       "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "People" : {
       "shouldTranslate" : false
     },
     "Performing Arts" : {
@@ -532,7 +613,15 @@
     "Plan to Watch" : {
       "shouldTranslate" : false
     },
+    "Planning" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Poster" : {
+      "shouldTranslate" : false
+    },
+    "Producer" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Profanity & Mild Nudity" : {
@@ -555,16 +644,6 @@
     "Reading" : {
       "shouldTranslate" : false
     },
-    "Refresh" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Refresh"
-          }
-        }
-      }
-    },
     "Reincarnation" : {
       "comment" : "Genre",
       "shouldTranslate" : false
@@ -572,9 +651,24 @@
     "Release Date" : {
       "shouldTranslate" : false
     },
+    "Reload" : {
+      "shouldTranslate" : false
+    },
+    "Reread: %lld" : {
+
+    },
+    "Rereading" : {
+
+    },
     "Reverse Harem" : {
       "comment" : "Genre",
       "shouldTranslate" : false
+    },
+    "Rewatched: %lld" : {
+
+    },
+    "Rewatching" : {
+
     },
     "Romaji" : {
       "shouldTranslate" : false
@@ -601,6 +695,10 @@
       "comment" : "Genre",
       "shouldTranslate" : false
     },
+    "Script" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
     "Scroll to Top" : {
       "shouldTranslate" : false
     },
@@ -610,11 +708,12 @@
     "Season" : {
       "shouldTranslate" : false
     },
-    "Seasonal" : {
-      "shouldTranslate" : false
-    },
     "Seinen" : {
       "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Series Composition" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Shoujo" : {
@@ -641,6 +740,10 @@
     },
     "Slice of Life" : {
       "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Sound Director" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Space" : {
@@ -681,6 +784,10 @@
       }
     },
     "Status" : {
+      "shouldTranslate" : false
+    },
+    "Storyboard" : {
+      "comment" : "Anime Position",
       "shouldTranslate" : false
     },
     "Strategy Game" : {
@@ -761,6 +868,22 @@
           }
         }
       }
+    },
+    "Theme Song Arrangement" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Composition" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Lyrics" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Performance" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
     },
     "This widget need a MyAnimeList account." : {
       "localizations" : {

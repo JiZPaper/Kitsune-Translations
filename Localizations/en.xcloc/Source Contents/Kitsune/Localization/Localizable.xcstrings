@@ -1,6 +1,10 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
+    "" : {
+      "extractionState" : "stale",
+      "shouldTranslate" : false
+    },
     " %@" : {
       "localizations" : {
         "en" : {
@@ -9,7 +13,8 @@
             "value" : " %@"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "'For You' shows you a list of suggested anime directly from MAL" : {
       "localizations" : {
@@ -218,16 +223,6 @@
         }
       }
     },
-    "%lld anime" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld anime"
-          }
-        }
-      }
-    },
     "%lld Anime" : {
       "localizations" : {
         "en" : {
@@ -294,16 +289,6 @@
                 }
               }
             }
-          }
-        }
-      }
-    },
-    "%lld manga" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%lld manga"
           }
         }
       }
@@ -413,6 +398,17 @@
         }
       },
       "shouldTranslate" : false
+    },
+    "2nd Key Animation" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "2nd Key Animation"
+          }
+        }
+      }
     },
     "17+ (Violence & Profanity)" : {
       "localizations" : {
@@ -575,6 +571,17 @@
         }
       }
     },
+    "ADR Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ADR Director"
+          }
+        }
+      }
+    },
     "Adult Cast" : {
       "comment" : "Genre",
       "localizations" : {
@@ -603,6 +610,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Air Date"
+          }
+        }
+      }
+    },
+    "All" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "All"
           }
         }
       }
@@ -637,6 +654,17 @@
         }
       },
       "shouldTranslate" : false
+    },
+    "Animation Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Animation Director"
+          }
+        }
+      }
     },
     "Anime" : {
       "localizations" : {
@@ -790,22 +818,23 @@
         }
       }
     },
-    "Are you sure?" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Are you sure?"
-          }
-        }
-      }
-    },
     "Are You Sure?" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Are You Sure?"
+          }
+        }
+      }
+    },
+    "Art Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Art Director"
           }
         }
       }
@@ -826,6 +855,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ask for Score After Watching an Anime"
+          }
+        }
+      }
+    },
+    "Assistant Animation Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Assistant Animation Director"
           }
         }
       }
@@ -1005,16 +1045,6 @@
         }
       }
     },
-    "Buy (%@)" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Buy (%@)"
-          }
-        }
-      }
-    },
     "Buy • %@" : {
       "localizations" : {
         "en" : {
@@ -1096,6 +1126,16 @@
         }
       }
     },
+    "Change Language" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Change Language"
+          }
+        }
+      }
+    },
     "Change List" : {
       "localizations" : {
         "en" : {
@@ -1126,12 +1166,34 @@
         }
       }
     },
+    "Character Design" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Character Design"
+          }
+        }
+      }
+    },
     "Characters" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Characters"
+          }
+        }
+      }
+    },
+    "Chief Animation Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chief Animation Director"
           }
         }
       }
@@ -1177,12 +1239,13 @@
         }
       }
     },
-    "Collapse" : {
+    "Color Design" : {
+      "comment" : "Anime Position",
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Collapse"
+            "value" : "Color Design"
           }
         }
       }
@@ -1544,6 +1607,28 @@
         }
       }
     },
+    "Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Director"
+          }
+        }
+      }
+    },
+    "Director of Photography" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Director of Photography"
+          }
+        }
+      }
+    },
     "Disable Translucent Background" : {
       "localizations" : {
         "en" : {
@@ -1553,6 +1638,17 @@
           }
         }
       }
+    },
+    "Discord" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discord"
+          }
+        }
+      },
+      "shouldTranslate" : false
     },
     "Dismiss" : {
       "localizations" : {
@@ -1808,6 +1904,17 @@
         }
       }
     },
+    "Episode Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Episode Director"
+          }
+        }
+      }
+    },
     "Episodes" : {
       "localizations" : {
         "en" : {
@@ -1845,6 +1952,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Every change made on your MAL list on Kitsune will reflect on your AniList lists."
+          }
+        }
+      }
+    },
+    "Executive Producer" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Executive Producer"
           }
         }
       }
@@ -2143,6 +2261,16 @@
         }
       }
     },
+    "Get the latest new and chat about the app on our Discord server!" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get the latest new and chat about the app on our Discord server!"
+          }
+        }
+      }
+    },
     "Girls Love" : {
       "comment" : "Genre",
       "localizations" : {
@@ -2336,12 +2464,33 @@
         }
       }
     },
+    "In-Between Animation" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "In-Between Animation"
+          }
+        }
+      }
+    },
     "Information" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Information"
+          }
+        }
+      }
+    },
+    "Is Rereading" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Is Rereading"
           }
         }
       }
@@ -2399,6 +2548,16 @@
         }
       }
     },
+    "Join Discord Server" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Join Discord Server"
+          }
+        }
+      }
+    },
     "Josei" : {
       "comment" : "Genre",
       "localizations" : {
@@ -2417,6 +2576,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "JST"
+          }
+        }
+      }
+    },
+    "Key Animation" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Key Animation"
           }
         }
       }
@@ -2549,6 +2719,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Loading"
+          }
+        }
+      }
+    },
+    "Loading adaptations, this process may take some time." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading adaptations, this process may take some time."
           }
         }
       }
@@ -2927,7 +3107,7 @@
       }
     },
     "Music" : {
-      "comment" : "Genre",
+      "comment" : "Anime Position\nGenre",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -3081,32 +3261,12 @@
         }
       }
     },
-    "Nothing found here" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing found here"
-          }
-        }
-      }
-    },
     "Nothing found." : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nothing found."
-          }
-        }
-      }
-    },
-    "Nothing here" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Nothing here"
           }
         }
       }
@@ -3332,6 +3492,16 @@
         }
       }
     },
+    "Open Website" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open Website"
+          }
+        }
+      }
+    },
     "Opening" : {
       "localizations" : {
         "en" : {
@@ -3349,6 +3519,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Organized Crime"
+          }
+        }
+      }
+    },
+    "Original Creator" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original Creator"
           }
         }
       }
@@ -3406,6 +3587,16 @@
         }
       }
     },
+    "People" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "People"
+          }
+        }
+      }
+    },
     "Performing Arts" : {
       "comment" : "Genre",
       "localizations" : {
@@ -3458,6 +3649,17 @@
         }
       }
     },
+    "Planning" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Planning"
+          }
+        }
+      }
+    },
     "Play Later" : {
       "localizations" : {
         "en" : {
@@ -3484,16 +3686,6 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Play the opening and ending themes using your Apple Music subscription."
-          }
-        }
-      }
-    },
-    "Play the opening and ending themes with your Apple Music subscription." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Play the opening and ending themes with your Apple Music subscription."
           }
         }
       }
@@ -3634,6 +3826,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Privacy Policy"
+          }
+        }
+      }
+    },
+    "Producer" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Producer"
           }
         }
       }
@@ -3781,16 +3984,6 @@
         }
       }
     },
-    "Refresh" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Refresh"
-          }
-        }
-      }
-    },
     "Reincarnation" : {
       "comment" : "Genre",
       "localizations" : {
@@ -3902,6 +4095,36 @@
         }
       }
     },
+    "Reread %lld times." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reread %lld times."
+          }
+        }
+      }
+    },
+    "Reread: %lld" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reread: %lld"
+          }
+        }
+      }
+    },
+    "Rereading" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rereading"
+          }
+        }
+      }
+    },
     "Restore" : {
       "localizations" : {
         "en" : {
@@ -3973,16 +4196,6 @@
         }
       }
     },
-    "Right now, 'Progress & Personal Score' and 'Progress & List' can only be seen on the Season screen." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Right now, 'Progress & Personal Score' and 'Progress & List' can only be seen on the Season screen."
-          }
-        }
-      }
-    },
     "Romaji" : {
       "localizations" : {
         "en" : {
@@ -4025,6 +4238,7 @@
       }
     },
     "Sample" : {
+      "comment" : "Apple Music Song Sample",
       "localizations" : {
         "en" : {
           "stringUnit" : {
@@ -4118,6 +4332,17 @@
         }
       }
     },
+    "Script" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Script"
+          }
+        }
+      }
+    },
     "Scroll to Top" : {
       "localizations" : {
         "en" : {
@@ -4188,16 +4413,6 @@
         }
       }
     },
-    "Seasonal" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Season"
-          }
-        }
-      }
-    },
     "See Details" : {
       "localizations" : {
         "en" : {
@@ -4245,6 +4460,17 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Serialization"
+          }
+        }
+      }
+    },
+    "Series Composition" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Series Composition"
           }
         }
       }
@@ -4347,6 +4573,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Show Episodes List"
+          }
+        }
+      }
+    },
+    "Show MAL Mean Score on Plan to Watch/Plan to Read" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Show MAL Mean Score on Plan to Watch/Plan to Read"
           }
         }
       }
@@ -4543,6 +4779,17 @@
         }
       }
     },
+    "Sound Director" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sound Director"
+          }
+        }
+      }
+    },
     "Source" : {
       "localizations" : {
         "en" : {
@@ -4604,7 +4851,8 @@
             "value" : "Spotify"
           }
         }
-      }
+      },
+      "shouldTranslate" : false
     },
     "Spotify Support" : {
       "localizations" : {
@@ -4666,6 +4914,17 @@
         }
       }
     },
+    "Storyboard" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Storyboard"
+          }
+        }
+      }
+    },
     "Strategy Game" : {
       "comment" : "Genre",
       "localizations" : {
@@ -4673,6 +4932,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strategy Game"
+          }
+        }
+      }
+    },
+    "Streaming Services" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Streaming Services"
           }
         }
       }
@@ -4932,36 +5201,6 @@
         }
       }
     },
-    "The app couldn't load the content right now." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The app couldn't load the content right now."
-          }
-        }
-      }
-    },
-    "The app couldn't load the list right now.\nPlease, try again later." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The app couldn't load the list right now.\nPlease, try again later."
-          }
-        }
-      }
-    },
-    "The app couldn't load the season right now.\nPlease, try again later." : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "The app couldn't load the season right now.\nPlease, try again later."
-          }
-        }
-      }
-    },
     "The episode %lld is airing soon." : {
       "localizations" : {
         "en" : {
@@ -4988,6 +5227,50 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "The service is undergoing maintenance or is currently unavailable. Please try again later."
+          }
+        }
+      }
+    },
+    "Theme Song Arrangement" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme Song Arrangement"
+          }
+        }
+      }
+    },
+    "Theme Song Composition" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme Song Composition"
+          }
+        }
+      }
+    },
+    "Theme Song Lyrics" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme Song Lyrics"
+          }
+        }
+      }
+    },
+    "Theme Song Performance" : {
+      "comment" : "Anime Position",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme Song Performance"
           }
         }
       }
@@ -5287,6 +5570,16 @@
         }
       }
     },
+    "Traditional Chinese (Taiwan)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Traditional Chinese (Taiwan)"
+          }
+        }
+      }
+    },
     "Trailer" : {
       "localizations" : {
         "en" : {
@@ -5317,32 +5610,12 @@
         }
       }
     },
-    "Try again" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Try again"
-          }
-        }
-      }
-    },
     "Try Again" : {
       "localizations" : {
         "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Try Again"
-          }
-        }
-      }
-    },
-    "Try again later" : {
-      "localizations" : {
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "Try again later"
           }
         }
       }

@@ -33,7 +33,7 @@ This method is for everyone and does not require any coding experience. You will
 
     > **Heads up!** If you see any strange-looking code (like `%@` or `%d`), please leave it exactly as it is. The app needs it to work correctly!
 
-#### Step 3: Send Us Your Work
+#### Step 3: Send Your Work
 
 1.  Once you're finished translating, click the **"Generate new XLIFF file"** button on the website to get your updated file.
 2.  Attach this new `.xliff` file to an email and send it to **kitsune@alexandremadeira.dev**.

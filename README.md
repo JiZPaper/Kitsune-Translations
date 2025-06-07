@@ -1,13 +1,85 @@
 # Kitsune Translations
-These are the localization files for Kitsune for MyAnimeList. You can help translate the app to your native language by contributing to this open source project.
 
-## How to use these files
-- You can contribute using Apple Numbers, Google Sheets, or Microsoft Excel. For Apple Numbers, you can download the file [KitsuneLocalizations.numbers](https://github.com/MadeiraAlexandre/Kitsune-Translations/blob/main/Localizations/KitsuneLocalization.numbers), and for Google Sheets or Microsoft Excel, you can download [KitsuneLocalizations.xlsx](https://github.com/MadeiraAlexandre/Kitsune-Translations/blob/main/Localizations/KitsuneLocalization.xlsx). Create a new column for your language if there isn’t one, and follow the "Should Translate" and "Comment" columns to guide you. Once you're done, you can either commit the file, send it via email to <a href = "mailto: kitsune@alexandremadeira.dev"> kitsune@alexandremadeira.dev</a> , or add me on Discord (alexm0475). If you need help, you can send me a message at any time.
-- On macOS: You can clone this repo and open the desired .xcloc file on Xcode.
-- On Windows: You can navigate to the language folder you want and open Localized Contents folder, inside it you'll find a .xliff file. You can use an online editor like http://xliff.brightec.co.uk to open this file and edit it.
-- Using VS Code: You can navigate to the language folder you want and open Localized Contents folder.Inside, you'll find a .xliff file. Please select "Ignore" on the popup that says "Detected unusual line terminators.". Each string is a trans-unit and the translation lives inside the  <target state="translated">The translation goes here.</target> tag. You can check how it is done in the already translated tags and replicate it for the newer ones.
-- If the language folder you want to add does not exist yet, you can copy an existing one and just changed it to your language code and work from this new folder. If you need help you can send me an email at <a href = "mailto: kitsune@alexandremadeira.dev"> kitsune@alexandremadeira.dev</a> or add me on Discord (alexm0475) and I'll help.
+Thank you for your interest in helping translate Kitsune for MyAnimeList! By contributing, you help people from all over the world enjoy the app in their native language. This guide will walk you through the process, which is simpler than it looks!
 
-Everyone contributing will be listed on the About screen and can have a link associated with their name (to your own website or preferred social media). Thank you for helping!
-You can send me your link that you want associated with your name and I'll add it in the next update. All the translations changes will also be added on the next update.
+### What are these files? A Quick Guide
 
+To help you feel safe and confident, here’s a one-sentence explanation for each file type in this repository:
+
+* **`.xliff` (for Translators):** This is a standard, safe-to-download text file that contains all the app's text, ready for you to translate. This is the file most people will use.
+* **`.xcloc` (for Developers):** This is a special package used by developers on macOS with Xcode to manage all the app's text in one place.
+
+---
+
+## How to Contribute
+
+There are two ways to contribute, depending on your technical comfort level. Please choose the path that works best for you.
+
+### Path A: For Translators (The Easy Way)
+
+This method is for everyone and does not require any coding experience. You will use a free online tool to edit the translation files.
+
+#### Step 1: Find and Download Your Language File
+
+1.  Navigate into the **`xliff`** folder in this repository.
+2.  Find the file that matches your language (for example, `pt-BR.xliff` is for Brazilian Portuguese).
+3.  Click on the file to open it, and then press the **"Download"** button to save it to your computer.
+
+#### Step 2: Edit the File Online
+
+1.  Open your web browser and go to the [**Brightec Online XLIFF Editor**](http://xliff.brightec.co.uk). It's a free and simple tool.
+2.  Click the button to **upload** the `.xliff` file you just downloaded.
+3.  You will see two main columns: **"Source"** (the original English text) and **"Target"** (where your translation goes). Simply fill in the "Target" fields with your translations.
+
+    > **Heads up!** If you see any strange-looking code (like `%@` or `%d`), please leave it exactly as it is. The app needs it to work correctly!
+
+#### Step 3: Send Us Your Work
+
+1.  Once you're finished translating, click the **"Generate new XLIFF file"** button on the website to get your updated file.
+2.  Attach this new `.xliff` file to an email and send it to **kitsune@alexandremadeira.dev**.
+3.  You can also upload the file here.
+
+And that's it!
+
+#### Want to Add a New Language?
+
+If you don't see your language in the list, no worries! It's super easy to add a new one.
+
+1.  In the `xliff` folder, just download any existing language file. Starting with `en.xliff` (English) is usually a good bet.
+2.  On your computer, rename that file to your language's code (for example, change `en.xliff` to `fr.xliff` for French).
+3.  Now, just follow the "Path A" steps above to fill it out with your awesome translations.
+4.  Email us the final file, and we'll get your new language into the app!
+
+---
+
+### Path B: For Developers
+
+This option is for developers using macOS and Xcode.
+
+1.  Clone this repository to your Mac.
+2.  Navigate into the **`xcloc`** folder.
+3.  Open the `.xcloc` file for your desired language directly in Xcode to begin translating.
+
+---
+
+Everyone who helps out will get a shout-out on the app's "About" screen. When you send your file, just let me know the name you'd like to be credited by, and feel free to include a link to your personal website or social media.
+
+All new translations will be included in the upcoming app update.
+
+### A Quick Note on Spreadsheets
+
+To anyone who contributed using Apple Numbers, Google Sheets, or Excel before, thank you so much!
+
+I've decided to remove the spreadsheet method for contributing. As the project has grown, it was becoming too complex to manage everyone's contributions this way, especially when fixing typos or adding new translations. I'm really sorry for any inconvenience this might cause!
+
+The new system using the .xliff files should make the whole process much smoother and ensure everyone's hard work gets added to the app correctly.
+
+### Need a Hand?
+
+If you have any questions or get stuck, please don't hesitate to reach out! I'm happy to help.
+
+[Email](mailto:kitsune@alexandremadeira.dev)
+
+[Kitsune Discord Server](https://discord.gg/YCKAEFYasp)
+
+Thanks again for helping out!

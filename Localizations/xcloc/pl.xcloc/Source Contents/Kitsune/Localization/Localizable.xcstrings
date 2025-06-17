@@ -1,10 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "" : {
-      "extractionState" : "stale",
-      "shouldTranslate" : false
-    },
     " %@" : {
       "localizations" : {
         "en" : {
@@ -1629,6 +1625,9 @@
         }
       }
     },
+    "Disable Auto Save on Edit Page" : {
+
+    },
     "Disable Translucent Background" : {
       "localizations" : {
         "en" : {
@@ -2266,7 +2265,7 @@
         "en" : {
           "stringUnit" : {
             "state" : "translated",
-            "value" : "Get the latest new and chat about the app on our Discord server!"
+            "value" : "Get the latest news and chat about the app on our Discord server!"
           }
         }
       }
@@ -2300,6 +2299,16 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gore"
+          }
+        }
+      }
+    },
+    "Got feedback or a bug to report? Want to see what's next?\nThe official Discord is the place to be.\nYour suggestions directly contribute to future updates." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Got feedback or a bug to report? Want to see what's next?\nThe official Discord is the place to be.\nYour suggestions directly contribute to future updates."
           }
         }
       }
@@ -2554,6 +2563,26 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Join Discord Server"
+          }
+        }
+      }
+    },
+    "Join our Discord" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Join our Discord"
+          }
+        }
+      }
+    },
+    "Join Us" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Join Us"
           }
         }
       }

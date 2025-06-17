@@ -64,11 +64,6 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="16.4" build-num="16F6"/>
     </header>
     <body>
-      <trans-unit id="" translate="no" xml:space="preserve">
-        <source/>
-        <target state="new"/>
-        <note/>
-      </trans-unit>
       <trans-unit id=" %@" translate="no" xml:space="preserve">
         <source> %@</source>
         <target state="translated"> %@</target>
@@ -849,6 +844,11 @@
         <target state="translated">Director of Photography</target>
         <note>Anime Position</note>
       </trans-unit>
+      <trans-unit id="Disable Auto Save on Edit Page" xml:space="preserve">
+        <source>Disable Auto Save on Edit Page</source>
+        <target state="new">Disable Auto Save on Edit Page</target>
+        <note/>
+      </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
         <source>Disable Translucent Background</source>
         <target state="translated">Disable Translucent Background</target>
@@ -1160,8 +1160,8 @@
         <note/>
       </trans-unit>
       <trans-unit id="Get the latest new and chat about the app on our Discord server!" xml:space="preserve">
-        <source>Get the latest new and chat about the app on our Discord server!</source>
-        <target state="translated">Get the latest new and chat about the app on our Discord server!</target>
+        <source>Get the latest news and chat about the app on our Discord server!</source>
+        <target state="translated">Get the latest news and chat about the app on our Discord server!</target>
         <note/>
       </trans-unit>
       <trans-unit id="Girls Love" xml:space="preserve">
@@ -1178,6 +1178,15 @@
         <source>Gore</source>
         <target state="translated">Gore</target>
         <note>Genre</note>
+      </trans-unit>
+      <trans-unit id="Got feedback or a bug to report? Want to see what's next?&#10;The official Discord is the place to be.&#10;Your suggestions directly contribute to future updates." xml:space="preserve">
+        <source>Got feedback or a bug to report? Want to see what's next?
+The official Discord is the place to be.
+Your suggestions directly contribute to future updates.</source>
+        <target state="translated">Got feedback or a bug to report? Want to see what's next?
+The official Discord is the place to be.
+Your suggestions directly contribute to future updates.</target>
+        <note/>
       </trans-unit>
       <trans-unit id="Gourmet" xml:space="preserve">
         <source>Gourmet</source>
@@ -1304,6 +1313,16 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</target>
       <trans-unit id="Join Discord Server" xml:space="preserve">
         <source>Join Discord Server</source>
         <target state="translated">Join Discord Server</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Join Us" xml:space="preserve">
+        <source>Join Us</source>
+        <target state="translated">Join Us</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Join our Discord" xml:space="preserve">
+        <source>Join our Discord</source>
+        <target state="translated">Join our Discord</target>
         <note/>
       </trans-unit>
       <trans-unit id="Josei" xml:space="preserve">

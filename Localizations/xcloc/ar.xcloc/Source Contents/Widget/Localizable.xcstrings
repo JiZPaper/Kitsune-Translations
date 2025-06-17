@@ -1,0 +1,1025 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "%@ minutes" : {
+      "shouldTranslate" : false
+    },
+    "%@ of %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ of %2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%@, %@ (JST)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@, %2$@ (JST)"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "%lld/%@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld/%2$@"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "+1" : {
+      "shouldTranslate" : false
+    },
+    "2nd Key Animation" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "17+ (Violence & Profanity)" : {
+      "shouldTranslate" : false
+    },
+    "Account" : {
+      "shouldTranslate" : false
+    },
+    "Action" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "ADR Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Adult Cast" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Adventure" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "All" : {
+      "shouldTranslate" : false
+    },
+    "All Ages" : {
+      "shouldTranslate" : false
+    },
+    "Animation Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Anime" : {
+      "shouldTranslate" : false
+    },
+    "Anime ID" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anime ID"
+          }
+        }
+      }
+    },
+    "Anthropomorphic" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Apple Music" : {
+      "shouldTranslate" : false
+    },
+    "Art Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Assistant Animation Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Avant Garde" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Award Winning" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Black Opacity" : {
+      "shouldTranslate" : false
+    },
+    "Blur" : {
+      "shouldTranslate" : false
+    },
+    "Boys Love" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "By Last Update" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By Last Update"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "By Score" : {
+      "shouldTranslate" : false
+    },
+    "By Start Date" : {
+      "shouldTranslate" : false
+    },
+    "By Title" : {
+      "shouldTranslate" : false
+    },
+    "CGDCT" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Character Design" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Characters" : {
+      "shouldTranslate" : false
+    },
+    "Chief Animation Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Childcare" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Children" : {
+      "shouldTranslate" : false
+    },
+    "Color Design" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Combat Sports" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Comedy" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Comments" : {
+      "shouldTranslate" : false
+    },
+    "Completed" : {
+      "shouldTranslate" : false
+    },
+    "Completed_Manga" : {
+      "shouldTranslate" : false
+    },
+    "Crossdressing" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Current Chapter Count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Chapter Count"
+          }
+        }
+      }
+    },
+    "Current Episode Count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Episode Count"
+          }
+        }
+      }
+    },
+    "Current Volume Count" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Current Volume Count"
+          }
+        }
+      }
+    },
+    "Currently Airing" : {
+      "shouldTranslate" : false
+    },
+    "Currently Publishing" : {
+      "shouldTranslate" : false
+    },
+    "Dark" : {
+      "shouldTranslate" : false
+    },
+    "Delinquents" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Detective" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Director of Photography" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Doujinshi" : {
+      "shouldTranslate" : false
+    },
+    "Drama" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Dropped" : {
+      "shouldTranslate" : false
+    },
+    "Dropped_Manga" : {
+      "shouldTranslate" : false
+    },
+    "Ecchi" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Edit" : {
+      "shouldTranslate" : false
+    },
+    "Educational" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "English" : {
+      "shouldTranslate" : false
+    },
+    "Episode Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Erotica" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Executive Producer" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Fall" : {
+      "shouldTranslate" : false
+    },
+    "Fantasy" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Finished" : {
+      "shouldTranslate" : false
+    },
+    "Finished Airing" : {
+      "shouldTranslate" : false
+    },
+    "Friday" : {
+      "shouldTranslate" : false
+    },
+    "Gag Humor" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Girls Love" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Gore" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Gourmet" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Harem" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Hentai" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "High Stakes Game" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Historical" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Horror" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Idols (Female)" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Idols (Male)" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "In-App" : {
+      "shouldTranslate" : false
+    },
+    "In-Between Animation" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Increment Episode by One" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Increment Episode by One"
+          }
+        }
+      }
+    },
+    "Increment Volume or Chapter by One based on User Settings" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Increment Volume or Chapter by One based on User Settings"
+          }
+        }
+      }
+    },
+    "Is Rereading" : {
+
+    },
+    "Is Rewatching" : {
+
+    },
+    "Isekai" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Iyashikei" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Japanese" : {
+      "shouldTranslate" : false
+    },
+    "Josei" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "JST" : {
+      "shouldTranslate" : false
+    },
+    "Key Animation" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Kids" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Last Updated Anime" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Updated Anime"
+          }
+        }
+      }
+    },
+    "Last Updated Manga" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Last Updated Manga"
+          }
+        }
+      }
+    },
+    "Light" : {
+      "shouldTranslate" : false
+    },
+    "Light Novel" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Light Novel"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "List" : {
+      "shouldTranslate" : false
+    },
+    "Local Time" : {
+      "shouldTranslate" : false
+    },
+    "Love Polygon" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Love Status Quo" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Magical Sex Shift" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Mahou Shoujo" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "MAL Score & Number of Users" : {
+      "shouldTranslate" : false
+    },
+    "Manga" : {
+      "shouldTranslate" : false
+    },
+    "Manga ID" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manga ID"
+          }
+        }
+      }
+    },
+    "Manhua" : {
+      "shouldTranslate" : false
+    },
+    "Manhwa" : {
+      "shouldTranslate" : false
+    },
+    "Mark Next Episode/Chapter/Volume" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mark Next Episode/Chapter/Volume"
+          }
+        }
+      },
+      "shouldTranslate" : false
+    },
+    "Martial Arts" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Mecha" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Medical" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Military" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Monday" : {
+      "shouldTranslate" : false
+    },
+    "Most Favorited" : {
+      "shouldTranslate" : false
+    },
+    "Most Popular" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Movie" : {
+      "shouldTranslate" : false
+    },
+    "Music" : {
+      "comment" : "Anime Position\nGenre",
+      "shouldTranslate" : false
+    },
+    "My Anime List" : {
+      "shouldTranslate" : false
+    },
+    "My List" : {
+      "shouldTranslate" : false
+    },
+    "My Manga List" : {
+      "shouldTranslate" : false
+    },
+    "Mystery" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Mythology" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "None" : {
+      "shouldTranslate" : false
+    },
+    "Not Yet Aired" : {
+      "shouldTranslate" : false
+    },
+    "Not Yet Published" : {
+      "shouldTranslate" : false
+    },
+    "Novel" : {
+      "shouldTranslate" : false
+    },
+    "Number of Time Reread" : {
+
+    },
+    "Number of Time Rewatched" : {
+
+    },
+    "Oel" : {
+      "shouldTranslate" : false
+    },
+    "On Hold" : {
+      "shouldTranslate" : false
+    },
+    "On-Hold" : {
+      "shouldTranslate" : false
+    },
+    "ONA" : {
+      "shouldTranslate" : false
+    },
+    "One Shot" : {
+      "shouldTranslate" : false
+    },
+    "Open App" : {
+      "shouldTranslate" : false
+    },
+    "Organized Crime" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Original Creator" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Otaku Culture" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "OVA" : {
+      "shouldTranslate" : false
+    },
+    "Parody" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "People" : {
+      "shouldTranslate" : false
+    },
+    "Performing Arts" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Pets" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Plan to Read" : {
+      "shouldTranslate" : false
+    },
+    "Plan to Watch" : {
+      "shouldTranslate" : false
+    },
+    "Planning" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Poster" : {
+      "shouldTranslate" : false
+    },
+    "Producer" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Profanity & Mild Nudity" : {
+      "shouldTranslate" : false
+    },
+    "Progress & List" : {
+      "shouldTranslate" : false
+    },
+    "Progress & Personal Score" : {
+      "shouldTranslate" : false
+    },
+    "Psychological" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Racing" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Reading" : {
+      "shouldTranslate" : false
+    },
+    "Reincarnation" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Release Date" : {
+      "shouldTranslate" : false
+    },
+    "Reload" : {
+      "shouldTranslate" : false
+    },
+    "Reread: %lld" : {
+
+    },
+    "Rereading" : {
+
+    },
+    "Reverse Harem" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Rewatched: %lld" : {
+
+    },
+    "Rewatching" : {
+
+    },
+    "Romaji" : {
+      "shouldTranslate" : false
+    },
+    "Romance" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Samurai" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Saturday" : {
+      "shouldTranslate" : false
+    },
+    "Schedule" : {
+      "shouldTranslate" : false
+    },
+    "School" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Sci-Fi" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Script" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Scroll to Top" : {
+      "shouldTranslate" : false
+    },
+    "Search" : {
+      "shouldTranslate" : false
+    },
+    "Season" : {
+      "shouldTranslate" : false
+    },
+    "Seinen" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Series Composition" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Shoujo" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Shounen" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Showbiz" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Sign In into your MyAnimeList account." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sign In into your MyAnimeList account."
+          }
+        }
+      }
+    },
+    "Slice of Life" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Sound Director" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Space" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Special" : {
+      "shouldTranslate" : false
+    },
+    "Sports" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Spotify" : {
+      "shouldTranslate" : false
+    },
+    "Spring" : {
+      "shouldTranslate" : false
+    },
+    "Start reading a manga to use this widget." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start reading a manga to use this widget."
+          }
+        }
+      }
+    },
+    "Start watching an anime to use this widget." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start watching an anime to use this widget."
+          }
+        }
+      }
+    },
+    "Status" : {
+      "shouldTranslate" : false
+    },
+    "Storyboard" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Strategy Game" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Summer" : {
+      "shouldTranslate" : false
+    },
+    "Sunday" : {
+      "shouldTranslate" : false
+    },
+    "Super Power" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Supernatural" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Survival" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Suspense" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Switch Lists" : {
+      "shouldTranslate" : false
+    },
+    "System" : {
+      "shouldTranslate" : false
+    },
+    "Team Sports" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Teens 13 and Older" : {
+      "shouldTranslate" : false
+    },
+    "The Current Score Value" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The Current Score Value"
+          }
+        }
+      }
+    },
+    "The total number of chapters of the title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The total number of chapters of the title"
+          }
+        }
+      }
+    },
+    "The total number of episodes of the show" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The total number of episodes of the show"
+          }
+        }
+      }
+    },
+    "The total number of volume of the title" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The total number of volume of the title"
+          }
+        }
+      }
+    },
+    "Theme Song Arrangement" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Composition" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Lyrics" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "Theme Song Performance" : {
+      "comment" : "Anime Position",
+      "shouldTranslate" : false
+    },
+    "This widget need a MyAnimeList account." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "This widget need a MyAnimeList account."
+          }
+        }
+      }
+    },
+    "Thursday" : {
+      "shouldTranslate" : false
+    },
+    "Time Travel" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Top Airing" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top All" : {
+      "comment" : "Anime Rank\nManga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Anime Movies" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top Anime OVA Series" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top Anime Specials" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top Anime TV Series" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top Doujinshi" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Favorited Anime" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Top Manga" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Manhua" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Manhwa" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Novels" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top One-shots" : {
+      "comment" : "Manga Rank",
+      "shouldTranslate" : false
+    },
+    "Top Upcoming" : {
+      "comment" : "Anime Rank",
+      "shouldTranslate" : false
+    },
+    "Tuesday" : {
+      "shouldTranslate" : false
+    },
+    "TV" : {
+      "shouldTranslate" : false
+    },
+    "Unknown" : {
+      "shouldTranslate" : false
+    },
+    "Urban Fantasy" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Vampire" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Video Game" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "View and update your progress." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "View and update your progress."
+          }
+        }
+      }
+    },
+    "Villainess" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Visual Arts" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Watching" : {
+      "shouldTranslate" : false
+    },
+    "Wednesday" : {
+      "shouldTranslate" : false
+    },
+    "Winter" : {
+      "shouldTranslate" : false
+    },
+    "Workplace" : {
+      "comment" : "Genre",
+      "shouldTranslate" : false
+    },
+    "Your list is empty." : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your list is empty."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

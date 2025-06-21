@@ -441,12 +441,12 @@
       </trans-unit>
       <trans-unit id="Apple Music" xml:space="preserve">
         <source>Apple Music</source>
-        <target state="translated">Muzyka Apple</target>
+        <target state="translated">Apple Music</target>
         <note/>
       </trans-unit>
       <trans-unit id="Apple Music Support" xml:space="preserve">
         <source>Apple Music Support</source>
-        <target state="translated">Wsparcie dla Muzyki Apple</target>
+        <target state="translated">Wsparcie dla Apple Music</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
@@ -2628,6 +2628,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Themes" xml:space="preserve">
         <source>Themes</source>
+        <target state="translated">Gatunki</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will adapt the schedule to match your local date and time." xml:space="preserve">

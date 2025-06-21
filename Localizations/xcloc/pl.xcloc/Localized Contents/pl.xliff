@@ -164,18 +164,22 @@
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.few" xml:space="preserve">
         <source>%lld Favorites</source>
+        <target state="translated">%lld Ulubionych</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.many" xml:space="preserve">
         <source>%lld Favorites</source>
+        <target state="translated">%lld Ulubionych</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.one" xml:space="preserve">
         <source>%lld Favorite</source>
+        <target state="translated">%lld Ulubione</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
         <source>%lld Favorites</source>
+        <target state="translated">%lld Ulubionych</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.few" xml:space="preserve">

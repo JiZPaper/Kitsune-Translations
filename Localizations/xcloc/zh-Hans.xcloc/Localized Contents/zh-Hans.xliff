@@ -46,6 +46,7 @@
       </trans-unit>
       <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
         <source>Play the opening and ending themes using your Apple Music subscription.</source>
+        <target state="translated">使用您的Apple Music订阅播放片头曲和片尾曲。</target>
         <note>Privacy - Media Library Usage Description</note>
       </trans-unit>
     </body>
@@ -113,7 +114,7 @@
       </trans-unit>
       <trans-unit id="%@ • %@ JST" xml:space="preserve">
         <source>%1$@ • %2$@ JST</source>
-        <target state="translated">%1$@ • %2$@ (日本标准时间）</target>
+        <target state="translated">%1$@ • %2$@ 日本标准时间</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s List" xml:space="preserve">
@@ -128,7 +129,7 @@
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
-        <target state="translated">%1$@ • %2$@ 日本标准时间</target>
+        <target state="translated">%1$@ • %2$@（日本标准时间）</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld" translate="no" xml:space="preserve">
@@ -156,12 +157,12 @@
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
         <source>%1$lld episodes watched of %2$@.</source>
-        <target state="translated">共%2$@话 已观看%1$话。</target>
+        <target state="translated">共%2$@话 已观看%1$lld话。</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
         <source>%lld Favorites</source>
-        <target state="translated">%lld个收藏</target>
+        <target state="translated">%lld个喜爱</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld items|==|plural.other" xml:space="preserve">
@@ -220,6 +221,7 @@
       </trans-unit>
       <trans-unit id="2nd Key Animation" xml:space="preserve">
         <source>2nd Key Animation</source>
+        <target state="translated">第二原画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
@@ -234,6 +236,7 @@
       </trans-unit>
       <trans-unit id="ADR Director" xml:space="preserve">
         <source>ADR Director</source>
+        <target state="translated">配音导演</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="About" xml:space="preserve">
@@ -298,12 +301,12 @@
       </trans-unit>
       <trans-unit id="Adjust multiple settings to better suit your preferences." xml:space="preserve">
         <source>Adjust multiple settings to better suit your preferences.</source>
-        <target state="translated">自定义设置以更好地满足您的偏好。</target>
+        <target state="translated">自定义设置以更好地满足你的偏好。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Adult Cast" xml:space="preserve">
         <source>Adult Cast</source>
-        <target state="translated">成人向</target>
+        <target state="translated">成人角色</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Adventure" xml:space="preserve">
@@ -328,7 +331,7 @@
       </trans-unit>
       <trans-unit id="Allow Notifications" xml:space="preserve">
         <source>Allow Notifications</source>
-        <target state="translated">允许通知推送</target>
+        <target state="translated">允许通知</target>
         <note/>
       </trans-unit>
       <trans-unit id="AniList" translate="no" xml:space="preserve">
@@ -337,6 +340,7 @@
       </trans-unit>
       <trans-unit id="Animation Director" xml:space="preserve">
         <source>Animation Director</source>
+        <target state="translated">作画监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Anime" xml:space="preserve">
@@ -416,11 +420,12 @@
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
         <source>Are You Sure?</source>
-        <target state="translated">您确定吗？</target>
+        <target state="translated">你确定吗？</target>
         <note/>
       </trans-unit>
       <trans-unit id="Art Director" xml:space="preserve">
         <source>Art Director</source>
+        <target state="translated">美术监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Ask for Score After Watching an Anime" xml:space="preserve">
@@ -435,6 +440,7 @@
       </trans-unit>
       <trans-unit id="Assistant Animation Director" xml:space="preserve">
         <source>Assistant Animation Director</source>
+        <target state="translated">作画监督助理</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Auto-fill 'Finish Date'" xml:space="preserve">
@@ -459,7 +465,7 @@
       </trans-unit>
       <trans-unit id="Automatically sync your progress with your AniList account." xml:space="preserve">
         <source>Automatically sync your progress with your AniList account.</source>
-        <target state="translated">自动将您的进度与AniList账户同步。</target>
+        <target state="translated">自动将你的进度与AniList账户同步。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Avant Garde" xml:space="preserve">
@@ -574,7 +580,7 @@
       </trans-unit>
       <trans-unit id="Change the behavior when you tap the My List tab when its already open." xml:space="preserve">
         <source>Change the behavior when you tap the My List tab when its already open.</source>
-        <target state="translated">更改在选择“我的列表”选项卡时再次点击该选项卡的行为。</target>
+        <target state="translated">更改在“列表”标签页下再次点击该标签页按钮时的行为。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Chapters Read" xml:space="preserve">
@@ -584,6 +590,7 @@
       </trans-unit>
       <trans-unit id="Character Design" xml:space="preserve">
         <source>Character Design</source>
+        <target state="translated">角色设计</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Characters" xml:space="preserve">
@@ -593,6 +600,7 @@
       </trans-unit>
       <trans-unit id="Chief Animation Director" xml:space="preserve">
         <source>Chief Animation Director</source>
+        <target state="translated">总作画监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Childcare" xml:space="preserve">
@@ -617,6 +625,7 @@
       </trans-unit>
       <trans-unit id="Color Design" xml:space="preserve">
         <source>Color Design</source>
+        <target state="translated">色彩设计</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Combat Sports" xml:space="preserve">
@@ -656,7 +665,7 @@
       </trans-unit>
       <trans-unit id="Connect with your AniList account." xml:space="preserve">
         <source>Connect with your AniList account.</source>
-        <target state="translated">连接到您的AniList账户。</target>
+        <target state="translated">连接到你的AniList账户。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Connected Services" xml:space="preserve">
@@ -716,7 +725,7 @@
       </trans-unit>
       <trans-unit id="Customize what you want to see in the Anime and Manga detail page." xml:space="preserve">
         <source>Customize what you want to see in the Anime and Manga detail page.</source>
-        <target state="translated">自定义您希望在动画和漫画页面看到的内容。</target>
+        <target state="translated">自定义你希望在动画和漫画页面看到的内容。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Dark" xml:space="preserve">
@@ -766,7 +775,7 @@
       </trans-unit>
       <trans-unit id="Demographics" xml:space="preserve">
         <source>Demographics</source>
-        <target state="translated">用户统计数据</target>
+        <target state="translated">受众人群</target>
         <note/>
       </trans-unit>
       <trans-unit id="Design" xml:space="preserve">
@@ -796,14 +805,17 @@
       </trans-unit>
       <trans-unit id="Director" xml:space="preserve">
         <source>Director</source>
+        <target state="translated">监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Director of Photography" xml:space="preserve">
         <source>Director of Photography</source>
+        <target state="translated">摄影监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Disable Auto Save on Edit Page" xml:space="preserve">
         <source>Disable Auto Save on Edit Page</source>
+        <target state="translated">禁用编辑页面中自动保存</target>
         <note/>
       </trans-unit>
       <trans-unit id="Disable Translucent Background" xml:space="preserve">
@@ -877,7 +889,7 @@
       </trans-unit>
       <trans-unit id="Enable Apple Music Support" xml:space="preserve">
         <source>Enable Apple Music Support</source>
-        <target state="translated">启用Apple Music连接</target>
+        <target state="translated">Apple Music连接</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Mature Content" xml:space="preserve">
@@ -887,7 +899,7 @@
       </trans-unit>
       <trans-unit id="Enable Preferred Launch Screen" xml:space="preserve">
         <source>Enable Preferred Launch Screen</source>
-        <target state="translated">启用首选启动页面</target>
+        <target state="translated">启动页面偏好</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Recent Searches" xml:space="preserve">
@@ -897,7 +909,7 @@
       </trans-unit>
       <trans-unit id="Enable Spotify Support" xml:space="preserve">
         <source>Enable Spotify Support</source>
-        <target state="translated">启用Spotify连接</target>
+        <target state="translated">Spotify连接</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enable Trailers" xml:space="preserve">
@@ -932,7 +944,7 @@
       </trans-unit>
       <trans-unit id="Enhance your experience on Kitsune by connecting your preferred third-party services." xml:space="preserve">
         <source>Enhance your experience on Kitsune by connecting your preferred third-party services.</source>
-        <target state="translated">通过连接您喜爱的第三方服务来提升您在Kitsune上的体验。</target>
+        <target state="translated">通过连接你喜爱的第三方服务来提升你在Kitsune上的体验。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Enjoying Kitsune?" xml:space="preserve">
@@ -942,6 +954,7 @@
       </trans-unit>
       <trans-unit id="Episode Director" xml:space="preserve">
         <source>Episode Director</source>
+        <target state="translated">分集监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Episodes" xml:space="preserve">
@@ -961,11 +974,12 @@
       </trans-unit>
       <trans-unit id="Every change made on your MAL list on Kitsune will reflect on your AniList lists." xml:space="preserve">
         <source>Every change made on your MAL list on Kitsune will reflect on your AniList lists.</source>
-        <target state="translated">在Kitsune上对MAL列表所做的每项更改都会反映在您的AniList列表中。</target>
+        <target state="translated">在Kitsune上对MAL列表所做的每项更改都会反映在你的AniList列表中。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Executive Producer" xml:space="preserve">
         <source>Executive Producer</source>
+        <target state="translated">执行制片人</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Explicit Genres" xml:space="preserve">
@@ -1105,17 +1119,17 @@
       </trans-unit>
       <trans-unit id="Get notified when a new episode or anime premieres from your list." xml:space="preserve">
         <source>Get notified when a new episode or anime premieres from your list.</source>
-        <target state="translated">当您列表中的动画有新话播出或首映时向您推送通知。</target>
+        <target state="translated">当你列表中的动画有新话播出或首映时向你推送通知。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released." xml:space="preserve">
         <source>Get notified when new episodes are released for the anime you're currently watching, and when movies or series you've added to your 'Plan to Watch' list are released.</source>
-        <target state="translated">当您正在观看的动画有新话播出，以及您添加到“计划观看”列表中的动画剧场版或系列播出时，向您推送通知</target>
+        <target state="translated">当你正在观看的动画有新话播出，以及你添加到“计划观看”列表中的动画剧场版或系列播出时，向你推送通知。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Get the latest new and chat about the app on our Discord server!" xml:space="preserve">
         <source>Get the latest news and chat about the app on our Discord server!</source>
-        <target state="needs-review-l10n">在我们的Discord服务器上获取app的最新信息并畅所欲言！</target>
+        <target state="translated">在我们的Discord服务器上获得最新资讯或参与app的讨论！</target>
         <note/>
       </trans-unit>
       <trans-unit id="Girls Love" xml:space="preserve">
@@ -1137,6 +1151,7 @@
         <source>Got feedback or a bug to report? Want to see what's next?
 The official Discord is the place to be.
 Your suggestions directly contribute to future updates.</source>
+        <target state="translated">想提出建议或报告Bug？想知道下次更新的资讯？加入我们的官方Discord服务器吧。你的建议将成为未来更新的关键力量。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Gourmet" xml:space="preserve">
@@ -1173,7 +1188,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Hide Username on Tab Bar" xml:space="preserve">
         <source>Hide Username on Tab Bar</source>
-        <target state="translated">不在导航栏中显示用户名</target>
+        <target state="translated">不在标签栏中显示用户名</target>
         <note/>
       </trans-unit>
       <trans-unit id="High Stakes Game" xml:space="preserve">
@@ -1218,6 +1233,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="In-Between Animation" xml:space="preserve">
         <source>In-Between Animation</source>
+        <target state="translated">动画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Information" xml:space="preserve">
@@ -1227,11 +1243,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Is Rereading" xml:space="preserve">
         <source>Is Rereading</source>
+        <target state="translated">重新阅读状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Is Rewatching" xml:space="preserve">
         <source>Is Rewatching</source>
-        <target state="translated">重新观看中</target>
+        <target state="translated">重新观看状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Isekai" xml:space="preserve">
@@ -1266,10 +1283,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Join Us" xml:space="preserve">
         <source>Join Us</source>
+        <target state="translated">加入我们</target>
         <note/>
       </trans-unit>
       <trans-unit id="Join our Discord" xml:space="preserve">
         <source>Join our Discord</source>
+        <target state="translated">加入我们的Discord</target>
         <note/>
       </trans-unit>
       <trans-unit id="Josei" xml:space="preserve">
@@ -1279,6 +1298,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Key Animation" xml:space="preserve">
         <source>Key Animation</source>
+        <target state="translated">原画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Kids" xml:space="preserve">
@@ -1303,7 +1323,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Launch Screen" xml:space="preserve">
         <source>Launch Screen</source>
-        <target state="translated">启动画面</target>
+        <target state="translated">启动页面</target>
         <note/>
       </trans-unit>
       <trans-unit id="Learn more about Schedule" xml:space="preserve">
@@ -1313,7 +1333,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Leave a Review on the App Store!" xml:space="preserve">
         <source>Leave a Review on the App Store!</source>
-        <target state="translated">在App Store上留下您的评价！</target>
+        <target state="translated">在App Store上留下你的评价！</target>
         <note/>
       </trans-unit>
       <trans-unit id="Libraries" xml:space="preserve">
@@ -1348,6 +1368,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Loading adaptations, this process may take some time." xml:space="preserve">
         <source>Loading adaptations, this process may take some time.</source>
+        <target state="translated">正在加载改编作品，这可能需要一些时间。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Local Time" xml:space="preserve">
@@ -1372,7 +1393,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="MAL Score &amp; Number of Users" xml:space="preserve">
         <source>MAL Score &amp; Number of Users</source>
-        <target state="translated">MAL评分与收藏量</target>
+        <target state="translated">MAL评分与添加数</target>
         <note/>
       </trans-unit>
       <trans-unit id="Magazines" xml:space="preserve">
@@ -1512,17 +1533,17 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Most Favorited" xml:space="preserve">
         <source>Most Favorited</source>
-        <target state="translated">最多收藏排行</target>
+        <target state="translated">最多喜爱漫画</target>
         <note/>
       </trans-unit>
       <trans-unit id="Most Popular" xml:space="preserve">
         <source>Most Popular</source>
-        <target state="translated">热门动画</target>
+        <target state="translated">最多添加动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
         <source>Most Popular Manga</source>
-        <target state="translated">热门漫画</target>
+        <target state="translated">最多添加漫画</target>
         <note/>
       </trans-unit>
       <trans-unit id="Movie" xml:space="preserve">
@@ -1538,32 +1559,32 @@ Genre</note>
       </trans-unit>
       <trans-unit id="My %@ List" xml:space="preserve">
         <source>My %@ List</source>
-        <target state="translated">我的%@列表</target>
+        <target state="translated">%@列表</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Anime List" xml:space="preserve">
         <source>My Anime List</source>
-        <target state="translated">我的动画列表</target>
+        <target state="translated">动画列表</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List" xml:space="preserve">
         <source>My List</source>
-        <target state="translated">我的列表</target>
+        <target state="translated">列表</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List Tab Behavior" xml:space="preserve">
         <source>My List Tab Behavior</source>
-        <target state="translated">我的列表行为</target>
+        <target state="translated">列表标签页行为</target>
         <note/>
       </trans-unit>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
         <source>My List, Edit Status, Add Items and Statistics need a MyAnimeList account.</source>
-        <target state="translated">需要登录MyAnimeList账户才能使用我的列表、状态编辑、添加项目和统计信息功能。</target>
+        <target state="translated">需要登录MyAnimeList账户才能使用列表、状态编辑、添加项目和统计信息功能。</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Manga List" xml:space="preserve">
         <source>My Manga List</source>
-        <target state="translated">我的漫画列表</target>
+        <target state="translated">漫画列表</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Score" xml:space="preserve">
@@ -1613,7 +1634,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Nothing here yet." xml:space="preserve">
         <source>Nothing here yet.</source>
-        <target state="translated">这里空空如也。</target>
+        <target state="translated">这里空空如也</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notification Support" xml:space="preserve">
@@ -1623,7 +1644,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Notification Support needs Background access to work, you can also force the sync." xml:space="preserve">
         <source>Notification Support needs Background access to work, you can also force the sync.</source>
-        <target state="translated">通知同步需要后台运行权限才能使用，您也可以强制同步。</target>
+        <target state="translated">通知同步需要后台运行权限才能使用，你也可以强制同步。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Notification support requires Kitsune Premium." xml:space="preserve">
@@ -1743,6 +1764,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Original Creator" xml:space="preserve">
         <source>Original Creator</source>
+        <target state="translated">原作</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Otaku Culture" xml:space="preserve">
@@ -1777,7 +1799,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information." xml:space="preserve">
         <source>Personalize the appearance of your list on the 'My List' screen, and adjust the default behavior of the app when editing your anime and manga information.</source>
-        <target state="translated">在“我的列表”页面个性化您的列表外观，并调整在编辑动画或漫画相关信息时的App行为。</target>
+        <target state="translated">在“列表”页面个性化你的列表外观，并调整在编辑动画或漫画相关信息时的App行为。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Pets" xml:space="preserve">
@@ -1797,6 +1819,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Planning" xml:space="preserve">
         <source>Planning</source>
+        <target state="translated">企划</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Play Later" xml:space="preserve">
@@ -1811,12 +1834,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Play the opening and ending themes using your Apple Music subscription." xml:space="preserve">
         <source>Play the opening and ending themes using your Apple Music subscription.</source>
-        <target state="translated">使用您的Apple Music订阅播放片头曲和片尾曲。</target>
+        <target state="translated">使用你的Apple Music订阅播放片头曲和片尾曲。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Play the opening and ending themes with your Spotify subscription." xml:space="preserve">
         <source>Play the opening and ending themes with your Spotify subscription.</source>
-        <target state="translated">使用您的Spotify订阅播放片头曲和片尾曲。</target>
+        <target state="translated">使用你的Spotify订阅播放片头曲和片尾曲。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please, note that the app doesn't consider delays." xml:space="preserve">
@@ -1851,32 +1874,32 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
         <source>Prefer Manga Volumes</source>
-        <target state="translated">首选更改卷数标记</target>
+        <target state="translated">优先更改卷数进度标记</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Apple Music Player" xml:space="preserve">
         <source>Preferred Apple Music Player</source>
-        <target state="translated">首选Apple Music播放器</target>
+        <target state="translated">Apple Music播放器偏好</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Platform" xml:space="preserve">
         <source>Preferred Platform</source>
-        <target state="translated">首选平台</target>
+        <target state="translated">偏好平台</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Screen" xml:space="preserve">
         <source>Preferred Screen</source>
-        <target state="translated">首选页面</target>
+        <target state="translated">启动页面偏好</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Time Format" xml:space="preserve">
         <source>Preferred Time Format</source>
-        <target state="translated">首选时间格式</target>
+        <target state="translated">时间格式偏好</target>
         <note/>
       </trans-unit>
       <trans-unit id="Preferred Title Language" xml:space="preserve">
         <source>Preferred Title Language</source>
-        <target state="translated">首选标题语言</target>
+        <target state="translated">标题语言偏好</target>
         <note/>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
@@ -1886,6 +1909,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Producer" xml:space="preserve">
         <source>Producer</source>
+        <target state="translated">制片人</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Profanity &amp; Mild Nudity" xml:space="preserve">
@@ -2016,14 +2040,17 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Reread %lld times." xml:space="preserve">
         <source>Reread %lld times.</source>
+        <target state="translated">已重新阅读%lld次。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reread: %lld" xml:space="preserve">
         <source>Reread: %lld</source>
+        <target state="translated">重新阅读：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
+        <target state="translated">正在重新阅读</target>
         <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
@@ -2058,7 +2085,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Rewatching" xml:space="preserve">
         <source>Rewatching</source>
-        <target state="translated">重新观看中</target>
+        <target state="translated">正在重新观看</target>
         <note/>
       </trans-unit>
       <trans-unit id="Romaji" xml:space="preserve">
@@ -2128,6 +2155,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Script" xml:space="preserve">
         <source>Script</source>
+        <target state="translated">剧本</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Scroll to Top" xml:space="preserve">
@@ -2192,6 +2220,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Series Composition" xml:space="preserve">
         <source>Series Composition</source>
+        <target state="translated">总编剧</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Session Expired" xml:space="preserve">
@@ -2246,11 +2275,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show MAL Mean Score on Plan to Watch/Plan to Read" xml:space="preserve">
         <source>Show MAL Mean Score on Plan to Watch/Plan to Read</source>
+        <target state="translated">在计划观看/计划阅读列表中显示MAL平均评分</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Mean Score on List Style" xml:space="preserve">
         <source>Show Mean Score on List Style</source>
-        <target state="translated">在列表样式上显示平均评分</target>
+        <target state="translated">在列表样式下显示平均评分</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show More" xml:space="preserve">
@@ -2345,6 +2375,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sound Director" xml:space="preserve">
         <source>Sound Director</source>
+        <target state="translated">音响监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Source" xml:space="preserve">
@@ -2379,7 +2410,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Spotify Support" xml:space="preserve">
         <source>Spotify Support</source>
-        <target state="translated">Spotify 支持</target>
+        <target state="translated">Spotify支持</target>
         <note/>
       </trans-unit>
       <trans-unit id="Spring" xml:space="preserve">
@@ -2409,6 +2440,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Storyboard" xml:space="preserve">
         <source>Storyboard</source>
+        <target state="translated">分镜</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Strategy Game" xml:space="preserve">
@@ -2418,6 +2450,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Streaming Services" xml:space="preserve">
         <source>Streaming Services</source>
+        <target state="translated">流媒体服务</target>
         <note/>
       </trans-unit>
       <trans-unit id="Studios" xml:space="preserve">
@@ -2512,12 +2545,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Tabs" xml:space="preserve">
         <source>Tabs</source>
-        <target state="translated">选项卡</target>
+        <target state="translated">标签页</target>
         <note/>
       </trans-unit>
       <trans-unit id="Tap 'Save' to save your changes after writing." xml:space="preserve">
         <source>Tap 'Save' to save your changes after writing.</source>
-        <target state="translated">撰写完毕后点击“保存”以保存您的更改。</target>
+        <target state="translated">撰写完毕后点击“保存”以保存你的更改。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Team Sports" xml:space="preserve">
@@ -2537,7 +2570,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature." xml:space="preserve">
         <source>The AniList sync feature in Kitsune is currently in its initial stage. The only functionality available at this time is a one-way sync, which will update your anime and manga lists on AniList with any changes you make within the app. Your feedback is essential to help improve and expand the capabilities of this sync feature.</source>
-        <target state="translated">Kitsune应用中的AniList同步功能尚处于初期阶段。目前仅支持单向同步 ，即您在Kitsune内对动画/漫画列表的修改（如追番、进度更新等），可以同步到您的AniList账号而无法从AniList反向同步数据至Kitsune 。</target>
+        <target state="translated">Kitsune应用中的AniList同步功能尚处于初期阶段。目前仅支持单向同步 ，即ni在Kitsune内对动画/漫画列表的修改（如追番、进度更新等），可以同步到你的AniList账号而无法从AniList反向同步数据至Kitsune 。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The anime will premiere today." xml:space="preserve">
@@ -2567,18 +2600,22 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Theme Song Arrangement" xml:space="preserve">
         <source>Theme Song Arrangement</source>
+        <target state="translated">主题曲编曲</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Composition" xml:space="preserve">
         <source>Theme Song Composition</source>
+        <target state="translated">主题曲作曲</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Lyrics" xml:space="preserve">
         <source>Theme Song Lyrics</source>
+        <target state="translated">主题曲作词</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Performance" xml:space="preserve">
         <source>Theme Song Performance</source>
+        <target state="translated">主题曲演唱</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Themes" xml:space="preserve">
@@ -2588,7 +2625,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="This will adapt the schedule to match your local date and time." xml:space="preserve">
         <source>This will adapt the schedule to match your local date and time.</source>
-        <target state="translated">这将调整时间表以匹配您的当地日期和时间。</target>
+        <target state="translated">这将调整时间表以匹配你的当地日期和时间。</target>
         <note/>
       </trans-unit>
       <trans-unit id="This will direct you to the MyAnimeList Account Deletion page." xml:space="preserve">
@@ -2598,7 +2635,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="This will remove this item from your list." xml:space="preserve">
         <source>This will remove this item from your list.</source>
-        <target state="translated">这将从您的列表中移除此项目。</target>
+        <target state="translated">这将从你的列表中移除此项目。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Thursday" xml:space="preserve">
@@ -2629,73 +2666,73 @@ Search and matching are automated, mismatches may occur.</source>
       <trans-unit id="Toggle this setting to include mature content in search results and recommendations.&#10;User lists are always unrestricted." xml:space="preserve">
         <source>Toggle this setting to include mature content in search results and recommendations.
 User lists are always unrestricted.</source>
-        <target state="translated">开启此设置以允许搜索结果和推荐中包含成人内容。用户列表不受限制。</target>
+        <target state="translated">这将允许搜索结果和推荐中包含成人内容。用户列表始终不被模糊。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Top Airing" xml:space="preserve">
         <source>Top Airing</source>
-        <target state="translated">热播排行</target>
+        <target state="translated">正在热播</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top All" xml:space="preserve">
         <source>Top All</source>
-        <target state="translated">综合排行</target>
+        <target state="translated">综合评分</target>
         <note>Anime Rank
 Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" xml:space="preserve">
         <source>Top Anime Movies</source>
-        <target state="translated">热门剧场版排行</target>
+        <target state="translated">高分剧场版</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime OVA Series" xml:space="preserve">
         <source>Top Anime OVA Series</source>
-        <target state="translated">热门OVA排行</target>
+        <target state="translated">高分OVA</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Specials" xml:space="preserve">
         <source>Top Anime Specials</source>
-        <target state="translated">热门特别篇排行</target>
+        <target state="translated">高分特别篇</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime TV Series" xml:space="preserve">
         <source>Top Anime TV Series</source>
-        <target state="translated">热门TV动画排行</target>
+        <target state="translated">高分TV动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Doujinshi" xml:space="preserve">
         <source>Top Doujinshi</source>
-        <target state="translated">热门同人志排行</target>
+        <target state="translated">高分同人志</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Favorited Anime" xml:space="preserve">
         <source>Top Favorited Anime</source>
-        <target state="translated">收藏排行</target>
+        <target state="translated">最多喜爱动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Manga" xml:space="preserve">
         <source>Top Manga</source>
-        <target state="translated">热门日本漫画排行</target>
+        <target state="translated">高分日漫</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Manhua" xml:space="preserve">
         <source>Top Manhua</source>
-        <target state="translated">热门国产漫画排行</target>
+        <target state="translated">高分国漫</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Manhwa" xml:space="preserve">
         <source>Top Manhwa</source>
-        <target state="translated">热门韩国漫画排行</target>
+        <target state="translated">高分韩漫</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Novels" xml:space="preserve">
         <source>Top Novels</source>
-        <target state="translated">热门小说排行</target>
+        <target state="translated">高分小说</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top One-shots" xml:space="preserve">
         <source>Top One-shots</source>
-        <target state="translated">热门单话排行</target>
+        <target state="translated">高分单话</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Poster Action" xml:space="preserve">
@@ -2705,7 +2742,7 @@ Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Upcoming" xml:space="preserve">
         <source>Top Upcoming</source>
-        <target state="translated">热门即将播出排行</target>
+        <target state="translated">最受期待动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="TopUpcoming_Search" xml:space="preserve">
@@ -2725,7 +2762,7 @@ Manga Rank</note>
       </trans-unit>
       <trans-unit id="Traditional Chinese (Taiwan)" xml:space="preserve">
         <source>Traditional Chinese (Taiwan)</source>
-        <target state="translated"> 繁体中文（台湾）</target>
+        <target state="translated">繁体中文（台湾）</target>
         <note/>
       </trans-unit>
       <trans-unit id="Trailer" xml:space="preserve">
@@ -2765,13 +2802,12 @@ Manga Rank</note>
       </trans-unit>
       <trans-unit id="Try again later, change the season/year or go back to current Season." xml:space="preserve">
         <source>Try again later, change the season/year or go back to current Season.</source>
-        <target state="translated">请稍后重试，或更改季度/年份，您也可以返回当前季度
-</target>
+        <target state="translated">请稍后重试，或更改季度/年份，你也可以返回当前季度。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Try again later, change the season/year/filter or go back to current Season." xml:space="preserve">
         <source>Try again later, change the season/year/filter or go back to current Season.</source>
-        <target state="translated">请稍后重试，或更改季度/年份/筛选设置，您也可以返回当前季度。</target>
+        <target state="translated">请稍后重试，或更改季度/年份/筛选设置，你也可以返回当前季度。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Tuesday" xml:space="preserve">
@@ -2808,7 +2844,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Unlock the full week in Schedule." xml:space="preserve">
         <source>Unlock the full week in Schedule.</source>
-        <target state="translated">解锁完整日程表功能</target>
+        <target state="translated">解锁日程表功能。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Upcoming" xml:space="preserve">
@@ -2828,7 +2864,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Upgrade to Kitsune Premium to view your full weekly schedule." xml:space="preserve">
         <source>Upgrade to Kitsune Premium to view your full weekly schedule.</source>
-        <target state="translated">升级到Kitsune高级版以查看您的完整每周日程表。</target>
+        <target state="translated">升级到Kitsune高级版以查看你的完整每周日程表。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Urban Fantasy" xml:space="preserve">
@@ -2899,13 +2935,13 @@ No Subscription required.</source>
       <trans-unit id="Want to bring Kitsune to your language?&#10;https://github.com/MadeiraAlexandre/Kitsune-Translations" xml:space="preserve">
         <source>Want to bring Kitsune to your language?
 https://github.com/MadeiraAlexandre/Kitsune-Translations</source>
-        <target state="translated">想将Kitsune翻译成您的母语？
+        <target state="translated">想将Kitsune翻译成你的母语？
 https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
         <note/>
       </trans-unit>
       <trans-unit id="Watch an anime from the current season to use Schedule." xml:space="preserve">
         <source>Watch an anime from the current season to use Schedule.</source>
-        <target state="translated">开始观看本季度的动画以启用日程表。</target>
+        <target state="translated">开始观看本季度的动画以使用日程表。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Watched" xml:space="preserve">
@@ -2936,7 +2972,7 @@ https://github.com/MadeiraAlexandre/Kitsune-Translations</target>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
         <source>When on, the app will always open your selected Preferred Screen.
 When off, the app will always open the last tab opened.</source>
-        <target state="translated">开启此设置来让App启动时始终打开您选择的页面，否则App将您最后停留的页面。</target>
+        <target state="translated">这将让App启动时始终打开你选择的页面，否则App将打开你最后停留的页面。</target>
         <note/>
       </trans-unit>
       <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
@@ -2966,44 +3002,44 @@ When off, the app will always open the last tab opened.</source>
       </trans-unit>
       <trans-unit id="You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser." xml:space="preserve">
         <source>You can create a MyAnimeList account by signing up on https://myanimelist.net using your preferred browser.</source>
-        <target state="translated">您可以使用您喜欢的浏览器在https://myanimelist.net上注册，创建一个MyAnimeList账户。</target>
+        <target state="translated">你可以使用你喜欢的浏览器在https://myanimelist.net上注册，创建一个MyAnimeList账户。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You can create an AniList account by signing up on https://anilist.co using your preferred browser." xml:space="preserve">
         <source>You can create an AniList account by signing up on https://anilist.co using your preferred browser.</source>
-        <target state="translated">您可以使用您喜欢的浏览器在https://anilist.co上注册，创建一个AniList账户。</target>
+        <target state="translated">你可以使用你喜欢的浏览器在https://anilist.co上注册，创建一个AniList账户。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You can enable both, but Kitsune can only display one at a time." xml:space="preserve">
         <source>You can enable both, but Kitsune can only display one at a time.</source>
-        <target state="translated">您可以同时启用两者，但Kitsune一次只能显示一个。</target>
+        <target state="translated">你可以同时启用两者，但Kitsune只能使用其中一个。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You need Kitsune Premium to change this." xml:space="preserve">
         <source>You need Kitsune Premium to change this.</source>
-        <target state="translated">您需要Kitsune高级版才能改变它。</target>
+        <target state="translated">改变此选项需要Kitsune高级版订阅。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You need the Spotify app installed." xml:space="preserve">
         <source>You need the Spotify app installed.</source>
-        <target state="translated">您需要安装Spotify app。</target>
+        <target state="translated">你需要安装Spotify app。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account." xml:space="preserve">
         <source>You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account.</source>
-        <target state="translated">如果您希望将您的AniList账户与MyAnimeList帐户同步，则需要再次登录。</target>
+        <target state="translated">如果你希望将你的AniList账户与MyAnimeList帐户同步，则需要再次登录。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
         <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statistics.</source>
-        <target state="translated">如果要使用我的列表、状态编辑、添加项目和统计信息功能，则需要再次登录。</target>
+        <target state="translated">如果要使用列表、状态编辑、添加项目和统计信息功能，则需要再次登录。</target>
         <note/>
       </trans-unit>
       <trans-unit id="You're a Premium user.&#10; Thank you for your support!" xml:space="preserve">
         <source>You're a Premium user.
 Thank you for your support!</source>
-        <target state="translated">您现在是一名高级版用户。
-感谢您的支持！</target>
+        <target state="translated">你现在是一名高级版用户。
+感谢你的支持！</target>
         <note/>
       </trans-unit>
       <trans-unit id="YouTube" translate="no" xml:space="preserve">
@@ -3023,14 +3059,14 @@ Thank you for your support!</source>
       <trans-unit id="Your session has expired.&#10;Please, sign in again to keep using the app." xml:space="preserve">
         <source>Your session has expired.
 Please, sign in again to keep using the app.</source>
-        <target state="translated">您的会话已过期。
+        <target state="translated">你的会话已过期。
 请重新登录以继续使用App。</target>
         <note/>
       </trans-unit>
       <trans-unit id="about_your_schedule" xml:space="preserve">
         <source>Schedule organizes your currently watching anime by their weekday release, displaying them from Monday to Sunday. 
 It also includes upcoming premieres from your 'Plan to Watch' list for the next 3 days.</source>
-        <target state="translated">日程表将按动画在一周中的播出时间，从星期一到星期日依次排列您观看中的动画，以及计划观看列表中未来三天内即将播出的动画。</target>
+        <target state="translated">日程表将按动画在一周中的播出时间，从星期一到星期日依次排列你观看中的动画，以及计划观看列表中未来三天内即将播出的动画。</target>
         <note/>
       </trans-unit>
       <trans-unit id="• (%lld)" translate="no" xml:space="preserve">
@@ -3407,10 +3443,12 @@ It also includes upcoming premieres from your 'Plan to Watch' list for the next 
       </trans-unit>
       <trans-unit id="Is Rereading" xml:space="preserve">
         <source>Is Rereading</source>
+        <target state="translated">重新阅读状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Is Rewatching" xml:space="preserve">
         <source>Is Rewatching</source>
+        <target state="translated">重新观看状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Isekai" translate="no" xml:space="preserve">
@@ -3583,10 +3621,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Number of Time Reread" xml:space="preserve">
         <source>Number of Time Reread</source>
+        <target state="translated">重新阅读次数</target>
         <note/>
       </trans-unit>
       <trans-unit id="Number of Time Rewatched" xml:space="preserve">
         <source>Number of Time Rewatched</source>
+        <target state="translated">重新观看次数</target>
         <note/>
       </trans-unit>
       <trans-unit id="ONA" translate="no" xml:space="preserve">
@@ -3703,10 +3743,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Reread: %lld" xml:space="preserve">
         <source>Reread: %lld</source>
+        <target state="translated">重新阅读：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
+        <target state="translated">正在重新阅读</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reverse Harem" translate="no" xml:space="preserve">
@@ -3715,10 +3757,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Rewatched: %lld" xml:space="preserve">
         <source>Rewatched: %lld</source>
+        <target state="translated">重新观看：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rewatching" xml:space="preserve">
         <source>Rewatching</source>
+        <target state="translated">正在重新观看</target>
         <note/>
       </trans-unit>
       <trans-unit id="Romaji" translate="no" xml:space="preserve">

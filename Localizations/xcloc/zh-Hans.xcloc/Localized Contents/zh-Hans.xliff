@@ -46,10 +46,12 @@
       </trans-unit>
       <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
         <source>Play the opening and ending themes using your Apple Music subscription.</source>
+        <target state="translated">使用您的Apple Music订阅来播放片头曲和片尾曲。</target>
         <note>Privacy - Media Library Usage Description</note>
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
         <source>Save your favorite anime posters straight to your photo library.</source>
+        <target state="translated">将您喜欢的动画海报保存到您的照片中。</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
     </body>
@@ -92,11 +94,12 @@
       </trans-unit>
       <trans-unit id="%@ average score from %@ users" xml:space="preserve">
         <source>%1$@ average score from %2$@ users</source>
+        <target state="translated">%1$@分 • %2$@位用户参与评分</target>
         <note from="auto-generated">Text displayed below the main title, showing the average score of the anime, along with the number of users who have rated it.</note>
       </trans-unit>
       <trans-unit id="%@ by %lld users" xml:space="preserve">
         <source>%1$@ by %2$lld users</source>
-        <target state="translated">%1$@ 分 | %2$lld位用户参与评分</target>
+        <target state="translated">%1$@分 • %2$lld位用户参与评分</target>
         <note from="auto-generated">The mean score of a manga, along with the number of users who rated it.</note>
       </trans-unit>
       <trans-unit id="%@ days" xml:space="preserve">
@@ -106,15 +109,17 @@
       </trans-unit>
       <trans-unit id="%@ episodes watched of %@." xml:space="preserve">
         <source>%1$@ episodes watched of %2$@.</source>
+        <target state="translated">共%2$@话 已观看%1$@话。</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ episodes, %@" xml:space="preserve">
         <source>%1$@ episodes, %2$@</source>
-        <target state="translated">%1$@话, %2$@</target>
+        <target state="translated">%1$@话，%2$@</target>
         <note from="auto-generated">The secondary header info for an anime that is a TV show, OVA, or ONA. The first argument is the number of episodes. The second argument is the average episode duration.</note>
       </trans-unit>
       <trans-unit id="%@ items" xml:space="preserve">
         <source>%@ items</source>
+        <target state="translated">%@个项目</target>
         <note from="auto-generated">A label displaying the number of items in the currently selected list.</note>
       </trans-unit>
       <trans-unit id="%@ minutes" xml:space="preserve">
@@ -129,10 +134,12 @@
       </trans-unit>
       <trans-unit id="%@ of %lld" xml:space="preserve">
         <source>%1$@ of %2$lld</source>
+        <target state="translated">%1$@ / %2$lld</target>
         <note from="auto-generated">A label displaying the number of chapters read out of the total number of chapters. The first argument is the number of chapters read. The second argument is the total number of chapters.</note>
       </trans-unit>
       <trans-unit id="%@ per episode" xml:space="preserve">
         <source>%@ per episode</source>
+        <target state="translated">每话%@</target>
         <note from="auto-generated">Text that appears below the main title in the details view, describing a TV show with an unknown number of episodes and a single episode duration. The argument is the episode duration.</note>
       </trans-unit>
       <trans-unit id="%@ • %@" translate="no" xml:space="preserve">
@@ -191,7 +198,7 @@
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
         <source>%1$lld episodes watched of %2$@.</source>
-        <target state="translated">共%2$@话 已观看%1$话。</target>
+        <target state="translated">共%2$@话 已观看%1$lld话。</target>
         <note/>
       </trans-unit>
       <trans-unit id="%lld favorites|==|plural.other" xml:space="preserve">
@@ -211,6 +218,7 @@
       </trans-unit>
       <trans-unit id="%lld of %@" xml:space="preserve">
         <source>%1$lld of %2$@</source>
+        <target state="translated">%1$lld / %2$@</target>
         <note from="auto-generated">A text displaying the current episode count out of the total episode count for the anime. The first argument is the number of episodes the user has marked as watched. The second argument is the total number of episodes in the anime.</note>
       </trans-unit>
       <trans-unit id="%lld of %lld" xml:space="preserve">
@@ -255,6 +263,7 @@
       </trans-unit>
       <trans-unit id="+1 (%@/%@)" xml:space="preserve">
         <source>+1 (%1$@/%2$@)</source>
+        <target state="translated">+1 (%1$@/%2$@)</target>
         <note from="auto-generated">A label that shows the number of episodes watched and the total number of episodes.</note>
       </trans-unit>
       <trans-unit id="+1 (%lld/%@)" translate="no" xml:space="preserve">
@@ -263,23 +272,27 @@
       </trans-unit>
       <trans-unit id="+1 Chapter" xml:space="preserve">
         <source>+1 Chapter</source>
+        <target state="translated">+1章节</target>
         <note from="auto-generated">A button that marks the next chapter of a manga as read.</note>
       </trans-unit>
       <trans-unit id="+1 Volume" xml:space="preserve">
         <source>+1 Volume</source>
+        <target state="translated">+1卷</target>
         <note from="auto-generated">A button that marks the next volume of a manga as read.</note>
       </trans-unit>
       <trans-unit id="1+ Episode" xml:space="preserve">
         <source>1+ Episode</source>
+        <target state="translated">+1话</target>
         <note/>
       </trans-unit>
       <trans-unit id="2nd Key Animation" xml:space="preserve">
         <source>2nd Key Animation</source>
+        <target state="translated">第二原画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
         <source>17+ (Violence &amp; Profanity)</source>
-        <target state="translated">17+ (暴力和亵渎)</target>
+        <target state="translated">17+（暴力和亵渎）</target>
         <note/>
       </trans-unit>
       <trans-unit id="A new episode is arriving today." xml:space="preserve">
@@ -289,6 +302,7 @@
       </trans-unit>
       <trans-unit id="ADR Director" xml:space="preserve">
         <source>ADR Director</source>
+        <target state="translated">配音监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="About" xml:space="preserve">
@@ -387,6 +401,7 @@
       </trans-unit>
       <trans-unit id="Animation Director" xml:space="preserve">
         <source>Animation Director</source>
+        <target state="translated">作画监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Anime" xml:space="preserve">
@@ -396,6 +411,7 @@
       </trans-unit>
       <trans-unit id="Anime List" xml:space="preserve">
         <source>Anime List</source>
+        <target state="translated">动画列表</target>
         <note from="auto-generated">Title of the section that lists the user's watched anime.</note>
       </trans-unit>
       <trans-unit id="Anime Ranking" xml:space="preserve">
@@ -460,6 +476,7 @@
       </trans-unit>
       <trans-unit id="Arabic" xml:space="preserve">
         <source>Arabic</source>
+        <target state="translated">阿拉伯语</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
@@ -469,6 +486,7 @@
       </trans-unit>
       <trans-unit id="Art Director" xml:space="preserve">
         <source>Art Director</source>
+        <target state="translated">美术监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Ask for Score After Watching an Anime" xml:space="preserve">
@@ -483,6 +501,7 @@
       </trans-unit>
       <trans-unit id="Assistant Animation Director" xml:space="preserve">
         <source>Assistant Animation Director</source>
+        <target state="translated">作画监督助理</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Auto-fill 'Finish Date'" xml:space="preserve">
@@ -537,6 +556,7 @@
       </trans-unit>
       <trans-unit id="Biography" xml:space="preserve">
         <source>Biography</source>
+        <target state="translated">传记</target>
         <note from="auto-generated">A label for the biography section of an overview box.</note>
       </trans-unit>
       <trans-unit id="Black Opacity" xml:space="preserve">
@@ -576,6 +596,7 @@
       </trans-unit>
       <trans-unit id="By %@" xml:space="preserve">
         <source>By %@</source>
+        <target state="translated">艺人：%@</target>
         <note from="auto-generated">A subtitle below the main song title in the fullscreen music player view. The argument is the artist name of the song in the cart.</note>
       </trans-unit>
       <trans-unit id="By Last Update" xml:space="preserve">
@@ -585,6 +606,7 @@
       </trans-unit>
       <trans-unit id="By Priority" xml:space="preserve">
         <source>By Priority</source>
+        <target state="translated">按优先级</target>
         <note from="auto-generated">Title for the sorting order option that sorts the user's anime list by priority.</note>
       </trans-unit>
       <trans-unit id="By Score" xml:space="preserve">
@@ -624,7 +646,7 @@
       </trans-unit>
       <trans-unit id="Change the behavior when you tap the My List tab when its already open." xml:space="preserve">
         <source>Change the behavior when you tap the My List tab when its already open.</source>
-        <target state="translated">更改在选择“我的列表”选项卡时再次点击该选项卡的行为。</target>
+        <target state="translated">更改在选择“列表”标签页时再次点击该标签页的行为。</target>
         <note from="auto-generated">A description for the "My List Tab Behavior" picker in the</note>
       </trans-unit>
       <trans-unit id="Chapters Read" xml:space="preserve">
@@ -634,6 +656,7 @@
       </trans-unit>
       <trans-unit id="Character Design" xml:space="preserve">
         <source>Character Design</source>
+        <target state="translated">角色设计</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Characters" xml:space="preserve">
@@ -643,6 +666,7 @@
       </trans-unit>
       <trans-unit id="Chief Animation Director" xml:space="preserve">
         <source>Chief Animation Director</source>
+        <target state="translated">总作画监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Childcare" xml:space="preserve">
@@ -657,10 +681,12 @@
       </trans-unit>
       <trans-unit id="Chinese (Simplified)" xml:space="preserve">
         <source>Chinese (Simplified)</source>
+        <target state="translated">简体中文</target>
         <note from="auto-generated">Title for the "Chinese (Simplified)" target language option in the "Language" menu.</note>
       </trans-unit>
       <trans-unit id="Chinese (Traditional)" xml:space="preserve">
         <source>Chinese (Traditional)</source>
+        <target state="translated">繁体中文</target>
         <note from="auto-generated">Title for the Chinese (Traditional) language option in the settings.</note>
       </trans-unit>
       <trans-unit id="Clear Cache" xml:space="preserve">
@@ -675,6 +701,7 @@
       </trans-unit>
       <trans-unit id="Color Design" xml:space="preserve">
         <source>Color Design</source>
+        <target state="translated">色彩设计</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Combat Sports" xml:space="preserve">
@@ -704,6 +731,7 @@
       </trans-unit>
       <trans-unit id="Composed by %@" xml:space="preserve">
         <source>Composed by %@</source>
+        <target state="translated">作曲：%@</target>
         <note from="auto-generated">A label below the title of an Apple Music track, indicating that it was composed by a specific person. The argument is the name of the</note>
       </trans-unit>
       <trans-unit id="Confirm" xml:space="preserve">
@@ -713,6 +741,7 @@
       </trans-unit>
       <trans-unit id="Confirm, don’t ask again" xml:space="preserve">
         <source>Confirm, don’t ask again</source>
+        <target state="translated">确认并不再询问</target>
         <note/>
       </trans-unit>
       <trans-unit id="Connect" xml:space="preserve">
@@ -847,10 +876,12 @@
       </trans-unit>
       <trans-unit id="Director" xml:space="preserve">
         <source>Director</source>
+        <target state="translated">监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Director of Photography" xml:space="preserve">
         <source>Director of Photography</source>
+        <target state="translated">摄影监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Disable Auto Save on Edit Page" xml:space="preserve">
@@ -920,6 +951,7 @@
       </trans-unit>
       <trans-unit id="Enable Auto Translation" xml:space="preserve">
         <source>Enable Auto Translation</source>
+        <target state="translated">启用自动翻译</target>
         <note from="auto-generated">A toggle that enables or disables auto translation of synopsis and biographies.</note>
       </trans-unit>
       <trans-unit id="Enable Mature Content" xml:space="preserve">
@@ -939,6 +971,7 @@
       </trans-unit>
       <trans-unit id="Enable Schedule" xml:space="preserve">
         <source>Enable Schedule</source>
+        <target state="translated">启用日程表</target>
         <note from="auto-generated">A toggle that enables or disables the schedule feature.</note>
       </trans-unit>
       <trans-unit id="Enable Spotify Support" xml:space="preserve">
@@ -973,22 +1006,27 @@
       </trans-unit>
       <trans-unit id="Episode %lld in %lld days" xml:space="preserve">
         <source>Episode %1$lld in %2$lld days</source>
+        <target state="translated">第%1$lld话于%2$lld天后播出</target>
         <note from="auto-generated">Text describing an anime episode, including the episode number and the number of days until the episode airs.</note>
       </trans-unit>
       <trans-unit id="Episode %lld in %lld hours" xml:space="preserve">
         <source>Episode %1$lld in %2$lld hours</source>
+        <target state="translated">第%1$lld话于%2$lld小时后播出</target>
         <note from="auto-generated">Text describing the airing of an anime episode in a future day, including the number of hours until it airs.</note>
       </trans-unit>
       <trans-unit id="Episode %lld today" xml:space="preserve">
         <source>Episode %lld today</source>
+        <target state="translated">今日播出第%lld话</target>
         <note from="auto-generated">A string describing when the next episode of an anime will air. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Episode %lld tomorrow" xml:space="preserve">
         <source>Episode %lld tomorrow</source>
+        <target state="translated">明日播出第%lld话</target>
         <note from="auto-generated">Text that appears below an anime's title in the "Details" view, indicating that a particular episode is airing soon. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Episode Director" xml:space="preserve">
         <source>Episode Director</source>
+        <target state="translated">分集导演</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Episodes Watched" xml:space="preserve">
@@ -1003,6 +1041,7 @@
       </trans-unit>
       <trans-unit id="Executive Producer" xml:space="preserve">
         <source>Executive Producer</source>
+        <target state="translated">执行制片人</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Explicit Genres" xml:space="preserve">
@@ -1097,6 +1136,7 @@
       </trans-unit>
       <trans-unit id="Fixed" xml:space="preserve">
         <source>Fixed</source>
+        <target state="translated">固定</target>
         <note from="auto-generated">Title for the "Fixed" option in the tab bar behavior picker.</note>
       </trans-unit>
       <trans-unit id="For You" xml:space="preserve">
@@ -1106,6 +1146,7 @@
       </trans-unit>
       <trans-unit id="French" xml:space="preserve">
         <source>French</source>
+        <target state="translated">法语</target>
         <note from="auto-generated">Name of the French language.</note>
       </trans-unit>
       <trans-unit id="Friday" xml:space="preserve">
@@ -1172,6 +1213,7 @@
         <source>Got feedback or a bug to report? Want to see what's next?
 The official Discord is the place to be.
 Your suggestions directly contribute to future updates.</source>
+        <target state="translated">有建议或错误报告？想知道接下来的更新？加入官方Discord，您的反馈将帮助我们未来的更新。</target>
         <note from="auto-generated">A description of the benefits of joining the Discord server.</note>
       </trans-unit>
       <trans-unit id="Gourmet" xml:space="preserve">
@@ -1198,6 +1240,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Header" xml:space="preserve">
         <source>Header</source>
+        <target state="translated">页眉</target>
         <note from="auto-generated">A link that navigates to a view allowing the user to customize the anime details page header</note>
       </trans-unit>
       <trans-unit id="Hentai" xml:space="preserve">
@@ -1212,10 +1255,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Hide on Scroll" xml:space="preserve">
         <source>Hide on Scroll</source>
+        <target state="translated">滚动时隐藏</target>
         <note from="auto-generated">Title for the "Hide on Scroll" option in the tab bar behavior picker.</note>
       </trans-unit>
       <trans-unit id="High" xml:space="preserve">
         <source>High</source>
+        <target state="translated">高</target>
         <note>MAL Priority Level</note>
       </trans-unit>
       <trans-unit id="High Stakes Game" xml:space="preserve">
@@ -1255,6 +1300,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="In-Between Animation" xml:space="preserve">
         <source>In-Between Animation</source>
+        <target state="translated">中间动画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Information" xml:space="preserve">
@@ -1264,11 +1310,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Is Rereading" xml:space="preserve">
         <source>Is Rereading</source>
+        <target state="translated">重新阅读状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Is Rewatching" xml:space="preserve">
         <source>Is Rewatching</source>
-        <target state="translated">重新观看中</target>
+        <target state="translated">重新观看状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Isekai" xml:space="preserve">
@@ -1278,6 +1325,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Italian" xml:space="preserve">
         <source>Italian</source>
+        <target state="translated">意大利语</target>
         <note from="auto-generated">Title for the Italian language option in the settings.</note>
       </trans-unit>
       <trans-unit id="Iyashikei" xml:space="preserve">
@@ -1307,10 +1355,12 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Join Us" xml:space="preserve">
         <source>Join Us</source>
+        <target state="translated">加入我们</target>
         <note from="auto-generated">A button that links to the official Discord server.</note>
       </trans-unit>
       <trans-unit id="Join our Discord" xml:space="preserve">
         <source>Join our Discord</source>
+        <target state="translated">加入我们的Discord</target>
         <note from="auto-generated">A button label that invites users to join the official Discord server.</note>
       </trans-unit>
       <trans-unit id="Josei" xml:space="preserve">
@@ -1320,6 +1370,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Key Animation" xml:space="preserve">
         <source>Key Animation</source>
+        <target state="translated">原画</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Kids" xml:space="preserve">
@@ -1344,6 +1395,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Launch at Login" xml:space="preserve">
         <source>Launch at Login</source>
+        <target state="translated">登录时启动</target>
         <note from="auto-generated">A toggle that allows the user to set whether the app launches automatically when the computer starts.</note>
       </trans-unit>
       <trans-unit id="Libraries" xml:space="preserve">
@@ -1373,6 +1425,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="List Style" xml:space="preserve">
         <source>List Style</source>
+        <target state="translated">列表样式</target>
         <note from="auto-generated">A section title in the My List settings view.</note>
       </trans-unit>
       <trans-unit id="Loading" xml:space="preserve">
@@ -1382,6 +1435,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Loading adaptations, this process may take some time." xml:space="preserve">
         <source>Loading adaptations, this process may take some time.</source>
+        <target state="translated">正在加载改编作品，可能需要一些时间。</target>
         <note from="auto-generated">A message displayed while loading a list of anime adaptations.</note>
       </trans-unit>
       <trans-unit id="Local Time" xml:space="preserve">
@@ -1401,15 +1455,17 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Low" xml:space="preserve">
         <source>Low</source>
+        <target state="translated">低</target>
         <note>MAL Priority Level</note>
       </trans-unit>
       <trans-unit id="MAL" xml:space="preserve">
         <source>MAL</source>
+        <target state="translated">MAL</target>
         <note/>
       </trans-unit>
       <trans-unit id="MAL Mean Score" xml:space="preserve">
         <source>MAL Mean Score</source>
-        <target state="translated">MAL平均评分</target>
+        <target state="translated">MAL评分</target>
         <note from="auto-generated">Localized title for the "MAL Mean Score" option in the seasonal sort order picker.</note>
       </trans-unit>
       <trans-unit id="MAL Score &amp; Number of Users" xml:space="preserve">
@@ -1434,6 +1490,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Maintenance Messages" xml:space="preserve">
         <source>Maintenance Messages</source>
+        <target state="translated">维护信息</target>
         <note from="auto-generated">Title of the screen that lists maintenance messages.</note>
       </trans-unit>
       <trans-unit id="Manga" xml:space="preserve">
@@ -1448,6 +1505,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Manga List" xml:space="preserve">
         <source>Manga List</source>
+        <target state="translated">漫画列表</target>
         <note from="auto-generated">Title of a view that lists the user's manga.</note>
       </trans-unit>
       <trans-unit id="Manga Magazines" xml:space="preserve">
@@ -1527,6 +1585,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Media" xml:space="preserve">
         <source>Media</source>
+        <target state="translated">媒体</target>
         <note/>
       </trans-unit>
       <trans-unit id="Media Type" xml:space="preserve">
@@ -1541,14 +1600,17 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Medium" xml:space="preserve">
         <source>Medium</source>
+        <target state="translated">中</target>
         <note>MAL Priority Level</note>
       </trans-unit>
       <trans-unit id="Menu Bar Only Mode" xml:space="preserve">
         <source>Menu Bar Only Mode</source>
+        <target state="translated">仅菜单栏模式</target>
         <note from="auto-generated">A toggle that allows the user to enable or disable the "Menu Bar Only Mode".</note>
       </trans-unit>
       <trans-unit id="Messages" xml:space="preserve">
         <source>Messages</source>
+        <target state="translated">信息</target>
         <note from="auto-generated">The title of the messages view.</note>
       </trans-unit>
       <trans-unit id="Military" xml:space="preserve">
@@ -1568,6 +1630,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="More Menu" xml:space="preserve">
         <source>More Menu</source>
+        <target state="translated">更多菜单</target>
         <note from="auto-generated">Title of the action in the top poster menu.</note>
       </trans-unit>
       <trans-unit id="More Options" xml:space="preserve">
@@ -1577,21 +1640,22 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Most Favorited Manga" xml:space="preserve">
         <source>Most Favorited Manga</source>
-        <target state="translated">综合喜爱排行</target>
+        <target state="translated">最多喜爱漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Most Popular Anime" xml:space="preserve">
         <source>Most Popular</source>
-        <target state="needs-review-l10n">综合收藏排行</target>
+        <target state="translated">最多添加动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
         <source>Most Popular Manga</source>
-        <target state="translated">综合收藏排行</target>
+        <target state="translated">最多添加漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Moves this anime to Watching and starts a new rewatch." xml:space="preserve">
         <source>Moves this anime to Watching and starts a new rewatch.</source>
+        <target state="translated">将此动画移至“正在观看”列表，并开始重新观看。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Movie" xml:space="preserve">
@@ -1607,22 +1671,22 @@ Genre</note>
       </trans-unit>
       <trans-unit id="My %@ List" xml:space="preserve">
         <source>My %@ List</source>
-        <target state="translated">我的%@列表</target>
+        <target state="translated">%@列表</target>
         <note/>
       </trans-unit>
       <trans-unit id="My Anime List" xml:space="preserve">
         <source>My Anime List</source>
-        <target state="translated">我的动画列表</target>
+        <target state="translated">动画列表</target>
         <note from="auto-generated">Title for the "My Anime List" section in the app.</note>
       </trans-unit>
       <trans-unit id="My List" xml:space="preserve">
         <source>My List</source>
-        <target state="translated">我的列表</target>
+        <target state="translated">列表</target>
         <note from="auto-generated">The title of the menu item that navigates to the user's My List.</note>
       </trans-unit>
       <trans-unit id="My List Tab Behavior" xml:space="preserve">
         <source>My List Tab Behavior</source>
-        <target state="translated">我的列表行为</target>
+        <target state="translated">列表行为</target>
         <note from="auto-generated">A label displayed above a picker in the Behavior Settings view that lets users choose how the app behaves when the My List tab is tapped when it is already open.</note>
       </trans-unit>
       <trans-unit id="My List, Edit Status, Add Items and Statics need a MyAnimeList account." xml:space="preserve">
@@ -1632,7 +1696,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="My Manga List" xml:space="preserve">
         <source>My Manga List</source>
-        <target state="translated">我的漫画列表</target>
+        <target state="translated">漫画列表</target>
         <note from="auto-generated">Title of the "My Manga List" section in the app.</note>
       </trans-unit>
       <trans-unit id="My Score" xml:space="preserve">
@@ -1661,10 +1725,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="News" xml:space="preserve">
         <source>News</source>
+        <target state="translated">新闻</target>
         <note from="auto-generated">The title of the view.</note>
       </trans-unit>
       <trans-unit id="No messages" xml:space="preserve">
         <source>No messages</source>
+        <target state="translated">无信息</target>
         <note from="auto-generated">A message indicating that there are no messages to display.</note>
       </trans-unit>
       <trans-unit id="None" xml:space="preserve">
@@ -1789,10 +1855,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open" xml:space="preserve">
         <source>Open</source>
+        <target state="translated">打开</target>
         <note from="auto-generated">The label of an action button that opens a link in a web browser.</note>
       </trans-unit>
       <trans-unit id="Open App" xml:space="preserve">
         <source>Open App</source>
+        <target state="translated">打开App</target>
         <note from="auto-generated">A button that opens the app when pressed.</note>
       </trans-unit>
       <trans-unit id="Open Links In-App" xml:space="preserve">
@@ -1817,7 +1885,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open on MyAnimeList" xml:space="preserve">
         <source>Open on MAL</source>
-        <target state="needs-review-l10n">在MyAnimeList中打开</target>
+        <target state="translated">在MAL中打开</target>
         <note from="auto-generated">A menu item that opens a website with more information about the anime on MyAnimeList.</note>
       </trans-unit>
       <trans-unit id="Opening" xml:space="preserve">
@@ -1832,6 +1900,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Original Creator" xml:space="preserve">
         <source>Original Creator</source>
+        <target state="translated">原作</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Otaku Culture" xml:space="preserve">
@@ -1881,6 +1950,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Planning" xml:space="preserve">
         <source>Planning</source>
+        <target state="translated">企划</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Play Later" xml:space="preserve">
@@ -1915,6 +1985,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Portuguese (Brazil)" xml:space="preserve">
         <source>Portuguese (Brazil)</source>
+        <target state="translated">葡萄牙语（巴西）</target>
         <note from="auto-generated">Title of the target language option in the "Overview" box.</note>
       </trans-unit>
       <trans-unit id="Poster" xml:space="preserve">
@@ -1934,6 +2005,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Poster Style" xml:space="preserve">
         <source>Poster Style</source>
+        <target state="translated">海报样式</target>
         <note from="auto-generated">A section header for the poster style settings.</note>
       </trans-unit>
       <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
@@ -1963,6 +2035,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Priority" xml:space="preserve">
         <source>Priority</source>
+        <target state="translated">优先级</target>
         <note/>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
@@ -1972,6 +2045,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Producer" xml:space="preserve">
         <source>Producer</source>
+        <target state="translated">制片人</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Profanity &amp; Mild Nudity" xml:space="preserve">
@@ -2021,10 +2095,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Recently Updated Anime" xml:space="preserve">
         <source>Recently Updated Anime</source>
+        <target state="translated">最近更新动画</target>
         <note/>
       </trans-unit>
       <trans-unit id="Recently Updated Manga" xml:space="preserve">
         <source>Recently Updated Manga</source>
+        <target state="translated">最近更新漫画</target>
         <note from="auto-generated">Title of the section that lists recently updated manga.</note>
       </trans-unit>
       <trans-unit id="Recently Viewed" xml:space="preserve">
@@ -2090,10 +2166,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Reread: %lld" xml:space="preserve">
         <source>Reread: %lld</source>
+        <target state="translated">已重新阅读：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
+        <target state="translated">重新阅读</target>
         <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
@@ -2113,6 +2191,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Rewatch" xml:space="preserve">
         <source>Rewatch</source>
+        <target state="translated">重新观看</target>
         <note from="auto-generated">A button that allows a user to "rewatch" an anime.</note>
       </trans-unit>
       <trans-unit id="Rewatched" xml:space="preserve">
@@ -2147,6 +2226,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Row's Secondary Info" xml:space="preserve">
         <source>Row's Secondary Info</source>
+        <target state="translated">次要信息</target>
         <note from="auto-generated">A label displayed above a picker that lets the user choose how the secondary information in the rows of the anime and manga lists is displayed.</note>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
@@ -2176,6 +2256,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Save to Photos" xml:space="preserve">
         <source>Save to Photos</source>
+        <target state="translated">保存到照片</target>
         <note from="auto-generated">A context menu option to save an image to the user's Photos library.</note>
       </trans-unit>
       <trans-unit id="Saved" xml:space="preserve">
@@ -2205,14 +2286,17 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Score %@" xml:space="preserve">
         <source>Score %@</source>
+        <target state="translated">评分 %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Score %lld" xml:space="preserve">
         <source>Score %lld</source>
+        <target state="translated">评分 %lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="Script" xml:space="preserve">
         <source>Script</source>
+        <target state="translated">脚本</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Scroll to Top" xml:space="preserve">
@@ -2237,6 +2321,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Search's Results Display Preference" xml:space="preserve">
         <source>Search's Results Display Preference</source>
+        <target state="translated">搜索结果样式</target>
         <note from="auto-generated">The title of the picker that lets users choose how they want their search results displayed.</note>
       </trans-unit>
       <trans-unit id="Searching" xml:space="preserve">
@@ -2271,6 +2356,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Series Composition" xml:space="preserve">
         <source>Series Composition</source>
+        <target state="translated">系列构成</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Session Expired" xml:space="preserve">
@@ -2315,6 +2401,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Genres" xml:space="preserve">
         <source>Show Genres</source>
+        <target state="translated">显示类型</target>
         <note from="auto-generated">A toggle that lets users decide whether to show the genres of an anime in the details page.</note>
       </trans-unit>
       <trans-unit id="Show MAL Mean Score on Plan to Watch/Plan to Read" xml:space="preserve">
@@ -2363,6 +2450,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Season" xml:space="preserve">
         <source>Show Season</source>
+        <target state="translated">显示季度</target>
         <note from="auto-generated">A toggle that lets users decide whether to show the season of an anime in the details page.</note>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">
@@ -2387,6 +2475,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show on Menu Bar" xml:space="preserve">
         <source>Show on Menu Bar</source>
+        <target state="translated">在菜单栏上显示</target>
         <note from="auto-generated">A toggle that enables or disables showing Kitsune on the menu bar.</note>
       </trans-unit>
       <trans-unit id="Showbiz" xml:space="preserve">
@@ -2431,6 +2520,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sound Director" xml:space="preserve">
         <source>Sound Director</source>
+        <target state="translated">音响监督</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Source" xml:space="preserve">
@@ -2490,15 +2580,17 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Start rewatch?" xml:space="preserve">
         <source>Start rewatch?</source>
+        <target state="translated">开始重新观看？</target>
         <note/>
       </trans-unit>
       <trans-unit id="Status" xml:space="preserve">
         <source>Status</source>
-        <target state="translated">状态</target>
+        <target state="translated">播出状态</target>
         <note from="auto-generated">Localized name of the `AnimeRowSubtitleInfo.status` case.</note>
       </trans-unit>
       <trans-unit id="Storyboard" xml:space="preserve">
         <source>Storyboard</source>
+        <target state="translated">分镜</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Strategy Game" xml:space="preserve">
@@ -2508,6 +2600,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Streaming Services" xml:space="preserve">
         <source>Streaming Services</source>
+        <target state="translated">串流设备</target>
         <note from="auto-generated">A menu header for streaming services related to the anime.</note>
       </trans-unit>
       <trans-unit id="Studios" xml:space="preserve">
@@ -2557,6 +2650,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Sync with AniList" xml:space="preserve">
         <source>Sync with AniList</source>
+        <target state="translated">与AniList同步</target>
         <note from="auto-generated">A button that synchronizes a watched anime with an AniList account.</note>
       </trans-unit>
       <trans-unit id="Syncing" xml:space="preserve">
@@ -2586,6 +2680,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Tab Bar Behavior" xml:space="preserve">
         <source>Tab Bar Behavior</source>
+        <target state="translated">标签栏行为</target>
         <note from="auto-generated">A label for the behavior of the tab bar.</note>
       </trans-unit>
       <trans-unit id="Tap 'Save' to save your changes after writing." xml:space="preserve">
@@ -2635,18 +2730,22 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Theme Song Arrangement" xml:space="preserve">
         <source>Theme Song Arrangement</source>
+        <target state="translated">主题曲编曲</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Composition" xml:space="preserve">
         <source>Theme Song Composition</source>
+        <target state="translated">主题曲作曲</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Lyrics" xml:space="preserve">
         <source>Theme Song Lyrics</source>
+        <target state="translated">主题曲作词</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Theme Song Performance" xml:space="preserve">
         <source>Theme Song Performance</source>
+        <target state="translated">主题曲演唱</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Themes" xml:space="preserve">
@@ -2692,72 +2791,72 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Top Airing" xml:space="preserve">
         <source>Top Airing</source>
-        <target state="translated">热播排行</target>
+        <target state="translated">正在热播</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top All Anime" xml:space="preserve">
         <source>Top All Anime</source>
-        <target state="translated">综合评分排行</target>
+        <target state="translated">高分动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top All Manga" xml:space="preserve">
         <source>Top All Manga</source>
-        <target state="translated">综合评分排行</target>
+        <target state="translated">高分漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Movies" xml:space="preserve">
         <source>Top Anime Movies</source>
-        <target state="translated">热门剧场版排行</target>
+        <target state="translated">高分剧场版</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime OVA Series" xml:space="preserve">
         <source>Top Anime OVA Series</source>
-        <target state="translated">热门OVA排行</target>
+        <target state="translated">高分OVA</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Specials" xml:space="preserve">
         <source>Top Anime Specials</source>
-        <target state="translated">热门特别篇排行</target>
+        <target state="translated">高分特别篇</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime TV Series" xml:space="preserve">
         <source>Top Anime TV Series</source>
-        <target state="translated">热门TV动画排行</target>
+        <target state="translated">高分TV动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Doujinshi" xml:space="preserve">
         <source>Top Doujinshi</source>
-        <target state="translated">热门同人志排行</target>
+        <target state="translated">高分同人志</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Favorited Anime" xml:space="preserve">
         <source>Top Favorited Anime</source>
-        <target state="translated">综合喜爱排行</target>
+        <target state="translated">最多喜爱动画</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Manga" xml:space="preserve">
         <source>Top Manga</source>
-        <target state="translated">热门日本漫画排行</target>
+        <target state="translated">高分日本漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Manhua" xml:space="preserve">
         <source>Top Manhua</source>
-        <target state="translated">热门国产漫画排行</target>
+        <target state="translated">高分国产漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Manhwa" xml:space="preserve">
         <source>Top Manhwa</source>
-        <target state="translated">热门韩国漫画排行</target>
+        <target state="translated">高分韩国漫画</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Novels" xml:space="preserve">
         <source>Top Novels</source>
-        <target state="translated">热门小说排行</target>
+        <target state="translated">高分小说</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top One-shots" xml:space="preserve">
         <source>Top One-shots</source>
-        <target state="translated">热门单话排行</target>
+        <target state="translated">高分单话</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Poster Action" xml:space="preserve">
@@ -2767,7 +2866,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Top Upcoming" xml:space="preserve">
         <source>Top Upcoming</source>
-        <target state="translated">热门即将播出排行</target>
+        <target state="translated">即将播出</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="TopUpcoming_Search" xml:space="preserve">
@@ -2803,10 +2902,13 @@ User lists are always unrestricted.</source>
       <trans-unit id="Translate synopsis and biographies using on-device model.&#10;Shared with all apps, including the Translate App." xml:space="preserve">
         <source>Translate synopsis and biographies using on-device model.
 Shared with all apps, including the Translate App.</source>
+        <target state="translated">使用设备端模型翻译简介和传记。
+与所有App共享，包括翻译App。</target>
         <note from="auto-generated">A footer description for the translation settings in the behavior view.</note>
       </trans-unit>
       <trans-unit id="Translated" xml:space="preserve">
         <source>Translated</source>
+        <target state="translated">已翻译</target>
         <note from="auto-generated">A label indicating that the overview text has been translated.</note>
       </trans-unit>
       <trans-unit id="Translation" xml:space="preserve">
@@ -2816,6 +2918,7 @@ Shared with all apps, including the Translate App.</source>
       </trans-unit>
       <trans-unit id="Translation Language" xml:space="preserve">
         <source>Translation Language</source>
+        <target state="translated">翻译语言</target>
         <note from="auto-generated">A label displayed above the picker for selecting the translation language.</note>
       </trans-unit>
       <trans-unit id="Try Again" xml:space="preserve">
@@ -2861,6 +2964,7 @@ Shared with all apps, including the Translate App.</source>
       </trans-unit>
       <trans-unit id="Unable to Load News" xml:space="preserve">
         <source>Unable to Load News</source>
+        <target state="translated">无法载入新闻</target>
         <note from="auto-generated">A message displayed when there is an error loading news.</note>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
@@ -3053,11 +3157,12 @@ When off, the app will always open the last tab opened.</source>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statics." xml:space="preserve">
         <source>You'll need to Sign In again if you want to use My List, Edit Status, Add Item, and Statistics.</source>
-        <target state="translated">如果要使用我的列表、状态编辑、添加项目和统计信息功能，则需要再次登录。</target>
+        <target state="translated">如果要使用列表、状态编辑、添加项目和统计信息功能，则需要再次登录。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Your AniList session has expired. Please log in again to continue syncing." xml:space="preserve">
         <source>Your AniList session has expired. Please log in again to continue syncing.</source>
+        <target state="translated">您的AniList会话已过期。请重新登录以继续同步。</target>
         <note from="auto-generated">A message displayed when a user's AniList session expires, prompting them to log in again.</note>
       </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">

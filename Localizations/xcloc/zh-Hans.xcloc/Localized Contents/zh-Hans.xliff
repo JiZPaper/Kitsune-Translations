@@ -85,7 +85,7 @@
       </trans-unit>
       <trans-unit id="%@ (Local Time)" xml:space="preserve">
         <source>%@ (Local Time)</source>
-        <target state="translated">%@（本地时间)</target>
+        <target state="translated">%@（本地时间）</target>
         <note from="auto-generated">A text displaying the airing time of an anime on</note>
       </trans-unit>
       <trans-unit id="%@ - %@" translate="no" xml:space="preserve">
@@ -148,7 +148,7 @@
       </trans-unit>
       <trans-unit id="%@ • %@ JST" xml:space="preserve">
         <source>%1$@ • %2$@ JST</source>
-        <target state="translated">%1$@ • %2$@ (日本标准时间）</target>
+        <target state="translated">%1$@ • %2$@（日本标准时间）</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s List" xml:space="preserve">
@@ -158,12 +158,12 @@
       </trans-unit>
       <trans-unit id="%@, %@" translate="no" xml:space="preserve">
         <source>%1$@, %2$@</source>
-        <target state="translated">%1$@, %2$@</target>
+        <target state="translated">%1$@、%2$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
         <source>%@, %@ (JST)</source>
-        <target state="translated">%1$@ • %2$@ 日本标准时间</target>
+        <target state="translated">%1$@ • %2$@（日本标准时间）</target>
         <note from="auto-generated">A string that combines the localized day of the week and the start time of a broadcast, formatted to include the time zone (JST).</note>
       </trans-unit>
       <trans-unit id="%@/%@" translate="no" xml:space="preserve">
@@ -971,7 +971,7 @@
       </trans-unit>
       <trans-unit id="Enable Schedule" xml:space="preserve">
         <source>Enable Schedule</source>
-        <target state="translated">启用日程表</target>
+        <target state="translated">启用追番表</target>
         <note from="auto-generated">A toggle that enables or disables the schedule feature.</note>
       </trans-unit>
       <trans-unit id="Enable Spotify Support" xml:space="preserve">
@@ -1156,12 +1156,12 @@
       </trans-unit>
       <trans-unit id="Friends" xml:space="preserve">
         <source>Friends</source>
-        <target state="translated">朋友</target>
+        <target state="translated">好友</target>
         <note from="auto-generated">Title of the view that lists the user's friends.</note>
       </trans-unit>
       <trans-unit id="Friends since %@" xml:space="preserve">
         <source>Friends since %@</source>
-        <target state="translated">从%@开始成为朋友</target>
+        <target state="translated">从%@开始成为好友</target>
         <note from="auto-generated">A sublabel below a username that shows how long it has been since the user and the current user became friends. The argument is the number of days since the user and the current user became friends.</note>
       </trans-unit>
       <trans-unit id="Gag Humor" xml:space="preserve">
@@ -1545,7 +1545,7 @@ Send an email to kitsune@alexandremadeira.dev and we will help you.</source>
       </trans-unit>
       <trans-unit id="Mark Next Episode of %@ as Watched?" xml:space="preserve">
         <source>Mark Next Episode of %@ as Watched?</source>
-        <target state="translated">确定将第%@话标记为已观看？</target>
+        <target state="translated">确定将%@的下一话标记为已观看？</target>
         <note from="auto-generated">A confirmation dialog that appears when the user taps the "Mark Next Episode as Watched" button. The first argument is the title of the anime. The second argument is a binding that determines whether the dialog is presented</note>
       </trans-unit>
       <trans-unit id="Mark Next Episode/Chapter/Volume" xml:space="preserve">
@@ -2166,12 +2166,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Reread: %lld" xml:space="preserve">
         <source>Reread: %lld</source>
-        <target state="translated">已重新阅读：%lld次</target>
+        <target state="translated">重新阅读：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
-        <target state="translated">重新阅读</target>
+        <target state="translated">重新阅读状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Restore" xml:space="preserve">
@@ -2201,12 +2201,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Rewatched: %lld" xml:space="preserve">
         <source>Rewatched: %lld</source>
-        <target state="translated">重新观看: %lld次</target>
+        <target state="translated">重新观看：%lld次</target>
         <note/>
       </trans-unit>
       <trans-unit id="Rewatching" xml:space="preserve">
         <source>Rewatching</source>
-        <target state="translated">重新观看中</target>
+        <target state="translated">重新观看状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Romaji" xml:space="preserve">
@@ -2266,7 +2266,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Schedule" xml:space="preserve">
         <source>Schedule</source>
-        <target state="translated">日程表</target>
+        <target state="translated">追番表</target>
         <note from="auto-generated">Title of a quick action that takes the user to the schedule screen.</note>
       </trans-unit>
       <trans-unit id="School" xml:space="preserve">
@@ -2286,12 +2286,12 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Score %@" xml:space="preserve">
         <source>Score %@</source>
-        <target state="translated">评分 %@</target>
+        <target state="translated">评分%@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Score %lld" xml:space="preserve">
         <source>Score %lld</source>
-        <target state="translated">评分 %lld</target>
+        <target state="translated">评分%lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="Script" xml:space="preserve">
@@ -2465,7 +2465,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
         <source>Show Time in 'Schedule'</source>
-        <target state="translated">在“日程表”中显示时间</target>
+        <target state="translated">在“追番表”中显示时间</target>
         <note from="auto-generated">A toggle that allows users to enable or disable the display of time in the "Your Schedule" tab.</note>
       </trans-unit>
       <trans-unit id="Show Trailer" xml:space="preserve">
@@ -2600,7 +2600,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Streaming Services" xml:space="preserve">
         <source>Streaming Services</source>
-        <target state="translated">串流设备</target>
+        <target state="translated">流媒体服务</target>
         <note from="auto-generated">A menu header for streaming services related to the anime.</note>
       </trans-unit>
       <trans-unit id="Studios" xml:space="preserve">
@@ -2886,7 +2886,7 @@ User lists are always unrestricted.</source>
       </trans-unit>
       <trans-unit id="Traditional Chinese (Taiwan)" xml:space="preserve">
         <source>Traditional Chinese (Taiwan)</source>
-        <target state="translated"> 繁体中文（台湾）</target>
+        <target state="translated">繁体中文（台湾）</target>
         <note/>
       </trans-unit>
       <trans-unit id="Trailer" xml:space="preserve">
@@ -2974,7 +2974,7 @@ Shared with all apps, including the Translate App.</source>
       </trans-unit>
       <trans-unit id="Unlock Your Entire Week with Kitsune Premium" xml:space="preserve">
         <source>Unlock Your Entire Week with Kitsune Premium</source>
-        <target state="translated">购买Kitsune高级版以解锁完整日程表功能</target>
+        <target state="translated">购买Kitsune高级版以解锁追番表功能</target>
         <note from="auto-generated">A call-to-action button text that encourages users to upgrade to Kitsune Premium.</note>
       </trans-unit>
       <trans-unit id="Unlock app customization and more features with Kitsune Premium.&#10;No Subscription required." xml:space="preserve">
@@ -2991,7 +2991,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Unlock the full week in Schedule." xml:space="preserve">
         <source>Unlock the full week in Schedule.</source>
-        <target state="translated">解锁完整日程表功能</target>
+        <target state="translated">解锁完整追番表功能</target>
         <note from="auto-generated">Subtitle of a paywall item that unlocks the full week in the Schedule feature.</note>
       </trans-unit>
       <trans-unit id="Upcoming" xml:space="preserve">
@@ -3001,7 +3001,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Upcoming Notifications" xml:space="preserve">
         <source>Upcoming Notifications</source>
-        <target state="translated">即将播出的通知</target>
+        <target state="translated">即将播出通知</target>
         <note from="auto-generated">A section header for the user's upcoming notifications.</note>
       </trans-unit>
       <trans-unit id="Upgrade to Kitsune Premium" xml:space="preserve">
@@ -3011,7 +3011,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Upgrade to Kitsune Premium to view your full weekly schedule." xml:space="preserve">
         <source>Upgrade to Kitsune Premium to view your full weekly schedule.</source>
-        <target state="translated">升级到Kitsune高级版以查看您的完整每周日程表。</target>
+        <target state="translated">升级至Kitsune高级版以查看您的完整每周追番表。</target>
         <note from="auto-generated">A description below the call-to-action button that explains the benefit of upgrading to Kitsune Premium.</note>
       </trans-unit>
       <trans-unit id="Urban Fantasy" xml:space="preserve">
@@ -3066,7 +3066,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Voice Acting Roles" xml:space="preserve">
         <source>Voice Acting Roles</source>
-        <target state="translated">配音过的角色</target>
+        <target state="translated">配音角色</target>
         <note/>
       </trans-unit>
       <trans-unit id="Voice Actors" xml:space="preserve">
@@ -3081,7 +3081,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Watch an anime from the current season to use Schedule." xml:space="preserve">
         <source>Watch an anime from the current season to use Schedule.</source>
-        <target state="translated">开始观看本季度的动画以启用日程表。</target>
+        <target state="translated">开始观看本季度的动画以使用追番表。</target>
         <note from="auto-generated">A description text displayed when the schedule view is empty, encouraging the user to watch an anime to access it.</note>
       </trans-unit>
       <trans-unit id="Watched" xml:space="preserve">
@@ -3101,7 +3101,7 @@ No Subscription required.</source>
       </trans-unit>
       <trans-unit id="Weekly Schedule" xml:space="preserve">
         <source>Weekly Schedule</source>
-        <target state="translated">本周日程表</target>
+        <target state="translated">本周追番表</target>
         <note from="auto-generated">Title of a paywall item that unlocks the full week in Schedule.</note>
       </trans-unit>
       <trans-unit id="What's your score?" xml:space="preserve">
@@ -3112,7 +3112,7 @@ No Subscription required.</source>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
         <source>When on, the app will always open your selected Preferred Screen.
 When off, the app will always open the last tab opened.</source>
-        <target state="translated">开启此设置来让App启动时始终打开您选择的页面，否则App将您最后停留的页面。</target>
+        <target state="translated">开启此设置来让App启动时始终打开您选择的页面，否则App将打开您最后停留的页面。</target>
         <note from="auto-generated">A description of the "Enable Preferred Launch Screen" toggle.</note>
       </trans-unit>
       <trans-unit id="When switching to the 'Watching' list, automatically mark the first episode as watched." xml:space="preserve">
@@ -3147,7 +3147,7 @@ When off, the app will always open the last tab opened.</source>
       </trans-unit>
       <trans-unit id="You need Kitsune Premium to change this." xml:space="preserve">
         <source>You need Kitsune Premium to change this.</source>
-        <target state="translated">您需要Kitsune高级版才能改变它。</target>
+        <target state="translated">您需要Kitsune高级版才能更改它。</target>
         <note from="auto-generated">A confirmation dialog title that appears when the user tries to change the accent color without Kitsune Premium.</note>
       </trans-unit>
       <trans-unit id="You'll need to Sign In again if you want to sync your AniList account with your MyAnimeList account." xml:space="preserve">
@@ -3167,12 +3167,12 @@ When off, the app will always open the last tab opened.</source>
       </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
         <source>Schedule is empty for today.</source>
-        <target state="translated">今日的日程表空空如也。</target>
+        <target state="translated">今日的追番表空空如也。</target>
         <note from="auto-generated">A message displayed when a user's schedule is empty for a specific day.</note>
       </trans-unit>
       <trans-unit id="Your Schedule is empty right now." xml:space="preserve">
         <source>Schedule is empty right now.</source>
-        <target state="translated">日程表空空如也。</target>
+        <target state="translated">追番表空空如也。</target>
         <note from="auto-generated">A message displayed when their schedule is empty.</note>
       </trans-unit>
       <trans-unit id="Your session has expired.&#10;Please, sign in again to keep using the app." xml:space="preserve">
@@ -3195,14 +3195,17 @@ Please, sign in again to keep using the app.</source>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>Widget</source>
+        <target state="needs-translation"/>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>WidgetExtension</source>
+        <target state="needs-translation"/>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
         <source/>
+        <target state="needs-translation"/>
         <note>Copyright (human-readable)</note>
       </trans-unit>
     </body>
@@ -3287,6 +3290,7 @@ Please, sign in again to keep using the app.</source>
       </trans-unit>
       <trans-unit id="Arabic" xml:space="preserve">
         <source>Arabic</source>
+        <target state="translated">阿拉伯语</target>
         <note from="auto-generated">Name of the language when the user's preferred language is Arabic.</note>
       </trans-unit>
       <trans-unit id="Art Director" translate="no" xml:space="preserve">
@@ -3363,10 +3367,12 @@ Please, sign in again to keep using the app.</source>
       </trans-unit>
       <trans-unit id="Chinese (Simplified)" xml:space="preserve">
         <source>Chinese (Simplified)</source>
+        <target state="translated">简体中文</target>
         <note from="auto-generated">Title for the Chinese (Simplified) language option.</note>
       </trans-unit>
       <trans-unit id="Chinese (Traditional)" xml:space="preserve">
         <source>Chinese (Traditional)</source>
+        <target state="translated">繁体中文</target>
         <note from="auto-generated">Title for the Chinese (Traditional) language option in the settings menu.</note>
       </trans-unit>
       <trans-unit id="Color Design" translate="no" xml:space="preserve">
@@ -3506,10 +3512,12 @@ Please, sign in again to keep using the app.</source>
       </trans-unit>
       <trans-unit id="French" xml:space="preserve">
         <source>French</source>
+        <target state="translated">法语</target>
         <note from="auto-generated">The title of the language, as displayed in the UI.</note>
       </trans-unit>
       <trans-unit id="Friday" translate="no" xml:space="preserve">
         <source>Friday</source>
+        <target state="translated">星期五</target>
         <note/>
       </trans-unit>
       <trans-unit id="Gag Humor" translate="no" xml:space="preserve">
@@ -3518,6 +3526,7 @@ Please, sign in again to keep using the app.</source>
       </trans-unit>
       <trans-unit id="German" xml:space="preserve">
         <source>German</source>
+        <target state="translated">德语</target>
         <note from="auto-generated">Name of the language in the settings menu.</note>
       </trans-unit>
       <trans-unit id="Girls Love" translate="no" xml:space="preserve">
@@ -3596,6 +3605,7 @@ Please, sign in again to keep using the app.</source>
       </trans-unit>
       <trans-unit id="Italian" xml:space="preserve">
         <source>Italian</source>
+        <target state="translated">意大利语</target>
         <note from="auto-generated">Name of the language for the Italian target.</note>
       </trans-unit>
       <trans-unit id="Iyashikei" translate="no" xml:space="preserve">
@@ -3856,10 +3866,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Polish" xml:space="preserve">
         <source>Polish</source>
+        <target state="translated">波兰语</target>
         <note from="auto-generated">Title of the Polish language.</note>
       </trans-unit>
       <trans-unit id="Portuguese (Brazil)" xml:space="preserve">
         <source>Portuguese (Brazil)</source>
+        <target state="translated">葡萄牙语（巴西）</target>
         <note from="auto-generated">Title for the Portuguese (Brazil) target language.</note>
       </trans-unit>
       <trans-unit id="Poster" translate="no" xml:space="preserve">
@@ -3912,6 +3924,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
+        <target state="translated">重新阅读状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reverse Harem" translate="no" xml:space="preserve">
@@ -3924,6 +3937,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Rewatching" xml:space="preserve">
         <source>Rewatching</source>
+        <target state="translated">重新观看状态</target>
         <note/>
       </trans-unit>
       <trans-unit id="Romaji" translate="no" xml:space="preserve">
@@ -3936,6 +3950,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
         <source>Russian</source>
+        <target state="translated">俄语</target>
         <note from="auto-generated">Name of the language when the target language is Russian.</note>
       </trans-unit>
       <trans-unit id="Samurai" translate="no" xml:space="preserve">
@@ -4013,6 +4028,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Spanish" xml:space="preserve">
         <source>Spanish</source>
+        <target state="translated">西班牙语</target>
         <note from="auto-generated">The title of the language for Spanish.</note>
       </trans-unit>
       <trans-unit id="Special" translate="no" xml:space="preserve">

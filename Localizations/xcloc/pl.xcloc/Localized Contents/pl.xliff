@@ -1705,12 +1705,12 @@ Rating Age</note>
       </trans-unit>
       <trans-unit id="Most Popular Anime" xml:space="preserve">
         <source>Most Popular</source>
-        <target state="translated">Najbardziej popularne</target>
+        <target state="translated">Najbardziej popularne anime</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
         <source>Most Popular Manga</source>
-        <target state="translated">Najbardziej popularne</target>
+        <target state="translated">Najbardziej popularne mangi</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Moves this anime to Watching and starts a new rewatch." xml:space="preserve">
@@ -2156,6 +2156,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Quit App" xml:space="preserve">
         <source>Quit App</source>
+        <target state="translated">Zamknij Kitsune</target>
         <note from="auto-generated">The label of a menu item that quits the app.</note>
       </trans-unit>
       <trans-unit id="Racing" xml:space="preserve">
@@ -2537,10 +2538,12 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Show Most Popular Anime" xml:space="preserve">
         <source>Show Most Popular Anime</source>
+        <target state="translated">Pokaż najbardziej popularne anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Most Popular Manga" xml:space="preserve">
         <source>Show Most Popular Manga</source>
+        <target state="translated">Pokaż najbardziej popularne mangi</target>
         <note/>
       </trans-unit>
       <trans-unit id="Show Only Added" xml:space="preserve">
@@ -2590,7 +2593,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Show Trailer" xml:space="preserve">
         <source>Show Trailer</source>
-        <target state="translated">Pokaż trailer</target>
+        <target state="translated">Pokaż filmiki</target>
         <note from="auto-generated">A toggle that allows users to decide whether to show trailers in the anime detail page.</note>
       </trans-unit>
       <trans-unit id="Show on Menu Bar" xml:space="preserve">

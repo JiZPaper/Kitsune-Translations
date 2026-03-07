@@ -2,22 +2,28 @@
   "sourceLanguage" : "en",
   "strings" : {
     "Account - Refresh Token" : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     },
     "Developer Options" : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     },
     "Is Premium User" : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     },
     "Is refreshing token? %@" : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     },
     "Test Notifications" : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     },
     "This will refresh your access token to use the app." : {
-      "comment" : "dev options, don't translate"
+      "comment" : "dev options, don't translate",
+      "shouldTranslate" : false
     }
   },
   "version" : "1.1"

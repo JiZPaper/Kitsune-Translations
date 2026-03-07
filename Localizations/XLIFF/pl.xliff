@@ -9,6 +9,9 @@
         <source>
           <mrk mtype="x-set" mid="0">Search on ${applicationName}</mrk>
         </source>
+        <target state="translated">
+          <mrk mtype="x-set" mid="0">Search on ${applicationName}</mrk>
+        </target>
         <note/>
       </trans-unit>
     </body>
@@ -18,28 +21,34 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
     </header>
     <body>
-      <trans-unit id="Account - Refresh Token" xml:space="preserve">
+      <trans-unit id="Account - Refresh Token" translate="no" xml:space="preserve">
         <source>Account - Refresh Token</source>
+        <target state="translated">Account - Refresh Token</target>
         <note>dev options, don't translate</note>
       </trans-unit>
-      <trans-unit id="Developer Options" xml:space="preserve">
+      <trans-unit id="Developer Options" translate="no" xml:space="preserve">
         <source>Developer Options</source>
+        <target state="translated">Developer Options</target>
         <note>dev options, don't translate</note>
       </trans-unit>
-      <trans-unit id="Is Premium User" xml:space="preserve">
+      <trans-unit id="Is Premium User" translate="no" xml:space="preserve">
         <source>Is Premium User</source>
+        <target state="translated">Is Premium User</target>
         <note>dev options, don't translate</note>
       </trans-unit>
-      <trans-unit id="Is refreshing token? %@" xml:space="preserve">
+      <trans-unit id="Is refreshing token? %@" translate="no" xml:space="preserve">
         <source>Is refreshing token? %@</source>
+        <target state="translated">Is refreshing token? %@</target>
         <note>dev options, don't translate</note>
       </trans-unit>
-      <trans-unit id="Test Notifications" xml:space="preserve">
+      <trans-unit id="Test Notifications" translate="no" xml:space="preserve">
         <source>Test Notifications</source>
+        <target state="translated">Test Notifications</target>
         <note>dev options, don't translate</note>
       </trans-unit>
-      <trans-unit id="This will refresh your access token to use the app." xml:space="preserve">
+      <trans-unit id="This will refresh your access token to use the app." translate="no" xml:space="preserve">
         <source>This will refresh your access token to use the app.</source>
+        <target state="translated">This will refresh your access token to use the app.</target>
         <note>dev options, don't translate</note>
       </trans-unit>
     </body>
@@ -49,12 +58,14 @@
       <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="26.3" build-num="17C529"/>
     </header>
     <body>
-      <trans-unit id="CFBundleDisplayName" translate="no" xml:space="preserve">
+      <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>Kitsune</source>
+        <target state="translated">Kitsune</target>
         <note>Bundle display name</note>
       </trans-unit>
-      <trans-unit id="CFBundleName" translate="no" xml:space="preserve">
+      <trans-unit id="CFBundleName" xml:space="preserve">
         <source>Kitsune</source>
+        <target state="translated">Kitsune</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSAppleMusicUsageDescription" xml:space="preserve">
@@ -64,6 +75,7 @@
       </trans-unit>
       <trans-unit id="NSPhotoLibraryAddUsageDescription" xml:space="preserve">
         <source>Save your favorite anime posters straight to your photo library.</source>
+        <target state="translated">Save your favorite anime posters straight to your photo library.</target>
         <note>Privacy - Photo Library Additions Usage Description</note>
       </trans-unit>
     </body>
@@ -75,6 +87,7 @@
     <body>
       <trans-unit id=" %@" xml:space="preserve">
         <source> %@</source>
+        <target state="translated"> %@</target>
         <note from="auto-generated">A text showing the current date in the format "DD/MM".</note>
       </trans-unit>
       <trans-unit id="%@" xml:space="preserve">
@@ -104,10 +117,12 @@
       </trans-unit>
       <trans-unit id="%@ - %@" xml:space="preserve">
         <source>%1$@ - %2$@</source>
+        <target state="translated">%1$@ - %2$@</target>
         <note from="auto-generated">A button that allows the user to select a score for a manga. The label of the button contains the score value followed by a space and the corresponding Japanese title of the score.</note>
       </trans-unit>
       <trans-unit id="%@ average score from %@ users" xml:space="preserve">
         <source>%1$@ average score from %2$@ users</source>
+        <target state="translated">Średnia ocena: %1$@ (%2$@ użytkowników)</target>
         <note from="auto-generated">Text displayed below the main title, showing the average score of the anime, along with the number of users who have rated it.</note>
       </trans-unit>
       <trans-unit id="%@ by %lld users" xml:space="preserve">
@@ -117,10 +132,12 @@
       </trans-unit>
       <trans-unit id="%@ days watched" xml:space="preserve">
         <source>%@ days watched</source>
+        <target state="translated">%@ dni oglądania</target>
         <note from="auto-generated">A label displaying the number of days a user has watched anime. The argument is the number of days watched. The argument is the string “%.1f”.</note>
       </trans-unit>
       <trans-unit id="%@ episodes watched of %@." xml:space="preserve">
         <source>%1$@ episodes watched of %2$@.</source>
+        <target state="translated">Obejrzano %1$@ z %2$@ odcinków.</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@ episodes, %@" xml:space="preserve">
@@ -130,6 +147,7 @@
       </trans-unit>
       <trans-unit id="%@ items" xml:space="preserve">
         <source>%@ items</source>
+        <target state="translated">%@ pozycji</target>
         <note from="auto-generated">A label displaying the number of items in the currently selected list.</note>
       </trans-unit>
       <trans-unit id="%@ minutes" xml:space="preserve">
@@ -144,14 +162,17 @@
       </trans-unit>
       <trans-unit id="%@ of %lld" xml:space="preserve">
         <source>%1$@ of %2$lld</source>
+        <target state="translated">%1$@ z %2$lld</target>
         <note from="auto-generated">A label displaying the number of chapters read out of the total number of chapters. The first argument is the number of chapters read. The second argument is the total number of chapters.</note>
       </trans-unit>
       <trans-unit id="%@ people." xml:space="preserve">
         <source>%@ people.</source>
+        <target state="translated">%@ osób</target>
         <note from="auto-generated">A string describing the number of users who have listed this item. The argument is a string representing the number of users.</note>
       </trans-unit>
       <trans-unit id="%@ per episode" xml:space="preserve">
         <source>%@ per episode</source>
+        <target state="translated">%@ na odcinek</target>
         <note from="auto-generated">Text that appears below the main title in the details view, describing a TV show with an unknown number of episodes and a single episode duration. The argument is the episode duration.</note>
       </trans-unit>
       <trans-unit id="%@ • %@" xml:space="preserve">
@@ -161,6 +182,7 @@
       </trans-unit>
       <trans-unit id="%@ • %@ JST" xml:space="preserve">
         <source>%1$@ • %2$@ JST</source>
+        <target state="translated">%1$@ • %2$@ czasu japońskiego</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@'s List" xml:space="preserve">
@@ -170,6 +192,7 @@
       </trans-unit>
       <trans-unit id="%@, %@" xml:space="preserve">
         <source>%1$@, %2$@</source>
+        <target state="translated">%1$@, %2$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@, %@ (JST)" xml:space="preserve">
@@ -179,14 +202,17 @@
       </trans-unit>
       <trans-unit id="%@/%@" xml:space="preserve">
         <source>%1$@/%2$@</source>
+        <target state="translated">%1$@/%2$@</target>
         <note/>
       </trans-unit>
       <trans-unit id="%@/10" xml:space="preserve">
         <source>%@/10</source>
+        <target state="translated">%@/10</target>
         <note from="auto-generated">A label displaying the user's current score for an anime. The argument is the user's score as a number out of 10.</note>
       </trans-unit>
       <trans-unit id="%@/?" xml:space="preserve">
         <source>%@/?</source>
+        <target state="translated">%@/?</target>
         <note from="auto-generated">A sublabel within the stepper that shows the number of episodes watched, followed by a slash and a question mark.</note>
       </trans-unit>
       <trans-unit id="%lld" xml:space="preserve">
@@ -201,6 +227,7 @@
       </trans-unit>
       <trans-unit id="%lld Manga" xml:space="preserve">
         <source>%lld Manga</source>
+        <target state="translated">%lld Manga</target>
         <note from="auto-generated">A label displaying the number of manga in a user's list. The argument is the number of manga in the list.</note>
       </trans-unit>
       <trans-unit id="%lld episodes watched of %@." xml:space="preserve">
@@ -233,22 +260,6 @@
         <target state="translated">%1$lld z %2$lld</target>
         <note from="auto-generated">A label showing the current episode count out of the total episode count for an anime. The first argument is the current episode count. The second argument is the total episode count.</note>
       </trans-unit>
-      <trans-unit id="%lld people.|==|plural.few" xml:space="preserve">
-        <source>%lld people.</source>
-        <note from="auto-generated">A string describing the number of users who have listed this item. The argument is the number of users.</note>
-      </trans-unit>
-      <trans-unit id="%lld people.|==|plural.many" xml:space="preserve">
-        <source>%lld people.</source>
-        <note from="auto-generated">A string describing the number of users who have listed this item. The argument is the number of users.</note>
-      </trans-unit>
-      <trans-unit id="%lld people.|==|plural.one" xml:space="preserve">
-        <source>%lld person.</source>
-        <note from="auto-generated">A string describing the number of users who have listed this item. The argument is the number of users.</note>
-      </trans-unit>
-      <trans-unit id="%lld people.|==|plural.other" xml:space="preserve">
-        <source>%lld people.</source>
-        <note from="auto-generated">A string describing the number of users who have listed this item. The argument is the number of users.</note>
-      </trans-unit>
       <trans-unit id="%lld read of %@ chapters" xml:space="preserve">
         <source>%1$lld read of %2$@ chapters</source>
         <target state="translated">%1$lld przeczytane z %2$@ rozdziałów</target>
@@ -264,10 +275,6 @@
         <target state="translated">%1$lld/%2$@</target>
         <note from="auto-generated">A view displaying the number of episodes a user has watched out of the total number of episodes for an anime.</note>
       </trans-unit>
-      <trans-unit id="'For You' shows you a list of suggested anime directly from MAL" xml:space="preserve">
-        <source>'For You' shows you a list of suggested anime directly from MAL</source>
-        <note from="auto-generated">A description of what the 'For You' toggle does in the search settings.</note>
-      </trans-unit>
       <trans-unit id="+1" xml:space="preserve">
         <source>+1</source>
         <target state="translated">+1</target>
@@ -275,36 +282,42 @@
       </trans-unit>
       <trans-unit id="+1 (%@/%@)" xml:space="preserve">
         <source>+1 (%1$@/%2$@)</source>
+        <target state="translated">+1 (%1$@/%2$@)</target>
         <note from="auto-generated">A label that shows the number of episodes watched and the total number of episodes.</note>
       </trans-unit>
       <trans-unit id="+1 (%lld/%@)" xml:space="preserve">
         <source>+1 (%lld/%@)</source>
+        <target state="translated">+1 (%lld/%@)</target>
         <note from="auto-generated">A label that shows the number of episodes watched and the total number of episodes.</note>
       </trans-unit>
       <trans-unit id="+1 Chapter" xml:space="preserve">
         <source>+1 Chapter</source>
+        <target state="translated">+1 rozdział</target>
         <note from="auto-generated">A button that marks the next chapter of a manga as read.</note>
       </trans-unit>
       <trans-unit id="+1 Episode" xml:space="preserve">
         <source>+1 Episode</source>
+        <target state="translated">+1 odcinek</target>
         <note from="auto-generated">Title of the notification action that allows the user to mark the next episode of a show as watched.</note>
       </trans-unit>
       <trans-unit id="+1 Volume" xml:space="preserve">
         <source>+1 Volume</source>
+        <target state="translated">+1 tom</target>
         <note from="auto-generated">A button that marks the next volume of a manga as read.</note>
       </trans-unit>
       <trans-unit id="2nd Key Animation" xml:space="preserve">
         <source>2nd Key Animation</source>
+        <target state="translated">2. kluczowa animacja</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" xml:space="preserve">
         <source>17+ (Violence &amp; Profanity)</source>
         <target state="translated">17+ (przemoc i wulgaryzmy)</target>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="A new episode is arriving today." xml:space="preserve">
         <source>A new episode is arriving today.</source>
-        <target state="translated">Nowy odcinek pojawi się dzisiaj.</target>
+        <target state="translated">Nowy odcinek pojawi się dziś.</target>
         <note from="auto-generated">Description of a notification content when an anime is airing today.</note>
       </trans-unit>
       <trans-unit id="ADR Director" xml:space="preserve">
@@ -362,13 +375,9 @@
         <target state="translated">Dodaj datę rozpoczęcia</target>
         <note from="auto-generated">A button that adds a start date to an anime.</note>
       </trans-unit>
-      <trans-unit id="Add to Library" xml:space="preserve">
-        <source>Add to Library</source>
-        <target state="translated">Dodaj do biblioteki</target>
-        <note from="auto-generated">A button that adds a song to the user's Apple Music library.</note>
-      </trans-unit>
       <trans-unit id="Added by" xml:space="preserve">
         <source>Added by</source>
+        <target state="translated">Dodane przez</target>
         <note from="auto-generated">Title of a row in the "Anime Group Box Information View" that shows how many users have added the anime to their list.</note>
       </trans-unit>
       <trans-unit id="Adjust multiple settings to better suit your preferences." xml:space="preserve">
@@ -399,7 +408,7 @@
       <trans-unit id="All Ages" xml:space="preserve">
         <source>All Ages</source>
         <target state="translated">Wszystkie grupy wiekowe</target>
-        <note from="auto-generated">Title of the "All Ages" rating.</note>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Allow Notifications" xml:space="preserve">
         <source>Allow Notifications</source>
@@ -408,18 +417,22 @@
       </trans-unit>
       <trans-unit id="Alternative Setting" xml:space="preserve">
         <source>Alternative Setting</source>
+        <target state="translated">Alternatywna wersja</target>
         <note from="auto-generated">A relation type where the current anime is an alternative setting for another anime.</note>
       </trans-unit>
       <trans-unit id="Alternative Version" xml:space="preserve">
         <source>Alternative Version</source>
+        <target state="translated">Alternatywna wersja</target>
         <note from="auto-generated">Title for the "Alternative Version" case in the MALRelationType enum.</note>
       </trans-unit>
       <trans-unit id="AniList" xml:space="preserve">
         <source>AniList</source>
+        <target state="translated">AniList</target>
         <note from="auto-generated">Name of the AniList setting screen.</note>
       </trans-unit>
       <trans-unit id="AniList Score" xml:space="preserve">
         <source>AniList Score</source>
+        <target state="translated">Ocena AniList</target>
         <note from="auto-generated">A section that allows the user to select their preferred format for displaying their AniList score.</note>
       </trans-unit>
       <trans-unit id="Animation Director" xml:space="preserve">
@@ -434,6 +447,7 @@
       </trans-unit>
       <trans-unit id="Anime List" xml:space="preserve">
         <source>Anime List</source>
+        <target state="translated">Lista anime</target>
         <note from="auto-generated">Title of the section that lists the user's watched anime.</note>
       </trans-unit>
       <trans-unit id="Anime Ranking" xml:space="preserve">
@@ -476,13 +490,9 @@
         <target state="translated">Wygląd</target>
         <note from="auto-generated">Title of the settings screen related to the appearance of the app.</note>
       </trans-unit>
-      <trans-unit id="Apple Music" xml:space="preserve">
-        <source>Apple Music</source>
-        <target state="translated">Apple Music</target>
-        <note from="auto-generated">Title for the preferred Apple Music player source.</note>
-      </trans-unit>
       <trans-unit id="Arabic" xml:space="preserve">
         <source>Arabic</source>
+        <target state="translated">Arabski</target>
         <note/>
       </trans-unit>
       <trans-unit id="Are You Sure?" xml:space="preserve">
@@ -562,10 +572,12 @@
       </trans-unit>
       <trans-unit id="Biography" xml:space="preserve">
         <source>Biography</source>
+        <target state="translated">Biografia</target>
         <note from="auto-generated">A label for the biography section of an overview box.</note>
       </trans-unit>
       <trans-unit id="Black Opacity" xml:space="preserve">
         <source>Black Opacity</source>
+        <target state="translated">Ciemna przeźroczystość</target>
         <note from="auto-generated">Localized title for the "Black Opacity" poster overlay style.</note>
       </trans-unit>
       <trans-unit id="Blur" xml:space="preserve">
@@ -575,7 +587,7 @@
       </trans-unit>
       <trans-unit id="Blur Mature Content Poster" xml:space="preserve">
         <source>Blur Mature Content Poster</source>
-        <target state="translated">Rozmyj plakat z treściami dla dorosłych</target>
+        <target state="translated">Rozmyj plakat dla dorosłych</target>
         <note from="auto-generated">A toggle that lets users choose whether to blur the poster of mature content.</note>
       </trans-unit>
       <trans-unit id="Boys Love" xml:space="preserve">
@@ -590,7 +602,7 @@
       </trans-unit>
       <trans-unit id="Broadcast (Local Time)" xml:space="preserve">
         <source>Broadcast (Local Time)</source>
-        <target state="translated"> Emisja (czas lokalny)</target>
+        <target state="translated">Emisja (czas lokalny)</target>
         <note from="auto-generated">Title of a row in the "Anime Group Box Information View" that shows the anime's broadcast time in the local time zone.</note>
       </trans-unit>
       <trans-unit id="Buy • %@" xml:space="preserve">
@@ -600,6 +612,7 @@
       </trans-unit>
       <trans-unit id="By %@" xml:space="preserve">
         <source>By %@</source>
+        <target state="translated">Wykonawca: %@</target>
         <note from="auto-generated">A subtitle below the main song title in the fullscreen music player view. The argument is the artist name of the song in the cart.</note>
       </trans-unit>
       <trans-unit id="By Last Update" xml:space="preserve">
@@ -609,6 +622,7 @@
       </trans-unit>
       <trans-unit id="By Priority" xml:space="preserve">
         <source>By Priority</source>
+        <target state="translated">Po priorytecie</target>
         <note from="auto-generated">Title for the sorting order option that sorts the user's anime list by priority.</note>
       </trans-unit>
       <trans-unit id="By Score" xml:space="preserve">
@@ -628,6 +642,7 @@
       </trans-unit>
       <trans-unit id="CGDCT" xml:space="preserve">
         <source>CGDCT</source>
+        <target state="translated">CGDCT</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Cache Size: %@ MB" xml:space="preserve">
@@ -652,6 +667,7 @@
       </trans-unit>
       <trans-unit id="Chapter/Volume: %lld" xml:space="preserve">
         <source>Chapter/Volume: %lld</source>
+        <target state="translated">Rozdział/Tom: %lld</target>
         <note from="auto-generated">A text view inside a `HStack` that describes how many chapters or volumes have been watched in a manga. The argument is the number of chapters or volumes watched.</note>
       </trans-unit>
       <trans-unit id="Chapters Read" xml:space="preserve">
@@ -661,6 +677,7 @@
       </trans-unit>
       <trans-unit id="Character" xml:space="preserve">
         <source>Character</source>
+        <target state="translated">Postać</target>
         <note from="auto-generated">Title for a relation type that links a character to a work.</note>
       </trans-unit>
       <trans-unit id="Character Design" xml:space="preserve">
@@ -686,18 +703,21 @@
       <trans-unit id="Children" xml:space="preserve">
         <source>Children</source>
         <target state="translated">Dla dzieci</target>
-        <note from="auto-generated">Title of the anime rating category for children.</note>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Chinese (Simplified)" xml:space="preserve">
         <source>Chinese (Simplified)</source>
+        <target state="translated">Chiński (uproszczony)</target>
         <note from="auto-generated">Title for the "Chinese (Simplified)" target language option in the "Language" menu.</note>
       </trans-unit>
       <trans-unit id="Chinese (Traditional)" xml:space="preserve">
         <source>Chinese (Traditional)</source>
+        <target state="translated">Chiński (tradycyjny)</target>
         <note from="auto-generated">Title for the Chinese (Traditional) language option in the settings.</note>
       </trans-unit>
       <trans-unit id="Choose an anime or manga to open." xml:space="preserve">
         <source>Choose an anime or manga to open.</source>
+        <target state="translated">Wybierz anime lub mangę do otwarcia.</target>
         <note from="auto-generated">Title of the disambiguation dialog when selecting an anime or manga to open.</note>
       </trans-unit>
       <trans-unit id="Clear Cache" xml:space="preserve">
@@ -717,7 +737,7 @@
       </trans-unit>
       <trans-unit id="Combat Sports" xml:space="preserve">
         <source>Combat Sports</source>
-        <target state="translated">Sztuki walki</target>
+        <target state="translated">Sporty walki</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Comedy" xml:space="preserve">
@@ -742,6 +762,7 @@
       </trans-unit>
       <trans-unit id="Composed by %@" xml:space="preserve">
         <source>Composed by %@</source>
+        <target state="translated">Kompozytor: %@</target>
         <note from="auto-generated">A label below the title of an Apple Music track, indicating that it was composed by a specific person. The argument is the name of the</note>
       </trans-unit>
       <trans-unit id="Confirm" xml:space="preserve">
@@ -751,6 +772,7 @@
       </trans-unit>
       <trans-unit id="Confirm, don’t ask again" xml:space="preserve">
         <source>Confirm, don’t ask again</source>
+        <target state="translated">Potwierdź i nie pytaj ponownie</target>
         <note/>
       </trans-unit>
       <trans-unit id="Connect" xml:space="preserve">
@@ -805,10 +827,12 @@
       </trans-unit>
       <trans-unit id="Crunchyroll News" xml:space="preserve">
         <source>Crunchyroll News</source>
+        <target state="translated">Aktualności Crunchyroll</target>
         <note from="auto-generated">Title of the news source "Crunchyroll News".</note>
       </trans-unit>
       <trans-unit id="Crunchyroll News (Brazil)" xml:space="preserve">
         <source>Crunchyroll News (Brazil)</source>
+        <target state="translated">Aktualności Crunchyroll (Brazylia)</target>
         <note from="auto-generated">Title of the RSS feed for the Brazilian Crunchyroll news.</note>
       </trans-unit>
       <trans-unit id="Currently Airing" xml:space="preserve">
@@ -918,6 +942,7 @@
       </trans-unit>
       <trans-unit id="Doujinshi" xml:space="preserve">
         <source>Doujinshi</source>
+        <target state="translated">Doujinshi</target>
         <note from="auto-generated">The title of the "Doujinshi" manga media type.</note>
       </trans-unit>
       <trans-unit id="Drama" xml:space="preserve">
@@ -947,7 +972,7 @@
       </trans-unit>
       <trans-unit id="Educational" xml:space="preserve">
         <source>Educational</source>
-        <target state="translated">Edukacyjny</target>
+        <target state="translated">Edukacyja</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Enable 'For You'" xml:space="preserve">
@@ -962,6 +987,7 @@
       </trans-unit>
       <trans-unit id="Enable Auto Translation" xml:space="preserve">
         <source>Enable Auto Translation</source>
+        <target state="translated">Włącz automatyczne tłumaczenie</target>
         <note from="auto-generated">A toggle that enables or disables auto translation of synopsis and biographies.</note>
       </trans-unit>
       <trans-unit id="Enable Mature Content" xml:space="preserve">
@@ -981,6 +1007,7 @@
       </trans-unit>
       <trans-unit id="Enable Schedule" xml:space="preserve">
         <source>Enable Schedule</source>
+        <target state="translated">Włącz harmonogram</target>
         <note from="auto-generated">A toggle that enables or disables the schedule feature.</note>
       </trans-unit>
       <trans-unit id="End Air Date" xml:space="preserve">
@@ -995,6 +1022,7 @@
       </trans-unit>
       <trans-unit id="Ending" xml:space="preserve">
         <source>Ending</source>
+        <target state="translated">Ending</target>
         <note/>
       </trans-unit>
       <trans-unit id="English" xml:space="preserve">
@@ -1009,18 +1037,22 @@
       </trans-unit>
       <trans-unit id="Episode %lld in %lld days" xml:space="preserve">
         <source>Episode %1$lld in %2$lld days</source>
+        <target state="translated">Odcinek %1$lld za %2$lld dni</target>
         <note from="auto-generated">Text describing an anime episode, including the episode number and the number of days until the episode airs.</note>
       </trans-unit>
       <trans-unit id="Episode %lld in %lld hours" xml:space="preserve">
         <source>Episode %1$lld in %2$lld hours</source>
+        <target state="translated">Odcinek %1$lld za %2$lld godzin</target>
         <note from="auto-generated">Text describing the airing of an anime episode in a future day, including the number of hours until it airs.</note>
       </trans-unit>
       <trans-unit id="Episode %lld today" xml:space="preserve">
         <source>Episode %lld today</source>
+        <target state="translated">Dziś odcinek %lld</target>
         <note from="auto-generated">A string describing when the next episode of an anime will air. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Episode %lld tomorrow" xml:space="preserve">
         <source>Episode %lld tomorrow</source>
+        <target state="translated">Jutro odcinek %lld</target>
         <note from="auto-generated">Text that appears below an anime's title in the "Details" view, indicating that a particular episode is airing soon. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Episode Director" xml:space="preserve">
@@ -1030,6 +1062,7 @@
       </trans-unit>
       <trans-unit id="Episode: %lld" xml:space="preserve">
         <source>Episode: %lld</source>
+        <target state="translated">Odcinek: %lld</target>
         <note from="auto-generated">A text label inside a `HStack` that shows the episode number of an anime. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Episodes Watched" xml:space="preserve">
@@ -1049,6 +1082,7 @@
       </trans-unit>
       <trans-unit id="Experimental Feature" xml:space="preserve">
         <source>Experimental Feature</source>
+        <target state="translated">Funkcja eksperymentalna</target>
         <note from="auto-generated">A section header for an experimental feature in the account settings.</note>
       </trans-unit>
       <trans-unit id="Explicit Genres" xml:space="preserve">
@@ -1063,7 +1097,7 @@
       </trans-unit>
       <trans-unit id="Explore Manga" xml:space="preserve">
         <source>Explore Manga</source>
-        <target state="translated">Odkrywaj mangę</target>
+        <target state="translated">Odkrywaj mangi</target>
         <note from="auto-generated">Button label and icon for the "Explore Manga" feature.</note>
       </trans-unit>
       <trans-unit id="External Links" xml:space="preserve">
@@ -1143,10 +1177,12 @@
       </trans-unit>
       <trans-unit id="Fixed" xml:space="preserve">
         <source>Fixed</source>
+        <target state="translated">Fixed</target>
         <note from="auto-generated">Title for the "Fixed" option in the tab bar behavior picker.</note>
       </trans-unit>
       <trans-unit id="Followed Sources" xml:space="preserve">
         <source>Followed Sources</source>
+        <target state="translated">Obserwowane źródła</target>
         <note from="auto-generated">A button that shows a sheet with options to filter the news sources.</note>
       </trans-unit>
       <trans-unit id="For You" xml:space="preserve">
@@ -1156,6 +1192,7 @@
       </trans-unit>
       <trans-unit id="French" xml:space="preserve">
         <source>French</source>
+        <target state="translated">Francuski</target>
         <note from="auto-generated">Name of the French language.</note>
       </trans-unit>
       <trans-unit id="Friday" xml:space="preserve">
@@ -1175,10 +1212,12 @@
       </trans-unit>
       <trans-unit id="Full Story" xml:space="preserve">
         <source>Full Story</source>
+        <target state="translated">Full Story</target>
         <note from="auto-generated">Title for a relation type that links to the full story of a work.</note>
       </trans-unit>
       <trans-unit id="Gag Humor" xml:space="preserve">
         <source>Gag Humor</source>
+        <target state="translated">Gagi</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Genres" xml:space="preserve">
@@ -1218,10 +1257,12 @@
       </trans-unit>
       <trans-unit id="Gore" xml:space="preserve">
         <source>Gore</source>
+        <target state="translated">Gore</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Gourmet" xml:space="preserve">
         <source>Gourmet</source>
+        <target state="translated">Gourmet</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Great" xml:space="preserve">
@@ -1231,6 +1272,7 @@
       </trans-unit>
       <trans-unit id="Harem" xml:space="preserve">
         <source>Harem</source>
+        <target state="translated">Harem</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Having trouble signing in?&#10;Send an email to contact@alexandremadeira.dev and we will help you." xml:space="preserve">
@@ -1242,12 +1284,14 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Header" xml:space="preserve">
         <source>Header</source>
+        <target state="translated">Nagłówek</target>
         <note from="auto-generated">A link that navigates to a view allowing the user to customize the anime details page header</note>
       </trans-unit>
       <trans-unit id="Hentai" xml:space="preserve">
         <source>Hentai</source>
         <target state="translated">Hentai</target>
-        <note>Genre</note>
+        <note>Genre
+Rating Age</note>
       </trans-unit>
       <trans-unit id="Hide Added" xml:space="preserve">
         <source>Hide Added</source>
@@ -1256,10 +1300,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Hide on Scroll" xml:space="preserve">
         <source>Hide on Scroll</source>
+        <target state="translated">Ukryj przy scrollowaniu</target>
         <note from="auto-generated">Title for the "Hide on Scroll" option in the tab bar behavior picker.</note>
       </trans-unit>
       <trans-unit id="High" xml:space="preserve">
         <source>High</source>
+        <target state="translated">Duży</target>
         <note>MAL Priority Level</note>
       </trans-unit>
       <trans-unit id="High Stakes Game" xml:space="preserve">
@@ -1279,6 +1325,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Horror" xml:space="preserve">
         <source>Horror</source>
+        <target state="translated">Horror</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Idols (Female)" xml:space="preserve">
@@ -1298,6 +1345,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="In-Between Animation" xml:space="preserve">
         <source>In-Between Animation</source>
+        <target state="translated">Animacja pośrednia</target>
         <note>Anime Position</note>
       </trans-unit>
       <trans-unit id="Information" xml:space="preserve">
@@ -1317,14 +1365,17 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Isekai" xml:space="preserve">
         <source>Isekai</source>
+        <target state="translated">Isekai</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Italian" xml:space="preserve">
         <source>Italian</source>
+        <target state="translated">Włoski</target>
         <note from="auto-generated">Title for the Italian language option in the settings.</note>
       </trans-unit>
       <trans-unit id="Iyashikei" xml:space="preserve">
         <source>Iyashikei</source>
+        <target state="translated">Iyashikei</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="JST" xml:space="preserve">
@@ -1359,6 +1410,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Josei" xml:space="preserve">
         <source>Josei</source>
+        <target state="translated">Josei</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Key Animation" xml:space="preserve">
@@ -1378,10 +1430,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Kitsune can only show the recent activity if your list privacy setting is set to public." xml:space="preserve">
         <source>Kitsune can only show the recent activity if your list privacy setting is set to public.</source>
+        <target state="translated">Kitsune może pokazać ostatnią aktywność tylko wtedy, gdy ustawienie prywatności twojej listy jest ustawione na publiczne.</target>
         <note from="auto-generated">A description of what might cause the "Unable to Load Recent Activity" message to appear.</note>
       </trans-unit>
       <trans-unit id="Kitsune couldn't open this right now, please try again later." xml:space="preserve">
         <source>Kitsune couldn't open this right now, please try again later.</source>
+        <target state="translated">Kitsune nie może teraz tego otworzyć, spróbuj ponownie później.</target>
         <note from="auto-generated">Dialog message shown when an intent to open a MyAnimeList URL fails.</note>
       </trans-unit>
       <trans-unit id="Last Sync on %@" xml:space="preserve">
@@ -1393,10 +1447,6 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
         <source>Last update: %@</source>
         <target state="translated">Ostatnia aktualizacja w dniu %@</target>
         <note from="auto-generated">A footer label at the bottom of the edit anime status view, displaying the last updated date of the displayed information. The argument is a date string.</note>
-      </trans-unit>
-      <trans-unit id="Launch at Login" xml:space="preserve">
-        <source>Launch at Login</source>
-        <note from="auto-generated">A toggle that allows the user to set whether the app launches automatically when the computer starts.</note>
       </trans-unit>
       <trans-unit id="Libraries" xml:space="preserve">
         <source>Libraries</source>
@@ -1425,10 +1475,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="List Status" xml:space="preserve">
         <source>List Status</source>
+        <target state="translated">Statystyki</target>
         <note from="auto-generated">A label displayed above the chart that shows the user's list-watching progress.</note>
       </trans-unit>
       <trans-unit id="List Style" xml:space="preserve">
         <source>List Style</source>
+        <target state="translated">Styl listy</target>
         <note from="auto-generated">A section title in the My List settings view.</note>
       </trans-unit>
       <trans-unit id="Loading" xml:space="preserve">
@@ -1448,6 +1500,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Login with External Browser" xml:space="preserve">
         <source>Login with External Browser</source>
+        <target state="translated">Zaloguj się przez zewnętrzną przeglądarkę</target>
         <note from="auto-generated">A button that allows logging in using an external browser.</note>
       </trans-unit>
       <trans-unit id="Love Polygon" xml:space="preserve">
@@ -1462,6 +1515,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Low" xml:space="preserve">
         <source>Low</source>
+        <target state="translated">Niski</target>
         <note>MAL Priority Level</note>
       </trans-unit>
       <trans-unit id="MAL Mean Score" xml:space="preserve">
@@ -1476,6 +1530,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="MAL URL" xml:space="preserve">
         <source>MAL URL</source>
+        <target state="translated">Adres internetowy MAL</target>
         <note from="auto-generated">Title for the parameter in the "Open MyAnimeList URL" intent. This should be a clear and descriptive label for what the user is supposed to input.</note>
       </trans-unit>
       <trans-unit id="Magazines" xml:space="preserve">
@@ -1495,6 +1550,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Maintenance Messages" xml:space="preserve">
         <source>Maintenance Messages</source>
+        <target state="translated">Komunikaty o konserwacji</target>
         <note from="auto-generated">Title of the screen that lists maintenance messages.</note>
       </trans-unit>
       <trans-unit id="Manga" xml:space="preserve">
@@ -1509,6 +1565,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Manga List" xml:space="preserve">
         <source>Manga List</source>
+        <target state="translated">Lista mang</target>
         <note from="auto-generated">Title of a view that lists the user's manga.</note>
       </trans-unit>
       <trans-unit id="Manga Magazines" xml:space="preserve">
@@ -1528,10 +1585,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Manhua" xml:space="preserve">
         <source>Manhua</source>
+        <target state="translated">Manhua</target>
         <note from="auto-generated">The title of the manga media type.</note>
       </trans-unit>
       <trans-unit id="Manhwa" xml:space="preserve">
         <source>Manhwa</source>
+        <target state="translated">Manhwa</target>
         <note from="auto-generated">Title of the manga media type.</note>
       </trans-unit>
       <trans-unit id="Mark Next Chapter as Read" xml:space="preserve">
@@ -1576,14 +1635,17 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Mecha" xml:space="preserve">
         <source>Mecha</source>
+        <target state="translated">Mecha</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Media" xml:space="preserve">
         <source>Media</source>
+        <target state="translated">Media</target>
         <note/>
       </trans-unit>
       <trans-unit id="Media ID" xml:space="preserve">
         <source>Media ID</source>
+        <target state="translated">Media ID</target>
         <note from="auto-generated">Title of the parameter for the media ID in the `OpenSearchResultIntent`.</note>
       </trans-unit>
       <trans-unit id="Media Type" xml:space="preserve">
@@ -1598,14 +1660,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Medium" xml:space="preserve">
         <source>Medium</source>
+        <target state="translated">Średni</target>
         <note>MAL Priority Level</note>
-      </trans-unit>
-      <trans-unit id="Menu Bar Only Mode" xml:space="preserve">
-        <source>Menu Bar Only Mode</source>
-        <note from="auto-generated">A toggle that allows the user to enable or disable the "Menu Bar Only Mode".</note>
       </trans-unit>
       <trans-unit id="Messages" xml:space="preserve">
         <source>Messages</source>
+        <target state="translated">Wiadomości</target>
         <note from="auto-generated">The title of the messages view.</note>
       </trans-unit>
       <trans-unit id="Military" xml:space="preserve">
@@ -1625,6 +1685,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="More Menu" xml:space="preserve">
         <source>More Menu</source>
+        <target state="translated">Więcej opcji</target>
         <note from="auto-generated">Title of the action in the top poster menu.</note>
       </trans-unit>
       <trans-unit id="More Options" xml:space="preserve">
@@ -1634,6 +1695,7 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="More search actions" xml:space="preserve">
         <source>More search actions</source>
+        <target state="translated">Więcej działań wyszukiwania</target>
         <note from="auto-generated">A button that presents a menu with more search actions.</note>
       </trans-unit>
       <trans-unit id="Most Favorited Manga" xml:space="preserve">
@@ -1648,11 +1710,12 @@ Wyślij wiadomość e-mail na adres kitsune@alexandremadeira.dev, a my Ci pomoż
       </trans-unit>
       <trans-unit id="Most Popular Manga" xml:space="preserve">
         <source>Most Popular Manga</source>
-        <target state="translated">Najbardziej popularne mangai</target>
+        <target state="translated">Najbardziej popularne</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Moves this anime to Watching and starts a new rewatch." xml:space="preserve">
         <source>Moves this anime to Watching and starts a new rewatch.</source>
+        <target state="translated">Moves this anime to Watching and starts a new rewatch.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Movie" xml:space="preserve">
@@ -1703,6 +1766,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="MyAnimeList" xml:space="preserve">
         <source>MyAnimeList</source>
+        <target state="translated">MyAnimeList</target>
         <note/>
       </trans-unit>
       <trans-unit id="Mystery" xml:space="preserve">
@@ -1722,14 +1786,17 @@ Genre</note>
       </trans-unit>
       <trans-unit id="News" xml:space="preserve">
         <source>News</source>
+        <target state="translated">Aktualności</target>
         <note from="auto-generated">The title of the view.</note>
       </trans-unit>
       <trans-unit id="Next: Episode %lld" xml:space="preserve">
         <source>Next: Episode %lld</source>
+        <target state="translated">Następny odcinek: %lld</target>
         <note from="auto-generated">The "Next" and "Previous" text in the schedule UI are placeholders that should be replaced with localized strings describing the respective episode numbers.</note>
       </trans-unit>
       <trans-unit id="No messages" xml:space="preserve">
         <source>No messages</source>
+        <target state="translated">Brak wiadomości</target>
         <note from="auto-generated">A message indicating that there are no messages to display.</note>
       </trans-unit>
       <trans-unit id="None" xml:space="preserve">
@@ -1739,6 +1806,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Not Added" xml:space="preserve">
         <source>Not Added</source>
+        <target state="translated">Nie dodano</target>
         <note from="auto-generated">A string that is not "Not Added" is considered non-empty.</note>
       </trans-unit>
       <trans-unit id="Not Scored" xml:space="preserve">
@@ -1828,6 +1896,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Oel" xml:space="preserve">
         <source>Oel</source>
+        <target state="translated">Oel</target>
         <note from="auto-generated">The Japanese name for the "One Shot" manga media type.</note>
       </trans-unit>
       <trans-unit id="On Hold" xml:space="preserve">
@@ -1847,6 +1916,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="One Shot" xml:space="preserve">
         <source>One Shot</source>
+        <target state="translated">One Shot</target>
         <note from="auto-generated">The title of the "One Shot" manga media type.</note>
       </trans-unit>
       <trans-unit id="One-Time Purchase, No Subscription" xml:space="preserve">
@@ -1856,10 +1926,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open" xml:space="preserve">
         <source>Open</source>
+        <target state="translated">Otwórz</target>
         <note from="auto-generated">The label of an action button that opens a link in a web browser.</note>
       </trans-unit>
       <trans-unit id="Open App" xml:space="preserve">
         <source>Open App</source>
+        <target state="translated">Otwórz aplikacje</target>
         <note from="auto-generated">A button that opens the app when pressed.</note>
       </trans-unit>
       <trans-unit id="Open Links In-App" xml:space="preserve">
@@ -1869,6 +1941,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open Search Result" xml:space="preserve">
         <source>Open Search Result</source>
+        <target state="translated">Otwórz wynik wyszukiwania</target>
         <note from="auto-generated">Title of an app intent that opens a specific anime or manga page on MyAnimeList.</note>
       </trans-unit>
       <trans-unit id="Open Website" xml:space="preserve">
@@ -1878,6 +1951,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open a MyAnimeList URL in Kitsune." xml:space="preserve">
         <source>Open a MyAnimeList URL in Kitsune.</source>
+        <target state="translated">Otwórz link MyAnimeList w Kitsune.</target>
         <note from="auto-generated">Title of an intent that allows the user to open a MyAnimeList URL in Kitsune.</note>
       </trans-unit>
       <trans-unit id="Open in Apple Music" xml:space="preserve">
@@ -1892,6 +1966,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Open on Kitsune" xml:space="preserve">
         <source>Open on Kitsune</source>
+        <target state="translated">Otwórz w Kitsune</target>
         <note from="auto-generated">Title of an app intent that opens a MyAnimeList URL in Kitsune.</note>
       </trans-unit>
       <trans-unit id="Open on MyAnimeList" xml:space="preserve">
@@ -1901,10 +1976,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Opening" xml:space="preserve">
         <source>Opening</source>
+        <target state="translated">Opening</target>
         <note/>
       </trans-unit>
       <trans-unit id="Opening in Kitsune." xml:space="preserve">
         <source>Opening in Kitsune.</source>
+        <target state="translated">Otwieranie w Kitsune.</target>
         <note from="auto-generated">Dialog shown when a user successfully navigates to a MyAnimeList anime page in Kitsune.</note>
       </trans-unit>
       <trans-unit id="Organized Crime" xml:space="preserve">
@@ -1924,10 +2001,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Other" xml:space="preserve">
         <source>Other</source>
+        <target state="translated">Inne</target>
         <note from="auto-generated">A string that can be used to describe a relation type that is not explicitly listed.</note>
       </trans-unit>
       <trans-unit id="Parent Story" xml:space="preserve">
         <source>Parent Story</source>
+        <target state="translated">Historia nadrzędna</target>
         <note from="auto-generated">Title for a relation type that links a story to its parent story.</note>
       </trans-unit>
       <trans-unit id="Parody" xml:space="preserve">
@@ -1975,11 +2054,6 @@ Genre</note>
         <target state="translated">Odtwórz poźniej</target>
         <note from="auto-generated">A button that adds the currently playing song to the "Play Later" queue in Apple Music.</note>
       </trans-unit>
-      <trans-unit id="Play Next" xml:space="preserve">
-        <source>Play Next</source>
-        <target state="translated">Odtwórz następne</target>
-        <note from="auto-generated">A button to play the next track in a playlist.</note>
-      </trans-unit>
       <trans-unit id="Please, note that the app doesn't consider delays." xml:space="preserve">
         <source>Please, note that the app doesn't consider delays.</source>
         <target state="translated">Należy pamiętać, że aplikacja nie uwzględnia opóźnień.</target>
@@ -1992,6 +2066,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Portuguese (Brazil)" xml:space="preserve">
         <source>Portuguese (Brazil)</source>
+        <target state="translated">Portugalski (Brazylia)</target>
         <note from="auto-generated">Title of the target language option in the "Overview" box.</note>
       </trans-unit>
       <trans-unit id="Poster" xml:space="preserve">
@@ -2001,14 +2076,17 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Poster Indicator" xml:space="preserve">
         <source>Poster Indicator</source>
+        <target state="translated">Wskaźnik plakatu</target>
         <note from="auto-generated">A label describing the option to change the indicator style of a poster.</note>
       </trans-unit>
       <trans-unit id="Poster Indicator Background" xml:space="preserve">
         <source>Poster Indicator Background</source>
+        <target state="translated">Tło wskaźnika plakatu</target>
         <note from="auto-generated">A label describing the background style of the poster indicator.</note>
       </trans-unit>
       <trans-unit id="Poster Style" xml:space="preserve">
         <source>Poster Style</source>
+        <target state="translated">Styl plakatu</target>
         <note from="auto-generated">A section header for the poster style settings.</note>
       </trans-unit>
       <trans-unit id="Prefer Manga Volumes" xml:space="preserve">
@@ -2033,14 +2111,17 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Prequel" xml:space="preserve">
         <source>Prequel</source>
+        <target state="translated">Prequel</target>
         <note from="auto-generated">Text describing a "prequel" relation type.</note>
       </trans-unit>
       <trans-unit id="Previous: Episode %lld" xml:space="preserve">
         <source>Previous: Episode %lld</source>
+        <target state="translated">Poprzedni odcinek: %lld</target>
         <note from="auto-generated">Text for the episode number of the most recently watched episode of an anime.</note>
       </trans-unit>
       <trans-unit id="Priority" xml:space="preserve">
         <source>Priority</source>
+        <target state="translated">Priorytet</target>
         <note/>
       </trans-unit>
       <trans-unit id="Privacy Policy" xml:space="preserve">
@@ -2056,7 +2137,7 @@ Genre</note>
       <trans-unit id="Profanity &amp; Mild Nudity" xml:space="preserve">
         <source>Profanity &amp; Mild Nudity</source>
         <target state="translated">Wulgaryzmy i łagodna nagość</target>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Progress &amp; List" xml:space="preserve">
         <source>Progress &amp; List</source>
@@ -2072,6 +2153,10 @@ Genre</note>
         <source>Psychological</source>
         <target state="translated">Psychologiczne</target>
         <note>Genre</note>
+      </trans-unit>
+      <trans-unit id="Quit App" xml:space="preserve">
+        <source>Quit App</source>
+        <note from="auto-generated">The label of a menu item that quits the app.</note>
       </trans-unit>
       <trans-unit id="Racing" xml:space="preserve">
         <source>Racing</source>
@@ -2095,14 +2180,17 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Recent Activity" xml:space="preserve">
         <source>Recent Activity</source>
+        <target state="translated">Ostatnia aktywność</target>
         <note from="auto-generated">The title of the section in the user history view that lists recent activity.</note>
       </trans-unit>
       <trans-unit id="Recently Updated Anime" xml:space="preserve">
         <source>Recently Updated Anime</source>
+        <target state="translated">Niedawno zaktualizowane anime</target>
         <note/>
       </trans-unit>
       <trans-unit id="Recently Updated Manga" xml:space="preserve">
         <source>Recently Updated Manga</source>
+        <target state="translated">Niedawno zaktualizowane mangi</target>
         <note from="auto-generated">Title of the section that lists recently updated manga.</note>
       </trans-unit>
       <trans-unit id="Recently Viewed" xml:space="preserve">
@@ -2184,6 +2272,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Result" xml:space="preserve">
         <source>Result</source>
+        <target state="translated">Wynik</target>
         <note from="auto-generated">Title of the parameter that allows the user to select a search result.</note>
       </trans-unit>
       <trans-unit id="Return to current season" xml:space="preserve">
@@ -2198,6 +2287,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Rewatch" xml:space="preserve">
         <source>Rewatch</source>
+        <target state="translated">Ponowne oglądanie</target>
         <note from="auto-generated">A button that allows a user to "rewatch" an anime.</note>
       </trans-unit>
       <trans-unit id="Rewatched" xml:space="preserve">
@@ -2217,6 +2307,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Romaji" xml:space="preserve">
         <source>Romaji</source>
+        <target state="translated">Romaji</target>
         <note from="auto-generated">Title for the "Romaji" preference.</note>
       </trans-unit>
       <trans-unit id="Romaji Title" xml:space="preserve">
@@ -2231,6 +2322,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Row's Secondary Info" xml:space="preserve">
         <source>Row's Secondary Info</source>
+        <target state="translated">Row's Secondary Info</target>
         <note from="auto-generated">A label displayed above a picker that lets the user choose how the secondary information in the rows of the anime and manga lists is displayed.</note>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
@@ -2258,10 +2350,6 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
         <target state="translated">Zapisz</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Save to Photos" xml:space="preserve">
-        <source>Save to Photos</source>
-        <note from="auto-generated">A context menu option to save an image to the user's Photos library.</note>
-      </trans-unit>
       <trans-unit id="Saved" xml:space="preserve">
         <source>Saved</source>
         <target state="translated">Zapisano</target>
@@ -2279,6 +2367,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Sci-Fi" xml:space="preserve">
         <source>Sci-Fi</source>
+        <target state="translated">Sci-Fi</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Score" xml:space="preserve">
@@ -2288,10 +2377,12 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Score %@" xml:space="preserve">
         <source>Score %@</source>
+        <target state="translated">Ocena %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Score %lld" xml:space="preserve">
         <source>Score %lld</source>
+        <target state="translated">Ocena %lld</target>
         <note/>
       </trans-unit>
       <trans-unit id="Script" xml:space="preserve">
@@ -2311,15 +2402,17 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Search ${query}" xml:space="preserve">
         <source>Search ${query}</source>
+        <target state="translated">Szukaj ${query}</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search %@ List" xml:space="preserve">
         <source>Search %@ List</source>
-        <target state="translated">Szukaj</target>
+        <target state="translated">Szukaj na liście %@</target>
         <note/>
       </trans-unit>
       <trans-unit id="Search Result" xml:space="preserve">
         <source>Search Result</source>
+        <target state="translated">Wynik wyszukiwania</target>
         <note from="auto-generated">Name of the type to be displayed in the entity picker.</note>
       </trans-unit>
       <trans-unit id="Search Suggestions" xml:space="preserve">
@@ -2329,10 +2422,12 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Search anime and manga." xml:space="preserve">
         <source>Search anime and manga.</source>
+        <target state="translated">Szukaj anime i mangi.</target>
         <note from="auto-generated">Title of the "Search" app intent.</note>
       </trans-unit>
       <trans-unit id="Search's Results Display Preference" xml:space="preserve">
         <source>Search's Results Display Preference</source>
+        <target state="translated">Preferencje wyświetlania wyników wyszukiwania</target>
         <note from="auto-generated">The title of the picker that lets users choose how they want their search results displayed.</note>
       </trans-unit>
       <trans-unit id="Searching" xml:space="preserve">
@@ -2352,6 +2447,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Seinen" xml:space="preserve">
         <source>Seinen</source>
+        <target state="translated">Seinen</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Send Email" xml:space="preserve">
@@ -2361,6 +2457,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Sequel" xml:space="preserve">
         <source>Sequel</source>
+        <target state="translated">Sequel</target>
         <note from="auto-generated">Text describing a "Sequel" relation type.</note>
       </trans-unit>
       <trans-unit id="Serialization" xml:space="preserve">
@@ -2385,34 +2482,37 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Shoujo" xml:space="preserve">
         <source>Shoujo</source>
+        <target state="translated">Shoujo</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Shounen" xml:space="preserve">
         <source>Shounen</source>
+        <target state="translated">Shounen</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Show Adaptation" xml:space="preserve">
         <source>Show Adaptation</source>
-        <target state="translated">Wyświetl adaptację</target>
+        <target state="translated">Pokaż adaptację</target>
         <note from="auto-generated">A toggle that allows users to decide whether they want to see the source material of an anime or manga.</note>
       </trans-unit>
       <trans-unit id="Show All" xml:space="preserve">
         <source>Show All</source>
-        <target state="translated">Wyświetl wszystko</target>
+        <target state="translated">Pokaż wszystko</target>
         <note from="auto-generated">Title for the "Show All" option in the seasonal filters.</note>
       </trans-unit>
       <trans-unit id="Show Character List" xml:space="preserve">
         <source>Show Character List</source>
-        <target state="translated">Wyświetl listę postaci</target>
+        <target state="translated">Pokaż listę postaci</target>
         <note from="auto-generated">A toggle that allows users to show or hide the character list in the anime detail page.</note>
       </trans-unit>
       <trans-unit id="Show Endings" xml:space="preserve">
         <source>Show Endings</source>
-        <target state="translated">Wyświetl endingi</target>
+        <target state="translated">Pokaż endingi</target>
         <note from="auto-generated">A toggle that allows users to decide whether or not to show the endings of an anime in the details page.</note>
       </trans-unit>
       <trans-unit id="Show Genres" xml:space="preserve">
         <source>Show Genres</source>
+        <target state="translated">Pokaż gatunki</target>
         <note from="auto-generated">A toggle that lets users decide whether to show the genres of an anime in the details page.</note>
       </trans-unit>
       <trans-unit id="Show MAL Mean Score on Plan to Watch/Plan to Read" xml:space="preserve">
@@ -2422,6 +2522,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Show Mean Score" xml:space="preserve">
         <source>Show Mean Score</source>
+        <target state="translated">Pokaż średnią ocenę</target>
         <note from="auto-generated">A toggle that lets users decide whether to show the average score of an anime or manga.</note>
       </trans-unit>
       <trans-unit id="Show Mean Score on List Style" xml:space="preserve">
@@ -2434,6 +2535,14 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
         <target state="translated">Pokaż więcej</target>
         <note from="auto-generated">A button label that appears when a long synopsis is displayed.</note>
       </trans-unit>
+      <trans-unit id="Show Most Popular Anime" xml:space="preserve">
+        <source>Show Most Popular Anime</source>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Show Most Popular Manga" xml:space="preserve">
+        <source>Show Most Popular Manga</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Show Only Added" xml:space="preserve">
         <source>Show Only Added</source>
         <target state="translated">Pokaż tylko dodane</target>
@@ -2441,7 +2550,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Show Openings" xml:space="preserve">
         <source>Show Openings</source>
-        <target state="translated">Wyświetl openingi</target>
+        <target state="translated">Pokaż openingi</target>
         <note from="auto-generated">A toggle that allows users to decide whether to show the openings of an anime.</note>
       </trans-unit>
       <trans-unit id="Show Progress Bar for Anime and Manga" xml:space="preserve">
@@ -2451,40 +2560,42 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Show Recommendations" xml:space="preserve">
         <source>Show Recommendations</source>
-        <target state="translated">Wyświetl rekomendacje</target>
+        <target state="translated">Pokaż rekomendacje</target>
         <note from="auto-generated">A toggle that allows users to enable or disable the display of recommended content related to the current item.</note>
       </trans-unit>
       <trans-unit id="Show Related Anime" xml:space="preserve">
         <source>Show Related Anime</source>
-        <target state="translated">Wyświetl powiązane anime</target>
+        <target state="translated">Pokaż powiązane anime</target>
         <note from="auto-generated">A toggle that allows users to decide whether they want to see a list of related anime in the detail page.</note>
       </trans-unit>
       <trans-unit id="Show Season" xml:space="preserve">
         <source>Show Season</source>
+        <target state="translated">Pokaż sezon</target>
         <note from="auto-generated">A toggle that lets users decide whether to show the season of an anime in the details page.</note>
       </trans-unit>
       <trans-unit id="Show Source" xml:space="preserve">
         <source>Show Source</source>
-        <target state="translated">Wyświetl źródło</target>
+        <target state="translated">Pokaż źródło</target>
         <note from="auto-generated">A toggle that allows users to show the source of an anime.</note>
       </trans-unit>
       <trans-unit id="Show Staff List" xml:space="preserve">
         <source>Show Staff List</source>
-        <target state="translated">Wyświetl personel</target>
+        <target state="translated">Pokaż personel</target>
         <note from="auto-generated">A toggle that allows users to decide whether they want to see the staff list in the anime detail page.</note>
       </trans-unit>
       <trans-unit id="Show Time in 'Your Schedule'" xml:space="preserve">
         <source>Show Time in 'Schedule'</source>
-        <target state="translated">Wyświetlanie czasu w "Harmonogramie"</target>
+        <target state="translated">Wyświetlanie czasu w harmonogramie</target>
         <note from="auto-generated">A toggle that allows users to enable or disable the display of time in the "Your Schedule" tab.</note>
       </trans-unit>
       <trans-unit id="Show Trailer" xml:space="preserve">
         <source>Show Trailer</source>
-        <target state="translated">Wyświetl trailery</target>
+        <target state="translated">Pokaż trailer</target>
         <note from="auto-generated">A toggle that allows users to decide whether to show trailers in the anime detail page.</note>
       </trans-unit>
       <trans-unit id="Show on Menu Bar" xml:space="preserve">
         <source>Show on Menu Bar</source>
+        <target state="translated">Pokaż na pasku menu</target>
         <note from="auto-generated">A toggle that enables or disables showing Kitsune on the menu bar.</note>
       </trans-unit>
       <trans-unit id="Showbiz" xml:space="preserve">
@@ -2494,6 +2605,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Side Story" xml:space="preserve">
         <source>Side Story</source>
+        <target state="translated">Historia poboczna</target>
         <note from="auto-generated">Title for a relation type that is a side story.</note>
       </trans-unit>
       <trans-unit id="Sign In" xml:space="preserve">
@@ -2518,6 +2630,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Skip Score Sync" xml:space="preserve">
         <source>Skip Score Sync</source>
+        <target state="translated">Pomiń synchronizację ocen</target>
         <note from="auto-generated">A toggle that allows the user to skip syncing score values from AniList.</note>
       </trans-unit>
       <trans-unit id="Slice of Life" xml:space="preserve">
@@ -2562,6 +2675,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Spin-off" xml:space="preserve">
         <source>Spin-off</source>
+        <target state="translated">Spin-off</target>
         <note from="auto-generated">Title for a relation type that indicates a story is a spin-off.</note>
       </trans-unit>
       <trans-unit id="Sports" xml:space="preserve">
@@ -2591,6 +2705,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Start rewatch?" xml:space="preserve">
         <source>Start rewatch?</source>
+        <target state="translated">Rozpocząć ponowne oglądanie?</target>
         <note/>
       </trans-unit>
       <trans-unit id="Status" xml:space="preserve">
@@ -2620,6 +2735,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Summary" xml:space="preserve">
         <source>Summary</source>
+        <target state="translated">Podsumowanie</target>
         <note from="auto-generated">Title of a relation type that links a story to its summary.</note>
       </trans-unit>
       <trans-unit id="Summer" xml:space="preserve">
@@ -2664,6 +2780,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Sync with AniList" xml:space="preserve">
         <source>Sync with AniList</source>
+        <target state="translated">Synchronizuj z AniList</target>
         <note from="auto-generated">A button that synchronizes a watched anime with an AniList account.</note>
       </trans-unit>
       <trans-unit id="Syncing" xml:space="preserve">
@@ -2693,6 +2810,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Tab Bar Behavior" xml:space="preserve">
         <source>Tab Bar Behavior</source>
+        <target state="translated">Zachowanie paska menu</target>
         <note from="auto-generated">A label for the behavior of the tab bar.</note>
       </trans-unit>
       <trans-unit id="Tap 'Save' to save your changes after writing." xml:space="preserve">
@@ -2708,11 +2826,11 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       <trans-unit id="Teens 13 and Older" xml:space="preserve">
         <source>Teens 13 and Older</source>
         <target state="translated">Nastolatki w wieku 13 lat i starsze</target>
-        <note from="auto-generated">Title of the anime rating option for users aged 13 and older.</note>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Terms of Service" xml:space="preserve">
         <source>Terms of Service</source>
-        <target state="translated">Regulamin usługi</target>
+        <target state="translated">Regulamin</target>
         <note/>
       </trans-unit>
       <trans-unit id="The anime will premiere today." xml:space="preserve">
@@ -2767,6 +2885,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="This source is always shown." xml:space="preserve">
         <source>This source is always shown.</source>
+        <target state="translated">To źródło jest zawsze wyświetlane.</target>
         <note from="auto-generated">A description of why a source is always included in the feed.</note>
       </trans-unit>
       <trans-unit id="This will direct you to the MyAnimeList Account Deletion page." xml:space="preserve">
@@ -2796,6 +2915,7 @@ Wyszukiwanie i dopasowywanie są zautomatyzowane, mogą wystąpić niezgodności
       </trans-unit>
       <trans-unit id="Today: Episode %lld" xml:space="preserve">
         <source>Today: Episode %lld</source>
+        <target state="translated">Dziś odcinek: %lld</target>
         <note from="auto-generated">Schedule tile episode label when an anime is airing soon on the current day. The argument is the episode number.</note>
       </trans-unit>
       <trans-unit id="Toggle this setting to include mature content in search results and recommendations.&#10;User lists are always unrestricted." xml:space="preserve">
@@ -2827,12 +2947,12 @@ Listy użytkowników są zawsze nieograniczone.</target>
       </trans-unit>
       <trans-unit id="Top Anime OVA Series" xml:space="preserve">
         <source>Top Anime OVA Series</source>
-        <target state="translated">Najlepsze serie anime OVA</target>
+        <target state="translated">Najlepsze OVA</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime Specials" xml:space="preserve">
         <source>Top Anime Specials</source>
-        <target state="translated">Najlepsze anime specjalne</target>
+        <target state="translated">Najlepsze specjalne</target>
         <note>Anime Rank</note>
       </trans-unit>
       <trans-unit id="Top Anime TV Series" xml:space="preserve">
@@ -2862,7 +2982,7 @@ Listy użytkowników są zawsze nieograniczone.</target>
       </trans-unit>
       <trans-unit id="Top Manhwa" xml:space="preserve">
         <source>Top Manhwa</source>
-        <target state="translated">Najlepsze manhua’y</target>
+        <target state="translated">Najlepsze manhwa’y</target>
         <note>Manga Rank</note>
       </trans-unit>
       <trans-unit id="Top Novels" xml:space="preserve">
@@ -2877,6 +2997,7 @@ Listy użytkowników są zawsze nieograniczone.</target>
       </trans-unit>
       <trans-unit id="Top Poster Action" xml:space="preserve">
         <source>Top Poster Action</source>
+        <target state="translated">Przycisk akcji</target>
         <note from="auto-generated">A label for the action to take when tapping on the top poster of an anime or manga.</note>
       </trans-unit>
       <trans-unit id="Top Upcoming" xml:space="preserve">
@@ -2917,10 +3038,13 @@ Listy użytkowników są zawsze nieograniczone.</target>
       <trans-unit id="Translate synopsis and biographies using on-device model.&#10;Shared with all apps, including the Translate App." xml:space="preserve">
         <source>Translate synopsis and biographies using on-device model.
 Shared with all apps, including the Translate App.</source>
+        <target state="translated">Tłumacz streszczenia i biografie przy użyciu modelu na urządzeniu.
+Udostępniane wszystkim aplikacjom, w tym aplikacji Tłumacz.</target>
         <note from="auto-generated">A footer description for the translation settings in the behavior view.</note>
       </trans-unit>
       <trans-unit id="Translated" xml:space="preserve">
         <source>Translated</source>
+        <target state="translated">Przetumaczone</target>
         <note from="auto-generated">A label indicating that the overview text has been translated.</note>
       </trans-unit>
       <trans-unit id="Translation" xml:space="preserve">
@@ -2930,6 +3054,7 @@ Shared with all apps, including the Translate App.</source>
       </trans-unit>
       <trans-unit id="Translation Language" xml:space="preserve">
         <source>Translation Language</source>
+        <target state="translated">Język tłumaczenia</target>
         <note from="auto-generated">A label displayed above the picker for selecting the translation language.</note>
       </trans-unit>
       <trans-unit id="Try Again" xml:space="preserve">
@@ -2974,10 +3099,12 @@ Shared with all apps, including the Translate App.</source>
       </trans-unit>
       <trans-unit id="Unable to Load News" xml:space="preserve">
         <source>Unable to Load News</source>
+        <target state="translated">Nie można wczytać aktualności</target>
         <note from="auto-generated">A message displayed when there is an error loading news.</note>
       </trans-unit>
       <trans-unit id="Unable to Load Recent Activity" xml:space="preserve">
         <source>Unable to Load Recent Activity</source>
+        <target state="translated">Nie można wczytać ostatniej aktywności</target>
         <note from="auto-generated">A message indicating that recent activity data could not be loaded.</note>
       </trans-unit>
       <trans-unit id="Unknown" xml:space="preserve">
@@ -3029,6 +3156,7 @@ Subskrypcja nie jest wymagana.</target>
       </trans-unit>
       <trans-unit id="Urban Fantasy" xml:space="preserve">
         <source>Urban Fantasy</source>
+        <target state="translated">Urban Fantasy</target>
         <note>Genre</note>
       </trans-unit>
       <trans-unit id="Vampire" xml:space="preserve">
@@ -3098,6 +3226,7 @@ Subskrypcja nie jest wymagana.</target>
       </trans-unit>
       <trans-unit id="What anime or manga do you want to search for?" xml:space="preserve">
         <source>What anime or manga do you want to search for?</source>
+        <target state="translated">Jakie anime lub mangę chcesz wyszukać?</target>
         <note/>
       </trans-unit>
       <trans-unit id="What's your score?" xml:space="preserve">
@@ -3107,6 +3236,7 @@ Subskrypcja nie jest wymagana.</target>
       </trans-unit>
       <trans-unit id="When enabled, AniList sync skips only score values. Progress, status, dates, notes, and repeat counts still sync." xml:space="preserve">
         <source>When enabled, AniList sync skips only score values. Progress, status, dates, notes, and repeat counts still sync.</source>
+        <target state="translated">Po włączeniu synchronizacja AniList pomija tylko wartości ocen. Postęp, status, daty, notatki i liczba powtórzeń nadal są synchronizowane.</target>
         <note from="auto-generated">A footer description for the "Skip Score Sync" toggle in the "AniList" section of the Connected Services settings view.</note>
       </trans-unit>
       <trans-unit id="When on, the app will always open your selected Preferred Screen.&#10;When off, the app will always open the last tab opened." xml:space="preserve">
@@ -3123,6 +3253,7 @@ Po wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę.</target>
       </trans-unit>
       <trans-unit id="Which MyAnimeList URL do you want to open on Kitsune?" xml:space="preserve">
         <source>Which MyAnimeList URL do you want to open on Kitsune?</source>
+        <target state="translated">Który link MyAnimeList chcesz otworzyć w Kitsune?</target>
         <note from="auto-generated">Text displayed in a dialog when requesting a MyAnimeList URL to open on Kitsune.</note>
       </trans-unit>
       <trans-unit id="Winter" xml:space="preserve">
@@ -3152,6 +3283,7 @@ Po wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę.</target>
       </trans-unit>
       <trans-unit id="You have notifications turned off" xml:space="preserve">
         <source>You have notifications turned off</source>
+        <target state="translated">Masz wyłączone powiadomienia</target>
         <note/>
       </trans-unit>
       <trans-unit id="You need Kitsune Premium to change this." xml:space="preserve">
@@ -3171,6 +3303,7 @@ Po wyłączeniu aplikacja zawsze otworzy ostatnio otwartą kartę.</target>
       </trans-unit>
       <trans-unit id="Your AniList session has expired. Please log in again to continue syncing." xml:space="preserve">
         <source>Your AniList session has expired. Please log in again to continue syncing.</source>
+        <target state="translated">Twoja sesja AniList wygasła. Zaloguj się ponownie, aby kontynuować synchronizację.</target>
         <note from="auto-generated">A message displayed when a user's AniList session expires, prompting them to log in again.</note>
       </trans-unit>
       <trans-unit id="Your Schedule is empty for today." xml:space="preserve">
@@ -3192,10 +3325,12 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="You’ll be redirected to your default browser to complete login." xml:space="preserve">
         <source>You’ll be redirected to your default browser to complete login.</source>
+        <target state="translated">Zostaniesz przekierowany do domyślnej przeglądarki, aby dokończyć logowanie.</target>
         <note from="auto-generated">A footer text in the Developer Options view that explains the purpose of the button.</note>
       </trans-unit>
       <trans-unit id="• (%lld)" xml:space="preserve">
         <source>• (%lld)</source>
+        <target state="translated">• (%lld)</target>
         <note from="auto-generated">A small, secondary text element that appears below a genre name, showing the number of anime that fall under that genre. The argument is the count of anime that belong to the genre.</note>
       </trans-unit>
     </body>
@@ -3207,14 +3342,17 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>SafariExtension</source>
+        <target state="translated">SafariExtension</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>SafariExtension</source>
+        <target state="translated">SafariExtension</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
         <source/>
+        <target state="translated"/>
         <note>Copyright (human-readable)</note>
       </trans-unit>
     </body>
@@ -3226,14 +3364,17 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
     <body>
       <trans-unit id="CFBundleDisplayName" xml:space="preserve">
         <source>Widget</source>
+        <target state="translated">Widget</target>
         <note>Bundle display name</note>
       </trans-unit>
       <trans-unit id="CFBundleName" xml:space="preserve">
         <source>WidgetExtension</source>
+        <target state="translated">WidgetExtension</target>
         <note>Bundle name</note>
       </trans-unit>
       <trans-unit id="NSHumanReadableCopyright" xml:space="preserve">
         <source/>
+        <target state="translated"/>
         <note>Copyright (human-readable)</note>
       </trans-unit>
     </body>
@@ -3265,7 +3406,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="17+ (Violence &amp; Profanity)" translate="no" xml:space="preserve">
         <source>17+ (Violence &amp; Profanity)</source>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="ADR Director" translate="no" xml:space="preserve">
         <source>ADR Director</source>
@@ -3279,8 +3420,9 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
         <source>Action</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Adaptation" xml:space="preserve">
+      <trans-unit id="Adaptation" translate="no" xml:space="preserve">
         <source>Adaptation</source>
+        <target state="translated">Adaptation</target>
         <note from="auto-generated">Type of relation between two MAL entries that are adaptations of each other.</note>
       </trans-unit>
       <trans-unit id="Adult Cast" translate="no" xml:space="preserve">
@@ -3297,14 +3439,16 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="All Ages" translate="no" xml:space="preserve">
         <source>All Ages</source>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
-      <trans-unit id="Alternative Setting" xml:space="preserve">
+      <trans-unit id="Alternative Setting" translate="no" xml:space="preserve">
         <source>Alternative Setting</source>
+        <target state="translated">Alternative Setting</target>
         <note from="auto-generated">A string describing a relation type where the current work is set in an alternative setting.</note>
       </trans-unit>
-      <trans-unit id="Alternative Version" xml:space="preserve">
+      <trans-unit id="Alternative Version" translate="no" xml:space="preserve">
         <source>Alternative Version</source>
+        <target state="translated">Alternative Version</target>
         <note from="auto-generated">Title for a relation type that indicates the anime is an alternative version of another anime.</note>
       </trans-unit>
       <trans-unit id="Animation Director" translate="no" xml:space="preserve">
@@ -3317,6 +3461,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Anime ID" xml:space="preserve">
         <source>Anime ID</source>
+        <target state="translated">Anime ID</target>
         <note from="auto-generated">The key for the "Anime ID" parameter in the `IncrementEpisodeIntent`.</note>
       </trans-unit>
       <trans-unit id="Anthropomorphic" translate="no" xml:space="preserve">
@@ -3357,6 +3502,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="By Last Update" translate="no" xml:space="preserve">
         <source>By Last Update</source>
+        <target state="translated">By Last Update</target>
         <note/>
       </trans-unit>
       <trans-unit id="By Priority" translate="no" xml:space="preserve">
@@ -3379,8 +3525,9 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
         <source>CGDCT</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Character" xml:space="preserve">
+      <trans-unit id="Character" translate="no" xml:space="preserve">
         <source>Character</source>
+        <target state="translated">Character</target>
         <note from="auto-generated">Title for a relation type that links a character to a work.</note>
       </trans-unit>
       <trans-unit id="Character Design" translate="no" xml:space="preserve">
@@ -3401,7 +3548,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Children" translate="no" xml:space="preserve">
         <source>Children</source>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Chinese (Simplified)" translate="no" xml:space="preserve">
         <source>Chinese (Simplified)</source>
@@ -3441,14 +3588,17 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Current Chapter Count" xml:space="preserve">
         <source>Current Chapter Count</source>
+        <target state="translated">Current Chapter Count</target>
         <note from="auto-generated">Title for the parameter that represents the number of the current chapter.</note>
       </trans-unit>
       <trans-unit id="Current Episode Count" xml:space="preserve">
         <source>Current Episode Count</source>
+        <target state="translated">Current Episode Count</target>
         <note from="auto-generated">Title of the parameter that represents the current episode count of the show.</note>
       </trans-unit>
       <trans-unit id="Current Volume Count" xml:space="preserve">
         <source>Current Volume Count</source>
+        <target state="translated">Current Volume Count</target>
         <note from="auto-generated">Title of the parameter that shows the current volume count of the manga.</note>
       </trans-unit>
       <trans-unit id="Currently Airing" translate="no" xml:space="preserve">
@@ -3551,8 +3701,9 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
         <source>Friday</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Full Story" xml:space="preserve">
+      <trans-unit id="Full Story" translate="no" xml:space="preserve">
         <source>Full Story</source>
+        <target state="translated">Full Story</target>
         <note from="auto-generated">Title for a relation type that links to the full story of a work.</note>
       </trans-unit>
       <trans-unit id="Gag Humor" translate="no" xml:space="preserve">
@@ -3581,7 +3732,8 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Hentai" translate="no" xml:space="preserve">
         <source>Hentai</source>
-        <note>Genre</note>
+        <note>Genre
+Rating Age</note>
       </trans-unit>
       <trans-unit id="Hide on Scroll" translate="no" xml:space="preserve">
         <source>Hide on Scroll</source>
@@ -3617,10 +3769,12 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Increment Episode by One" xml:space="preserve">
         <source>Increment Episode by One</source>
+        <target state="translated">Increment Episode by One</target>
         <note from="auto-generated">Title of the intent that increments the episode count by one.</note>
       </trans-unit>
       <trans-unit id="Increment Volume or Chapter by One based on User Settings" xml:space="preserve">
         <source>Increment Volume or Chapter by One based on User Settings</source>
+        <target state="translated">Increment Volume or Chapter by One based on User Settings</target>
         <note from="auto-generated">Title of the intent that increments the volume or chapter count by one based on the user's settings.</note>
       </trans-unit>
       <trans-unit id="Is Rereading" translate="no" xml:space="preserve">
@@ -3665,10 +3819,12 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Last Updated Anime" xml:space="preserve">
         <source>Last Updated Anime</source>
+        <target state="translated">Last Updated Anime</target>
         <note from="auto-generated">Name of the widget.</note>
       </trans-unit>
       <trans-unit id="Last Updated Manga" xml:space="preserve">
         <source>Last Updated Manga</source>
+        <target state="translated">Last Updated Manga</target>
         <note from="auto-generated">The display name of the widget.</note>
       </trans-unit>
       <trans-unit id="Light" translate="no" xml:space="preserve">
@@ -3677,6 +3833,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Light Novel" translate="no" xml:space="preserve">
         <source>Light Novel</source>
+        <target state="translated">Light Novel</target>
         <note/>
       </trans-unit>
       <trans-unit id="List" translate="no" xml:space="preserve">
@@ -3717,6 +3874,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Manga ID" xml:space="preserve">
         <source>Manga ID</source>
+        <target state="translated">Manga ID</target>
         <note from="auto-generated">The key for the "Manga ID" parameter in the `IncrementVolumeChapterIntent`.</note>
       </trans-unit>
       <trans-unit id="Manhua" translate="no" xml:space="preserve">
@@ -3729,6 +3887,7 @@ Zaloguj się ponownie, aby nadal korzystać z aplikacji.</target>
       </trans-unit>
       <trans-unit id="Mark Next Episode/Chapter/Volume" translate="no" xml:space="preserve">
         <source>Mark Next Episode/Chapter/Volume</source>
+        <target state="translated">Mark Next Episode/Chapter/Volume</target>
         <note/>
       </trans-unit>
       <trans-unit id="Martial Arts" translate="no" xml:space="preserve">
@@ -3872,12 +4031,14 @@ Genre</note>
         <source>Otaku Culture</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Other" xml:space="preserve">
+      <trans-unit id="Other" translate="no" xml:space="preserve">
         <source>Other</source>
+        <target state="translated">Other</target>
         <note from="auto-generated">Title for a relation type that is not explicitly listed.</note>
       </trans-unit>
-      <trans-unit id="Parent Story" xml:space="preserve">
+      <trans-unit id="Parent Story" translate="no" xml:space="preserve">
         <source>Parent Story</source>
+        <target state="translated">Parent Story</target>
         <note from="auto-generated">Title of a relation type where the current anime is a parent story.</note>
       </trans-unit>
       <trans-unit id="Parody" translate="no" xml:space="preserve">
@@ -3920,8 +4081,9 @@ Genre</note>
         <source>Poster</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Prequel" xml:space="preserve">
+      <trans-unit id="Prequel" translate="no" xml:space="preserve">
         <source>Prequel</source>
+        <target state="translated">Prequel</target>
         <note from="auto-generated">Text describing a "prequel" relation type.</note>
       </trans-unit>
       <trans-unit id="Previous: Episode %lld" translate="no" xml:space="preserve">
@@ -3934,7 +4096,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Profanity &amp; Mild Nudity" translate="no" xml:space="preserve">
         <source>Profanity &amp; Mild Nudity</source>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="Progress &amp; List" translate="no" xml:space="preserve">
         <source>Progress &amp; List</source>
@@ -3968,24 +4130,18 @@ Genre</note>
         <source>Reload</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Reread: %lld" translate="no" xml:space="preserve">
-        <source>Reread: %lld</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Rereading" xml:space="preserve">
         <source>Rereading</source>
+        <target state="translated">Rereading</target>
         <note/>
       </trans-unit>
       <trans-unit id="Reverse Harem" translate="no" xml:space="preserve">
         <source>Reverse Harem</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Rewatched: %lld" translate="no" xml:space="preserve">
-        <source>Rewatched: %lld</source>
-        <note/>
-      </trans-unit>
       <trans-unit id="Rewatching" xml:space="preserve">
         <source>Rewatching</source>
+        <target state="translated">Rewatching</target>
         <note/>
       </trans-unit>
       <trans-unit id="Romaji" translate="no" xml:space="preserve">
@@ -4040,8 +4196,9 @@ Genre</note>
         <source>Seinen</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Sequel" xml:space="preserve">
+      <trans-unit id="Sequel" translate="no" xml:space="preserve">
         <source>Sequel</source>
+        <target state="translated">Sequel</target>
         <note from="auto-generated">Title for a relation type of "Sequel".</note>
       </trans-unit>
       <trans-unit id="Series Composition" translate="no" xml:space="preserve">
@@ -4060,12 +4217,14 @@ Genre</note>
         <source>Showbiz</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Side Story" xml:space="preserve">
+      <trans-unit id="Side Story" translate="no" xml:space="preserve">
         <source>Side Story</source>
+        <target state="translated">Side Story</target>
         <note from="auto-generated">Title for a relation type that is a side story.</note>
       </trans-unit>
       <trans-unit id="Sign In into your MyAnimeList account." xml:space="preserve">
         <source>Sign In into your MyAnimeList account.</source>
+        <target state="translated">Sign In into your MyAnimeList account.</target>
         <note from="auto-generated">A description of the action required to use the widget.</note>
       </trans-unit>
       <trans-unit id="Slice of Life" translate="no" xml:space="preserve">
@@ -4088,8 +4247,9 @@ Genre</note>
         <source>Special</source>
         <note/>
       </trans-unit>
-      <trans-unit id="Spin-off" xml:space="preserve">
+      <trans-unit id="Spin-off" translate="no" xml:space="preserve">
         <source>Spin-off</source>
+        <target state="translated">Spin-off</target>
         <note from="auto-generated">Title for a relation type that is a spin-off.</note>
       </trans-unit>
       <trans-unit id="Sports" translate="no" xml:space="preserve">
@@ -4102,10 +4262,12 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Start reading a manga to use this widget." xml:space="preserve">
         <source>Start reading a manga to use this widget.</source>
+        <target state="translated">Start reading a manga to use this widget.</target>
         <note from="auto-generated">A description text displayed when a user's manga list is empty and the widget is displayed.</note>
       </trans-unit>
       <trans-unit id="Start watching an anime to use this widget." xml:space="preserve">
         <source>Start watching an anime to use this widget.</source>
+        <target state="translated">Start watching an anime to use this widget.</target>
         <note from="auto-generated">A description text that appears when an user's anime list is empty and the widget is displayed.</note>
       </trans-unit>
       <trans-unit id="Status" translate="no" xml:space="preserve">
@@ -4120,8 +4282,9 @@ Genre</note>
         <source>Strategy Game</source>
         <note>Genre</note>
       </trans-unit>
-      <trans-unit id="Summary" xml:space="preserve">
+      <trans-unit id="Summary" translate="no" xml:space="preserve">
         <source>Summary</source>
+        <target state="translated">Summary</target>
         <note from="auto-generated">Title of a relation type that links a story to its summary.</note>
       </trans-unit>
       <trans-unit id="Summer" translate="no" xml:space="preserve">
@@ -4166,22 +4329,26 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Teens 13 and Older" translate="no" xml:space="preserve">
         <source>Teens 13 and Older</source>
-        <note/>
+        <note>Rating Age</note>
       </trans-unit>
       <trans-unit id="The Current Score Value" xml:space="preserve">
         <source>The Current Score Value</source>
+        <target state="translated">The Current Score Value</target>
         <note from="auto-generated">A parameter for the `IncrementEpisodeIntent` that represents the current score value of the episode.</note>
       </trans-unit>
       <trans-unit id="The total number of chapters of the title" xml:space="preserve">
         <source>The total number of chapters of the title</source>
+        <target state="translated">The total number of chapters of the title</target>
         <note from="auto-generated">Title of the parameter that specifies the total number of chapters in a manga.</note>
       </trans-unit>
       <trans-unit id="The total number of episodes of the show" xml:space="preserve">
         <source>The total number of episodes of the show</source>
+        <target state="translated">The total number of episodes of the show</target>
         <note from="auto-generated">Title of the parameter that allows the user to specify the total number of episodes of a show.</note>
       </trans-unit>
       <trans-unit id="The total number of volume of the title" xml:space="preserve">
         <source>The total number of volume of the title</source>
+        <target state="translated">The total number of volume of the title</target>
         <note from="auto-generated">Title of the parameter that specifies the total number of volumes in a manga.</note>
       </trans-unit>
       <trans-unit id="Theme Song Arrangement" translate="no" xml:space="preserve">
@@ -4202,6 +4369,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="This widget need a MyAnimeList account." xml:space="preserve">
         <source>This widget need a MyAnimeList account.</source>
+        <target state="translated">This widget need a MyAnimeList account.</target>
         <note from="auto-generated">A description below the button that opens the app, explaining that it requires a MyAnimeList account.</note>
       </trans-unit>
       <trans-unit id="Thursday" translate="no" xml:space="preserve">
@@ -4298,6 +4466,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="View and update your progress." xml:space="preserve">
         <source>View and update your progress.</source>
+        <target state="translated">View and update your progress.</target>
         <note from="auto-generated">A description of the widget.</note>
       </trans-unit>
       <trans-unit id="Villainess" translate="no" xml:space="preserve">
@@ -4326,6 +4495,7 @@ Genre</note>
       </trans-unit>
       <trans-unit id="Your list is empty." xml:space="preserve">
         <source>Your list is empty.</source>
+        <target state="translated">Your list is empty.</target>
         <note from="auto-generated">A message displayed when a user's manga list is empty and the widget is being shown.</note>
       </trans-unit>
     </body>

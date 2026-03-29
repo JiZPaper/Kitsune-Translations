@@ -124,7 +124,7 @@
       </trans-unit>
       <trans-unit id="%@ days watched" xml:space="preserve">
         <source>%@ days watched</source>
-        <target state="translated">累计观看%@天</target>
+        <target state="translated">累计观看%@天。</target>
         <note from="auto-generated">A label displaying the number of days a user has watched anime. The argument is the number of days watched. The argument is the string “%.1f”.</note>
       </trans-unit>
       <trans-unit id="%@ episodes watched of %@." xml:space="preserve">

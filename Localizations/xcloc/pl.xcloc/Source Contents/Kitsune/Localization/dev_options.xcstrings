@@ -9,15 +9,7 @@
       "comment" : "dev options, don't translate",
       "shouldTranslate" : false
     },
-    "Is Premium User" : {
-      "comment" : "dev options, don't translate",
-      "shouldTranslate" : false
-    },
     "Is refreshing token? %@" : {
-      "comment" : "dev options, don't translate",
-      "shouldTranslate" : false
-    },
-    "Test Notifications" : {
       "comment" : "dev options, don't translate",
       "shouldTranslate" : false
     },

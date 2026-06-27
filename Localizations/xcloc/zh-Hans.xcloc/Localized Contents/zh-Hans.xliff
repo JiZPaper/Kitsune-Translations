@@ -2025,7 +2025,7 @@ Search and matching are automated, mismatches may occur.</source>
       </trans-unit>
       <trans-unit id="Row's Secondary Info" xml:space="preserve">
         <source>Row's Secondary Info</source>
-        <target state="translated">行次要信息</target>
+        <target state="translated">次要信息</target>
         <note from="auto-generated">A label displayed above a picker that lets the user choose how the secondary information in the rows of the anime and manga lists is displayed.</note>
       </trans-unit>
       <trans-unit id="Russian" xml:space="preserve">
